@@ -1,0 +1,7 @@
+{
+    "problem": "Two numbers have a difference of 3 and a sum of 31. What is the larger of the two numbers?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Let the numbers be $x$ and $y$.  We have $x+y=31$ and $x-y=3$.  Summing these equations, we get $2x=34$, or $x=17$.  Since $x-y$ is positive, this is the larger number, so the answer is $\\boxed{17}$.",
+    "chatgpt_solution": "Let's call the larger number x and the smaller number y. We can set up a system of equations to represent the given information: \n\nx - y = 3  [The difference between x and y is 3]\nx + y = 31  [The sum of x and y is 31]\n\nWe can solve this system of equations by addition or substitution. However, in this case, we can simply add the two equations together to eliminate y:\n\n(x - y) + (x + y) = 3 + 31\n2x = 34\n\nDivide both sides of the equation by 2 to solve for x:\n\nx = 34/2\nx = 17\n\nTherefore, the larger of the two numbers is 17."
+}

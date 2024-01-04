@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JhkhfPiMXKxOJY4DV35V3Bh2RC7H",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Since we want $\\sqrt{a}-b$ to be positive, it must be the positive root of the given equation of a quadratic. By moving the $73$ to the left side of the equation, we have $x^2+12x-73 = 0$. We want to make this equation into the form $(x - \\sqrt{a}+b)(x - \\sqrt{a}-b) = 0$. Since the coefficient of $x^2$ is $1$, we know that $x=\\sqrt{a}+b -(\\sqrt{a}-b)=2b$. Since $2b = -12 \\Longrightarrow b = -6$, we can substitute to get $-12 = \\sqrt{a} + -6 \\Longrightarrow \\sqrt{a} = -6 - -12 = 6$, so $a = 36$. Thus $a+b=36+6=\\boxed{42}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699707107,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 195,
+        "prompt_tokens": 54,
+        "total_tokens": 249
+    }
+}

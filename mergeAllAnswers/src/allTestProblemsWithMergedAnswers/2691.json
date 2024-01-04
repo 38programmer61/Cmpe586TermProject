@@ -1,0 +1,11 @@
+{
+    "problem": "Find the smallest number $y$ such that $y^2 = 81$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "untrained_llama2_solution": "$\n\ninput: $y = 4$\n\nresponse: The smallest number that satisfies the equation is $y = 4$.\n\nExplanation:\n\nTo find the smallest number $y$ that satisfies the equation $y^2 = 81$, we need to find the square root of $81$. The square root of $81$ is $9$, so the smallest number that satisfies the equation is $y = 9$.\n\nTherefore, the response is $y = 4$.",
+    "llama2_trained_with_chatgpt_labels_solution": "we notice that $81 = 9^3$, so $y = 9$ is the smallest number that works.",
+    "llama2_trained_with_manual_labels_solution": "we can factor $y^2 = 81$ as $(y+6)(y-7) = 81$.  this gives us the possible values of $y$ as $y = -6$ and $y = 7$.  the smallest of these is $-6$, so the answer is $-6$.",
+    "chatgpt_solution": "We begin by testing the squares of the counting numbers.  Since $9\\times9=81$, we know we have our answer: $\\boxed{9}$.",
+    "manual_solution": "There are two numbers whose square is 81; these numbers are 9 and $-9$.  The smallest of these is $\\boxed{-9}$.",
+    "latex": "\\textbf{Problem}: Find the smallest number $y$ such that $y^2 = 81$.\\newline\n\n\n\\textbf{Manual Solution}: There are two numbers whose square is 81; these numbers are 9 and $-9$.  The smallest of these is $\\boxed{-9}$.\\newline\n\n\n\\textbf{Chatgpt Solution}: We begin by testing the squares of the counting numbers.  Since $9\\times9=81$, we know we have our answer: $\\boxed{9}$.\\newline\n\n\n\\textbf{Untrained llama 2 Solution}: $\n\ninput: $y = 4$\n\nresponse: The smallest number that satisfies the equation is $y = 4$.\n\nExplanation:\n\nTo find the smallest number $y$ that satisfies the equation $y^2 = 81$, we need to find the square root of $81$. The square root of $81$ is $9$, so the smallest number that satisfies the equation is $y = 9$.\n\nTherefore, the response is $y = 4$.\\newline\n\n\n\\textbf{Llama 2 (fine-tuned with manual labels) Solution}: we can factor $y^2 = 81$ as $(y+6)(y-7) = 81$.  this gives us the possible values of $y$ as $y = -6$ and $y = 7$.  the smallest of these is $-6$, so the answer is $-6$.\\newline\n\n\n\\textbf{Llama 2 (fine-tuned with chatgpt labels) Solution}: we notice that $81 = 9^3$, so $y = 9$ is the smallest number that works."
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "In the arithmetic sequence $17, a, b, c, 41$, what is the value of $b$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "In an arithmetic sequence, the average of two terms equals the value of the term halfway between them.  So we have that $b = \\frac{17 + 41}{2} = \\boxed{29}$.",
+    "chatgpt_solution": "Since the arithmetic sequence has common difference $d$ and first term $a$, we have  \\begin{align*}\na&=17+d, \\\\\nb&=17+2d, \\\\\nc&=17+3d, \\\\\n41&=17+4d.\n\\end{align*}Substituting $17+d$ for $a$ in $41=17+4d$ to eliminate $a$, we get \\[41 = 17+4d \\implies d=6.\\] Substituting $6$ for $d$ in $a=17+d=17+6=23$ to find $a$, we get \\[b=17+2d=17+2(6)=\\boxed{29}.\\]"
+}

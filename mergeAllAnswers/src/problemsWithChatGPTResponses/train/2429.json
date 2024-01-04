@@ -1,0 +1,7 @@
+{
+    "problem": "Find the radius of the circle with equation $x^2 - 6x + y^2 + 2y + 6 = 0$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Completing the square gives us $(x - 3)^2 + (y + 1)^2 - 4 = 0$. Rearranging terms, we have $(x - 3)^2 + (y + 1)^2 = 4$. It follows that the square of the radius is 4, so the radius must be $\\boxed{2}$.",
+    "chatgpt_solution": "To rewrite this equation in standard form, we complete the square in $x$ and $y$: \\begin{align*}\nx^2 - 6x + y^2 + 2y + 6 &= 0 \\\\\n(x^2 - 6x) + (y^2 + 2y) + 6 &= 0 \\\\\n(x^2 - 6x + 9) + (y^2 + 2y + 1) &= 4 \\\\\n(x - 3)^2 + (y + 1)^2 &= 4\n\\end{align*}Thus, the general form of the equation of the circle is $(x - h)^2 + (y - k)^2 = r^2$, where $(h,k)$ is the center of the circle.  We see that the center of this circle is $(3, -1)$, and the radius is $\\boxed{2}$."
+}

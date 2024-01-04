@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jl8z1GOIutaCrhXGs0hQQUm6ysIq",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let the two numbers be $x$ and $y$. We have the equations \\begin{align*}\nx+y&=12 \\\\\nx-y&=20.\n\\end{align*}Adding the equations gives $(x+y)+(x-y)=12+20$, so $2x=32$ and $x=\\boxed{16}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699720145,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 71,
+        "prompt_tokens": 29,
+        "total_tokens": 100
+    }
+}

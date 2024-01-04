@@ -1,0 +1,7 @@
+{
+    "problem": "Simplify $(3-2i)-(5-2i)$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "$(3-2i)- (5-2i) = 3-2i -5+2i = (3-5) + (-2i+2i) = \\boxed{-2}$.",
+    "chatgpt_solution": "We have $(3-2i)-(5-2i) = 3-2i-5+2i = \\boxed{-2}$."
+}

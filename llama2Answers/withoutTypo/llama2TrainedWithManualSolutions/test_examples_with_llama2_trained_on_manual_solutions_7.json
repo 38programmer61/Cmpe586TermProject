@@ -1,0 +1,52 @@
+[
+    {
+        "instruction": "Find $a+b+c$, given that $x+y\\neq -1$ and  \\begin{align*}\nax+by+c&=x+7,\\\\\na+bx+cy&=2x+6y,\\\\\nay+b+cx&=4x+y.\n\\end{align*}",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we can use the first two equations to eliminate $x$ and $y$.  we have $ax+by+c=x+7$ and $a+bx+cy=2x+6y$.  subtracting the second equation from the first gives $a+b=7-2x$, so $a=7-2x$ and $b=2x$.  substituting these values into the third equation gives $ay+b+cx=4x+y$, so $ay+b+cx=4x+y$ and $ay+b+cx=4x+y$.  adding these equations gives $a+b+c=7+4x+y$, so $a+b+c=7+4x+y$.  solving for $a+b+c$ gives $a+b+c=11+4x+y$.  solving for $x$ and $y$ gives $x=11-4a$ and $y=11-4b$.  substituting these values into the first equation gives $a+b+c=11+4(11-4a)+4(11-4b)=11+4a+4b+4(11-4a-4b)=11+4a+4b+4(11-15)=11+4a+4b+11-15=-1-15=-16$.  therefore, $a+b+c=16$."
+    },
+    {
+        "instruction": "The operation $\\&$ is defined for positive integers $a$ and $b$ as $a \\& b = \\displaystyle\\frac{\\sqrt{a b + a}}{\\sqrt{a b - b}}$. What is the value of $9 \\& 2$? Express your answer as a common fraction in simplest radical form.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $9 \\& 2 = \\frac{\\sqrt{9 \\cdot 2 + 9}}{\\sqrt{9 \\cdot 2 - 2}}$. simplifying, we have $9 \\& 2 = \\frac{\\sqrt{18 + 9}}{\\sqrt{18 - 2}}$. this is equal to $\\boxed{\\frac{\\sqrt{26}}{\\sqrt{16}}}$."
+    },
+    {
+        "instruction": "A line segment has one endpoint at $(6,8)$ and midpoint at $(1,1)$. What is the sum of the coordinates of the other endpoint?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "the midpoint of the line segment is the average of the two endpoints.  the midpoint is $(1+6)/2=3.5$ and the midpoint is $(1+8)/2=5.5$.  the sum of the coordinates is the average of the two endpoints, so the sum is $(6+8)/2=7$."
+    },
+    {
+        "instruction": "The cost to carpet a floor is directly proportional to the area.  It costs $\\$$105 to carpet a floor that is $14\\times 5\n$ square feet.  How much will it cost to carpet a floor that is $16\\times 13$ square feet? Express your answer in dollars.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "let $x$ be the cost to carpet a floor that is $a\\times b$ square feet.  then, the cost is proportional to $a\\times b$.  the cost is $105$ when the floor is $14\\times 5$ square feet, so the cost per square foot is $\\boxed{105/14\\times 5=7.89}$.  the cost to carpet a floor that is $16\\times 13$ square feet is $7.89\\times 16\\times 13=205.34$ dollars."
+    },
+    {
+        "instruction": "What is the sum of the values of $a$ that satisfy the equation $$(3)5^2-4(5-a)^2 \\div 3=63?$$",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we can rewrite the equation as $(3)5^2-4(5-a)^2=63$ or $(3)5^2-4(5-a)^2=63\\cdot 3$.  expanding the left side of the equation, we get $(3)5^2-4(5-a)^2=3(5^2-5(5-a)^2)=3(5^2-5(5-a)^2)=3(5^2-5(5-a)^2-5(5-a)^2+5(5-a)^2)=3(5^2-5(5-a)^2-5(5-a)^2+5(5-a)^2)=3(5^2-5(5-a)^2-5(5-a)^2+5(5-a)^2)=3(5^2-5(5-a)^2-5(5-a)^2+5(5-a)^2)=3(5^2-5(5-a)^2-5(5-a)^2+5(5-a)^2)=3(5^2-5(5-a)^2-5(5-a)^2+5(5-a)^2)=3(5^2-5(5-a)^2-5(5-a)^2+5(5-a)^2)=3(5^2-5(5-a)^2-5(5-a)^2+5(5-a)^2)=3(5^2-5(5-a)^2-5(5-a)^2+5(5-a)^2)=3(5^2-5(5-a)^2-5(5-a)^2+5(5-a)^2)=3(5^2-5(5-a)^2-5(5-a)^2+5(5-a)^2)=3(5^2-5(5-a)^2-5(5-a)^2+5(5-a)^2)=3(5^2-5(5-a)^2-5(5-a)^2+5(5-a)^2)=3(5^2-5(5-a)^2-5(5-a"
+    },
+    {
+        "instruction": "The second and ninth terms of an arithmetic sequence are 2 and 30, respectively. What is the fiftieth term?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "the common difference of the arithmetic sequence is $d = 30 - 2 = 28$. the $n$th term is $a_n = a_1 + (n-1)d = 2 + (n-1)(28) = 2 + 28n - 21$. the $50$th term is $a_{50} = 2 + 50(28) - 21 = \\boxed{136}$."
+    },
+    {
+        "instruction": "The product of two positive integers minus their sum is 39. The integers are relatively prime, and each is less than 20. What is the sum of the two integers?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "let the two integers be $x$ and $y$. we have $x+y=39$ and $xy=39-x+y$. since $x$ and $y$ are relatively prime, $xy$ is a perfect square. the only perfect squares less than 20 are 4, 9, 16, and 25. of these, only 4 and 16 work. the sum of these two integers is 10, so the answer is $\\boxed{10}$."
+    },
+    {
+        "instruction": "Simplify $\\left( \\frac{4}{x} \\right)^{-1} \\left( \\frac{3x^3}{x} \\right)^2 \\left( \\frac{1}{2x} \\right)^{-3}$.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $x$ in the denominator of each term, so we can cancel it out.  we have $4x^3$ in the numerator of the first two terms, so we can cancel that out too.  the only term left is $3x^3$, so the final answer is $\\boxed{3x^3}$."
+    },
+    {
+        "instruction": "What is the positive difference between the sum of the first 20 positive multiples of 5 and the sum of the first 20 positive, even integers?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "the first 20 positive multiples of 5 are 5, 10, 15, 20, 25, ..., 95.  the first 20 positive, even integers are 2, 4, 6, 8, 10, ..., 98.  the sum of the first 20 positive multiples of 5 is $5+10+15+20+25+\\cdots+95=105$, and the sum of the first 20 positive, even integers is $2+4+6+8+10+\\cdots+98=100$.  the positive difference is $105-100=\\boxed{5}$."
+    },
+    {
+        "instruction": "Compute: $\\dfrac{2^{10}-2^8}{2^7-2^6}$. Express your answer in simplest form.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $2^7-2^6=2^7-2^5=2^2\\cdot2^5=40$. so, $\\dfrac{2^{10}-2^8}{2^7-2^6}=\\dfrac{2^{10}-2^8}{40}=\\boxed{2^3}$."
+    }
+]

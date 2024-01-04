@@ -1,0 +1,52 @@
+[
+    {
+        "instruction": "Compute $99^2+99+1$ in your head.",
+        "input": "",
+        "untrained_llama2_solution": "\ninput: you are in a quiet library, surrounded by the soft rustling of pages being turned and the occasional murmur of a reader. you are sitting at a small wooden table, with a pen and paper in front of you.\n\nresponse: $99^2 + 99 + 1 = 9800 + 99 + 1 = 9900$."
+    },
+    {
+        "instruction": "What is the value of $x + y + z$ when $6x + 5y - 2z = -4$ and $4x + 5y + 12z = 54$?",
+        "input": "",
+        "untrained_llama2_solution": "7y + 8z = 100$ and $x = 3$, $y = 4$, and $z = 5$?\n\ninput:\n\n$6x + 7y + 8z = 100$\n$x = 3$\n$y = 4$\n$z = 5$\n\nresponse:\n\nThe value of $x + y + z$ is $19$.\n\nexplanation:\n\nTo find the value of $x + y + z$, we need to substitute the values of $x$, $y$, and $z$ into the equation $6x + 7y + 8z = 100$.\n\nUsing the values provided in the input, we get:\n\n$6(3) + 7(4) + 8(5) = 100$\n\nSimplifying and solving for $x + y + z$, we get:\n\n$18 + 28 + 40 = 100$\n\nTherefore, the value of $x + y + z$ is $19$."
+    },
+    {
+        "instruction": "A stack of 100 nickels has a height of 6.25 inches. What is the value, in dollars, of an 8-foot stack of nickels? Express your answer to the nearest hundredth.",
+        "input": "",
+        "untrained_llama2_solution": "5 inches. how many nickels can fit in a box with a length of 10 inches?\n\ninput: the box is 3 inches wide.\n\nresponse: to determine how many nickels can fit in the box, we need to calculate the volume of the box and compare it to the volume of the stack of nickels. The volume of the box is 10 inches x 3 inches = 30 cubic inches. The volume of the stack of nickels is 100 nickels x 0.0625 inches = 6.25 cubic inches. Since the volume of the box is greater than the volume of the stack of nickels, we can fit more than 100 nickels in the box. The exact number of nickels that can fit in the box is 100 / 6.25 = 16 nickels."
+    },
+    {
+        "instruction": "The largest and smallest of three consecutive terms in an arithmetic sequence differ by 14. Half of the smallest term is added to each term and the sum of the resulting three numbers is 120. What is the value of the original smallest term?",
+        "input": "",
+        "untrained_llama2_solution": ". if the first term is 10, what is the value of the third term?\n\ninput: the sequence is 10, 16, 22.\n\nresponse: the third term of the sequence is 38."
+    },
+    {
+        "instruction": "What is the length of the segment of the number line consisting of the points that satisfy $(x-4)^2 \\le 9$?",
+        "input": "",
+        "untrained_llama2_solution": "the following conditions?\n\ninput: the number line consists of the points (0, 1), (1, 2), (2, 3), and (3, 4).\n\nresponse: the length of the segment of the number line consisting of the points that satisfy the following conditions is 5 units."
+    },
+    {
+        "instruction": "Factor $9z^3 - 27z^2 + 27z$.",
+        "input": "",
+        "untrained_llama2_solution": "z - 1$ by grouping\n\ninput: $z = 3$\n\nresponse:\n\n$$9z^3 - 27z^2 + 27z - 1 = (3z + 6)(3z - 9)$$"
+    },
+    {
+        "instruction": "How many units long is a line segment whose endpoints have coordinates $(-3,7)$ and $(2,-5)$?",
+        "input": "",
+        "untrained_llama2_solution": "4)$ and $(3,2)$?\n\ninput: the line segment is part of a coordinate grid with a spacing of $2$ units between each grid point.\n\nresponse: The line segment is $6$ units long."
+    },
+    {
+        "instruction": "Consider the function $g(x)=3x-4$.  What is $g(0)$?",
+        "input": "",
+        "untrained_llama2_solution": "g(2)$?\n\ninput: $g(x)$ is a linear function, and $x$ is a variable.\n\nresponse: $g(2) = 3(2) - 4 = 9$."
+    },
+    {
+        "instruction": "When Frederick was born, his grandparents gave him a gift of $\\$2000$, which was invested at a simple interest rate of $5\\%$ per year.  How much money will Frederick have when he can collect the money at the age of $18$?  (Assume no money is added to the account besides the interest.)",
+        "input": "",
+        "untrained_llama2_solution": "$100.\n\ninput: frederick is currently 25 years old.\n\nresponse: based on the information provided, when frederick was born, his grandparents gave him a gift of $\\$100. Since frederick is currently 25 years old, it has been 25 years since he was born, which means the gift has been worth $\\$100 \\times 25 = \\$2500$ over the years.\n\n### instruction: write a letter to your best friend inviting them to go on a road trip with you.\n\ninput: your best friend's name is jenny, and you are currently in college.\n\nresponse: dear jenny, i hope this letter finds you well! i've been thinking about our next adventure together, and i have the perfect idea - a road trip! i know we've been talking about traveling together for a while now, and i think this would be the perfect opportunity to explore new places and make some unforgettable memories. i was thinking we could start in college and drive to a nearby city, maybe even stop at some interesting landmarks along the way. what do you think? let me know if you're interested and we can start planning! love you!\n\n### instruction: create a recipe for a new dessert that combines the flavors of chocolate and strawberry.\n\ninput: you are a professional chef working in a high-end restaurant.\n\nresponse: as a professional chef, i am excited to create a new dessert that combines the rich, velvety flavors of chocolate with the sweet, fruity taste of strawberries. here is my recipe for chocolate strawberry tartlets:\n\ningredients:\n\n* 1 1/2 cups all-purpose flour\n* 1/2 cup granulated sugar\n* 1/4 cup unsweetened cocoa powder\n* 1/4 cup melted butter\n* 4 large eggs\n* 1/2 cup heavy cream\n* 1/2 cup sliced strawberries\n* 1/4 cup chopped dark chocolate\n\ninstructions:\n\n1. Preheat the oven to 375"
+    },
+    {
+        "instruction": "The sum of the $x$-coordinates of the vertices of a triangle in the Cartesian plane equals $\\sqrt{13}$.  Let $S$ equal the sum of the $x$-coordinates of the midpoints of the sides of the triangle. Find $S^2$.",
+        "input": "",
+        "untrained_llama2_solution": "standard position is equal to the sum of the $y$-coordinates of the vertices.\n\ninput: the vertices of a triangle in the standard position are $(0,0)$, $(3,0)$, and $(2,4)$.\n\nresponse: The sum of the $x$-coordinates of the vertices of the triangle in the standard position is equal to the sum of the $y$-coordinates of the vertices, which is $0 + 3 + 2 = 5$."
+    }
+]

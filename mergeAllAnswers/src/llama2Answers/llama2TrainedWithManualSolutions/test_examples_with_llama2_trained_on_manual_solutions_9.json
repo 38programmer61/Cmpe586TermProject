@@ -1,0 +1,52 @@
+[
+    {
+        "instruction": "Find $x$, such that $\\log_{64^{\\frac{1}{3}}}4^x=1$.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $4^{x} = 64^{\\frac{1}{3}}$.  multiplying both sides by 64, we get $4^{2x} = 64$.  solving for $x$ gives $x = \\boxed{4}$."
+    },
+    {
+        "instruction": "Evaluate: $\\left( \\frac{1}{2} + \\frac{1}{3} \\right) \\left( \\frac{1}{2} - \\frac{1}{3} \\right)$",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have:\n\n\\begin{align*}\n\\left( \\frac{1}{2} + \\frac{1}{3} \\right) \\left( \\frac{1}{2} - \\frac{1}{3} \\right) &= \\left( \\frac{1}{2} + \\frac{1}{3} \\right) \\left( \\frac{1}{2} + \\frac{1}{3} \\right) \\\\\n&= \\left( \\frac{1}{2} + \\frac{1}{3} \\right)^2 \\\\\n&= \\frac{1}{4} + \\frac{1}{9} + \\frac{1}{27} + \\frac{1}{81} \\\\\n&= \\frac{1}{4} + \\frac{1}{9} + \\frac{1}{27} + \\frac{1}{81} + \\frac{1}{81} \\\\\n&= \\frac{1}{4} + \\frac{1}{9} + \\frac{1}{27} + \\frac{1}{81} + \\frac{1}{81} \\\\\n&= \\frac{1}{4} + \\frac{1}{9} + \\frac{1}{27} + \\frac{1}{81} + \\frac{1}{81} \\\\\n&= \\frac{1}{4} + \\frac{1}{9} + \\frac{1}{27} + \\frac{1}{81} + \\frac{1}{81} \\\\\n&= \\frac{1}{4} + \\frac{1}{9} + \\frac{1}{27} + \\frac{1}{81} + \\frac{1}{81} \\\\\n&= \\frac{1}{4} + \\frac{1}{9} + \\frac{1}{27} + \\frac{1}{81} + \\frac{1}{81} \\\\\n&= \\frac{1}{4} + \\frac{1}{9} + \\frac{1}{27} + \\frac{1}{81} + \\frac{1}{81} \\\\\n&= \\frac{1}{4} + \\frac{1}{9} + \\frac{1}{27} + \\frac{1}{81} + \\frac"
+    },
+    {
+        "instruction": "The graphs of $y=x^4$ and $y=7x^2-10$ intersect at four points with $x$-coordinates $\\pm \\sqrt{m}$ and $\\pm \\sqrt{n}$, where $m > n$. What is $m-n$?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we can find the $x$-coordinates of the points of intersection by solving the equations $y=x^4$ and $y=7x^2-10$ for $x$.  solving these equations, we find that the points of intersection are $x=\\pm \\sqrt{16-10}= \\pm \\sqrt{6}$.  therefore, the $x$-coordinates of the points of intersection are $\\boxed{2}$ and $-2$."
+    },
+    {
+        "instruction": "Rationalize the denominator: $\\frac{5}{\\sqrt{3}}$ .",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we can multiply both the numerator and denominator by the square root of 3 to get rid of the radical sign: \\begin{align*}\n\\frac{5}{\\sqrt{3}} &= \\frac{5}{\\sqrt{3}\\sqrt{3}} = \\frac{5\\sqrt{3}}{\\sqrt{3}} = \\frac{5\\sqrt{3}}{3} = \\boxed{\\frac{5\\sqrt{3}}{3}}\n\\end{align*}"
+    },
+    {
+        "instruction": "Simplify: $3!(2^3+\\sqrt{9})\\div 2$.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we begin by factoring out a $2^3$ from the numerator and denominator: \\begin{align*}\n3!(2^3+\\sqrt{9})&\\div 2\\\\\n=3!(2^3+2\\sqrt{9})\\\\\n&=3!(2^3+4\\cdot2^2)\\\\\n&=3!(2^6+8\\cdot2^2)\\\\\n&=3!(2^6+16)\\\\\n&=3\\cdot2^6\\\\\n&=2^6.\n\\end{align*}"
+    },
+    {
+        "instruction": "Rationalize the denominator of $\\displaystyle\\frac{33}{\\sqrt{33}}$.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $\\sqrt{33} = \\sqrt{3^2} = \\sqrt{9} = 3$. so the numerator is $\\boxed{33/3}$."
+    },
+    {
+        "instruction": "Given the two functions $f(x)=x^3+2x+1$ and $g(x)=x-1$, find $f(g(1))$.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $f(g(1))=f(1-1)=f(0)=0$."
+    },
+    {
+        "instruction": "A parabola with equation $y=x^2+bx+c$ passes through the points $(2,3)$ and $(4,3)$. What is $c$?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we can use the point-slope form of a line to write the equation of the parabola as $y=ax+b$, where $a$ is the slope of the line and $b$ is the $y$-intercept.  the $y$-intercept is $c$.  the line passes through the point $(2,3)$, so the $y$-intercept is $3$.  the line also passes through the point $(4,3)$, so the $y$-intercept is $3$.  therefore, $c=3$."
+    },
+    {
+        "instruction": "Suzanne walks four miles every third day. What is the fewest number of miles she can walk in February?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "let $d$ be the number of days in the month of February.  since suzanne walks four miles every third day, she walks a total of $4d/3$ miles in February.  since $d$ is a multiple of 3, $4d/3$ is also a multiple of 3, so $4d/3$ is a multiple of 3.  the smallest multiple of 3 that is greater than 0 is 3, so $4d/3=3\\cdot3=9$ miles.  thus, suzanne walks a total of 9 miles in February."
+    },
+    {
+        "instruction": "If $A$, $B$ and $C$ are positive integers such that $\\frac{A\\sqrt{B}}{C} = \\frac{8}{3\\sqrt{2}}$, what is the value of $A+B+C$ given that $A$ and $C$ have no common prime factors, and $B$ has no perfect-square factors other than 1?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $a\\sqrt{b}/c = 8/3\\sqrt{2} = 8/3\\cdot 2\\sqrt{2}/2 = 8/3\\cdot 2\\sqrt{2}/2 = 8/3\\cdot 2\\sqrt{2}/2 = 8/3\\cdot 2\\sqrt{2}/2 = \\boxed{8/3}$."
+    }
+]

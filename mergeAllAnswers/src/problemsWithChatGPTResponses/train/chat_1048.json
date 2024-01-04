@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jh0Ci4CtZdGCQ0ZSxI1CrKHgXi44",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Multiply both sides by 20 to get $4x=\\frac{100}{x}$. Therefore, $4x^2=100$, so $x^2=25$, and the solutions are $x=\\pm 5$. The sum of these solutions is $\\boxed{0}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699704224,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 60,
+        "prompt_tokens": 35,
+        "total_tokens": 95
+    }
+}

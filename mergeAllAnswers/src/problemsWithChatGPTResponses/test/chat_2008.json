@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JsJt5bhvGhYSugsMWiHJfx1N3tab",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "For a certain number of oranges $n$ at $3x$ cents each, Kim's supply of money is $40\\cdot3x=120x$ cents. Because she had exactly enough money to buy these 40 oranges, $n$ satisfies $\\frac{120x}{n}=3x$, or $n=40$. However, if she now wishes to buy the same number of $n$ oranges at $4x$ cents each, she must have $40\\cdot4x=160x$ cents. So, Kim can buy $\\boxed{40}$ oranges.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699747729,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 120,
+        "prompt_tokens": 45,
+        "total_tokens": 165
+    }
+}

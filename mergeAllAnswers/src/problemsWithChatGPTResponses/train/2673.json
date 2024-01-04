@@ -1,0 +1,7 @@
+{
+    "problem": "The sum of two numbers is 6. The difference of their squares is 12. What is the positive difference of the two numbers?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Call the two numbers $x$ and $y$. We are given that $x+y = 6$ and $x^2 - y^2 = 12$. Because $x^2 - y^2$ factors into $(x+y)(x-y)$, we can substitute in for $x+y$, giving $6(x-y) = 12$, or $x-y = \\boxed{2}$.",
+    "chatgpt_solution": "Let's assume that the two numbers are x and y.\n\nWe know that the sum of two numbers is 6, so we can write the equation:\nx + y = 6\n\nWe also know that the difference of their squares is 12, so we can write the equation:\nx^2 - y^2 = 12\n\nTo find the positive difference of the two numbers, we need to solve for x and y.\n\nIf we rearrange the first equation to solve for x, we get:\nx = 6 - y\n\nSubstituting this value of x into the second equation, we get:\n(6 - y)^2 - y^2 = 12\n\nExpanding the equation, we get:\n36 - 12y + y^2 - y^2 = 12\n\nSimplifying the equation, we get:\n12y = 24\n\nDividing both sides by 12, we get:\ny = 2\n\nSubstituting this value of y into the first equation, we get:\nx + 2 = 6\n\nSolving for x, we get:\nx = 4\n\nTherefore, the positive difference of the two numbers is:\n4 - 2 = 2\n\nSo, the positive difference of the two numbers is 2."
+}

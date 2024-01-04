@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JsrgDm204gh2MdtIcxqHnTcudPgr",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "At the end of each year, the balance of the account is multiplied by $1 + \\frac{0.05}{1} = 1.05$.  After the money is compounded $18$ times, the amount of money Frederick has is $2000 \\cdot 1.05^{18} \\approx \\boxed{\\$5632.69}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699749824,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 75,
+        "prompt_tokens": 77,
+        "total_tokens": 152
+    }
+}

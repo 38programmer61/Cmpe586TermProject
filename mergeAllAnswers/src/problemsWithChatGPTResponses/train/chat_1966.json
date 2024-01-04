@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlH2i53imZ9EldtNEFEV2DlnCp2K",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "By the end of January, BoatWorks had built 3 canoes.\nIn February, they built twice the number of canoes they had built in January, so they built 2 * 3 = <<2*3=6>>6 canoes.\nIn March, they built twice the number of canoes they had built in February, so they built 2 * 6 = <<2*6=12>>12 canoes.\nTherefore, by the end of March, BoatWorks built a total of 3 + 6 + 12 = <<3+6+12=21>>21 canoes. Answer: \\boxed{21}.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699720644,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 132,
+        "prompt_tokens": 60,
+        "total_tokens": 192
+    }
+}

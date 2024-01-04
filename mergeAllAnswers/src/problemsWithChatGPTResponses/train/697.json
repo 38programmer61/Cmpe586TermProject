@@ -1,0 +1,7 @@
+{
+    "problem": "What is the area of the region defined by the equation $x^2+y^2 - 7 = 2y-8x+1$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We rewrite the equation as $x^2 + 8x + y^2 - 2y = 8$ and then complete the square, resulting in  $(x+4)^2-16 + (y-1)^2-1=8$, or $(x+4)^2+(y-1)^2=25$. This is the equation of a circle with center $(-4, 1)$ and radius 5, so the area of this region is $\\pi r^2 = \\pi (5)^2 = \\boxed{25\\pi}$.",
+    "chatgpt_solution": "We complete the square on the right-hand side by adding 20 to both sides, giving $x^2+y^2 - 7 = 2y-8x+21$.  We can rewrite this as  \\[(x+4)^2+(y-1)^2=33.\\]This equation represents the graph of a circle centered at $(-4,1)$ with radius $\\sqrt{33}$.  The area of this circle is $\\pi (\\sqrt{33})^2 = \\boxed{33\\pi}$."
+}

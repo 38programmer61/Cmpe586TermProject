@@ -1,0 +1,7 @@
+{
+    "problem": "A TV screen measures 24 by 16 inches. If each dimension is increased by 20$\\%$, by what percent is the area increased?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Since we're dealing with percentages, the actual dimensions do not matter. Let $l$ and $w$ represent the dimensions of the TV screen. The current area is $lw$. If we increase $l$ by $20\\%$, we end up with $l\\left(1+\\frac{20}{100}\\right)=l\\left(\\frac{10}{10}+\\frac{2}{10}\\right)=\\frac{12}{10}l$. Increasing the width results in $\\frac{12}{10}w$. The new area is $\\frac{12}{10}l\\times\\frac{12}{10}w=\\frac{144}{100}lw=lw\\left(1+\\frac{44}{100}\\right)$. The area increases by $\\boxed{44\\%}$.",
+    "chatgpt_solution": "The area of the original screen is $24 \\times 16 = 384$ square inches. Increasing both dimensions by $20 \\%$ is equivalent to increasing the length and width by $\\frac{20}{100} = 0.2$ times their original values. Thus, the new dimensions are $1.2 \\times 24 = 28.8$ inches and $1.2 \\times 16 = 19.2$ inches. The area of the new screen is $28.8 \\times 19.2 = 552.96$ square inches. So the area is increased by $\\frac{552.96-384}{384} = \\frac{168.96}{384} \\approx \\frac{169}{384}$. Converting this to percent gives $\\frac{169}{384} \\times 100\\% \\approx \\boxed{44\\%}$."
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jl0D2iNhhnfzB9R7fzX18XHPR8q4",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We have $26\\times33+67\\times26=26\\times(33+67)=26\\times100 = \\boxed{2600}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699719601,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 33,
+        "prompt_tokens": 19,
+        "total_tokens": 52
+    }
+}

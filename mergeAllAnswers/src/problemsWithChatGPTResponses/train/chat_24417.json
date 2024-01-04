@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JnDFs6MAvHWbtMYgVFaB9vXaYrZt",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let $h$ denote the number of hours that I feel good. Since I travel at a rate of 20 miles per hour for $h$ hours, I travel $20h$ miles in that time. Since I travel at a rate of 12 miles per hour for $8-h$ hours, I travel $12(8-h)$ miles in that time. Since I travel a total of 122 miles in all, we have $$20h + 12(8-h) = 122.$$ Expanding the right side and simplifying gives $4h = 122 - 96 = 26$, from which dividing by $4$ gives $h = \\boxed{\\frac{13}{2}}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699728097,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 146,
+        "prompt_tokens": 84,
+        "total_tokens": 230
+    }
+}

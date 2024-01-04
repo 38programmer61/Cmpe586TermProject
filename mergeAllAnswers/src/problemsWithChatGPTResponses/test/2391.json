@@ -1,0 +1,7 @@
+{
+    "problem": "What is the sum of the values of $a$ that satisfy the equation $$(3)5^2-4(5-a)^2 \\div 3=63?$$",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "First we multiply all terms in the equation by 3 to avoid fractions and then solve for $a$. \\begin{align*}\n9\\cdot5^2-4(5-a)^2&=3\\cdot63\\quad\\Rightarrow\\\\\n-4(5-a)^2&=9\\cdot21-9\\cdot25\\quad\\Rightarrow\\\\\n&=9(-4)\\quad\\Rightarrow\\\\\n(5-a)^2&=9\n\\end{align*} Therefore, \\begin{align*}\n5-a=3\\quad\\text{ OR }\\quad 5-a=-3\\quad\\Rightarrow\\\\\n2=a \\quad\\text{ OR }\\quad 8=a.\n\\end{align*} The sum of the values of $a$ is $2+8=\\boxed{10}$.",
+    "chatgpt_solution": "We have  \\begin{align*}\n(3)5^2-4(5-a)^2 \\div 3&=63\\\\\n225 - \\frac{4}{3}(5-a)^2 &= 63\\\\\n\\frac{4}{3}(5-a)^2 &= 162\n\\end{align*}We divide both sides by $\\frac{4}{3}$ to give $(5-a)^2=162\\cdot\\frac{3}{4}=3(2^4\\cdot3^4\\cdot\\frac{1}{16})=2^4\\cdot3^4\\cdot\\frac{1}{16}.$ Taking the square root of both sides, we have $5-a=\\pm2\\cdot3^2\\cdot\\frac{1}{4}=9\\cdot\\frac{1}{4}=\\pm\\frac{9}{4},$ so we get $a=-\\frac{9}{4}+5=\\frac{11}{4}$ or $a=5+\\frac{9}{4}=\\frac{29}{4}.$ Therefore, the sum of the solutions for $a$ is $\\frac{11}{4}+\\frac{29}{4}=\\boxed{10}.$"
+}

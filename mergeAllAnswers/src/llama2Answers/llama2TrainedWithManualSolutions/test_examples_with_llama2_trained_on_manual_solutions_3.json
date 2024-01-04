@@ -1,0 +1,52 @@
+[
+    {
+        "instruction": "If $f(x) = x + 1$ and $g(x) = x^2 + 3$, what is the value of $f(g(2))$?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $f(g(2)) = f(2^2 + 3) = f(4 + 3) = f(7) = 7 + 1 = \\boxed{8}$."
+    },
+    {
+        "instruction": "Given that $$(m+n+p)(mn+mp+np)=25$$ and that $$m^2(n+p)+n^2(m+p)+p^2(m+n)=4$$ for real numbers $m$, $n$, and $p$, what is the value of $mnp$?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have two equations in three variables, so we can solve for $mnp$ in terms of $m$, $n$, and $p$.  we have $(m+n+p)(mn+mp+np)=25$ and $m^2(n+p)+n^2(m+p)+p^2(m+n)=4$.  multiplying the first equation by $mn+mp+np$ and subtracting the second equation from the first gives $(m+n+p)(mn+mp+np)-4=(25-4)(mn+mp+np)=21(mn+mp+np)=21(mnp)$.  thus, $mnp=21$."
+    },
+    {
+        "instruction": "If $\\frac{9^n\\cdot3^{2n+1}}{81}=243$, find $n$.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $9^n\\cdot3^{2n+1}=243\\cdot81=18493$.  since $n$ is an integer, we must have $9^n\\cdot3^{2n+1}=18493\\cdot81=1529981$.  thus, $n=4$."
+    },
+    {
+        "instruction": "The points $(1,-2)$ and $(-4,10)$ are adjacent vertices of a square. What is the perimeter of the square?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "the perimeter of a square is equal to the sum of the lengths of its sides.  the sides of a square are equal to the length of its diagonals.  the diagonals of a square are equal to the length of its sides.  therefore, the perimeter of a square is equal to the length of its sides.  the length of the sides of a square is equal to the length of its diagonals.  the length of the diagonals of a square is equal to the length of its sides.  therefore, the perimeter of a square is equal to the length of its sides.  the length of the sides of a square is equal to the length of its diagonals.  the length of the diagonals of a square is equal to the length of its sides.  therefore, the perimeter of a square is equal to the length of its sides.  the length of the sides of a square is equal to the length of its diagonals.  the length of the diagonals of a square is equal to the length of its sides.  therefore, the perimeter of a square is equal to the length of its sides.  the length of the sides of a square is equal to the length of its diagonals.  the length of the diagonals of a square is equal to the length of its sides.  therefore, the perimeter of a square is equal to the length of its sides.  the length of the sides of a square is equal to the length of its diagonals.  the length of the diagonals of a square is equal to the length of its sides.  therefore, the perimeter of a square is equal to the length of its sides.  the length of the sides of a square is equal to the length of its diagonals.  the length of the diagonals of a square is equal to the length of its sides.  therefore, the perimeter of a square is equal to the length of its sides.  the length of the sides of a square is equal to the length of its diagonals.  the length of the diagonals of a square is equal to the length of its sides.  therefore, the perimeter of a square is equal to the length of its sides.  the length of the sides of a square is equal to the length of its diagonals.  the length of the diagonals of a square is equal to the"
+    },
+    {
+        "instruction": "Find the value of $x$ that satisfies $\\frac{1}{3x-1} = \\frac{2}{x+1}$.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we can rewrite the first equation as $3x-1 = 2x+1$, which simplifies to $2x = 2$.  therefore, $x = \\boxed{1}$."
+    },
+    {
+        "instruction": "Evaluate $(\\sqrt[3]{13})^6$.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $13=\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}}$. thus, $13=\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}}=\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}}}=\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}}}=\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}}}=\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}}}=\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}}}=\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}}}=\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}}}=\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}}}=\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}}}=\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}}}=\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}}}=\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}}}=\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3]{13}}}=\\sqrt[3]{13}\\cdot\\sqrt[3]{\\sqrt[3"
+    },
+    {
+        "instruction": "If $a * b = a^b + b^a$, for all positive integer values of $a$ and $b$, then what is the value of $2 * 6$?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $2 * 6 = 2^6 + 6^2 = 2^7 + 36 = \\boxed{38}$."
+    },
+    {
+        "instruction": "Angie decided to use her class as a sample to predict the total number of students in her school wearing red on Valentine's Day. She counted 11 students wearing red in her class of 24 students. Using this ratio, how many of the 480 students in her school will she estimate are wearing red?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "let $r$ be the number of students in angie's class wearing red. since the ratio of red to non-red students in angie's class is 11/24, the ratio of red to non-red students in the entire school is 11/480. thus, angie estimates that $479$ students in the school are wearing red."
+    },
+    {
+        "instruction": "For what ordered pair $(a,b)$ are there infinite solutions $(x,y)$ to the system \\begin{align*}\n2ax+2y&=b,\\\\\n5x+y&=-3?\n\\end{align*}",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "let $y=0$ and $y=-3$.  then, the system becomes $2ax+2y=b$ and $5x+y=-3$.  solving for $x$ in the first equation, we get $x=b/2$.  solving for $x$ in the second equation, we get $x=-3/5$.  therefore, the solutions are $x=\\boxed{-3/5}$ and $x=\\boxed{b/2}$."
+    },
+    {
+        "instruction": "When $(x\\sqrt{x^3})^4$ is simplified, what is the exponent of $x$?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $(x\\sqrt{x^3})^4 = x^{4\\sqrt{x^3}} = x^{4x^{3/2}}$.  the exponent of $x$ is $4x^{3/2}$, which is $4x\\cdot x^{1/2} = 4x$.  so the answer is $\\boxed{4}$."
+    }
+]

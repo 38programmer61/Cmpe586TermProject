@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlCRIMa4iVrTy5OpXV3k5oIEc2cl",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Multiplying both sides by $x$ yields $x^2 + 25 = 10x.$  Then $x^2 - 10x + 25 = 0.$  This quadratic factors as $(x - 5)^2 = 0,$ so $x = 5.$\n\nTherefore, the sum of all solutions is $\\boxed{5}.$",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699720359,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 76,
+        "prompt_tokens": 26,
+        "total_tokens": 102
+    }
+}

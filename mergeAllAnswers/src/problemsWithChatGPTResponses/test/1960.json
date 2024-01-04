@@ -1,0 +1,7 @@
+{
+    "problem": "If $f(x)=\\dfrac{2}{x+1}$, then what is the value of $f^{-1}\\left(\\frac{1}{5}\\right)$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "$f^{-1}\\left(\\frac{1}{5}\\right)$ is defined as the number $x$ such that $f(x)=\\frac{1}{5}$. Thus, we solve the equation $$\\frac{2}{x+1} = \\frac{1}{5}.$$Multiplying both sides by $5(x+1)$, we have $$10 = x+1.$$Subtracting $1$ from both sides gives $x=\\boxed{9}$.",
+    "chatgpt_solution": "For a function $f^{-1}(x)$ to be defined, it must be true that $f(x)$ is a one-to-one function, which basically means that it passes both the horizontal and vertical line tests.  We see that $f(x)$ is defined for all $x \\neq -1$.  Since $f(x)$ is a hyperbola, it is symmetric about the $y=x$ line, so we know that if $f(x_1) = f(x_2)$, then $x_1 = x_2$.\n\nFurthermore, we check that the function $f(x) = \\dfrac{2}{x+1}$ is actually a function (the vertical line test), because it passes the horizontal line test (the equation $y = \\dfrac{2}{x+1}$ is a sideways hyperbola opening to the left and right).\n\nSince $f(x)$ is actually a function, let us define $f(x_1) = \\frac{1}{5}$, so we see that\n\n$$f(x_1) = \\frac 2{x_1 + 1} = \\frac 15 \\Rightarrow x_1 + 1 = 10 \\Rightarrow x_1 = 9.$$ Therefore, $f^{-1}\\left(\\frac 15\\right) = \\boxed{9}$."
+}

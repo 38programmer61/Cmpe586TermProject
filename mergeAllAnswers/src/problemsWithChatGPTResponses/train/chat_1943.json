@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlC6aiGhn06Hzdav7EbG5KzbbtDu",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "To compute $95^2$ in my head, I can square the difference between $95$ and $100$ and then subtract this result from $100^2$. \n\nThe difference between $95$ and $100$ is $100-95=5$, so squaring this result gives $5^2=25$. \n\nThen, subtracting this result from $100^2=10,000$, we have $10,000-25=\\boxed{9,975}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699720338,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 100,
+        "prompt_tokens": 17,
+        "total_tokens": 117
+    }
+}

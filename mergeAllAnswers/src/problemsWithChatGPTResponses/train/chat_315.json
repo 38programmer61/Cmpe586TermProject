@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JpCy1kwKBDaeqbFFw61VKc0MxMzl",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "To find the $y$-intercept, we set $x=0$ and solve for $y$. This gives us $3(0) + 5y = 20$, which gives $5y = 20$ and $y = 4$. Therefore, the $y$-intercept is $\\boxed{(0,4)}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699735768,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 73,
+        "prompt_tokens": 37,
+        "total_tokens": 110
+    }
+}

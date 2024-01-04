@@ -1,0 +1,7 @@
+{
+    "problem": "Find the $x$-intercept point of the line $3x+5y=20$. Provide your answer as an ordered pair.  Express the $x$ and $y$ coordinates as common fractions as needed.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Letting $y=0$ in $3x+5y=20$ gives $3x=20$, so the $x$-coordinate of the $x$-intercept is $20/3$.  So, the $x$-intercept is $\\boxed{\\left(\\frac{20}{3},0\\right)}$.",
+    "chatgpt_solution": "The $x$-intercept occurs when $y=0$.  Substituting, we find $3x+5(0)=20$, so $3x=20$ and $x = \\boxed{\\frac{20}{3}}$. Thus, the $x$-intercept is $\\left(\\frac{20}{3},0\\right)$."
+}

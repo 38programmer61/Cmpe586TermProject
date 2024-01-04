@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlYgO38GdBIrQ4zK4NnRGDXhGoW0",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We could do the multiplication first and then the addition, or we could apply the distributive property and then the addition. We will do the former, using the distributive property. \\begin{align*}\n12 \\times 24 + 36 \\times 12 &= 288 + 432\\\\\n&= \\boxed{720}.\n\\end{align*}",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699721738,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 75,
+        "prompt_tokens": 25,
+        "total_tokens": 100
+    }
+}

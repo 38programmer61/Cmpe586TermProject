@@ -1,0 +1,7 @@
+{
+    "problem": "Let $a \\bowtie b = a+\\sqrt{b+\\sqrt{b+\\sqrt{b+...}}}$. If $4\\bowtie y = 10$, find the value of $y$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We know that $$4\\bowtie y = 4+\\sqrt{y+\\sqrt{y+\\sqrt{y+...}}}=10.$$Therefore, $\\sqrt{y+\\sqrt{y+\\sqrt{y+...}}}=6$. Because the series of $\\sqrt{y+\\sqrt{y+\\sqrt{y+...}}}$ is infinite, we can substitute $6$ into the series for any $\\sqrt{y+\\sqrt{y+\\sqrt{y+...}}}$ we want. Thus, $$\\sqrt{y+\\sqrt{y+\\sqrt{y+...}}}=6$$implies that $$\\sqrt{y+\\sqrt{y+\\sqrt{y+...}}}=\\sqrt{y+6}=6.$$Squaring both sides of this new equality, we have $y+6=36$, or $y=\\boxed{30}$.",
+    "chatgpt_solution": "We have that $4 \\bowtie y = 4+\\sqrt{y+\\sqrt{y+\\sqrt{y+...}}}$. Letting this value equal $x$, we get $$x = 4+\\sqrt{y+\\sqrt{y+\\sqrt{y+...}}}.$$Recognizing that the expression under the square root sign is equal to $x$, we can substitute to get the equation \\begin{align*}\nx &= 4+\\sqrt{y+x}\\\\\nx-4 &= \\sqrt{y+x}\\\\\nx^2-8x+16 &= y+x\\\\\nx^2-9x+16 &= y.\n\\end{align*}We have $x=y^2-9y+16.$ The problem tells us that $x=10$, so we have \\begin{align*}\n10&=y^2-9y+16\\\\\n0&=y^2-9y+6\\\\\n0&=(y-6)(y-1).\n\\end{align*}Therefore, $y=\\boxed{1,6}$."
+}

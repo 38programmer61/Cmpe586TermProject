@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JjGIti80u64XmkJAS2hrDQpriauw",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Substituting $T=4$ and $H=8$ into the formula, we have $L = \\frac{25(4)^4}{(8)^2}$. Evaluating the numbers in parentheses, we have $L = \\frac{25(256)}{64} = \\frac{6400}{64} = \\boxed{100}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699712910,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 76,
+        "prompt_tokens": 58,
+        "total_tokens": 134
+    }
+}

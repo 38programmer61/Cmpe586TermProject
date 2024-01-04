@@ -1,0 +1,7 @@
+{
+    "problem": "If $(x + y)^2 = 45$ and $xy = 10$, what is $(x - y)^2$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We know that $(x + y)^2 = x^2 + 2xy + y^2$ and $(x - y)^2 = x^2 - 2xy + y^2$. We can see that $(x - y)^2 = (x^2 + 2xy + y^2) - 4xy = (x + y)^2 - 4xy = 45 - 40 = \\boxed{5}$.",
+    "chatgpt_solution": "Expanding $(x + y)^2 = 45$, we have $x^2 + 2xy + y^2 = 45$, so $x^2 + 2xy + y^2 - 45 = 0$. By Vieta's formulas, $x$ and $y$ are the roots of this quadratic, so by Vieta's formulas, the quadratic with roots $x$ and $y$ is $t^2 - (x + y)t + xy = 0$. Substituting $t = x - y$, we get $(x - y)^2 - 45 = 0$, so $(x - y)^2 = \\boxed{45}$."
+}

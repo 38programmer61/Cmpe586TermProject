@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JqFB3OMWizVmyuUX5RTbOVFdVRLg",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Suppose we have our roots $p$ and $2p$, where $2p > p$. By Vieta's we have $p + 2p = -6$, or $p = -2$. Thus, our quadratic is $(x + 2)(x + 4) = x^2 + 6x + 8$, and our answer is $\\boxed{8}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699739749,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 82,
+        "prompt_tokens": 45,
+        "total_tokens": 127
+    }
+}

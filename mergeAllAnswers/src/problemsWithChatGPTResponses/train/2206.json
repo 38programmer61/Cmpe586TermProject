@@ -1,0 +1,7 @@
+{
+    "problem": "Rationalize the denominator: $\\sqrt{\\frac{3}{8}}.$",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We have $$\\sqrt{\\frac{3}{8}} = \\frac{\\sqrt{3}}{\\sqrt{8}} = \\frac{\\sqrt{6}}{\\sqrt{16}} = \\boxed{\\frac{\\sqrt{6}}{4}}.$$",
+    "chatgpt_solution": "Multiplying the numerator and denominator of the fraction inside the square root by $\\sqrt{8}$, we have \\[\n\\sqrt{\\frac{3}{8}}=\\sqrt{\\frac{3}{8}}\\cdot \\frac{\\sqrt{8}}{\\sqrt{8}}=\\frac{\\sqrt{24}}{8}.\n\\]Since $24=4\\cdot6=2^2\\cdot6$, we can rewrite this as \\[\n\\frac{\\sqrt{24}}{8}=\\boxed{\\frac{2\\sqrt{6}}{8}}=\\boxed{\\frac{\\sqrt{6}}{4}}.\n\\]"
+}

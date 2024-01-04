@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JoXTEVDhIQQBakrkT1FlWibjjuAO",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Expanding, we have \\[\\begin{aligned} (x+10)(2y+10) &= x(2y+10) + 10(2y+10) \\\\ &= 2xy + 10x + 20y + 100 \\\\ &= \\boxed{2xy + 10x + 20y + 100}. \\end{aligned}\\]",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699733195,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 79,
+        "prompt_tokens": 19,
+        "total_tokens": 98
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "What is the equation of the line parallel to $4x+2y=8$ and passing through the point $(0,1)$? Write the equation in slope-intercept form.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "First, subtract $4x$ from both sides and divide by 2 to write the given line in slope intercept form.  This gives $y=-2x+4$.  The slope of this line is $-2$.  So, we need to find a line with a slope of $-2$ that passes through the point $(0,1)$.  Writing this requirement in point-slope form gives the line $y-1=-2x$, or equivalently, $\\boxed{y=-2x+1}.$",
+    "chatgpt_solution": "To put the given equation in slope-intercept form, we can solve it for $y$:\n\n\\begin{align*}\n4x+2y&=8 \\\\\n2y&=-4x+8 \\\\\ny&=-2x+4.\n\\end{align*}A parallel line will have the same slope of $-2,$ so its equation will be of the form $y = -2x + b,$ where $b$ is the $y$-intercept.  To determine $b,$ we can substitute the coordinates of the point $(0,1)$ into the equation $y = -2x + b:$\n\n\\[1 = -2(0) + b.\\]We find $b = 1,$ so the equation of the line is $\\boxed{y = -2x + 1}.$\n\n[asy]\nunitsize (0.5 cm);\n\npair A, B, C;\n\nA = (0,4);\nB = (0,1);\nC = (7,0);\n\ndraw((-1,0)--(8,0));\ndraw((0,-1)--(0,5));\ndraw(graph(-2*x + 4,-1,7),red);\ndraw(graph(-2*x + 1,-1,7),blue);\ndraw((0,-1.5)--(1,-1.5)--(1,-1),dashed);\n\ndot(\"$y = -2x + 4$\", (7,-2), SW, UnFill);\ndot(\"$y = -2x + 1$\", (3,5), SW, UnFill);\ndot(\"$y = -1.5x + 1$\", (0,-1.5), S, UnFill);\ndot(\"$(0,1)$\", B, NW);\n[/asy]"
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Find $p+q$, given that $(q+4)(p+3)-(q+2)(p+1)=44$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We multiply the binomials:\n\n\\begin{align*}\n(q+4)(p+3)-(q+2)(p+1)&=44\\\\\nq(p+3)+4(p+3)-(q(p+1)+2(p+1))&=44\\\\\npq+3q+4p+12-(pq+q+2p+2)&=44\\\\\n2q+2p+10&=44\\\\\n2q+2p&=34\\\\\nq+p&=\\boxed{17}\\\\\n\\end{align*}",
+    "chatgpt_solution": "When we expand both sides of the given equation, we have: \\begin{align*}\n(q+4)(p+3)-(q+2)(p+1)&=(pq+3q+4p+12)-(pq+2q+2p+1) \\\\\n&= pq+3q+4p+12-pq-2q-2p-1 \\\\\n&= pq-pq+3q-2q+4p-2p+12-1 \\\\\n&= p+q+11.\n\\end{align*}Therefore, $p+q+11=44$ or $p+q=\\boxed{33}$."
+}

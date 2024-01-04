@@ -1,0 +1,52 @@
+[
+    {
+        "instruction": "Suppose $K$ is a constant, such that no pair of real numbers $(x,y)$ satisfies this system of equations: $$6x + 4y = 7$$ $$Kx + 8y = 7$$\n\nWhat is the value of $K$?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we can solve this system of equations by substituting the first equation into the second equation to get $kx + 8y = 7 \\rightarrow kx = 7 - 8y \\rightarrow kx = -1$.  then, we can substitute this value of $kx$ into the first equation to get $6x + 4y = 7 \\rightarrow 6x = 7 - 4y \\rightarrow 6x = 3$.  therefore, the only solution to the system of equations is $x = \\boxed{3}$."
+    },
+    {
+        "instruction": "New York and Denver are in different time zones.  When it is noon in New York, it is 10 a.m. in Denver.  A train leaves New York at 2 p.m. (New York time) and arrives in Denver 45 hours later.  What time is it in Denver when the train arrives?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "let $t$ be the time in denver when the train arrives.  we know that $t-45=10-2=8$ hours, so $t=18$ hours.  when the train arrives, it is 2 p.m. in new york, so it is 10 a.m. in denver.  when the train departs, it is 12 p.m. in new york, so it is 8 a.m. in denver.  thus, the time difference between the two cities is $18-8=10$ hours.  this is the same as the time difference between noon in new york and 10 a.m. in denver, which is $10-0=10$ hours.  thus, the time difference between new york and denver is $10$ hours."
+    },
+    {
+        "instruction": "Let $f(x) = x - 3$ and $q(x) = bx +1$.  If $f(q(1)) = -3$, what is $b$?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $f(q(1)) = f(-1) = -3$.  therefore, $q(1) = -1$.  we also have $q(1) = b(-1) + 1 = -1 + 1 = 0$.  therefore, $b = -1$."
+    },
+    {
+        "instruction": "If $f(x)=\\dfrac{2}{x+1}$, then what is the value of $f^{-1}\\left(\\frac{1}{5}\\right)$?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $f^{-1}\\left(\\frac{1}{5}\\right) = f^{-1}\\left(\\frac{1}{5}\\right) = f^{-1}\\left(\\frac{1}{5}\\cdot\\frac{1}{1+f^{-1}(x)}\\right)$.  using the definition of $f^{-1}$, we have $f^{-1}\\left(\\frac{1}{5}\\right) = f^{-1}\\left(\\frac{1}{5}\\cdot\\frac{1}{1+f^{-1}(x)}\\right) = f^{-1}\\left(\\frac{1}{5}\\cdot\\frac{1}{1+f^{-1}(x)}\\right) = \\boxed{\\frac{1}{5}\\cdot\\frac{1}{1+f^{-1}(x)}}$."
+    },
+    {
+        "instruction": "If a recipe for a two-pound cake requires 1.5 cups of flour, how many cups are needed for 2 five-pound cakes?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we can use the same ratio of ingredients to make the cakes.  since 2 pounds is equal to 10 cups of flour, and 5 pounds is equal to 20 cups of flour, we can see that 1 cup of flour is equal to $\\frac{1}{2}$ cup of flour for each cake.  therefore, 2 five-pound cakes will require $\\frac{2}{2} \\cdot 20 = 10$ cups of flour.  since 1 cup of flour is equal to 4 ounces, 10 cups of flour is equal to 40 ounces.  therefore, 2 five-pound cakes will require $\\boxed{10}$ ounces of flour."
+    },
+    {
+        "instruction": "Kim has exactly enough money to buy 40 oranges at $3x$ cents each. If the price rose to $4x$ cents per orange, how many oranges could she buy?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "let $x$ be the number of oranges kim could buy.  if she could buy $40$ oranges, then $40x = 3(3x) = 9x = 3(x)$.  if she could buy $4x$ oranges, then $4x = 40x = 12x$.  solving for $x$ in the first equation gives $x = \\boxed{3}$."
+    },
+    {
+        "instruction": "Let $a_1,a_2,a_3,\\dots$ be an arithmetic sequence. If $\\frac{a_4}{a_2} = 3$, what is $\\frac{a_5}{a_3}$?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "let $a_1 = 2$.  then $a_2 = 2 + 1 = 3$, $a_3 = 3 + 1 = 4$, and $a_4 = 4 + 1 = 5$.  if $\\frac{a_4}{a_2} = 3$, then $a_4 = 3(a_2) = 3(3) = 9$.  so $a_5 = 9 + 1 = 10$.  thus $\\frac{a_5}{a_3} = \\frac{10}{4} = 2.5$."
+    },
+    {
+        "instruction": "Expand the following product: $\\frac{1}{4}\\left(\\frac{4}{y} + 4y\\right)$.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we can rewrite the expression as $\\frac{1}{4}\\left(\\frac{4}{y} + 4y\\right) = \\frac{1}{4}\\left(\\frac{4}{y} + 4\\right) = \\frac{1}{4}\\left(4 + 4y\\right) = \\frac{1}{4}\\left(8\\right) = \\boxed{2}$."
+    },
+    {
+        "instruction": "Jeremiah is riding in a car that is traveling 60 miles per hour. At this rate, how many minutes will it take him to travel 20 miles?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "let $t$ be the time it takes to travel $20$ miles.  we can set up the equation $60t = 20$, which gives $t = \\boxed{3}$."
+    },
+    {
+        "instruction": "Expand and simplify completely: \\begin{align*}\nx\\left(x(1+x)+2x\\right)-3(x^2-x+2)\n\\end{align*}",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we begin by distributing the $x$ on the left side of the equation: \\begin{align*}\nx\\left(x(1+x)+2x\\right)-3(x^2-x+2)&=x\\left(x(1+x)+2x\\right)-3x^2+3x\\\\\n&=x\\left(x(1+1)+2x\\right)-3x^2+3x\\\\\n&=x\\left(x+2x\\right)-3x^2+3x\\\\\n&=x(3x-3x^2)+3x\\\\\n&=\\boxed{3x-3x^2+3x}.\n\\end{align*}"
+    }
+]

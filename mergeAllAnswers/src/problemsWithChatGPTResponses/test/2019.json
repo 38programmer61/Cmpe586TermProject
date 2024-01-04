@@ -1,0 +1,7 @@
+{
+    "problem": "Expand the following product: $\\frac{1}{4}\\left(\\frac{4}{y} + 4y\\right)$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We apply the distributive property to get\\begin{align*}\n\\frac{1}{4}\\left(\\frac{4}{y}+4y\\right)&= \\frac{1}{4}\\cdot\\frac{4}{y}+\\frac{1}{4}\\cdot 4y\\\\\n&= \\boxed{\\frac{1}{y} + y}.\n\\end{align*}",
+    "chatgpt_solution": "Expanding, we have \\begin{align*}\n\\frac14\\left(\\frac4y + 4y\\right)&=\\frac14\\cdot\\frac4y + \\frac14\\cdot4y \\\\\n&=\\frac14\\cdot\\frac4y + \\frac14\\cdot\\frac{4y}{1}\\cdot\\frac{y}{y} \\\\\n&=\\frac{1}{\\cancelto{1}{4}}\\cdot\\frac{\\cancelto{1}{4}}{y} + \\frac{\\cancelto{1}{1}}{\\cancelto{1}{4}}\\cdot\\frac{\\cancelto{4}{4}}{\\cancelto{1}{1}}\\cdot\\frac{\\cancel{y}}{\\cancel{y}} \\\\\n&=\\boxed{\\frac{1}{y} + 4y}.\n\\end{align*}"
+}

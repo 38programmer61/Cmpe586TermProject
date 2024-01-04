@@ -1,0 +1,7 @@
+{
+    "problem": "The sum of two numbers is 22. Their difference is 4. What is the greater of the two numbers?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Let the two numbers be $x$ and $y$, where $x>y$. We wish to find $x$. The problem can be rewritten as the system of equations: \\begin{align*}\nx+y&= 22\\\\\nx-y&= 4\n\\end{align*} Adding these gives: \\begin{align*}\n2x &= 26\\\\\nx &=\\boxed{13}.\n\\end{align*}",
+    "chatgpt_solution": "Let's call the two numbers x and y. \n\nAccording to the given information, we can set up two equations: \n\nx + y = 22 (equation 1) \nx - y = 4 (equation 2) \n\nTo solve for x and y, we can add the two equations: \n\n(equation 1) + (equation 2):\nx + y + x - y = 22 + 4\n2x = 26 \n\nNext, we divide both sides by 2 to solve for x: \n\n2x/2 = 26/2\nx = 13 \n\nNow that we have the value of x, we can substitute it back into either of the original equations to solve for y. Let's use equation 1: \n\n13 + y = 22 \ny = 22 - 13 \ny = 9 \n\nTherefore, the greater of the two numbers is 13."
+}

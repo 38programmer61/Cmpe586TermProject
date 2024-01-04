@@ -1,0 +1,7 @@
+{
+    "problem": "For how many values of $a$ is it true that the line $y = x + a$ passes through the vertex of the parabola $y = x^2 + a^2$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The vertex of the parabola is $(0, a^2)$. The line passes through the vertex if and only if  $a^2 = 0 + a$. There are $\\boxed{2}$ solutions to this equation, namely $a = 0$ and $a = 1$.",
+    "chatgpt_solution": "We set $x + a = x^2 + a^2.$ Then $x^2 - x + (a^2 - a) = 0.$ The discriminant of this quadratic is $\\Delta = 1^2 - 4(a^2 - a) = 4a - 4a^2 + 1.$ We see that this quadratic has one root if $\\Delta = 0,$ namely when $4a - 4a^2 + 1 = 0.$\n\nCompleting the square, we get\n\\[4a - 4a^2 + 1 = 4 (a - \\frac{1}{2})^2 - \\frac{1}{4}.\\]Hence, $a$ is a solution if and only if $\\frac{1}{4} = 4 (a - \\frac{1}{2})^2,$ or $|a - \\frac{1}{2}| = \\frac{1}{8}.$\n\nIf $a$ satisfies $|a - \\frac{1}{2}| = \\frac{1}{8},$ then $a$ lies in the interval $\\left( \\frac{5}{8}, \\frac{3}{4} \\right).$ There are $\\boxed{0}$ solutions in this case."
+}

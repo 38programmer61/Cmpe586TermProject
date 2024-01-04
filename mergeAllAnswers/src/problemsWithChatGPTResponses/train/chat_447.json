@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JprC2VExbbahNC7BQLudB6LK8GhC",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "First, we expand the product on the left-side of the equation: \\begin{align*}\n(x-3)(x+3) &= 21x - 63.\n\\end{align*}Simplifying the left side, we have \\begin{align*}\nx^2 - 9 &= 21x - 63.\n\\end{align*}Subtracting $21x-63$ from each side, we get \\begin{align*}\nx^2 - 21x + 54 &= 0.\n\\end{align*}Factoring the quadratic, we have \\begin{align*}\n(x - 3)(x- 18) &= 0.\n\\end{align*}Thus, $x=3$ is one solution and $x=18$ is another.  Since $p>q$, we conclude that $p=18$ and $q=3$. Therefore the answer is $p-q= \\boxed{15}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699738262,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 205,
+        "prompt_tokens": 58,
+        "total_tokens": 263
+    }
+}

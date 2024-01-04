@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JhqMVJkgcS6PlDHO3u4zDlk449eA",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "For each hour she worked during the summer, Amy made $\\frac{3000}{36}\\approx \\$83.33$ per hour.\n\nAmy needs to work $\\frac{\\$3000}{\\$83.33}\\approx 36$ hours each of the 30 weeks of the school year. Thus, Amy needs to work $\\frac{36}{30}\\approx \\boxed{1.2}$ hours per week.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699707458,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 85,
+        "prompt_tokens": 65,
+        "total_tokens": 150
+    }
+}

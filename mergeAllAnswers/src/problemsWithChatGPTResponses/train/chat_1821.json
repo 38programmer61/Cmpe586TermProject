@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JkwHNX98zvwguUkkqtheJxrdc6Gk",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We set up a proportion to solve for the distance Jana will walk in 10 minutes. Because 24 minutes corresponds to one mile, then $\\frac{1}{24}$ of a mile correspond to a minute walk. Therefore, if $x$ is the distance Jana walks in 10 minutes, then $\\frac{1}{24}=\\frac{x}{10}$. Cross-multiplying gives $240=24x$, so $x=\\boxed{10}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699719357,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 97,
+        "prompt_tokens": 47,
+        "total_tokens": 144
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jrg97ZaDYcg89cNsm3xCCkxbawzD",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Since the vertex is $(-4,0)$, the equation is of the form\n\\[y = a(x + 4)^2.\\]Since $(1,-75)$ lies on the graph, $-75 = a(1 + 4)^2 = 25a$, so $a = \\boxed{-3}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699745265,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 68,
+        "prompt_tokens": 58,
+        "total_tokens": 126
+    }
+}

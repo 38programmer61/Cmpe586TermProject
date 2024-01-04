@@ -1,0 +1,7 @@
+{
+    "problem": "Suppose that $f(x)=4x+5$. What is $f^{-1}(f^{-1}(9))$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Inputting $f^{-1}(x)$ into $f$, we have $f(f^{-1}(x)) =4f^{-1}(x) + 5$, so $x = 4f^{-1}(x) + 5$.  Solving this equation for $f^{-1}(x)$, we get that $f^{-1}(x) = \\frac{x-5}{4}$. Thus, we have  \\begin{align*}\nf^{-1}(f^{-1}(9)) & = f^{-1}\\left(\\frac{9-5}{4}\\right) \\\\\n& = f^{-1}(1) \\\\\n& = \\frac{1-5}{4} \\\\\n& = \\boxed{-1}.\n\\end{align*}",
+    "chatgpt_solution": "To find $f^{-1}(9)$, we set $f(x)=9$ and solve for $x$: $4x+5=9$. Subtracting 5 from both sides gives $4x=4$, so $x=1$. Therefore, $f^{-1}(9)=1$.\n\nTo find $f^{-1}(f^{-1}(9))$, we find $f^{-1}(1)$. We set $f(x)=1$ and solve for $x$: $4x+5=1$. Subtracting 5 from both sides gives $4x=-4$, so $x=-1$. Therefore, $f^{-1}(f^{-1}(9))=\\boxed{-1}$."
+}

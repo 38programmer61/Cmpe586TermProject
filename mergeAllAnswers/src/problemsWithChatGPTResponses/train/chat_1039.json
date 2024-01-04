@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jgz314tZb9ZTgoYLCB4vsQK9ptLk",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We have the two cases $x + 5 = 20$ and $x + 5 = -20.$ Solving these equations gives $x = 15$ and $x = -25,$ respectively. So the positive difference between the two solutions is $15 - (-25) = \\boxed{40}.$",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699704153,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 66,
+        "prompt_tokens": 29,
+        "total_tokens": 95
+    }
+}

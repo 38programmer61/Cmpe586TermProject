@@ -1,0 +1,7 @@
+{
+    "problem": "The bacteria in a lab dish double in number every four hours. If 500 bacteria cells are in the dish now, in how many hours will there be exactly 32,000 bacteria?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "32000 bacteria is $32000/500=64$ times the number currently in the lab dish. Since $64=2^6$, the bacteria had to double 6 times to reach this number. Since the bacteria double every four hours, it takes $4\\cdot6=\\boxed{24}$ hours.",
+    "chatgpt_solution": "For bacteria cells to double in number, it takes 4 hours.\nTherefore, every 4 hours, the number of bacteria cells doubles.\nIf there are 500 bacteria cells in the dish now, and the number of bacteria cells doubles every 4 hours, then after 4 hours, there will be 2 * 500 = <<2*500=1000>>1000 bacteria cells.\nAfter another 4 hours, there will be 2 * 1000 = <<2*1000=2000>>2000 bacteria cells.\nAfter another 4 hours, there will be 2 * 2000 = <<2*2000=4000>>4000 bacteria cells.\nAfter another 4 hours, there will be 2 * 4000 = <<2*4000=8000>>8000 bacteria cells.\nAfter another 4 hours, there will be 2 * 8000 = <<2*8000=16000>>16000 bacteria cells.\nAfter another 4 hours, there will be 2 * 16000 = <<2*16000=32000>>32000 bacteria cells.\nTherefore, in 4 + 4 + 4 + 4 + 4 + 4 = <<4+4+4+4+4+4=24>>24 hours, there will be exactly 32,000 bacteria cells. Answer: \\boxed{24}."
+}

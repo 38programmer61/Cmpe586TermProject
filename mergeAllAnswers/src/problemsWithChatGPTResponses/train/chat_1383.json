@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jj0LxX8c569Flhv58frVV6l41MfB",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Since Jenny ate $20\\%$ of the jellybeans each day, the fraction remaining at the end of each day is $1-20\\%=1-\\frac{1}{5}=\\frac{4}{5}$ of the fraction remaining the previous day.  Thus, if the number of jellybeans is $x$ at the beginning of the second day, we have $\\frac{4}{5}\\cdot\\frac{4}{5}\\cdot x=32$, so $\\frac{16}{25}\\cdot x=32$ and $x=\\boxed{50}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699711921,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 119,
+        "prompt_tokens": 54,
+        "total_tokens": 173
+    }
+}

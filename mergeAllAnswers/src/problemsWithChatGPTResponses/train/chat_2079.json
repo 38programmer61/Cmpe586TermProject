@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlVBLhvYf9CRkmO5hpgOafbL2pyF",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "If $r$ and $s$ are inversely proportional, then $rs=k$ for some constant $k$. When $r=1200$ and $s=0.35$, we can substitute these values into our equation to find that $1200\\cdot0.35 = k$. Therefore, $k=420$. If $r=2400$, then $s=\\frac{k}{r}=\\frac{420}{2400}=\\boxed{0.175}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699721521,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 100,
+        "prompt_tokens": 68,
+        "total_tokens": 168
+    }
+}

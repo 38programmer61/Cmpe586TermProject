@@ -1,0 +1,7 @@
+{
+    "problem": "Solve for $n$, if $9^n\\cdot9^n\\cdot9^n\\cdot9^n=81^4$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "The equation, $9^n\\cdot9^n\\cdot9^n\\cdot9^n=81^4$, can be written as $9^{4n}=81^4$. We also know that $81=9^2$, so we can rewrite the equation as $9^{4n}=9^{2(4)}$.  Solving for $n$, gives $n=\\boxed{2}$.",
+    "chatgpt_solution": "We have $9^n\\cdot9^n\\cdot9^n\\cdot9^n=81^4$, which simplifies to $(9^n)^4 = 81^4$. Taking the fourth root of both sides of the equation results in $9^n=\\sqrt[4]{81^4}$. Since $\\sqrt[4]{81^4}$ is equal to 81, the equation can be rewritten as $9^n=81$. Taking the logarithm base 9 of both sides yields $\\log_9 (9^n) = \\log_9 81$, so $n = \\boxed{2}$."
+}

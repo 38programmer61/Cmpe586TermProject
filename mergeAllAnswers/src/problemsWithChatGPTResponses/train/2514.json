@@ -1,0 +1,7 @@
+{
+    "problem": "Compute: $\\frac{1}{5} + \\frac{2}{5} + \\frac{3}{5} + \\dots + \\frac{9}{5} + \\frac{10}{5}$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "The sum is equal to \\[\\frac{1 + 2 + \\dots + 10}{5}.\\] For all $n$, $1 + 2 + \\dots + n = n(n + 1)/2$, so \\[\\frac{1 + 2 + \\dots + 10}{5} = \\frac{10 \\cdot 11/2}{5} = \\boxed{11}.\\]",
+    "chatgpt_solution": "Rewriting, we find that $1 + 2 + 3 + \\dots + 9 + 10 = \\frac{10(11)}{2} = 55$. Each term of the sum is divided by $5$, so we must divide the entire sum by $5$ to find that the sum is equal to $\\boxed{11}$."
+}

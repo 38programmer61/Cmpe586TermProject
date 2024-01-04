@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JhSWbiT4aRH2SOmeSmnn203SWYRG",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We compute $(3-2i)^2$ as follows:\n\\begin{align*}\n(3-2i)^2 &= (3-2i)(3-2i)\\\\\n&= 3(3) + 3(-2i) - 2i(3) - 2i(-2i)\\\\\n&= 9 - 6i - 6i + 4i^2.\n\\end{align*}Since $i^2=-1$, we have $4i^2=4(-1)=-4$.  Therefore, we have \\begin{align*}\n(3-2i)^2 &= 9 - 6i - 6i + 4i^2\\\\\n&= 9 - 12i + 4i^2\\\\\n&= 9 -12i -4\\\\\n&= \\boxed{5-12i}.\n\\end{align*}",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699705980,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 199,
+        "prompt_tokens": 31,
+        "total_tokens": 230
+    }
+}

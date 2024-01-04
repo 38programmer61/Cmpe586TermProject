@@ -1,0 +1,7 @@
+{
+    "problem": "Suppose that $a^2$ varies inversely with $b^3$. If $a=7$ when $b=3$, find the value of $a^2$ when $b=6$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Since $a^2$ varies inversely with $b^3$, $(a^2)(b^3)=k$ for some constant $k$. If $a=7$ when $b=3$, then $k=(7^2)(3^3)=(49)(27)=1323$. So if $b=6$, \\begin{align*} (a^2)(6^3)&=1323\n\\\\ 216a^2&=1323\n\\\\\\Rightarrow\\qquad a^2&=\\boxed{6.125}\n\\end{align*}",
+    "chatgpt_solution": "If $a^2$ varies inversely with $b^3$, then $(a^2)(b^3)=k$ for some constant $k$. We are given that $a=7$ when $b=3$, so we have $(7^2)(3^3)=k$. To find the value of $a^2$ when $b=6$, we substitute $b=6$ into the equation. We have $(a^2)(6^3)=k$, so $a^2=\\frac{k}{6^3}=\\frac{(7^2)(3^3)}{6^3}=\\frac{49\\cdot 27}{6^3}=\\frac{(7\\cdot 3)^2\\cdot 3}{6^3}=\\frac{63^2}{6^3}=\\boxed{\\frac{441}{8}}$."
+}

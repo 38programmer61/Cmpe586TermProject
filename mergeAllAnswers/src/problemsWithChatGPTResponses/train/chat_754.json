@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jr51Z7e4VSVN7i9KgWo9QFLLrqlI",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "The $x$-coordinate of $B$ is $2$ less than the $x$-coordinate of $A$, which is $(9-2)=7$.  The $y$-coordinate of $B$ is $10$ less than the $y$-coordinate of $A$, which is $(3+10)=13$.  So the $x$-coordinate of $B$ is $7$, and the $y$-coordinate of $B$ is $13$.  Thus, the sum of the coordinates of $B$ is $7+13=\\boxed{20}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699742963,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 125,
+        "prompt_tokens": 52,
+        "total_tokens": 177
+    }
+}

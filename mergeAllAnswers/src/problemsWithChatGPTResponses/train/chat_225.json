@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jm740TC6Biyd0QO0n0AmkJP1HIxu",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We expand $(x + b)^2 = x^2 + 2bx + b^2,$ and setting the linear terms equal, $2b = 1300,$ so $b = \\frac{1300}{2} = 650.$  Setting the constant terms equal, $b^2 = 1300,$ so $b = \\sqrt{1300} = 10 \\sqrt{13}.$\n\nThen $\\frac{c}{b} = \\frac{1300}{10 \\sqrt{13}} = \\boxed{10 \\sqrt{13}}.$",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699723870,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 120,
+        "prompt_tokens": 55,
+        "total_tokens": 175
+    }
+}

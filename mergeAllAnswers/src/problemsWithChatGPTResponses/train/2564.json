@@ -1,0 +1,7 @@
+{
+    "problem": "Compute the value of $252^2 - 248^2$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "$252^2-248^2$ can also be expressed as $(252+248)(252-248)$. Simpifying, we obtain $500\\cdot4 = \\boxed{2000}$.",
+    "chatgpt_solution": "We could compute this directly by expanding the squares:\n\n\\begin{align*}\n252^2 - 248^2 &= (252+248)(252-248) \\\\\n&= (500)(4) \\\\\n&= \\boxed{2000}.\n\\end{align*}\n\nAn alternative approach is to take advantage of the difference of squares factorization $a^2-b^2=(a+b)(a-b)$. Since $a^2-b^2$ factors into $(a+b)(a-b)$, $252^2-248^2$ factors into $(252+248)(252-248)$. Then, $(252+248)(252-248)$ simplifies as above to give $\\boxed{2000}$."
+}

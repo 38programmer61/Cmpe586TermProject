@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlianBHIeTkpzUDdwDSYlAhfHVQf",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We have that\n\\begin{align*}\n(a - 10)(a - 9) \\dotsm (a - 1) \\cdot a &= (2 - 10)(2 - 9) \\dotsm (2 - 1) \\cdot 2 \\\\\n&= (-8)(-7) \\dotsm (1) \\cdot 2 \\\\\n&= 8 \\cdot 7 \\dotsm 1 \\cdot 2 \\\\\n&= \\boxed{8!}.\n\\end{align*}",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699722352,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 109,
+        "prompt_tokens": 48,
+        "total_tokens": 157
+    }
+}

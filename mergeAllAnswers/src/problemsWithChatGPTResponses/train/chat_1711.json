@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JkZNwzMFvoVkZv8cXiS4xCjsZkmN",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "The first equation is equivalent to $x+y = 10 - x - y$. Rearranging the terms gives $2x + 2y = 10$, which simplifies to $x + y = 5$.\n\nThe second equation is equivalent to $x - y = x + y - 2$. Rearranging the terms gives $y = 2$.\n\nSubstituting $y = 2$ into the equation $x+y = 5$, we get $x + 2 = 5$, so $x = 3$.\n\nTherefore, the ordered pair $(x,y)$ is $\\boxed{(3,2)}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699717937,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 134,
+        "prompt_tokens": 53,
+        "total_tokens": 187
+    }
+}

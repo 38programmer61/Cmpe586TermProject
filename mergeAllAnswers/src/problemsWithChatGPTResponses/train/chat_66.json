@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JqluFV67f18o3B35yFO6ohUqH6jX",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let the side lengths of the squares be $a$ and $b$ with $a>b$. We get $a^2+b^2=65$ and $a^2-b^2=33$. Adding these two equations gives $2a^2=98$, and $a^2=49$. This means $a=7$ and $b=4$. The sum of their perimeters is $4a+4b=4(a+b)=4\\cdot(7+4)=\\boxed{44}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699741778,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 109,
+        "prompt_tokens": 72,
+        "total_tokens": 181
+    }
+}

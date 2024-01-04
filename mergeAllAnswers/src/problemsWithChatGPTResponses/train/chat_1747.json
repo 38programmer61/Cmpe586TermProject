@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JkqDtnJshb7bcWXAq4VmWFrEmK0h",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Writing in exponential notation gives $12^2 = 3x = 144$, so $x = \\boxed{48}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699718981,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 27,
+        "prompt_tokens": 23,
+        "total_tokens": 50
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Let $a_1,a_2,a_3,\\dots$ be an arithmetic sequence. If $\\frac{a_4}{a_2} = 3$, what is $\\frac{a_5}{a_3}$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Let $a$ be the first term, and let $d$ be the common difference.  Then $a_n = a + (n - 1)d$ for all $n$.  In particular, $a_4 = a + 3d$ and $a_2 = a + d$, so \\[\\frac{a + 3d}{a + d} = 3.\\]Multiplying both sides by $a + d$, we get $a + 3d = 3a + 3d$, so $a = 0$.\n\nThen \\[\\frac{a_5}{a_3} = \\frac{a + 4d}{a + 2d} = \\frac{4d}{2d} = \\boxed{2}.\\]",
+    "chatgpt_solution": "If we call the common difference $d$, then we get $a_4=a_2+2d$. But we know $\\frac{a_4}{a_2} = 3$, so we can write $\\frac{a_2+2d}{a_2}=3$. Multiplying both sides of the equation by $a_2$ gives us $a_2+2d=3a_2$, and rearranging terms gives $d=\\frac{a_2}{2}$. Now we know that the common difference is half of one of the terms, we can write $a_5 = a_2+3d = a_2+3 \\cdot \\frac{a_2}{2} = a_2+ \\frac{3a_2}{2} = \\frac{5a_2}{2}$. Algebraic manipulation gives $a_5 = \\frac{5}{2}a_2$. Finally, we can see that $\\frac{a_5}{a_3} = \\frac{1}{\\frac{a_3}{a_5}} = \\frac{1}{\\frac{2}{5a_2}} = \\boxed{\\frac{5a_2}{2}}$."
+}

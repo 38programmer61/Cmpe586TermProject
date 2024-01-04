@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jl9odK2JM6GJaSVIG9Chw6LSQ6mj",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We distribute and get \\begin{align*}\n3(x - 4) + 4(7 - 2x^2 + 5x) - 8(2x - 1) &= 3x - 12 + 28 - 8x^2 + 20x - 16x + 8 \\\\\n&= \\boxed{-8x^2 + 7x + 24}.\n\\end{align*}The coefficient of $x$ is $\\boxed{7}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699720196,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 106,
+        "prompt_tokens": 51,
+        "total_tokens": 157
+    }
+}

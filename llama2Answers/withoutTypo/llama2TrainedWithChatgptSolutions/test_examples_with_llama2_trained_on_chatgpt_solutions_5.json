@@ -1,0 +1,52 @@
+[
+    {
+        "instruction": "Suppose $K$ is a constant, such that no pair of real numbers $(x,y)$ satisfies this system of equations: $$6x + 4y = 7$$ $$Kx + 8y = 7$$\n\nWhat is the value of $K$?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we can solve the first equation for $x$ to get $x = \\frac{7-6k}{4}$.  substituting this into the second equation, we get $kx + 8y = \\frac{7-6k}{4} + 8y = \\frac{7-6k}{4} + 8\\left(\\frac{7-6k}{4}\\right) = \\frac{7-6k}{4} + 8\\left(\\frac{7-6k}{4}\\right) = \\frac{7-6k}{4} + 8\\left(\\frac{7-6k}{4}\\right) = \\frac{7-6k}{4} + 8\\left(\\frac{7-6k}{4}\\right) = \\frac{7-6k}{4} + 8\\left(\\frac{7-6k}{4}\\right) = \\frac{7-6k}{4} + 8\\left(\\frac{7-6k}{4}\\right) = \\frac{7-6k}{4} + 8\\left(\\frac{7-6k}{4}\\right) = \\frac{7-6k}{4} + 8\\left(\\frac{7-6k}{4}\\right) = \\frac{7-6k}{4} + 8\\left(\\frac{7-6k}{4}\\right) = \\frac{7-6k}{4} + 8\\left(\\frac{7-6k}{4}\\right) = \\frac{7-6k}{4} + 8\\left(\\frac{7-6k}{4}\\right) = \\frac{7-6k}{4} + 8\\left(\\frac{7-6k}{4}\\right) = \\frac{7-6k}{4} + 8\\left(\\frac{7-6k}{4}\\right) = \\frac{7-6k}{4} + 8\\left(\\frac{7-6k}{4}\\right) = \\frac{7-6k}{4} + 8\\left(\\frac{7-6k}{4}\\right) = \\frac{7-6k}{4} + 8\\left(\\frac{7-6k}{4}\\right) = \\frac{"
+    },
+    {
+        "instruction": "New York and Denver are in different time zones.  When it is noon in New York, it is 10 a.m. in Denver.  A train leaves New York at 2 p.m. (New York time) and arrives in Denver 45 hours later.  What time is it in Denver when the train arrives?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we set up a system of equations to solve this problem.  let $t_n$ be the time in new york and $t_d$ be the time in denver.  we have the following equations:\n\n$t_n = 10a.m.$\n\n$t_d = 2p.m. + 45h.$\n\nwe can solve this system of equations by substituting $t_n = 10a.m.$ into the second equation:\n\n$t_d = 2p.m. + 45h.$\n\nsubstituting $t_n = 10a.m.$ into the second equation:\n\n$t_d = 2p.m. + 45h.$\n\nsubstituting $t_n = 10a.m.$ into the first equation:\n\n$t_d = 2p.m. + 45h.$\n\nwe can solve this system of equations by substituting $t_n = 10a.m.$ into the first equation:\n\n$t_d = 2p.m. + 45h.$\n\nwe can solve this system of equations by substituting $t_n = 10a.m.$ into the second equation:\n\n$t_d = 2p.m. + 45h.$\n\nwe can solve this system of equations by substituting $t_n = 10a.m.$ into the second equation:\n\n$t_d = 2p.m. + 45h.$\n\nwe can solve this system of equations by substituting $t_n = 10a.m.$ into the first equation:\n\n$t_d = 2p.m. + 45h.$\n\nwe can solve this system of equations by substituting $t_n = 10a.m.$ into the first equation:\n\n$t_d = 2p.m. + 45h.$\n\nwe can solve this system of equations by substituting $t_n = 10a.m.$ into the second equation:\n\n$t_d = 2p.m. + 45h.$\n\nwe can solve this system"
+    },
+    {
+        "instruction": "Let $f(x) = x - 3$ and $q(x) = bx +1$.  If $f(q(1)) = -3$, what is $b$?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we have $q(1) = b1 + 1 = b + 1$.  since $f(q(1)) = f(b + 1) = b + 1 - 3 = -3$, we have $b + 1 = -3$.  therefore, $b = \\boxed{-4}$."
+    },
+    {
+        "instruction": "If $f(x)=\\dfrac{2}{x+1}$, then what is the value of $f^{-1}\\left(\\frac{1}{5}\\right)$?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we have that $f^{-1}\\left(\\frac{1}{5}\\right) = \\boxed{\\dfrac{2}{5+1}}$.  we can simplify this to $\\boxed{\\dfrac{2}{6}}$."
+    },
+    {
+        "instruction": "If a recipe for a two-pound cake requires 1.5 cups of flour, how many cups are needed for 2 five-pound cakes?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we can find the number of cups needed for 2 five-pound cakes by dividing the total weight of the cakes by the weight of a single cake.\n\nthe total weight of the cakes is 2(5) = <<2(5) = 10>>10 pounds.\n\nthe weight of a single cake is 2 pounds.\n\ntherefore, the number of cups needed for 2 five-pound cakes is 10/2 = <<10/2 = 5>>5 cups. answer: \\boxed{5}."
+    },
+    {
+        "instruction": "Kim has exactly enough money to buy 40 oranges at $3x$ cents each. If the price rose to $4x$ cents per orange, how many oranges could she buy?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we set up a system of equations to solve this problem. let $x$ be the number of oranges kim could buy at $3x$ cents each. let $y$ be the number of oranges kim could buy at $4x$ cents each. we set up the equation $3x = 4x$, which simplifies to $x = 2$. therefore, kim could buy $2 \\cdot 40 = \\boxed{80}$ oranges."
+    },
+    {
+        "instruction": "Let $a_1,a_2,a_3,\\dots$ be an arithmetic sequence. If $\\frac{a_4}{a_2} = 3$, what is $\\frac{a_5}{a_3}$?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we have $\\frac{a_4}{a_2} = 3$, so $a_4 = 3a_2$.  we also have $\\frac{a_5}{a_3} = \\frac{3a_2}{a_3} = 3$.  therefore, $\\frac{a_5}{a_3} = 3$."
+    },
+    {
+        "instruction": "Expand the following product: $\\frac{1}{4}\\left(\\frac{4}{y} + 4y\\right)$.",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we distribute the $4$ on the left-hand side and the $y$ on the right-hand side: \\begin{align*}\n\\frac{1}{4}\\left(\\frac{4}{y} + 4y\\right) &= \\frac{1}{4}\\left(\\frac{4}{y} + 4\\cdot 1\\right) \\\\\n&= \\frac{1}{4}\\left(\\frac{4}{y} + 4\\right) \\\\\n&= \\frac{1}{4}\\left(\\frac{4}{y} + 4\\right) \\\\\n&= \\frac{1}{4}\\left(\\frac{4}{y} + 4\\right) \\\\\n&= \\frac{1}{4}\\left(\\frac{4}{y} + 4\\right) \\\\\n&= \\frac{1}{4}\\left(\\frac{4}{y} + 4\\right) \\\\\n&= \\frac{1}{4}\\left(\\frac{4}{y} + 4\\right) \\\\\n&= \\frac{1}{4}\\left(\\frac{4}{y} + 4\\right) \\\\\n&= \\frac{1}{4}\\left(\\frac{4}{y} + 4\\right) \\\\\n&= \\frac{1}{4}\\left(\\frac{4}{y} + 4\\right) \\\\\n&= \\frac{1}{4}\\left(\\frac{4}{y} + 4\\right) \\\\\n&= \\frac{1}{4}\\left(\\frac{4}{y} + 4\\right) \\\\\n&= \\frac{1}{4}\\left(\\frac{4}{y} + 4\\right) \\\\\n&= \\frac{1}{4}\\left(\\frac{4}{y} + 4\\right) \\\\\n&= \\frac{1}{4}\\left(\\frac{4}{y} + 4\\right) \\\\\n&= \\frac{1}{4}\\left(\\frac{4}{y} + 4\\right) \\\\\n&= \\frac{1}{4}\\left(\\frac{4}{y} + 4\\right) \\\\\n&= \\frac{1}{4}\\left(\\frac{4}{y} + 4\\right) \\\\\n&= \\frac{1}{4}\\left(\\frac{4}{y} + 4\\right)"
+    },
+    {
+        "instruction": "Jeremiah is riding in a car that is traveling 60 miles per hour. At this rate, how many minutes will it take him to travel 20 miles?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we know that distance = rate x time, so we can set up the equation:\n\ndistance = 60 miles/hour x time\n\nwe also know that time = distance / rate\n\nsubstituting the values we know, we get:\n\ntime = 20 miles / 60 miles/hour\n\ntime = 1/3 hours\n\ntherefore, it will take jeremiah 1/3 hour to travel 20 miles.\n\nin minutes, this is:\n\n1/3 hour x 60 minutes/hour = <<1/3*60=20>>20 minutes\n\ntherefore, it will take jeremiah 20 minutes to travel 20 miles. answer: \\boxed{20}."
+    },
+    {
+        "instruction": "Expand and simplify completely: \\begin{align*}\nx\\left(x(1+x)+2x\\right)-3(x^2-x+2)\n\\end{align*}",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we distribute the $x$ on the left side of the equation, and we distribute the $x$ on the right side of the equation. we get \\begin{align*}\nx(x(1+x)+2x)-3(x^2-x+2) &= x(x(1+x)+2x)-3(x^2-x+2) \\\\\n&= x(x(1+x)+2x)-3(x^2-x+2) \\\\\n&= x(x(1+x)+2x)-3(x^2-x+2) \\\\\n&= x(x(1+x)+2x)-3(x^2-x+2) \\\\\n&= x(x(1+x)+2x)-3(x^2-x+2) \\\\\n&= x(x(1+x)+2x)-3(x^2-x+2) \\\\\n&= x(x(1+x)+2x)-3(x^2-x+2) \\\\\n&= x(x(1+x)+2x)-3(x^2-x+2) \\\\\n&= x(x(1+x)+2x)-3(x^2-x+2) \\\\\n&= x(x(1+x)+2x)-3(x^2-x+2) \\\\\n&= x(x(1+x)+2x)-3(x^2-x+2) \\\\\n&= x(x(1+x)+2x)-3(x^2-x+2) \\\\\n&= x(x(1+x)+2x)-3(x^2-x+2) \\\\\n&= x(x(1+x)+2x)-3(x^2-x+2) \\\\\n&= x(x(1+x)+2x)-3(x^2-x+2) \\\\\n&= x(x(1+x)+2x)-3(x^2-x+2) \\\\\n&= x(x(1+x)+2x)-3(x^2-x+2) \\\\\n&= x(x(1+x)+2x)-3(x^2-x+2) \\\\\n&= x(x(1+x)+2x)-3(x^2-x"
+    }
+]

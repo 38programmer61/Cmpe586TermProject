@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlEXUpf7pOTecToXbWWAWhSEu68K",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We compute as follows: \\begin{align*}\n23^2 + 2(23)(2) + 2^2 &= (23)(23) + 2(23)(2) + 2(2)\\\\\n&= (23^2) + 4(23) + 4\\\\\n&= 529 + 92 + 4\\\\\n&= \\boxed{625}.\n\\end{align*}",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699720489,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 92,
+        "prompt_tokens": 31,
+        "total_tokens": 123
+    }
+}

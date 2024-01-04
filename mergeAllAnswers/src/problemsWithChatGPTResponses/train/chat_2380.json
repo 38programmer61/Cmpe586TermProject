@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JmtQYcH0ICADyzpsf2egrdQxcUra",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "On Monday, Jasmine had 3 paperclips.\nOn Tuesday, she had 6.\nOn Wednesday, she had 6 * 2 = <<6*2=12>>12 paperclips.\nOn Thursday, she had 12 * 2 = <<12*2=24>>24 paperclips.\nOn Friday, she had 24 * 2 = <<24*2=48>>48 paperclips.\nOn Saturday, she had 48 * 2 = <<48*2=96>>96 paperclips.\nOn Sunday, she had 96 * 2 = <<96*2=192>>192 paperclips.\n\nJasmine first had more than 100 paperclips on Sunday. Answer: \\boxed{\\text{Sunday}}.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699726868,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 158,
+        "prompt_tokens": 59,
+        "total_tokens": 217
+    }
+}

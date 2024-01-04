@@ -1,0 +1,7 @@
+{
+    "problem": "It takes Mary 30 minutes to walk uphill 1 km from her home to school, but it takes her only 10 minutes to walk from school to home along the same route. What is her average speed, in km/hr, for the round trip?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Mary walks a total of 2 km in 40 minutes. Because 40 minutes is 2/3  hr, her average speed, in km/hr, is  $\\dfrac{2\\text{ km}}{2/3\\text{ hr}} = \\boxed{3}\\text{ km/hr}.$",
+    "chatgpt_solution": "To find the average speed for the round trip, we need to find the total distance and the total time.\n\nDistance from home to school: 1 km\nTime from home to school: 30 minutes = 30/60 = 0.5 hours\n\nDistance from school to home: 1 km\nTime from school to home: 10 minutes = 10/60 = 1/6 hours\n\nTotal distance = Distance from home to school + Distance from school to home = 1 + 1 = 2 km\nTotal time = Time from home to school + Time from school to home = 0.5 + 1/6 = 3/6 + 1/6 = 4/6 = 2/3 hours\n\nAverage speed = Total distance / Total time = 2 / (2/3) = 2 * (3/2) = 6 km/hr\n\nTherefore, Mary's average speed for the round trip is 6 km/hr."
+}

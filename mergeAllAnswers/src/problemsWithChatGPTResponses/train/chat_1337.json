@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JisoFMShExSJVfMpGYHXUCfX2br9",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "To find the maximum value of $-x^2 - 6x + 12,$ we complete the square. Writing $-x^2 - 6x$ as $-(x^2 + 6x),$ we get\n\\[-x^2 - 6x + 12 = -(x^2 + 6x) + 12 = -(x^2 + 6x + 9) + 12 + 9 = -((x + 3)^2 - 9) + 12 + 9 = -(x + 3)^2 + 30.\\]The maximum value is thus $\\boxed{30},$ which occurs when $x = \\boxed{-3}.$",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699711454,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 148,
+        "prompt_tokens": 33,
+        "total_tokens": 181
+    }
+}

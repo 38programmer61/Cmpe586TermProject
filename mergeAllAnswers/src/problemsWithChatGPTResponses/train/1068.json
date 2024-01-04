@@ -1,0 +1,7 @@
+{
+    "problem": "Find the product of all constants $t$ such that the quadratic $x^2 + tx - 10$ can be factored in the form $(x+a)(x+b)$, where $a$ and $b$ are integers.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "If $x^2 + tx - 10= (x+a)(x+b)$, then \\[x^2 + tx -10 = x^2 + ax +bx +ab = x^2 +(a+b)x + ab.\\]Therefore, we must have $ab = -10$, and for any such $a$ and $b$, we have $t = a+b$.  Our possibilities are as follows: \\[\\begin{array}{ccc}a&b&a+b\\\\\\hline\n-1 & 10 & 9\\\\\n-2 & 5 & 3\\\\\n-5 & 2 & -3\\\\\n-10 & 1 & -9\n\\end{array}\\]The product of these possible values of $t=a+b$ is $(9)(3)(-3)(-9) = 27^2 = \\boxed{729}$.",
+    "chatgpt_solution": "If we expand out $(x+a)(x+b)$, we get $x^2 + (a+b)x + ab$, so $a+b$ and $ab$ must be $t$ and $-10$, respectively. By Vieta's formulas, this means $a$ and $b$ are the roots of the quadratic $x^2 - tx - 10 = 0$.\n\nBy the quadratic formula, these roots are $\\frac{t \\pm \\sqrt{t^2 + 40}}{2}$. The product of all constants $t$ is then $\\left(\\frac{t + \\sqrt{t^2 + 40}}{2}\\right)\\left(\\frac{t - \\sqrt{t^2 + 40}}{2}\\right) = \\boxed{-10}$."
+}

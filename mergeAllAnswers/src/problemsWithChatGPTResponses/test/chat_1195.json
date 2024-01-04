@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Js74JEA6kiMBp4T38JLlAWyfYjYd",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let the two consecutive positive even numbers be $x$ and $x+2$.  Squaring these, we have $(x)^2$ and $(x+2)^2$. Setting up the equation $(x+2)^2 - (x)^2 = 60$, we have $$x^2 + 4x + 4 - x^2 = 60.$$ Simplifying gives $4x+4=60$.  Subtracting 4 from both sides, we have $4x = 56$, and dividing by 4 gives $x=14$. So the original two numbers are 14 and 16, and their sum is $14+16 = \\boxed{30}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699746934,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 144,
+        "prompt_tokens": 39,
+        "total_tokens": 183
+    }
+}

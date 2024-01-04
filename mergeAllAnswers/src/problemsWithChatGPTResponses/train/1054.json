@@ -1,0 +1,7 @@
+{
+    "problem": "The function $f(x)$ is defined by $f(x)=x^{2}-x$. What is the value of $f(4)$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "$f(4)=4^2-4=16-4=\\boxed{12}$.",
+    "chatgpt_solution": "To find $f(4),$ we substitute 4 for $x$ in the expression defining $f(x):$ \\begin{align*}\nf(4)&=4^2-4.\n\\intertext{Recall that $a^2$ means $a\\cdot a,$ so we can write:}\nf(4)&=4\\cdot 4-4.\n\\intertext{Now we can perform the arithmetic:}\n4\\cdot 4-4&=16-4\\\\\n&=\\boxed{12}.\n\\end{align*}"
+}

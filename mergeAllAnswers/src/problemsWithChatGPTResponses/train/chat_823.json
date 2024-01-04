@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JrIqjscmmsITf1XQ1HDMqOcIuRDn",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Since $g(x)=2x^2-2x-3$, we have  \\begin{align*}\ng(3)&=2(3)^2 - 2(3) - 3\\\\\n&=2(9)-6-3\\\\\n&=18-9\\\\\n&=\\boxed{9}.\n\\end{align*} Therefore, we have $f(g(3))=f(9)$. Since $f(x)=2\\sqrt{x} + \\frac{12}{\\sqrt{x}}$, this is equal to \\begin{align*}\nf(9)&=2\\sqrt{9}+\\frac{12}{\\sqrt{9}} \\\\\n&=2(3)+\\frac{12}{3}\\\\\n&=6+4\\\\\n&= \\boxed{10}.\n\\end{align*}",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699743820,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 178,
+        "prompt_tokens": 54,
+        "total_tokens": 232
+    }
+}

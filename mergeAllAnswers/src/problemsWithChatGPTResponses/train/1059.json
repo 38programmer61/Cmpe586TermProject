@@ -1,0 +1,7 @@
+{
+    "problem": "Karen drove continuously from 9:40 a.m. until 1:20 p.m. of the same day and covered a distance of 165 miles. What was her average speed in miles per hour?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Average speed is defined as distance traveled divided by time traveled. Karen drove 165 miles in $3\\frac{40}{60}=3\\frac{2}{3}=\\frac{11}{3}$ hours, so her average speed was $\\frac{165}{\\frac{11}{3}}=3\\cdot15=\\boxed{45}$ miles per hour.",
+    "chatgpt_solution": "We need to find the time Karen drove in hours to calculate her average speed. \n\nThe time Karen drove can be found by subtracting the starting time from the ending time.\n\nThe starting time is 9:40 a.m., which is $\\frac{9}{12}+\\frac{2}{24}=\\frac{11}{24}$ in a 24-hour clock.\n\nThe ending time is 1:20 p.m., which is $\\frac{13}{12}+\\frac{4}{24}=\\frac{31}{24}$ in a 24-hour clock.\n\nThus the time Karen drove is $\\frac{31}{24}-\\frac{11}{24}=\\frac{20}{24}=\\frac{5}{6}$ of an hour.\n\nNow we divide the distance Karen drove by the time Karen drove to find her average speed.\n\nTherefore, Karen's average speed is $\\frac{165\\text{ miles}}{\\frac{5}{6}\\text{ hour}}=165\\cdot\\frac{6}{5}=\\boxed{198 \\text{ miles per hour}}$."
+}

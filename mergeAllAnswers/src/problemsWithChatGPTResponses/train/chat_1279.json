@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Ji5fewODZrECoUOFFmUP79oT2ZmM",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "The common difference is $4 - 1 = 7 - 4 = \\dotsb = 10 - 7 = 13 - 10 = 3$, so the $15^{\\text{th}}$ term is $1 + 14 \\cdot 3 = \\boxed{43}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699708407,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 64,
+        "prompt_tokens": 48,
+        "total_tokens": 112
+    }
+}

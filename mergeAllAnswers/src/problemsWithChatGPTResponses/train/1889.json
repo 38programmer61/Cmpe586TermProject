@@ -1,0 +1,7 @@
+{
+    "problem": "What is the value of $x$ if $x=\\frac{2009^2-2009}{2009}$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Factor 2009 out of the numerator: \\[\n\\frac{2009^2-2009}{2009}=\\frac{2009(2009-1)}{2009}=\\boxed{2008}.\n\\]",
+    "chatgpt_solution": "Doing the arithmetic inside the expression for $x$ gives \\begin{align*}\nx &= \\frac{2009^2 - 2009}{2009} \\\\\n&= \\frac{2009(2009) - 2009}{2009} \\\\\n&= \\frac{2009 \\cdot 2009}{2009} - \\frac{2009}{2009} \\\\\n&= 2009 - 1 \\\\\n&= \\boxed{2008}.\n\\end{align*}"
+}

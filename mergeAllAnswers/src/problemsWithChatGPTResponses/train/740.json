@@ -1,0 +1,7 @@
+{
+    "problem": "Jordan ran 2 miles in half the time it took Steve to run 3 miles. If it took Steve 24 minutes to run 3 miles, using the same rates, how many minutes would it take Jordan to run 5 miles?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Since Steve's 3-mile time is 24 minutes, Jordan ran 2 miles in $\\frac{1}{2}\\cdot24=12$ minutes.  Therefore, each mile takes Jordan 6 minutes to run, so he would take $6\\cdot5=\\boxed{30}$ minutes to run five miles.",
+    "chatgpt_solution": "If it took Steve 24 minutes to run 3 miles, Jordan ran 2 miles in 24 minutes / (3 miles/2 miles) = 16 minutes.\nSo the rate at which Jordan ran is 2 miles/16 minutes = 1/8 miles/minute.\nHence, it would take Jordan (5 miles) / (1/8 miles/minute) = 40 minutes to run 5 miles. Answer: \\boxed{40}."
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JrOzZQd1RuUBXjoQHxaTzJXDEnB7",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Since $x$ and $y$ are inversely proportional, $xy=a$ for some constant $a.$ When $x=42-y$ and $x=2y,$ we have $xy=a=(42-y)(2y).$ Expanding the right side gives $2y^2-84y+a=0,$ so $y=\\frac{-(-84)\\pm\\sqrt{(-84)^2-4(2)(a)}}{4}=\\frac{84\\pm\\sqrt{7056+8a}}4.$ Since $a>0$ (inverse proportions are always positive unless $a=0$), the expression $\\sqrt{7056+8a}$ is real, so $y=\\frac{84\\pm\\sqrt{7056+8a}}4.$ When $x=-8,$ we have $xy=a=-8\\cdot y=-8\\left(\\frac{84\\pm\\sqrt{7056+8a}}4\\right).$ Since $a$ is positive,  $a=-8\\left(\\frac{84+\\sqrt{7056+8a}}4\\right),$ so substituting $a=(42-y)(2y),$ we get $-(42-y)(2y)=4(84+\\sqrt{7056+8a}),$ which simplifies to\n$$-84y+2y^2=336+4\\sqrt{7056+8a}.$$Since $y$ is inversely proportional to $x,$ when $x=-8,$ $y$ is non-zero. Therefore, $y$ must be the positive part of $y=\\frac{84+\\sqrt{7056+8a}}4.$ Since the expression $\\sqrt{7056+8a}$ must be real, it follows that $7056+8a=0,$ so we have $$y=\\frac{84+\\sqrt{7056}}4=\\boxed{12}.$$",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699744201,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 402,
+        "prompt_tokens": 59,
+        "total_tokens": 461
+    }
+}

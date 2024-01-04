@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JoZKKbDWHuU6HVtexfCQhzscTPaL",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Expanding the given expression in terms of addition and multiplication:\n\n$(723)(723)-(722)(724)=$\n\n$(723)(723)-(722)(720+4)=$\n\n$(723)(723)-[(722)(720)+(722)(4)]=$\n\n$(723)(723)-[(722)(720)+(722)(4)]=$\n\n$(723)(723)-[(722)(720)+(722)(720)+(722)(4)]=$\n\n$(723)(723)-(722)[(720)+(720)+(4)]=$\n\n$(723)(723)-(722)(1440)=$\n\n$(723)^2-(722)(1440)=$\n\n$523329-(722)(1440)$\n\nTo simplify further, we need to calculate $(722)(1440)$.\n\n$722(1440)=722(1440)+722(60)=722(1500)=1444000$\n\nNow, we substitute this value back into the previous expression:\n\n$523329-(722)(1440)=523329-1444000$\n\nSince $523329-1444000=\\boxed{-920671}$, we are done.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699733310,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 224,
+        "prompt_tokens": 19,
+        "total_tokens": 243
+    }
+}

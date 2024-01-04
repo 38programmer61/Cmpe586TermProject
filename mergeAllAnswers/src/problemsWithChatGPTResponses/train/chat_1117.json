@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JhWdN08FD691hK28VFGssKJDQ8pe",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Since 1 is the first term and 10 is the second term, the common difference is $10 - 1 = 9$.  Therefore, the $21^{\\text{st}}$ term is $1 + 9 \\cdot 20 = \\boxed{181}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699706235,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 59,
+        "prompt_tokens": 38,
+        "total_tokens": 97
+    }
+}

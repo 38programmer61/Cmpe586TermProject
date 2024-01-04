@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JmcRok94IgOrLdibYtI5n4tcucpP",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Since the line containing the points $(-1, 6)$, $(6, k)$, and $(20, 3)$ has slope  \\begin{align*}\n\\frac{k-6}{6-(-1)} &= \\frac{3-6}{20-(-1)} \\quad\\Rightarrow\\\\\n\\frac{k-6}{7} &= -\\frac{3}{21} \\quad\\Rightarrow\\\\\nk-6 &= -1 \\quad\\Rightarrow\\\\\nk& = \\boxed{5}.\n\\end{align*}",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699725815,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 115,
+        "prompt_tokens": 42,
+        "total_tokens": 157
+    }
+}

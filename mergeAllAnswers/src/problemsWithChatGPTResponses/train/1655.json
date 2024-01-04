@@ -1,0 +1,7 @@
+{
+    "problem": "If $7=x^2+\\frac{1}{x^2}$, then what is the greatest possible value of $x+\\frac{1}{x}$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We begin by adding 2 to both sides of the equation, \\begin{align*} 7&=x^2+\\frac{1}{x^2}\n\\\\\\Rightarrow\\qquad 9&=x^2+\\frac{1}{x^2}+2\n\\\\\\Rightarrow\\qquad 9&=x^2+2(x)\\left(\\frac{1}{x}\\right)+\\frac{1}{x^2}\n\\\\\\Rightarrow\\qquad 9&=\\left(x+\\frac{1}{x}\\right)^2\n\\end{align*}  So, the possible values for $x+\\frac{1}{x}$ are $3$ and $-3$. The greater of these is $\\boxed{3}$.",
+    "chatgpt_solution": "We have $7 = x^2+\\frac{1}{x^2} = \\left(x+\\frac{1}{x}\\right)^2 - 2,$ so $\\left(x+\\frac{1}{x}\\right)^2 = 9,$ which means $x+\\frac{1}{x} = \\boxed{3}$. To achieve this value, we must have $x+\\frac{1}{x} = 0,$ so $x$ must be a root of $x^2+\\frac{1}{x} = 0$. We cannot have $x=0,$ so the answer is $x = \\boxed{1}$ (since $0 < 1 < -1$)."
+}

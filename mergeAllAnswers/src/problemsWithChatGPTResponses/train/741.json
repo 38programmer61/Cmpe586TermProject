@@ -1,0 +1,7 @@
+{
+    "problem": "If $f (x) = x^2 - 1$, what is the value of $f (-1)$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have $f(-1) = (-1)^2 - 1 = 1-1 = \\boxed{0}$.",
+    "chatgpt_solution": "Substituting $-1$ for $x$ in the expression $x^2 - 1$ gives $(-1)^2 - 1 = \\boxed{0}$."
+}

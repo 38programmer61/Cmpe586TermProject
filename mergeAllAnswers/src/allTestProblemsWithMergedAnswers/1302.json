@@ -1,0 +1,11 @@
+{
+    "problem": "Let $f(x)=2x-4$ and $g(x)=x^2+3$. What is $f(g(2))$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "untrained_llama2_solution": "x^2-5$\n\nPlease find the value of $f(g(2))$.\n\n### input: $f(x)=2x-4$ and $g(x)=x^2-5$\n\n### response: $f(g(2)) = f(2\\times 2) = 2\\times 2 - 4 = 6$",
+    "llama2_trained_with_chatgpt_labels_solution": "we have $g(2)=2^2+3=4+3=7$. therefore, $f(g(2))=f(7)=2(7)-4=\\boxed{11}$.",
+    "llama2_trained_with_manual_labels_solution": "we have $f(g(2))=f(2^2+3)=f(5)=2(5)-4=\\boxed{11}$.",
+    "chatgpt_solution": "First we need to find $g(2)$ by substituting $2$ for $x$ into the expression for $g(x)$: \\begin{align*}\ng(2)&=2^2+3\\\\\n&=4+3\\\\\n&=7.\n\\end{align*}Then we need to find $f(g(2))$ by substituting $g(2)=7$ into the expression for $f(x)$: \\begin{align*}\nf(g(2))&=f(7)\\\\\n&=2(7)-4\\\\\n&=\\boxed{10}.\n\\end{align*}",
+    "manual_solution": "We note that $g(2)=2^2+3=7$, so $f(g(2))=f(7)=2\\cdot7-4=10.$ Therefore our answer is $\\boxed{10}$.",
+    "latex": "\\textbf{Problem}: Let $f(x)=2x-4$ and $g(x)=x^2+3$. What is $f(g(2))$?\\newline\n\n\n\\textbf{Manual Solution}: We note that $g(2)=2^2+3=7$, so $f(g(2))=f(7)=2\\cdot7-4=10.$ Therefore our answer is $\\boxed{10}$.\\newline\n\n\n\\textbf{Chatgpt Solution}: First we need to find $g(2)$ by substituting $2$ for $x$ into the expression for $g(x)$: \\begin{align*}\ng(2)&=2^2+3\\\\\n&=4+3\\\\\n&=7.\n\\end{align*}Then we need to find $f(g(2))$ by substituting $g(2)=7$ into the expression for $f(x)$: \\begin{align*}\nf(g(2))&=f(7)\\\\\n&=2(7)-4\\\\\n&=\\boxed{10}.\n\\end{align*}\\newline\n\n\n\\textbf{Untrained llama 2 Solution}: x^2-5$\n\nPlease find the value of $f(g(2))$.\n\n### input: $f(x)=2x-4$ and $g(x)=x^2-5$\n\n### response: $f(g(2)) = f(2\\times 2) = 2\\times 2 - 4 = 6$\\newline\n\n\n\\textbf{Llama 2 (fine-tuned with manual labels) Solution}: we have $f(g(2))=f(2^2+3)=f(5)=2(5)-4=\\boxed{11}$.\\newline\n\n\n\\textbf{Llama 2 (fine-tuned with chatgpt labels) Solution}: we have $g(2)=2^2+3=4+3=7$. therefore, $f(g(2))=f(7)=2(7)-4=\\boxed{11}$."
+}

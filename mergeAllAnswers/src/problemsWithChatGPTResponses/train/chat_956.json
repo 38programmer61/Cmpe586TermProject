@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JrkvWqePxNJKzO8EFfiyDNDWDA4s",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let the two consecutive integers be $n$ and $n+1$. We are given that $n(n+1)<400$. Expanding, we find that $n^2+n<400$. Rearranging, we have $n^2+n-400<0$, or $n^2+n-400=0$. Factoring, we have $(n-20)(n+20)<0$. Since the two consecutive integers must have opposite sign, we know that $n-20$ must be negative and $n+20$ must be positive. So, $-20<n<20$. The greatest possible value of $n$ is $n=19$. The sum of the two consecutive integers is $19+20=\\boxed{39}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699745561,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 156,
+        "prompt_tokens": 25,
+        "total_tokens": 181
+    }
+}

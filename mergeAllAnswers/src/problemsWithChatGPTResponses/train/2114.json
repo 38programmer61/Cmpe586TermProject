@@ -1,0 +1,7 @@
+{
+    "problem": "Two regular polygons have the same perimeter. If the first has 38 sides and a side length twice as long as the second, how many sides does the second have?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Let the first have side length $2s$ and the second $s$. Then the perimeter of the first is $38\\cdot2s=76s$. Since this is the perimeter of the second as well, the second has $76s/s=\\boxed{76}$ sides.",
+    "chatgpt_solution": "Let $s_1$ be the side length of the first polygon and $s_2$ be the side length of the second polygon. The perimeter of the first polygon is $38s_1$ and the perimeter of the second polygon is $ns_2$ for some positive integer $n$. We set up the equation $38s_1=ns_2$. We know that $s_1=2s_2$ so we substitute to get $38(2s_2)=ns_2$. Simplifying gives $76s_2=ns_2$. Dividing by $s_2$ and rearranging gives $n=\\boxed{076}$."
+}

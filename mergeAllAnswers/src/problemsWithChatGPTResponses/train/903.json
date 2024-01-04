@@ -1,0 +1,7 @@
+{
+    "problem": "What is the sum of the two solutions to the equation $54-15x-x^2=0$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "If the two solutions are $r$ and $s$, then the left-hand side of the equation may be factored as $-(x-r)(x-s)$. When multiplied out, this expression takes the form $-x^2+(r+s)x-rs$.  Therefore, $r+s$ is the coefficient of $x$ in the equation, namely $\\boxed{-15}$.",
+    "chatgpt_solution": "We can also find the sum of the solutions by using the formula for the sum of the roots of a quadratic equation. Given a quadratic equation $ax^2+bx+c=0$ with roots $r_1$ and $r_2$, the sum of the roots $r_1+r_2$ is given by $\\frac{-b}{a}$.\n\nIn the given equation $54-15x-x^2=0$, we see that $a=-1$, $b=-15$, and $c=54$. Thus, the sum of the solutions is $\\frac{-(-15)}{-1}= \\boxed{15}$."
+}

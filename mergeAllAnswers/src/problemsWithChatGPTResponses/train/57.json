@@ -1,0 +1,7 @@
+{
+    "problem": "Each successive term in the sequence $2048, 512, 128, x,\ny, 2, \\frac 12, \\frac 18,...$ is obtained by multiplying the previous term by a constant. What is the value of $x + y$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Call the constant $r$. To get from $2$ to $\\frac{1}{2}$, we multiplied by $r$, so $2r = \\frac{1}{2}$, or $r = \\frac{1}{4}$. To get from 128 to $x$, we multiply by $\\frac{1}{4}$, so $x = 128 \\cdot \\frac{1}{4} = 32$. To get from 32 to $y$, we multiply by $\\frac{1}{4}$, so $y = 32 \\cdot \\frac{1}{4} = 8$. Thus, $x + y = 32 + 8 = \\boxed{40}$.",
+    "chatgpt_solution": "The common ratio between terms is $\\frac12$, so we get: \\begin{align*}\n2048 \\cdot \\frac12 &= 512\\\\\n512\\cdot\\frac 12 &= 128\\\\\n128\\cdot\\frac12& = x\\\\\nx\\cdot\\frac12&=y\n\\end{align*} Hence, $y=x/2$.\n\nThe question is basically asking for $x+y=\\boxed{\\dfrac32x}$. But, we know that $x\\cdot\\frac12=y$, or $\\frac12x=y$. Plugging this in gives us that $x+y=x+\\frac12x=\\boxed{\\frac32x}\\implies\\end{boxed{\\frac32x}}$ is our answer."
+}

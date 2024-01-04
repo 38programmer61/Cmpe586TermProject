@@ -1,0 +1,7 @@
+{
+    "problem": "Factor the expression $2x(x-3) + 3(x-3)$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We can factor the expression $x-3$ out of each term: \\[2x(x-3) + 3(x-3) = 2x\\cdot (x-3) + 3\\cdot (x-3) = \\boxed{(2x+3)(x-3)}.\\] If you don't quite see how this works, suppose we put $A$ in place of $x-3$ everywhere in the original expression. Then we can see the factoring more clearly: \\[2xA +3A = 2x\\cdot A + 3\\cdot A = (2x+3)A.\\] Putting $x-3$ back in for $A$, we have our factorization: $(2x+3)(x-3)$.",
+    "chatgpt_solution": "We could factor $x-3$ as a common factor: $(2x + 3)(x-3)$.  We could also factor using the distributive property.  Factoring out a $x-3$, we have  \\begin{align*}\n2x(x-3) + 3(x-3) &= 2x \\cdot x - 2x \\cdot 3 + 3x - 3 \\cdot 3 \\\\\n&= 2x^2 - 6x + 3x - 9 \\\\\n&= \\boxed{2x^2 - 3x - 9}.\n\\end{align*}We are finished with the factorization after this last step."
+}

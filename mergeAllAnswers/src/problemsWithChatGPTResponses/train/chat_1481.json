@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JjEoVy5indmMTK0UIavpnu1CAKGF",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Since $M$ is the midpoint of $\\overline{AB}$, the coordinates of $M$ are the average of the coordinates of $A$ and $B$.  Therefore, the $x$-coordinate of $B$ is twice the $x$-coordinate of $M$ minus the $x$-coordinate of $A$, which is $2(4) - 8 = 0$.\n\nSimilarly, the $y$-coordinate of $B$ is twice the $y$-coordinate of $M$ minus the $y$-coordinate of $A$, which is $2(4) - 4 = 4$.\n\nTherefore, the coordinates of $B$ are $(0,4)$, so the sum of the coordinates of $B$ is $0+4 = \\boxed{4}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699712818,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 173,
+        "prompt_tokens": 52,
+        "total_tokens": 225
+    }
+}

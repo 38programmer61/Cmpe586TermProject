@@ -1,0 +1,7 @@
+{
+    "problem": "The value $2^8 -1$ is divisible by 3 prime numbers. What is the sum of the three prime numbers?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Factor twice using difference squares to obtain $(2^8-1)=(2^4+1)(2^4-1)=(2^4+1)(2^2+1)(2^2-1)=17\\cdot5\\cdot3$. The sum of the 3 prime factors of $2^8-1$ is $17+5+3=\\boxed{25}$.",
+    "chatgpt_solution": "We see that $2^8 - 1 = 256 - 1 = 255 = 3 \\times 85$. Since $255$ is divisible by $3$, and $85$ is not divisible by $3$, the prime factors of $255$ must be $3$ and $5$. Therefore, the sum of the three prime factors is $3 + 5 + \\boxed{17} = 25$."
+}

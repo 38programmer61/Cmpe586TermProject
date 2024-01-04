@@ -1,0 +1,7 @@
+{
+    "problem": "Simplify: $(\\sqrt{5})^4$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have  \\[(\\sqrt{5})^4 = (5^{\\frac12})^4 = 5 ^{\\frac12\\cdot 4} = 5^2 = \\boxed{25}.\\]",
+    "chatgpt_solution": "$(\\sqrt{5})^4=\\sqrt{5}\\cdot\\sqrt{5}\\cdot\\sqrt{5}\\cdot\\sqrt{5}=\\left(\\sqrt{5}\\right)^2\\cdot\\left(\\sqrt{5}\\right)^2=\\boxed{25}$."
+}

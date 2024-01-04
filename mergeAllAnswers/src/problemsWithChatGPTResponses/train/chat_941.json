@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JrhzrTbSZpwoBx9WLz604EAUCA3L",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Using the formula for the slope of a line, the slope between $P$ and $Q$ is $\\frac{y-7}{4 - (-2)}=\\frac{y-7}{6}$.  Setting this slope equal to $-\\frac32$, we have \\[\n\\frac{y-7}{6} = -\\frac32.\n\\] We cross-multiply and solve for $y$: \\begin{align*}\ny - 7 &= -\\frac{18}{2} \\\\\ny - 7 &= -9 \\\\\ny &= \\boxed{-2}.\n\\end{align*}",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699745379,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 126,
+        "prompt_tokens": 59,
+        "total_tokens": 185
+    }
+}

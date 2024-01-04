@@ -1,0 +1,11 @@
+{
+    "problem": "Rationalize the denominator of $\\displaystyle\\frac{33}{\\sqrt{33}}$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "untrained_llama2_solution": "}}$\n\ninput: the number $\\sqrt{3}$ is a perfect square.\n\nresponse: The denominator of $\\frac{33}{\\sqrt{3}}$ can be rationalized by factoring $\\sqrt{3}$ as $\\pm\\sqrt{2}$. Therefore, we can write $\\frac{33}{\\sqrt{3}} = \\frac{33}{2\\sqrt{2}}$.",
+    "llama2_trained_with_chatgpt_labels_solution": "we have \\[\\frac{33}{\\sqrt{33}} = \\frac{33}{33} = \\boxed{1}.\\]",
+    "llama2_trained_with_manual_labels_solution": "we have $\\sqrt{33} = \\sqrt{3^2} = \\sqrt{9} = 3$. so the numerator is $\\boxed{33/3}$.",
+    "chatgpt_solution": "Multiplying the numerator and denominator by $\\sqrt{33}$, we get  \\[\n\\frac{33}{\\sqrt{33}} = \\frac{33\\sqrt{33}}{(\\sqrt{33})(\\sqrt{33})} = \\frac{33\\sqrt{33}}{33} = \\boxed{\\sqrt{33}}.\n\\]",
+    "manual_solution": "$\\dfrac{33}{\\sqrt{33}} = \\dfrac{33}{\\sqrt{33}} \\cdot \\dfrac{\\sqrt{33}}{\\sqrt{33}} = \\dfrac{33\\sqrt{33}}{33} = \\boxed{\\!\\sqrt{33}}$.",
+    "latex": "\\textbf{Problem}: Rationalize the denominator of $\\displaystyle\\frac{33}{\\sqrt{33}}$.\\newline\n\n\n\\textbf{Manual Solution}: $\\dfrac{33}{\\sqrt{33}} = \\dfrac{33}{\\sqrt{33}} \\cdot \\dfrac{\\sqrt{33}}{\\sqrt{33}} = \\dfrac{33\\sqrt{33}}{33} = \\boxed{\\!\\sqrt{33}}$.\\newline\n\n\n\\textbf{Chatgpt Solution}: Multiplying the numerator and denominator by $\\sqrt{33}$, we get  \\[\n\\frac{33}{\\sqrt{33}} = \\frac{33\\sqrt{33}}{(\\sqrt{33})(\\sqrt{33})} = \\frac{33\\sqrt{33}}{33} = \\boxed{\\sqrt{33}}.\n\\]\\newline\n\n\n\\textbf{Untrained llama 2 Solution}: }}$\n\ninput: the number $\\sqrt{3}$ is a perfect square.\n\nresponse: The denominator of $\\frac{33}{\\sqrt{3}}$ can be rationalized by factoring $\\sqrt{3}$ as $\\pm\\sqrt{2}$. Therefore, we can write $\\frac{33}{\\sqrt{3}} = \\frac{33}{2\\sqrt{2}}$.\\newline\n\n\n\\textbf{Llama 2 (fine-tuned with manual labels) Solution}: we have $\\sqrt{33} = \\sqrt{3^2} = \\sqrt{9} = 3$. so the numerator is $\\boxed{33/3}$.\\newline\n\n\n\\textbf{Llama 2 (fine-tuned with chatgpt labels) Solution}: we have \\[\\frac{33}{\\sqrt{33}} = \\frac{33}{33} = \\boxed{1}.\\]"
+}

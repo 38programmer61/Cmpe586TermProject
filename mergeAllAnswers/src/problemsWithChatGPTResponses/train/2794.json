@@ -1,0 +1,7 @@
+{
+    "problem": "Evaluate $\\log_82$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have $8^\\frac13=2$, so $\\log_82 = \\boxed{\\frac13}$.",
+    "chatgpt_solution": "Instead of using change of base, we recognize that $8=2^3$.  Therefore, $\\log_2 8 = \\boxed{3}$."
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "What is the value of $19^2-17^2+15^2-13^2+11^2-9^2+7^2-5^2+3^2-1^2?$",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We can start by pairing the terms in this expression and factoring them as a difference of squares: \\begin{align*}\n&\\phantom{=} \\,\\,\\, (19^2-17^2)+(15^2-13^2)+(11^2-9^2)+(7^2-5^2)+(3^2-1^2) \\\\\n&= 2(19 + 17) + 2(15 + 13) + 2(11 + 9) + 2(7 + 5) + 2(3 + 1)\\\\\n&= 2(19 + 17 + 15 + 13 + 11 + 9 + 7 + 5 + 3 + 1) \\\\\n&= 2(100) \\\\\n&= \\boxed{200}.\n\\end{align*}",
+    "chatgpt_solution": "Writing this sum using sigma notation, we have $19^2-17^2+15^2-13^2+11^2-9^2+7^2-5^2+3^2-1^2=\\sum_{n=0}^{4}(2n+1)^2-\\sum_{n=0}^4(2n-1)^2=\\sum_{n=0}^42(4n)-\\sum_{n=0}^41=2\\left(\\sum_{n=0}^44n\\right)-5(1)=2\\cdot176-5=\\boxed{343}$."
+}

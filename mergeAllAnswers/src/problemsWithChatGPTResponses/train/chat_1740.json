@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JkpGcjiWZwQmNMrfEiHtZTPquo1b",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We can set up a proportion with the volume of a box and the number of paperclips it can hold.\nThe proportion is $\\frac{16}{50}=\\frac{48}{x}$, where $x$ is the number of paperclips that could fit in the larger box.\nCross multiplying, we have $16\\cdot x=50\\cdot 48$, so $x=\\frac{50\\cdot 48}{16}=\\frac{2}{1}\\cdot 3\\cdot 50=\\boxed{150}$. Answer: \\boxed{150}.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699718922,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 118,
+        "prompt_tokens": 55,
+        "total_tokens": 173
+    }
+}

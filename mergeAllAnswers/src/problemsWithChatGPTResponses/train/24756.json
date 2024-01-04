@@ -1,0 +1,7 @@
+{
+    "problem": "Evaluate: $(2^2)^3$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have $(2^2)^3 = 2^{2\\cdot 3} = 2^6 = \\boxed{64}$.",
+    "chatgpt_solution": "Recall that to evaluate an exponent raised to another exponent, we multiply the exponents. Hence $(2^2)^3$ equals $2^{2\\cdot 3}$. Since $2\\cdot 3=6$, we find that $(2^2)^3$ is equal to $\\boxed{64}.$"
+}

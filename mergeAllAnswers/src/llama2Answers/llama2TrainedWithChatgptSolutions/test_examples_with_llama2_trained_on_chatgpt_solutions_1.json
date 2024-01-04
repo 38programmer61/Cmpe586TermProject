@@ -1,0 +1,52 @@
+[
+    {
+        "instruction": "If $2^8=4^x$, what is the value of $x$?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we have $2^8=4^x$, so $2^8=4^{x+8}$.  therefore, $x+8=8$, so $x=\\boxed{-6}$."
+    },
+    {
+        "instruction": "Mr. Madoff invests 1000 dollars in a fund that compounds annually at a constant interest rate.  After three years, his investment has grown to 1225 dollars.  What is the annual interest rate, as a percentage?  (Round your answer to the nearest integer.)",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we can set up a system of equations to find the annual interest rate.  let $x$ be the annual interest rate, and $y$ be the amount of money in the fund after three years.  we have the equations:\n\n1000 + 1225 = $x$\n\n$x$ = $1225$\n\nwe can solve these equations to find $x$.  we get:\n\n1000 + 1225 = $x$\n\n$x$ = $1225$\n\n$x$ = $\\boxed{12.25}$\n\ntherefore, the annual interest rate is $\\boxed{12.25}$ percent."
+    },
+    {
+        "instruction": "What is the number of units in the distance from the origin to the point $(-8,6)$ in a coordinate system?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we can find the distance from the origin to the point $(-8,6)$ by using the distance formula:\n\ndistance = $\\sqrt{(-8-0)^2 + (6-0)^2}$\n\n= $\\sqrt{(-8)^2 + (6)^2}$\n\n= $\\sqrt{(-8+6)^2}$\n\n= $\\sqrt{(-2)^2}$\n\n= $\\sqrt{4}$\n\n= $\\boxed{2\\sqrt{2}}$\n\ntherefore, there are $\\boxed{2\\sqrt{2}}$ units in the distance from the origin to the point $(-8,6)$."
+    },
+    {
+        "instruction": "Let \\[f(x) =\n\\begin{cases}\n3x + 5 &\\text{if }x<-3, \\\\\n7-4x&\\text{if }x\\ge -3.\n\\end{cases}\n\\]Find $f(-10)$.",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we have $f(-10) = \\begin{cases}\n3(-10) + 5 &= -15 \\\\\n7 - 4(-10) &= 7 - 40 \\\\\n\\end{cases} = \\boxed{-15}.$"
+    },
+    {
+        "instruction": "What is the value of $x$ in the equation $(17^6-17^5)\\div16=17^x$?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we begin by simplifying the left side of the equation.  we have $(17^6-17^5)=17^x$ if and only if $17^6=17^5+17^x$.  we can simplify this equation by noticing that $17^6=17^5(1+17^x)$.  therefore, we have $17^x=17^5(1+17^x)$.  we can now simplify the equation by noticing that $17^5(1+17^x)=17^5(1+17^x)+17^5(1+17^x)=17^5(1+17^x)+17^5(1+17^x)=17^5(1+17^x)+17^5(1+17^x)=17^5(1+17^x)+17^5(1+17^x)=17^5(1+17^x)+17^5(1+17^x)=17^5(1+17^x)+17^5(1+17^x)=17^5(1+17^x)+17^5(1+17^x)=17^5(1+17^x)+17^5(1+17^x)=17^5(1+17^x)+17^5(1+17^x)=17^5(1+17^x)+17^5(1+17^x)=17^5(1+17^x)+17^5(1+17^x)=17^5(1+17^x)+17^5(1+17^x)=17^5(1+17^x)+17^5(1+17^x)=17^5(1+17^x)+17^5(1+17^x)=17^5(1+17^x)+17^5(1+17^x)=17^5(1+17^x)+17^5(1+17^x)=1"
+    },
+    {
+        "instruction": "A bookstore is deciding what price it should charge for a certain book. After research, the store finds that if the book's price is $p$ dollars (where $p \\le 32$), then the number of books sold per month is $128-4p$. What price should the store charge to maximize its revenue?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we want to maximize the revenue, so we set the expression $128-4p$ equal to $0$. this gives us $4p = 128$, so $p = \\boxed{32}$."
+    },
+    {
+        "instruction": "Evaluate $(1+2i)6-3i$.",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we have that $(1+2i)6-3i=1+2i(6)-3i=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+2i)=1+2i(6)-3(1+"
+    },
+    {
+        "instruction": "What value of $x$ will give the minimum value for $x^2- 14x + 3$?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we begin by factoring the quadratic: \\begin{align*}\nx^2-14x + 3 &= (x-3)(x-4) \\\\\n\\rightarrow x-3 &= 0 \\\\\n\\rightarrow x &= 3.\n\\end{align*}therefore, the minimum value of $x$ is $\\boxed{3}$."
+    },
+    {
+        "instruction": "If $a = 8$, what is the value of $\\left(16\\sqrt[3]{a^2}\\right)^{\\frac 13}$?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we have that $16\\sqrt[3]{a^2} = 16\\sqrt[3]{(8)^2} = 16\\sqrt[3]{64} = 16\\sqrt[3]{64}/3 = 16\\sqrt[3]{2} = 4\\sqrt[3]{2} = 4\\sqrt[3]{2}/3 = 4\\sqrt[3]{1}$."
+    },
+    {
+        "instruction": "Let $m$ and $n$ satisfy $mn=7$ and $m+n=8$. What is $|m-n|$?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we have $m + n = 8$ and $mn = 7$, so $n = 8 - m$.  we also have $m + n = 8$ and $n = 8 - m$, so $m = 8 - n$.  substituting the second equation into the first equation, we get $8 - n = 7$, so $n = 1$.  substituting this value into the second equation, we get $m = 8 - 1 = 7$.  therefore, $|m - n| = \\boxed{1}$."
+    }
+]

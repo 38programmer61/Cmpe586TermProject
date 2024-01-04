@@ -1,0 +1,7 @@
+{
+    "problem": "Simplify $(2x)^4 + (3x)(x^3)$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We have $$(2x)^4 + (3x)(x^3) = (2^4 \\cdot x^4) + 3(x^{1+3}) = 16x^4 + 3x^4 = \\boxed{19x^4}.$$",
+    "chatgpt_solution": "First we could simplify the terms $(2x)^4$ and $(3x)(x^3)$ separately: we have $(2x)^4 = 2^4x^4 = 16x^4$ and $(3x)(x^3) = 3x(x^3) = 3x^4$. Therefore, \\begin{align*}\n(2x)^4 + (3x)(x^3)&= 16x^4 + 3x^4\n\\end{align*}Combining like terms, we find \\begin{align*}\n16x^4 + 3x^4 &= \\boxed{19x^4}.\n\\end{align*}"
+}

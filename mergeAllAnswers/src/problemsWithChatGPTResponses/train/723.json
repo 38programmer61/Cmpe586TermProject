@@ -1,0 +1,7 @@
+{
+    "problem": "Suppose $x$ and $y$ are integers such that  $xy+5x+4y=-5$.  Find the greatest possible value of $y$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Note that $(x+4)(y+5)$ equals $xy+5x+4y+20$.  So, add $20$ to both sides of the original equation to get $xy+5x+4y+20=15$, so now we may apply Simon's Favorite Factoring Trick and write the equation as $(x+4)(y+5)=15$.\n\nThen, the potential ordered pairs $((x+4),(y+5))$ with $x<y$ are $(-15,-1)$, $(-5,-3)$, $(1,15)$ and $(3,5)$, since these are the pairs of integers that multiply to 15.  The greatest value for $y+5$ is thus $15$.  We solve $y+5=15$ for $y$ to yield $y=\\boxed{10}$.",
+    "chatgpt_solution": "Notice that when factoring we can group terms with common factors, effectively using Simon's Favorite Factorization. In this case, move all the terms with $y$ to one side of the equation by adding $20$ to both sides: \\[xy+5x+4y+20 = 15.\\] Notice that $xy+5x$ can be factored: \\[x(y+5) = -4(y+5).\\] Hence, $(y+5)(x+4) = 0$. So either $y+5 = 0$, or $x+4 = 0$, giving $y = \\boxed{-5}$."
+}

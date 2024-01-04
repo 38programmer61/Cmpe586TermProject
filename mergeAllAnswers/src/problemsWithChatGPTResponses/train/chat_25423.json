@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jnu2EA5CcXw1vWG5NU2sqGmTUaCy",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let the number be $x$. We have $\\frac{1}{4}x=\\frac{1}{5}(30)$. Simplifying the right side gives us $\\frac{1}{4}x=6$. Multiplying both sides by 4 gives $x=\\boxed{24}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699730750,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 61,
+        "prompt_tokens": 34,
+        "total_tokens": 95
+    }
+}

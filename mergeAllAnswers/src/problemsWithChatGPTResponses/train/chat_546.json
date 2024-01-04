@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JqGdTXuFfsdMqlvmFYa3AU48wyMz",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Writing this sum using sigma notation, we have $19^2-17^2+15^2-13^2+11^2-9^2+7^2-5^2+3^2-1^2=\\sum_{n=0}^{4}(2n+1)^2-\\sum_{n=0}^4(2n-1)^2=\\sum_{n=0}^42(4n)-\\sum_{n=0}^41=2\\left(\\sum_{n=0}^44n\\right)-5(1)=2\\cdot176-5=\\boxed{343}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699739839,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 136,
+        "prompt_tokens": 53,
+        "total_tokens": 189
+    }
+}

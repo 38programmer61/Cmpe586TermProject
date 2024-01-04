@@ -1,0 +1,7 @@
+{
+    "problem": "Given that $3x + y = 10$ and $x + 3y = 14$, find $10x^2 + 12xy + 10y^2$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Note that \\begin{align*}\n10x^2 + 12xy + 10y^2 &= (9x^2 + 6xy + y^2) + (x^2 + 6xy + 9y^2) \\\\\n&= (3x + y)^2 + (x + 3y)^2 \\\\\n&= 10^2 + 14^2 = \\boxed{296}\\end{align*}.",
+    "chatgpt_solution": "We can begin our solution by expressing $10x^2 + 12xy + 10y^2$ in terms of $x$ and $y$. Recognize that:  $$3x + y = 10\\quad\\Rightarrow\\quad y=10-3x.$$Substituting into $10x^2 + 12xy + 10y^2$, we have:  \\begin{align*}\n10x^2 + 12xy + 10y^2 &= 10x^2 + 12x(10-3x) + 10(10-3x)^2\\\\\n&= 10x^2 + 120x-36x^2 + 100(10-3x)^2\\\\\n&=10x^2 + 120x+100(100-60x+9x^2)\\\\\n&=\\boxed{900}.\n\\end{align*}"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JqENFBf9vvRsi0HgWMru8Cavyaj5",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "The discriminant is given by $b^2 - 4ac$ for a quadratic polynomial $ax^2 + bx + c$. In this case, we have $a = 3$, $b = -7$, and $c = -12$, so our discriminant is $(-7)^2 - 4(3)(-12) = 49 + 144 = \\boxed{193}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699739699,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 85,
+        "prompt_tokens": 27,
+        "total_tokens": 112
+    }
+}

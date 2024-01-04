@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Joth1TFR1Si2X1CBzrIboyYX44PU",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Since we want to find the cost of buying 600 chocolate candies, and we know that 25 candies cost $\\$6$, we can set up a proportion. Let $x$ represent the cost of 600 candies. Setting up a proportion results in the equation $\\frac{x}{600}=\\frac{6}{25}$. Cross multiplying gives $x\\cdot 25=6\\cdot 600$. Dividing both sides of the equation by 25 gives $x=\\boxed{144}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699734573,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 102,
+        "prompt_tokens": 32,
+        "total_tokens": 134
+    }
+}

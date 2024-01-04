@@ -1,0 +1,11 @@
+{
+    "problem": "If $x = 3$ and $y = 2$, then what is the value of $\\frac{2x^3-3y^2}{6}$ ?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "untrained_llama2_solution": "the value of $x + y$?\n\ninput: $x = 3$ and $y = 2$\n\nresponse: The value of $x + y$ is $5$.",
+    "llama2_trained_with_chatgpt_labels_solution": "we have that $2x^3-3y^2 = 2(3^3-2^2) = 2(9-4) = 2(5) = \\boxed{10}$.",
+    "llama2_trained_with_manual_labels_solution": "we have $2x^3-3y^2=2(3^3-3\\cdot2^2)=2(9-6)=2(3)=6$. so $\\frac{2x^3-3y^2}{6}=\\boxed{6}$.",
+    "chatgpt_solution": "We have $x=3$ and $y=2$, so we can plug these values in to find $$\\frac{2x^3-3y^2}{6}=\\frac{2(3)^3-3(2)^2}{6}=\\frac{2(27)-3(4)}{6}=\\frac{54-12}{6}=\\frac{42}{6}=\\boxed{7}.$$",
+    "manual_solution": "We have  \\[\\frac{2x^3 - 3y^2}{6} = \\frac{2(3)^3 - 3(2)^2}{6} = \\frac{2(27) - 3(4)}{6} = \\frac{54-12}{6} = \\boxed{7}.\\]",
+    "latex": "\\textbf{Problem}: If $x = 3$ and $y = 2$, then what is the value of $\\frac{2x^3-3y^2}{6}$ ?\\newline\n\n\n\\textbf{Manual Solution}: We have  \\[\\frac{2x^3 - 3y^2}{6} = \\frac{2(3)^3 - 3(2)^2}{6} = \\frac{2(27) - 3(4)}{6} = \\frac{54-12}{6} = \\boxed{7}.\\]\\newline\n\n\n\\textbf{Chatgpt Solution}: We have $x=3$ and $y=2$, so we can plug these values in to find $$\\frac{2x^3-3y^2}{6}=\\frac{2(3)^3-3(2)^2}{6}=\\frac{2(27)-3(4)}{6}=\\frac{54-12}{6}=\\frac{42}{6}=\\boxed{7}.$$\\newline\n\n\n\\textbf{Untrained llama 2 Solution}: the value of $x + y$?\n\ninput: $x = 3$ and $y = 2$\n\nresponse: The value of $x + y$ is $5$.\\newline\n\n\n\\textbf{Llama 2 (fine-tuned with manual labels) Solution}: we have $2x^3-3y^2=2(3^3-3\\cdot2^2)=2(9-6)=2(3)=6$. so $\\frac{2x^3-3y^2}{6}=\\boxed{6}$.\\newline\n\n\n\\textbf{Llama 2 (fine-tuned with chatgpt labels) Solution}: we have that $2x^3-3y^2 = 2(3^3-2^2) = 2(9-4) = 2(5) = \\boxed{10}$."
+}

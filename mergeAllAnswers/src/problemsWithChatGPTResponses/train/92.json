@@ -1,0 +1,7 @@
+{
+    "problem": "Evaluate $\\log_7\\sqrt7$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have $7^\\frac12=\\sqrt7$, so $\\log_7 \\sqrt7 = \\boxed{\\frac12}$.",
+    "chatgpt_solution": "Recall the property $\\log_a a^x = x$ for any positive real number $a$ except 1. Hence we have \\[\\log_7 \\sqrt7 = \\frac12 \\log_7 7 = \\frac12 \\cdot 1 = \\boxed{\\frac12}.\\]"
+}

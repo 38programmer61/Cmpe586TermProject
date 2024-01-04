@@ -1,0 +1,52 @@
+[
+    {
+        "instruction": "What is the $y$-coordinate of the $y$-intercept of the line that passes through the point $(2,-3)$ and has slope $\\frac12$?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "the $y$-intercept of a line is the point where the line crosses the $y$-axis.  the slope of a line is the ratio of the change in $y$ to the change in $x$.  the slope of the line that passes through $(2,-3)$ and has slope $\\frac12$ is $\\frac{-3}{2} = -\\frac12$.  the $y$-intercept of this line is the point where the line crosses the $y$-axis, which is at $y=0$.  therefore, the $y$-coordinate of the $y$-intercept is $\\boxed{-3}$."
+    },
+    {
+        "instruction": "For $(x,y)$, positive integers, let  $10xy+14x+15y=166$.  Find $x+y$.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we can rewrite the equation as $10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow 10xy+14x+15y=166\\rightarrow "
+    },
+    {
+        "instruction": "What is the value of $(26^2 - 24^2 - 10)^2 - 10^2$?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $(26^2 - 24^2 - 10)^2 = 26^2 - 24^2 - 10^2 + 2(26)(24) - 2(26)(10) + 10^2 = 26^2 - 24^2 - 10^2 + 49 + 26 + 100 = \\boxed{276}."
+    },
+    {
+        "instruction": "If $12^2 \\cdot 18^3 = 2^x \\cdot 3^y$, find $x+y$.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $12^2 \\cdot 18^3 = 2^x \\cdot 3^y$ so $12^2 \\cdot 18^3 = 2^{x+y} \\cdot 3^{x+y}$.  therefore, $x+y = \\boxed{12}$."
+    },
+    {
+        "instruction": "Find the smallest number $y$ such that $y^2 = 81$.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we can factor $y^2 = 81$ as $(y+6)(y-7) = 81$.  this gives us the possible values of $y$ as $y = -6$ and $y = 7$.  the smallest of these is $-6$, so the answer is $-6$."
+    },
+    {
+        "instruction": "Find $p+q$, given that $(q+4)(p+3)-(q+2)(p+1)=44$.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $(q+4)(p+3)-(q+2)(p+1)=44$. expanding the left side of this equation, we have $q(p+3)+4p+4-2q(p+1)=44$. simplifying, we have $4p+4-2q=44$, or $2p+2=22$. thus, $p=\\boxed{11}$."
+    },
+    {
+        "instruction": "If $x$ is a real number, find $x^2+2x(5-x)+(5-x)^2$.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $x^2+2x(5-x)+(5-x)^2=x^2+2x(5-x)+5-x+5-x=x^2+2x(5-x)+5-x+5-x+5+5-x=x^2+2x(5-x)+10-2x$. thus, $x^2+2x(5-x)+10-2x=10+2x$. solving for $x$ gives $x=\\boxed{3}$."
+    },
+    {
+        "instruction": "Find the largest value of $c$ such that $\\frac{c^2 + 6c -27}{c-3} +2c = 23$.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we can rewrite the equation as $c^2 + 6c - 27 = 23(c-3)$. expanding the left side, we get $c^2 + 6c - 27 = 23c - 78$. subtracting 23c from both sides, we get $c^2 + 6c - 27 = -78$. subtracting 6c from both sides, we get $c^2 + 6c - 27 = -84$. subtracting 27 from both sides, we get $c^2 + 6c = -84$. subtracting 6c from both sides, we get $c^2 = -78$. dividing both sides by 6, we get $c = \\boxed{-12}$."
+    },
+    {
+        "instruction": "The first term of an arithmetic sequence is $2$. The sum of the third and the sixth terms is $25$. What is the fourth term?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "the first term is $2$, and the common difference is $1$. the fourth term is $2 + 3 \\cdot 1 = 6$."
+    },
+    {
+        "instruction": "In the equation $|x-4| -10 = 2$, what is the product of all possible values of $x$?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we can rewrite the equation as $|x-4| = 12$.  since the absolute value of a number is non-negative, we can see that the only possible values of $x$ are $4$ and $-4$.  the product of these two values is $-16$, so the answer is $\\boxed{-16}$."
+    }
+]

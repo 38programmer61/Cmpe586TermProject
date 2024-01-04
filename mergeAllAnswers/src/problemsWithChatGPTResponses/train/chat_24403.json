@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JnC37sClqERDbwWwqrdOgWcQBNNt",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "$\\frac{1}{5}$ of the bows are red, $\\frac{1}{2}$ are blue, and $\\frac{1}{10}$ are green.  So the combined proportion of bows that are not white is $1 - \\frac{1}{5} - \\frac{1}{2} - \\frac{1}{10} = \\frac{7}{10}$.\n\nThis means that $\\frac{7}{10}$ of the bows are not white.  There are 30 non-white bows, so $\\frac{7}{10}$ of the bows is 30.  Thus, there are $\\frac{10}{7} \\times 30 = \\boxed{42}$ bows total.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699728023,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 147,
+        "prompt_tokens": 60,
+        "total_tokens": 207
+    }
+}

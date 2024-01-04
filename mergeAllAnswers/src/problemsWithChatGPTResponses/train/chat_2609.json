@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jo4rQZvbJIB1WkUGvk4PvyDuhoNz",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "First the shopper can take the $\\$4.00$ dollar discount, which will yield a price of $\\$21.00$. There is then a $20\\%$ discount off of the $\\$21.00$ which comes to $\\$4.20$. The total price after discounts is $\\$21.00-4.20=\\$16.80$.\nOn the other hand, if the shopper first takes the $20\\%$ discount, the price off the bat will be $20\\% \\cdot \\$25 = \\$5.00$ off, for a price of $\\$25-\\$5.00 = \\$20.00$. There is then a $\\$4.00$ discount on the $\\$20.00$, and the total price after discounts is $\\$20.00-\\$4.00 = \\$16.00$.\nThe clever shopper has saved an extra $\\$16.80 - \\$16.00 = \\$\\boxed{80}$ cents by taking the better valued approach.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699731421,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 211,
+        "prompt_tokens": 91,
+        "total_tokens": 302
+    }
+}

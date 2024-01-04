@@ -1,0 +1,7 @@
+{
+    "problem": "What is the discriminant of $3x^2 - 7x - 12$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We simply plug into $b^2 - 4ac = (-7)^2 - 4(3)(-12) = 49 + 144 = \\boxed{193},$ and that is our answer.",
+    "chatgpt_solution": "The discriminant is given by $b^2 - 4ac$ for a quadratic polynomial $ax^2 + bx + c$. In this case, we have $a = 3$, $b = -7$, and $c = -12$, so our discriminant is $(-7)^2 - 4(3)(-12) = 49 + 144 = \\boxed{193}$."
+}

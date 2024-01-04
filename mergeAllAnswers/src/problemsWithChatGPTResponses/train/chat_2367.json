@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jmd0vtLoHCV8cyYoykxryOdcIMkA",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Solving for $y$, we find $y = -\\frac{3}{2} x + 3$.  The coefficient of $x$ is $-\\frac{3}{2}$, so the slope is $\\boxed{-\\frac{3}{2}}.$",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699725850,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 56,
+        "prompt_tokens": 26,
+        "total_tokens": 82
+    }
+}

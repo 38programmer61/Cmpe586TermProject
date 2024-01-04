@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JhpgOthwCz8WG1RQsE3Ou2dkLsHM",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Since $2$ kunks will buy $4$ apples, then $1$ kunk will buy $2$ apples.  Similarly, swapping $5$ lunks for $3$ kunks is the same as swapping $1\\frac{2}{5}$ lunks for $2$ kunks, which we know will buy $4$ apples.  Hence we see that $4$ apples can be traded for $1\\frac{2}{5}$ lunks. \n\nSince $1 \\frac{2}{5}$ lunks will buy $4$ apples, we see that $1$ lunk will buy $\\frac{4}{1 \\frac{2}{5}} = \\frac{20}{7}$ apples.  We have \\begin{align*}\n1\\text{ lunk} &= \\frac{20}{7}\\text{ apples}, \\\\\n\\frac{7}{20}\\text{ lunk} &= 1\\text{ apple}.\n\\end{align*}Hence, we see that a dozen, or $12$ apples, will be $\\dfrac{7}{20}\\cdot12 = \\boxed{4\\frac{1}{5}}$ lunks.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699707416,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 250,
+        "prompt_tokens": 48,
+        "total_tokens": 298
+    }
+}

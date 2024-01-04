@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jj0vH4AZNOH2qsFvok8aXeHM6m5c",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We want to find the value of $t$ such that $y = 28.$ Substituting $y = 28,$ we get $28 = -4.9t^2 + 23.8t.$\n\nThis equation simplifies to $4.9t^2 - 23.8t + 28 = 0.$\n\nBy the quadratic formula,\n\\[t = \\frac{23.8 \\pm \\sqrt{23.8^2 - 4 \\cdot 4.9 \\cdot 28}}{2 \\cdot 4.9} = \\frac{23.8 \\pm 9.4}{9.8}.\\]Thus, $t = \\frac{14.4}{9.8} = \\boxed{\\frac{36}{49}}$ seconds or $t = \\frac{33.2}{9.8} = \\frac{166}{49}$ seconds.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699711957,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 193,
+        "prompt_tokens": 64,
+        "total_tokens": 257
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "The two lines $y = 4x - 19$ and $2x+y = 95$ intersect. What is the value of $x$ at the point of intersection?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "At the intersection of two lines, the $x$'s are equal and the $y$'s are equal. We may set $4x - 19 = 95 - 2x$ to find an $x$, where the $y$'s are equal.\n\n\\begin{align*}\n4x - 19 &= 95 - 2x \\\\\n6x &= 114 \\\\\nx &= \\boxed{19}.\n\\end{align*}",
+    "chatgpt_solution": "For the first equation, we can add $19$ to both sides to obtain $y+19 = 4x$. Rearranging the terms gives $4x = y+19$.\n\nFor the second equation, subtracting $2x$ from both sides gives $y = -2x + 95$.\n\nSetting the expressions for $4x$ equal to $y$ gives us $y+19 = -2x+95$.\n\nSimplifying the equation gives $y = -2x+76.$\n\nSince the $y$ expressions on both sides are equal, the $-2x+76$ must equal $-2x+95$. Thus $76$ equals $95$, which is impossible. We conclude that the two lines are parallel, so they do not intersect. $\\boxed{\\text{No such value}}$ of $x$ exists."
+}

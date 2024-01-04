@@ -1,0 +1,7 @@
+{
+    "problem": "If $7^{4x}=343$, what is the value of $7^{4x-3}$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "$7^{4x-3}$ can be written as $7^{4x}\\cdot 7^{-3}$. Since we know that $7^{4x}=343$, we have $7^{4x-3}=343\\cdot 7^{-3}=343\\cdot \\frac{1}{343}=\\boxed{1}$.",
+    "chatgpt_solution": "We can also find the value of $7^{4x - 3}$ by taking $7^{4x}$, and then multiplying by $7^{-3}$.  This gives us  \\[\n7^{4x - 3}=7^{4x}\\cdot 7^{-3}=\\frac{7^{4x}}{7^3}.\n\\]Since $7^{4x} = 343$, we have  \\[\n\\frac{7^{4x}}{7^3} = \\frac{343}{7^3} = \\frac{343}{343} \\cdot \\frac{1}{7^2} = \\boxed{\\frac{1}{49}}.\n\\]"
+}

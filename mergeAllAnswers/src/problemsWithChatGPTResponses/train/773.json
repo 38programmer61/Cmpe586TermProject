@@ -1,0 +1,7 @@
+{
+    "problem": "What is the sum of all values of $x$ that are solutions to the equation $x^2 = 7x - 12$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We rewrite the equation as $x^2 - 7x + 12 = 0$.  The sum of the solutions to this equation are $-\\frac{-7}{1} = \\boxed{7}$.",
+    "chatgpt_solution": "To solve $x^2 = 7x - 12$, we subtract $7x-12$ from both sides, leaving $x^2 - 7x + 12 = 0$. Recognizing that the left side of this equation can be factored as $(x-3)(x-4)$, we set each factor to zero and solve for $x$: \\begin{align*}\nx - 3 &= 0 \\Rightarrow x = 3 \\\\\nx - 4 &= 0 \\Rightarrow x = 4.\n\\end{align*}The sum of these two values is $3 + 4 = \\boxed{7}$."
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JhrLj9sgJFZS6AQLMaKamN5w8Or6",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "For simplicity, let's call the three consecutive positive integers $n-1$, $n$, and $n+1$. Then, the sum of their squares is \n\\[(n-1)^2 + n^2 + (n+1)^2 = 7805.\\] Expanding, we have $n^2 - 2n + 1 + n^2 + n^2 + 2n + 1 = 7805$, which simplifies to $3n^2 + 2 = 7805$. Simplifying further, we have $3n^2 = 7803$, so $n^2 = 2601$. Hence, $n = 51$, and the three integers are $50, 51,$ and $52$. The sum of their cubes is $50^3 + 51^3 + 52^3 = \\boxed{398259}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699707519,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 188,
+        "prompt_tokens": 35,
+        "total_tokens": 223
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jj7joC9FtibZIP8T12lHVIa8Yo1B",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "$(\\sqrt{5})^4=\\sqrt{5}\\cdot\\sqrt{5}\\cdot\\sqrt{5}\\cdot\\sqrt{5}=\\left(\\sqrt{5}\\right)^2\\cdot\\left(\\sqrt{5}\\right)^2=\\boxed{25}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699712379,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 59,
+        "prompt_tokens": 19,
+        "total_tokens": 78
+    }
+}

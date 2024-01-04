@@ -1,0 +1,7 @@
+{
+    "problem": "What is the slope of a line parallel to $2x+4y=-17$? Express your answer as a common fraction.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We can rewrite the given equation as $y = -\\frac{1}{2}x - \\frac{17}4$.  Since all lines parallel to a given one have the same slope as the given line, our answer is $\\boxed{-\\frac{1}{2}}$.",
+    "chatgpt_solution": "To find the slope of any line, we can rewrite its equation in slope-intercept form ($y=mx+b$), where $m$ is the slope of the line. \n\nWe start by solving the given equation $2x+4y=-17$ for $y$: \\begin{align*}\n2x+4y&=-17 \\\\\n4y&=-2x-17 \\\\\ny&=-\\frac12x-\\frac{17}4.\n\\end{align*} The slope of this line is $-\\frac12$. \n\nTwo lines are parallel if and only if they have the same slope, so the slope of any line parallel to $2x+4y=-17$ is $\\boxed{-\\frac12}$."
+}

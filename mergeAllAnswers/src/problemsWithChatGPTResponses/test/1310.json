@@ -1,0 +1,7 @@
+{
+    "problem": "What is the greatest prime factor of the sum of the arithmetic sequence $1 + 2 + 3 + \\cdots + 80$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "For all $n$, $1 + 2 + \\dots + n = n(n + 1)/2$, so $1+2+3+\\dots+80=\\frac{80 \\cdot 81}{2}=40\\cdot81=2^3\\cdot5\\cdot3^4$. Thus, the greatest prime factor of the sum is $\\boxed{5}$.",
+    "chatgpt_solution": "The sum of an arithmetic series is equal to the average of the first and last term, multiplied by the number of terms, so the sum is $(1+80)\\cdot40/2=2020$. Recognizing that $2020=4\\cdot 5\\cdot 101$, we conclude that $\\boxed{101}$ is the greatest prime factor."
+}

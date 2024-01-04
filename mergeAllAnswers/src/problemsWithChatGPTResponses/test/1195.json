@@ -1,0 +1,7 @@
+{
+    "problem": "Two consecutive positive even numbers are each squared.  The  difference of the squares is 60.  What is the sum of the original  two numbers?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Let the two numbers be $x$ and $x + 2$, where $x$ is even. We want to find $x + (x + 2) = 2x + 2$, and we are told that $(x + 2)^2 - x^2 = 60$. This last equation can be factored as a difference of squares: $(x + 2 + x)(x + 2 - x) = (2x + 2)(2) = 60$. It follows that $2x + 2 = 60/2 = \\boxed{30}$.",
+    "chatgpt_solution": "Let the two consecutive positive even numbers be $x$ and $x+2$.  Squaring these, we have $(x)^2$ and $(x+2)^2$. Setting up the equation $(x+2)^2 - (x)^2 = 60$, we have $$x^2 + 4x + 4 - x^2 = 60.$$ Simplifying gives $4x+4=60$.  Subtracting 4 from both sides, we have $4x = 56$, and dividing by 4 gives $x=14$. So the original two numbers are 14 and 16, and their sum is $14+16 = \\boxed{30}$."
+}

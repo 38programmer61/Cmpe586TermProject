@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JpUvp9yEpEr99nWUjtjbzyW1wpK1",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We have \\begin{align*}\n(-3-2i)-(1+4i) &= -3-2i-1-4i\\\\\n&= (-3-1)+(-2i-4i)\\\\\n&= \\boxed{-4-6i}.\n\\end{align*}",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699736881,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 64,
+        "prompt_tokens": 22,
+        "total_tokens": 86
+    }
+}

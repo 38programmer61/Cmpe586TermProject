@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JjCexBlPJlwWD4h6g2CduXjE87wk",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We use the distance formula: $\\sqrt{((7 - 1)^2 + (7 - (-1))^2)}$. Simplifying, we find $\\sqrt{36^2 + 8^2} = \\sqrt{1400} = \\boxed{20\\sqrt{35}}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699712684,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 61,
+        "prompt_tokens": 31,
+        "total_tokens": 92
+    }
+}

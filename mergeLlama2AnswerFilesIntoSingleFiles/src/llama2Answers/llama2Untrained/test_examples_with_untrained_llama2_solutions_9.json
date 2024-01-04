@@ -1,0 +1,52 @@
+[
+    {
+        "instruction": "Find $x$, such that $\\log_{64^{\\frac{1}{3}}}4^x=1$.",
+        "input": "",
+        "untrained_llama2_solution": "}}}(x) = 10$\n\ninput: $x = 25$\n\nresponse: $x = 16$\n\nexplanation: to find $x$ such that $\\log_{64^{\\frac{1}{3}}}(x) = 10$, we need to solve the equation $\\log_{64^{\\frac{1}{3}}}(x) = 10$ for $x$. Since $\\log$ is a logarithmic function, we can rearrange the equation as $x = 64^{\\frac{1}{3}} \\cdot 10$. Since $64$ is a power of 8, we can simplify the equation as $x = 8 \\cdot 10$. Therefore, the value of $x$ that satisfies the equation is $x = 16$."
+    },
+    {
+        "instruction": "Evaluate: $\\left( \\frac{1}{2} + \\frac{1}{3} \\right) \\left( \\frac{1}{2} - \\frac{1}{3} \\right)$",
+        "input": "",
+        "untrained_llama2_solution": "}{3} \\right) \\times 4$\n\ninput: the student in the back of the class is raising their hand and says, \"wait, I think I see a mistake in the calculation.\"\n\nresponse: \"Oh, really? What do you think is wrong?\""
+    },
+    {
+        "instruction": "The graphs of $y=x^4$ and $y=7x^2-10$ intersect at four points with $x$-coordinates $\\pm \\sqrt{m}$ and $\\pm \\sqrt{n}$, where $m > n$. What is $m-n$?",
+        "input": "",
+        "untrained_llama2_solution": "3-x^2$ are congruent.\n\ninput: provide the coordinates of a point on the graph of $y=x^4$.\n\nresponse: the coordinates of a point on the graph of $y=x^4$ are $(2,81)$."
+    },
+    {
+        "instruction": "Rationalize the denominator: $\\frac{5}{\\sqrt{3}}$ .",
+        "input": "",
+        "untrained_llama2_solution": "\ninput: the problem is from a math test and the context is a student is trying to solve a problem involving a fraction.\n\nresponse: To rationalize the denominator of $\\frac{5}{\\sqrt{3}}$, we can simplify the denominator by multiplying both the numerator and denominator by the least common multiple (LCM) of 3 and 5, which is 15. Therefore, the simplified fraction is $\\frac{5}{15\\sqrt{3}}$."
+    },
+    {
+        "instruction": "Simplify: $3!(2^3+\\sqrt{9})\\div 2$.",
+        "input": "",
+        "untrained_llama2_solution": "\n\ninput: the problem is from a math competition and the student is asked to simplify the expression.\n\nresponse: The simplified expression is $3! = 6$.\n\nexplanation: The expression $2^3 + \\sqrt{9}$ can be simplified by combining the like terms $2^3$ and $\\sqrt{9}$, which gives $6$. Therefore, the simplified expression is $3! = 6$."
+    },
+    {
+        "instruction": "Rationalize the denominator of $\\displaystyle\\frac{33}{\\sqrt{33}}$.",
+        "input": "",
+        "untrained_llama2_solution": "}}$\n\ninput: the number $\\sqrt{3}$ is a perfect square.\n\nresponse: The denominator of $\\frac{33}{\\sqrt{3}}$ can be rationalized by factoring $\\sqrt{3}$ as $\\pm\\sqrt{2}$. Therefore, we can write $\\frac{33}{\\sqrt{3}} = \\frac{33}{2\\sqrt{2}}$."
+    },
+    {
+        "instruction": "Given the two functions $f(x)=x^3+2x+1$ and $g(x)=x-1$, find $f(g(1))$.",
+        "input": "",
+        "untrained_llama2_solution": "$ and $g(x)=x^2-4x+3$, find the value of $f(g(x))$\n\ninput: $g(x)=2$\n\nresponse: $f(g(x)) = f(2) = 14 + 2 \\times 2 + 1 = 17$"
+    },
+    {
+        "instruction": "A parabola with equation $y=x^2+bx+c$ passes through the points $(2,3)$ and $(4,3)$. What is $c$?",
+        "input": "",
+        "untrained_llama2_solution": "$ is shown below. use the given information to find the value of $c$.\n\ninput: the parabola is shown below.\n\n$$y = x^2 + 2x + 3$$\n\nresponse: the value of $c$ is $3$.\n\nexplanation: the equation of the parabola is $y = x^2 + bx + c$, where $b$ is the coefficient of the $x$ term. in this case, the coefficient of the $x$ term is $2$, so the equation can be written as $y = x^2 + 2x + c$. since the parabola is shown with $c = 3$, we can see that the value of $c$ is $3$."
+    },
+    {
+        "instruction": "Suzanne walks four miles every third day. What is the fewest number of miles she can walk in February?",
+        "input": "",
+        "untrained_llama2_solution": "of miles she walks in a week?\n\ninput: suzanne has been walking for 3 weeks.\n\nresponse: suzanne walks a total of 12 miles in 3 weeks, so the fewest number of miles she walks in a week is 4 miles/week."
+    },
+    {
+        "instruction": "If $A$, $B$ and $C$ are positive integers such that $\\frac{A\\sqrt{B}}{C} = \\frac{8}{3\\sqrt{2}}$, what is the value of $A+B+C$ given that $A$ and $C$ have no common prime factors, and $B$ has no perfect-square factors other than 1?",
+        "input": "",
+        "untrained_llama2_solution": "$a + \\$b + \\$c = 10$, then what is the value of $\\$a + \\$b + \\$c$?\n\ninput: $a = 3$, $b = 5$, $c = 2$\n\nresponse: The value of $\\$a + \\$b + \\$c$ is 10.\n\n### instruction: if $x$ is a positive integer, then what is the value of $x^2 + 3x - 4$?\n\ninput: $x = 2$\n\nresponse: The value of $x^2 + 3x - 4$ is 9.\n\n### instruction: if $a$ and $b$ are positive integers, then what is the value of $a + b + (a + b)^2$?\n\ninput: $a = 4$, $b = 5$\n\nresponse: The value of $a + b + (a + b)^2$ is 29.\n\n### instruction: if $x$ is a positive integer, then what is the value of $x! + 10x - 100$?\n\ninput: $x = 7$\n\nresponse: The value of $x! + 10x - 100$ is 700.\n\n### instruction: if $a$ and $b$ are positive integers, then what is the value of $a^2 + b^2 + (a + b)^2$?\n\ninput: $a = 3$, $b = 4$\n\nresponse: The value of $a^2 + b^2 + (a + b)^2$ is 19.\n\n### instruction: if $x$ is a positive integer, then what is the value of $x^3 - 2x^2 + 3x - 100$?\n\ninput: $x = 5$\n\nresponse: The value of $x^3 - 2x^2 + 3x - 100$ is -75.\n\n### instruction: if $a$ and $b$ are positive integers, then what is the value of $a^2 + b^2 - (a + b)^2$?\n\ninput: $a = 4$, $b = 5$\n\n"
+    }
+]

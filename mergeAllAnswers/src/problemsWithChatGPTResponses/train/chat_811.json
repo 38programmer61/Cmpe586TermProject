@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JrFuSkfKmbaucsBqH33xeYdr6G02",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "The common difference in this sequence is $7-2 = 5$. Therefore, the missing numbers must be $12+5 =17$ and $17+5 = \\boxed{22}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699743638,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 39,
+        "total_tokens": 80
+    }
+}

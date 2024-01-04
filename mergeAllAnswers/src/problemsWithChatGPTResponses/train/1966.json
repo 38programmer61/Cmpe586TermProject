@@ -1,0 +1,7 @@
+{
+    "problem": "BoatWorks built 3 canoes in January of this year and then each subsequent calendar month they built twice the number of canoes they had built the previous month. How many total canoes were built by BoatWorks by the end of March of this year?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The number of boats built is $3+3\\cdot2+3\\cdot2^2 = 3+6+12 = \\boxed{21}$.",
+    "chatgpt_solution": "By the end of January, BoatWorks had built 3 canoes.\nIn February, they built twice the number of canoes they had built in January, so they built 2 * 3 = <<2*3=6>>6 canoes.\nIn March, they built twice the number of canoes they had built in February, so they built 2 * 6 = <<2*6=12>>12 canoes.\nTherefore, by the end of March, BoatWorks built a total of 3 + 6 + 12 = <<3+6+12=21>>21 canoes. Answer: \\boxed{21}."
+}

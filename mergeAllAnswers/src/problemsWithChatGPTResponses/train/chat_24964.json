@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jna12qGduL7nLM1SrpOyvljg5lpu",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Cubing both sides of $x+y=9,$ we have $x^3 + 3x^2y + 3xy^2 + y^3 = 729.$  Furthermore, from $xy = 10,$ $x^3 + y^3 = (x + y)(x^2 - xy + y^2).$  Substituting the given values of $x + y$ and $xy,$ we get\n\\[x^3 + y^3 = 9 (x^2 - 10 + y^2).\\]Squaring the equation $x + y = 9,$ we get $x^2 + 2xy + y^2 = 81,$ so $x^2 + y^2 = 81 - 2xy = 81 - 2 \\cdot 10 = 61.$  Therefore,\n\\[x^3 + y^3 = 9(61 - 10) = \\boxed{459}.\\]",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699729509,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 207,
+        "prompt_tokens": 34,
+        "total_tokens": 241
+    }
+}

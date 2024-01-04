@@ -1,0 +1,7 @@
+{
+    "problem": "Evaluate: $\\frac{10^{-2}5^0}{10^{-3}}$",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have $10^{-2} = \\frac{1}{10^2}$ and $\\frac{1}{10^{-3}} = 10^3$, so  \\[\\frac{10^{-2}5^0}{10^{-3}} = \\frac{10^35^0}{10^2} = 10^{3-2}5^0 = (10)(1) = \\boxed{10}.\\]",
+    "chatgpt_solution": "We could work from left to right and simplify numerator and denominator separately.  We can also work from right to left.  Since $10^{-2}=10^{-2}\\cdot 1=10^{-2}\\cdot 5^0$, we get \\[\\frac{10^{-2}\\cdot 5^0}{10^{-3}} = \\frac{10^{-2}\\cdot 5^0}{10^{-2}\\cdot 10^1}=\\frac{10^{-2}}{10^{-2}}\\cdot \\frac{5^0}{10^1}=\\frac{1}{1}\\cdot \\frac{1}{10}=\\boxed{\\frac{1}{10}}.\\]"
+}

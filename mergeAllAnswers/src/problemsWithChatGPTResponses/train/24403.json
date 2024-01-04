@@ -1,0 +1,7 @@
+{
+    "problem": "In a jumbo bag of bows, $\\frac{1}{5}$ are red, $\\frac{1}{2}$ are blue, $\\frac{1}{10}$ are green and the remaining 30 are white. How many of the bows are green?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We add up the fractions of non-red bows and get $\\frac{1}{5}+\\frac{1}{2}+\\frac{1}{10}=\\frac{2+5+1}{10}=\\frac{8}{10}=\\frac{4}{5}$. So the 30 bows make up $1-\\frac{4}{5}=\\frac{1}{5}$ of the total bows, and the total number of bows is $5\\times30=150$. The green bows are $\\frac{1}{10}$ of the total, and $\\frac{1}{10}\\times150=15$, so there are $\\boxed{15}$ green bows.",
+    "chatgpt_solution": "$\\frac{1}{5}$ of the bows are red, $\\frac{1}{2}$ are blue, and $\\frac{1}{10}$ are green.  So the combined proportion of bows that are not white is $1 - \\frac{1}{5} - \\frac{1}{2} - \\frac{1}{10} = \\frac{7}{10}$.\n\nThis means that $\\frac{7}{10}$ of the bows are not white.  There are 30 non-white bows, so $\\frac{7}{10}$ of the bows is 30.  Thus, there are $\\frac{10}{7} \\times 30 = \\boxed{42}$ bows total."
+}

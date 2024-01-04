@@ -1,0 +1,7 @@
+{
+    "problem": "Find the value of the first term in the geometric sequence $a,b,c,32,64$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "The common ratio is $\\frac{64}{32} = 2$. Therefore, the first term is $\\frac{32}{2^3} = \\frac{32}{8} = \\boxed{4}$.",
+    "chatgpt_solution": "The common ratio is $\\frac cb = \\frac{32}{c} = \\frac{64}{32} = 2$. Therefore, the first term multiplied by the common ratio twice is equal to the fourth term: $a \\cdot 2^2 = b$, or $4a = b$. Similarly, the second term multiplied by the common ratio twice is equal to the fifth term: $b \\cdot 2^2 = 32$, or $4b=32 = 4a \\cdot 4 = 16a$. This tells us that $a = 2$. So, the first term of the sequence is $\\boxed{2}$."
+}

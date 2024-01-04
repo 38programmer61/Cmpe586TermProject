@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JkyNI6oT9lGIH8EI1PHzbv2oTcnU",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "If $M$ is the midpoint of $\\overline{AB}$ and $A$ is one endpoint, the coordinates of $B$ can be found by moving right $1$ unit and up $4$ units from $A$. Therefore, the coordinates of $B$ are $(3+1,1+4)=(4,5)$. The product of the $x$-coordinate and $y$-coordinate is $4\\cdot5=\\boxed{20}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699719487,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 98,
+        "prompt_tokens": 51,
+        "total_tokens": 149
+    }
+}

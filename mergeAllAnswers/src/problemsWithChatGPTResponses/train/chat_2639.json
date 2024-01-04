@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JoD1okgdFvxIzhQNcmLRmnNIJxJz",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We have $(25 + 8)^2 - (8^2 +25^2) = 33^2 - (64 + 625) = 1089 - 689 = \\boxed{400}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699731927,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 45,
+        "prompt_tokens": 32,
+        "total_tokens": 77
+    }
+}

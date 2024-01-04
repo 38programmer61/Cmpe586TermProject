@@ -1,0 +1,7 @@
+{
+    "problem": "Find the value of $x$ if $x$ is positive and $x\\cdot\\lfloor x\\rfloor=70$. Express your answer as a decimal.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We know that $\\lfloor x\\rfloor \\leq x < \\lfloor x\\rfloor + 1$. This implies that $\\lfloor x\\rfloor^2 \\leq x\\cdot\\lfloor x\\rfloor < \\left(\\lfloor x\\rfloor + 1\\right)^2$ for all values of $x$. In particular since $x\\cdot\\lfloor x\\rfloor=70$ and $8^2<70<9^2$, we can conclude that $8<x<9\\Longrightarrow\\lfloor x\\rfloor=8$. From there, all we have to do is divide to get that $x=\\frac{70}{8}=\\boxed{8.75}$.",
+    "chatgpt_solution": "Since $x$ and $\\lfloor x\\rfloor$ are both positive, they are both greater than $0$.  This means we can safely multiply them to find that $x\\cdot\\lfloor x\\rfloor=70$.  Since $x\\cdot\\lfloor x\\rfloor=70$, $x=\\dfrac{70}{\\lfloor x\\rfloor}$.  $x$ is positive, so we know that $x>\\lfloor x\\rfloor$.  Thus, $x=\\dfrac{70}{\\lfloor x\\rfloor}<70$.\n\nSince $10\\le x<11$ (for example), $\\lfloor x\\rfloor=10$, and $x=\\dfrac{70}{10}=\\boxed{7}$."
+}

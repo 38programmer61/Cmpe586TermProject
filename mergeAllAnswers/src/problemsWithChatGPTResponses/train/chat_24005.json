@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jn0ijXILIuJCOXPCTj8fKLarSbfx",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "The average of two points $(x_1, y_1)$ and $(x_2, y_2)$ is given by $\\left(\\frac{x_1+x_2}{2}, \\frac{y_1+y_2}{2}\\right)$. The closest point to the current locations of Annie and Barbara is then $\\left(\\frac{6+1}{2}, \\frac{-20+14}{2}\\right)=\\left(\\frac{7}{2}, -3\\right)$. So Annie and Barbara walk upwards for a distance of $2-(-3)=\\boxed{5}$ units.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699727320,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 128,
+        "prompt_tokens": 108,
+        "total_tokens": 236
+    }
+}

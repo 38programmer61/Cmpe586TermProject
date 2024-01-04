@@ -1,0 +1,7 @@
+{
+    "problem": "What is the positive difference between the $2000^{\\mathrm{th}}$ term and the $2005^{\\mathrm{th}}$ term of the arithmetic sequence $-8,$ $-2,$ $4,$ $10,$ $\\ldots$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "The common difference in this arithmetic sequence is $-2 - (-8) = 6$.  The $2000^{\\text{th}}$ term is $a + 1999d$, and the $2005^{\\text{th}}$ term is $a + 2004d$, so the positive difference between these two term is $(a + 2004d) - (a + 1999d) = 5d = 5 \\cdot 6 = \\boxed{30}$.",
+    "chatgpt_solution": "We want to find a positive value, so we can subtract the terms in any order: \\begin{align*}\n2005^{\\mathrm{th}}\\text{ term} - 2000^{\\mathrm{th}}\\text{ term} &= (10 + 5d) - (-8 + 0d) \\\\\n&= 18 + 5d\n\\end{align*}Since we want a positive value, we can set $d = -4,$ and the positive difference is $18+5d = \\boxed{2}.$"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jm2xAW1U0qikfQhK18zbL9OnsUpn",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We set $x + a = x^2 + a^2.$ Then $x^2 - x + (a^2 - a) = 0.$ The discriminant of this quadratic is $\\Delta = 1^2 - 4(a^2 - a) = 4a - 4a^2 + 1.$ We see that this quadratic has one root if $\\Delta = 0,$ namely when $4a - 4a^2 + 1 = 0.$\n\nCompleting the square, we get\n\\[4a - 4a^2 + 1 = 4 (a - \\frac{1}{2})^2 - \\frac{1}{4}.\\]Hence, $a$ is a solution if and only if $\\frac{1}{4} = 4 (a - \\frac{1}{2})^2,$ or $|a - \\frac{1}{2}| = \\frac{1}{8}.$\n\nIf $a$ satisfies $|a - \\frac{1}{2}| = \\frac{1}{8},$ then $a$ lies in the interval $\\left( \\frac{5}{8}, \\frac{3}{4} \\right).$ There are $\\boxed{0}$ solutions in this case.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699723615,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 274,
+        "prompt_tokens": 49,
+        "total_tokens": 323
+    }
+}

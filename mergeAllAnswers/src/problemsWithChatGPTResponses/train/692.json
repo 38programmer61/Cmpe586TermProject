@@ -1,0 +1,7 @@
+{
+    "problem": "The sum of two numbers is 25 and their product is 126. What is the absolute value of the difference of the two numbers?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We are given that $x + y = 25$ and $xy = 126$ for some numbers $x$ and $y$. We note that \\begin{align*}\n(x-y)^2&= x^2 - 2xy + y^2\\\\\n&= x^2 + 2xy + y^2 - 4xy\\\\\n&= (x + y)^2 - 4xy\\\\\n&= (25)^2 - 4\\cdot 126\\\\\n&= 121.\n\\end{align*}\n\nThus, we have $(x - y)^2 = 121$. Taking the square root of both sides, we have $\\sqrt{(x- y)^2} = |x - y| = \\boxed{11}$.",
+    "chatgpt_solution": "Let the two numbers be $x$ and $y$. We are given that $x+y=25$. Simplifying, we find $y=25-x$. We are also given that the product of the two numbers is 126. Substituting $y$ in terms of $x$, we have $xy=126$. Substituting $25-x$ for $y$, we have $x(25-x)=126$. Expanding the left side, we have $-x^2+25x=126$. Rearranging and factoring, we have $x^2-25x+126=0$. Factoring this quadratic, we have $(x-9)(x-14)=0$. Therefore, $x=9$ or $x=14$. If $x=9$, then $y=25-9=16$. If $x=14$, then $y=25-14=11$. The absolute difference between $9$ and $16$ is $|9-16|=\\boxed{7}$, and the absolute difference between $14$ and $11$ is $|14-11|=\\boxed{3}$. Note that the absolute value of a difference is always positive."
+}

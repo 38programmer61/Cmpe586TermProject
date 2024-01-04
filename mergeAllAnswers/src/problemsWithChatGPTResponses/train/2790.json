@@ -1,0 +1,7 @@
+{
+    "problem": "A box of 25 chocolate candies costs $\\$6$. How many dollars does it cost to buy 600 chocolate candies?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "600 chocolate candies is $\\frac{600}{25} = 24$ times as many candies as 25 candies.  Multiplying the number of candies by 24 multiplies the cost by 24, so 600 candies costs $24\\cdot 6 = \\boxed{144}$ dollars.",
+    "chatgpt_solution": "Since we want to find the cost of buying 600 chocolate candies, and we know that 25 candies cost $\\$6$, we can set up a proportion. Let $x$ represent the cost of 600 candies. Setting up a proportion results in the equation $\\frac{x}{600}=\\frac{6}{25}$. Cross multiplying gives $x\\cdot 25=6\\cdot 600$. Dividing both sides of the equation by 25 gives $x=\\boxed{144}$."
+}

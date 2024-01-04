@@ -1,0 +1,7 @@
+{
+    "problem": "What is the value of $K$ in the equation $16^3\\times8^3=2^K$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Simplify \\[\n16^3\\times 8^3=(2^4)^3\\times(2^3)^3=2^{12}\\times2^{9}=2^{21}.\n\\] Then $2^{21}=2^K$ implies $K=\\boxed{21}$.",
+    "chatgpt_solution": "Writing everything in terms of $2$, we have $16 = 2^4$ and $8 = 2^3$, so the equation becomes $(2^4)^3 \\cdot (2^3)^3 = 2^K$, or $2^{12} \\cdot 2^9 = 2^K$. Therefore we have $2^{12 + 9} = 2^K$, so $2^{21} = 2^K$. $2^{21} = 2^K$ when $K = \\boxed{21}$."
+}

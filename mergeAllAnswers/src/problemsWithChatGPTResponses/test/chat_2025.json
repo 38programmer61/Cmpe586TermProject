@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JsM2hDdsofGJKWSKLmZL6YbZyb5T",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "To find the time it takes for Jeremiah to travel 20 miles, we need to divide the distance by the speed. \n\n60 miles per hour is equivalent to 1 mile per minute.\nSo it will take Jeremiah 20 minutes to travel 20 miles.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699747862,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 52,
+        "prompt_tokens": 40,
+        "total_tokens": 92
+    }
+}

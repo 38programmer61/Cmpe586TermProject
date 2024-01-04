@@ -1,0 +1,7 @@
+{
+    "problem": "Find the constant $t$ such that \\[(5x^2 - 6x + 7)(4x^2 +tx + 10) = 20x^4 -54x^3 +114x^2 -102x +70.\\]",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We look at the coefficient of $x$ in the expansion of the product on the left. We get an $x$ term when we multiply $(+7)(+tx)$ and when we multiply $(-6x)(+10)$ in the expansion.  So, on the left the $x$ term is $7tx -60x$. Since this term must equal $-102x$, we have $7tx -60x = -102x$, so $t = \\boxed{-6}$.\n\nWe can check our answer (and check that it is indeed possible to find a solution to this problem) by multiplying out the left when $t=-6$: \\begin{align*} &(5x^2-6x+7)(4x^2-6x+10)\\\\\n&\\qquad= 5x^2(4x^2-6x+10) -6x(4x^2-6x+10) \\\\\n&\\qquad\\qquad+ 7(4x^2-6x+10)\\\\ &\\qquad=20x^4 -54x^3 +114x^2 -102x +70. \\end{align*}This matches the polynomial given in the problem, so our answer is correct.",
+    "chatgpt_solution": "We make the right-hand-side look more like the left-hand-side by expanding the products on the left:  \\[(5x^2 - 6x + 7)(4x^2 +tx + 10) = 20x^4 + (20t - 24)x^3 + (50t + 40 - 42)x^2 + (7t - 60)x + 70.\\]We know each coefficient of the polynomial on the left-hand side of the equation must equal the corresponding coefficient of $20x^4 -54x^3 +114x^2 -102x +70$ on the right-hand side, so we have the equations \\begin{align*}\n20t - 24 &= -54, \\\\\n50t - 2 &= 114, \\\\\n7t - 60 &= -102, \\\\\n70 &= 70.\n\\end{align*}Solving this system, we find $t = \\boxed{8}.$"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JkKaMNNhU47Omg5ukg0GTv6ePjcS",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Cross-multiplying $\\frac{10x-3y}{13x-2y} = \\frac{3}{5}$ gives $50x-15y=39x-6y$. Collecting the $x$ terms and $y$ terms on opposite sides gives $11y=11x\\Rightarrow y=x$. Since the ratio of $x$ to $y$ is $x/y$ and $y=x$, the ratio of $x$ to $y$ is $x/x= \\boxed{1}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699717020,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 110,
+        "prompt_tokens": 53,
+        "total_tokens": 163
+    }
+}

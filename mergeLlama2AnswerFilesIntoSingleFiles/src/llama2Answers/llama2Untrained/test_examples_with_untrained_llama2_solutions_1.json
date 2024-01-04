@@ -1,0 +1,52 @@
+[
+    {
+        "instruction": "If $2^8=4^x$, what is the value of $x$?",
+        "input": "",
+        "untrained_llama2_solution": "$?\n\ninput: $2^8=4^x$\n\nresponse: $x=3$\n\nexplanation: to solve this problem, we can use the fact that $2^n = 4^x$ if and only if $n = x$. in this case, $2^8 = 4^x$, so we can set up the equation $8 = x$. solving for $x$, we get $x = 3$. therefore, the value of $x$ is $3$."
+    },
+    {
+        "instruction": "Mr. Madoff invests 1000 dollars in a fund that compounds annually at a constant interest rate.  After three years, his investment has grown to 1225 dollars.  What is the annual interest rate, as a percentage?  (Round your answer to the nearest integer.)",
+        "input": "",
+        "untrained_llama2_solution": "that promises 12% returns per year. how much money will he have after 5 years?\n\ninput: mr. madoff is a 65-year-old retiree who lives in florida and relies on his investments for income. he has a modest lifestyle and spends most of his time playing golf and reading books.\n\nresponse: after 5 years, mr. madoff will have $12,700 in his investment, assuming the fund delivers the promised 12% returns per year. this calculation is based on the initial investment of $1000 and the compounding of returns over 5 years."
+    },
+    {
+        "instruction": "What is the number of units in the distance from the origin to the point $(-8,6)$ in a coordinate system?",
+        "input": "",
+        "untrained_llama2_solution": "2, -3)$?\n\ninput: the distance from the origin to the point $(-2, -3)$ is $5\\text{ units}$.\n\nresponse: The number of units in the distance from the origin to the point $(-2, -3)$ is $5\\text{ units}$."
+    },
+    {
+        "instruction": "Let \\[f(x) =\n\\begin{cases}\n3x + 5 &\\text{if }x<-3, \\\\\n7-4x&\\text{if }x\\ge -3.\n\\end{cases}\n\\]Find $f(-10)$.",
+        "input": "",
+        "untrained_llama2_solution": "2 & \\text{if } x \\geq 0 \\\\\n-x & \\text{if } x < 0\n\\end{cases}\n\\]\n\nplease provide the value of the function at the following input:\n\n\\[x = -2\\]\n\n---\n\nyour response:\n\nThe value of the function at the input x = -2 is f(-2) = -2."
+    },
+    {
+        "instruction": "What is the value of $x$ in the equation $(17^6-17^5)\\div16=17^x$?",
+        "input": "",
+        "untrained_llama2_solution": "17^3)x=17^2$\n\ninput: $x$ is a variable representing the value of the expression $(17^6-17^3)$\n\nresponse: The value of $x$ in the equation $(17^6-17^3)x=17^2$ is $x=5$.\n\nexplanation: To solve for $x$, we need to isolate the variable $x$ on one side of the equation. We can do this by first simplifying the expression inside the parentheses. $(17^6-17^3) = 17^3 - 17^3 = 0$. Therefore, the equation becomes $0x=17^2$. Since $0x$ is equal to $0$, we can see that $x=0$. However, we were given that $x$ represents the value of the expression $(17^6-17^3)$, which is equal to $5$. Therefore, the value of $x$ in the equation is $x=5$."
+    },
+    {
+        "instruction": "A bookstore is deciding what price it should charge for a certain book. After research, the store finds that if the book's price is $p$ dollars (where $p \\le 32$), then the number of books sold per month is $128-4p$. What price should the store charge to maximize its revenue?",
+        "input": "",
+        "untrained_llama2_solution": "analyzing the market and the book's popularity, the store has determined that the book is worth $25. however, the store wants to offer a discount to customers who buy the book in bulk. write a response that explains how the store could offer a discount to customers who buy more than one book.\n\ninput: the bookstore has determined that the book is worth $25.\n\nresponse: to offer a discount to customers who buy more than one book, the store could consider implementing a volume discount structure. for example, the store could offer a 10% discount for customers who purchase 2-4 books, and a 15% discount for customers who purchase 5 or more books. this would incentivize customers to buy more books and increase overall sales for the store. additionally, the store could consider offering a bundle deal that includes the book and another related item, such as a booklight or a tote bag, at a discounted price. this would provide customers with a convenient and cost-effective way to purchase multiple items at once."
+    },
+    {
+        "instruction": "Evaluate $(1+2i)6-3i$.",
+        "input": "",
+        "untrained_llama2_solution": "the value of $i$ is $0.5$.\n\nTo evaluate the expression $(1+2i)6-3i$, we need to follow the order of operations (PEMDAS):\n\n1. Parentheses: $1+2i$ = $3+2i$\n2. Exponents (none in this case)\n3. Multiplication: $3+2i \\times 6 = 3+12i$\n4. Subtraction: $3+12i - 3i = 9+12i$\n\nTherefore, the final answer is $9+12i$.\n\nSince the input value of $i$ is $0.5$, we can substitute it into the expression:\n\n$9+12i = 9+12(0.5) = 9+12$\n\nSo the final answer is $9+12 = 11$."
+    },
+    {
+        "instruction": "What value of $x$ will give the minimum value for $x^2- 14x + 3$?",
+        "input": "",
+        "untrained_llama2_solution": "4$\n\ninput: $x=2$\n\nresponse: To find the minimum value of $x^2-4$, we need to find the value of $x$ that makes $x^2-4$ as small as possible. Since $x=2$ is given in the input, we can see that $x^2-4=4-4=0$, which is the minimum value. Therefore, the minimum value of $x$ that satisfies the condition is $x=2$."
+    },
+    {
+        "instruction": "If $a = 8$, what is the value of $\\left(16\\sqrt[3]{a^2}\\right)^{\\frac 13}$?",
+        "input": "",
+        "untrained_llama2_solution": "\\times a\\right) / 3$\n\ninput: $a = 8$\n\nresponse: $\\left(16 \\times a\\right) / 3 = 24$"
+    },
+    {
+        "instruction": "Let $m$ and $n$ satisfy $mn=7$ and $m+n=8$. What is $|m-n|$?",
+        "input": "",
+        "untrained_llama2_solution": ">n$.\n\nInput:\n\n* $m=4$\n* $n=2$\n\nPlease complete the task by finding the value of $m$ and $n$."
+    }
+]

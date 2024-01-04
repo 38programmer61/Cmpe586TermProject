@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JizVL4RIgFz8oFofT0a6Styf4Hyq",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We have that \\begin{align*}\n55^2 - 45^2 &= (55+45)(55-45)\\\\\n&= (100)(10) \\\\\n&= \\boxed{1000}.\n\\end{align*}",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699711869,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 51,
+        "prompt_tokens": 22,
+        "total_tokens": 73
+    }
+}

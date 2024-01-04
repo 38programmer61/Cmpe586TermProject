@@ -1,0 +1,7 @@
+{
+    "problem": "Point $M(3,7)$ is the midpoint of $\\overline{AB}$. If point $A$ has coordinates $(9,3)$, what is the sum of the coordinates of point $B$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Let point $B$ have coordinates $(x,y)$. We have the equations $(x+9)/2=3$ and $(y+3)/2=7$, or $x=-3$ and $y=11$. Thus, the sum of coordinates of point $B$ is $-3+11=\\boxed{8}$.",
+    "chatgpt_solution": "The $x$-coordinate of $B$ is $2$ less than the $x$-coordinate of $A$, which is $(9-2)=7$.  The $y$-coordinate of $B$ is $10$ less than the $y$-coordinate of $A$, which is $(3+10)=13$.  So the $x$-coordinate of $B$ is $7$, and the $y$-coordinate of $B$ is $13$.  Thus, the sum of the coordinates of $B$ is $7+13=\\boxed{20}$."
+}

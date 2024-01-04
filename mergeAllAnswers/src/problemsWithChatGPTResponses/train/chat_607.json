@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JqbGf5QC7Pdt9xVZc8vKFgl3xkOs",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Antonette correctly answers $0.7 \\cdot 10 = 7$ problems on the first test, $0.8 \\cdot 20 = 16$ problems on the second test, and $0.9 \\cdot 30 = 27$ problems on the third test.  In total, she answers $7+16+27 = 50$ problems correctly out of 60, so her overall percentage correct is $50/60 = \\boxed{83\\%}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699741118,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 102,
+        "prompt_tokens": 77,
+        "total_tokens": 179
+    }
+}

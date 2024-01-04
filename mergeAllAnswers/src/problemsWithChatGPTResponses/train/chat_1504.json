@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JjJ4u7OYAd6ckwKqFm3XG7RkD9wJ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let's trace the growth of the amoebas over the course of one week:\n\nDay 1: 1 amoeba\nDay 2: 1 amoeba splits into 2 amoebas, so there are 2 amoebas\nDay 3: Each of the 2 amoebas from Day 2 splits into 2 new amoebas, so there are 4 amoebas\nDay 4: Each of the 4 amoebas from Day 3 splits into 2 new amoebas, so there are 8 amoebas\nDay 5: Each of the 8 amoebas from Day 4 splits into 2 new amoebas, so there are 16 amoebas\nDay 6: Each of the 16 amoebas from Day 5 splits into 2 new amoebas, so there are 32 amoebas\nDay 7: Each of the 32 amoebas from Day 6 splits into 2 new amoebas, so there are 64 amoebas\n\nTherefore, after one week, there are 64 amoebas in the puddle.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699713082,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 239,
+        "prompt_tokens": 106,
+        "total_tokens": 345
+    }
+}

@@ -1,0 +1,52 @@
+[
+    {
+        "instruction": "What is the $y$-coordinate of the $y$-intercept of the line that passes through the point $(2,-3)$ and has slope $\\frac12$?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we can find the $y$-coordinate of the $y$-intercept by setting $x=0$ in the equation of the line.  setting $x=0$ and substituting the values of $x$ and $y$ gives us the equation $2(-3)=0$, so $y=3$.  therefore, the $y$-coordinate of the $y$-intercept is $\\boxed{-3}$."
+    },
+    {
+        "instruction": "For $(x,y)$, positive integers, let  $10xy+14x+15y=166$.  Find $x+y$.",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we have $10xy+14x+15y=166$.  we can rewrite this equation as $10xy+14x+15y=166$ as $10xy+14x+15y=166$ as $10xy+14x+15y=166$ as $10xy+14x+15y=166$ as $10xy+14x+15y=166$ as $10xy+14x+15y=166$ as $10xy+14x+15y=166$ as $10xy+14x+15y=166$ as $10xy+14x+15y=166$ as $10xy+14x+15y=166$ as $10xy+14x+15y=166$ as $10xy+14x+15y=166$ as $10xy+14x+15y=166$ as $10xy+14x+15y=166$ as $10xy+14x+15y=166$ as $10xy+14x+15y=166$ as $10xy+14x+15y=166$ as $10xy+14x+15y=166$ as $10xy+14x+15y=166$ as $10xy+14x+15y=166$ as $10xy+14x+15y=166$ as $10xy+14x+15y=166$ as $10xy+14x+15y=166$ as $10xy+14x+15y=166$ as $10xy+14x+15y=166$ as $10xy+14x+15y=166$ as $10xy+14x+15y=166$"
+    },
+    {
+        "instruction": "What is the value of $(26^2 - 24^2 - 10)^2 - 10^2$?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we have $(26^2 - 24^2 - 10)^2 - 10^2 = (26^2 - 24^2 - 10 + 10)^2 - 10^2 = (26^2 - 24^2 - 10 + 10)^2 - 10^2 = \\boxed{10^2}$."
+    },
+    {
+        "instruction": "If $12^2 \\cdot 18^3 = 2^x \\cdot 3^y$, find $x+y$.",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we have $12^2 \\cdot 18^3 = 2^x \\cdot 3^y$. we can rewrite this as $12^2 \\cdot 18^3 = 2^x \\cdot 3^y = (2^x)(3^y)$. we can rewrite this as $12^2 \\cdot 18^3 = 2^x \\cdot 3^y = 2^x \\cdot 3^y \\cdot 2^x \\cdot 3^y$. we can rewrite this as $12^2 \\cdot 18^3 = 2^x \\cdot 3^y \\cdot 2^x \\cdot 3^y = 2^x \\cdot 3^y \\cdot 2^x \\cdot 3^y \\cdot 2^x \\cdot 3^y$. we can rewrite this as $12^2 \\cdot 18^3 = 2^x \\cdot 3^y \\cdot 2^x \\cdot 3^y \\cdot 2^x \\cdot 3^y = 2^x \\cdot 3^y \\cdot 2^x \\cdot 3^y \\cdot 2^x \\cdot 3^y \\cdot 2^x \\cdot 3^y$. we can rewrite this as $12^2 \\cdot 18^3 = 2^x \\cdot 3^y \\cdot 2^x \\cdot 3^y \\cdot 2^x \\cdot 3^y \\cdot 2^x \\cdot 3^y \\cdot 2^x \\cdot 3^y$. we can rewrite this as $12^2 \\cdot 18^3 = 2^x \\cdot 3^y \\cdot 2^x \\cdot 3^y \\cdot 2^x \\cdot 3^y \\cdot 2^x \\cdot 3^y \\cdot 2^x \\cdot 3^y$. we can rewrite this as $12^2 \\cdot 18^3 = 2^x \\cdot 3^y \\cdot 2^x \\cdot 3^y \\cdot 2^x \\cdot 3^y \\cdot 2^x \\cdot 3^y \\"
+    },
+    {
+        "instruction": "Find the smallest number $y$ such that $y^2 = 81$.",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we notice that $81 = 9^3$, so $y = 9$ is the smallest number that works."
+    },
+    {
+        "instruction": "Find $p+q$, given that $(q+4)(p+3)-(q+2)(p+1)=44$.",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we have that $(q+4)(p+3)-(q+2)(p+1)=44$.  we can rewrite this as $(q+4)(p+3)-(q+2)(p+1)=44$.  we can rewrite this as $(q+4)(p+3)-(q+2)(p+1)=44$.  we can rewrite this as $(q+4)(p+3)-(q+2)(p+1)=44$.  we can rewrite this as $(q+4)(p+3)-(q+2)(p+1)=44$.  we can rewrite this as $(q+4)(p+3)-(q+2)(p+1)=44$.  we can rewrite this as $(q+4)(p+3)-(q+2)(p+1)=44$.  we can rewrite this as $(q+4)(p+3)-(q+2)(p+1)=44$.  we can rewrite this as $(q+4)(p+3)-(q+2)(p+1)=44$.  we can rewrite this as $(q+4)(p+3)-(q+2)(p+1)=44$.  we can rewrite this as $(q+4)(p+3)-(q+2)(p+1)=44$.  we can rewrite this as $(q+4)(p+3)-(q+2)(p+1)=44$.  we can rewrite this as $(q+4)(p+3)-(q+2)(p+1)=44$.  we can rewrite this as $(q+4)(p+3)-(q+2)(p+1)=44$.  we can rewrite this as $(q+4)(p+3)-(q+2)(p+1)=44$.  we can rewrite this as $(q+4)(p+3)-(q+2)(p+1)=44$.  we can rewrite this as $(q+4)(p+3)-(q+2)(p+1)=44$.  we can rewrite this as $(q+4)(p+3)-(q+2)(p+1)=44$.  we can rewrite this as $(q+4)(p+3)-(q+2)(p+1)=44$. "
+    },
+    {
+        "instruction": "If $x$ is a real number, find $x^2+2x(5-x)+(5-x)^2$.",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we begin by distributing the $5-x$ term to the $x^2$ term: \\begin{align*}\nx^2+2x(5-x)+(5-x)^2 &= x^2+2x(5-x)+5^2\\\\\n&= x^2+2x(5-x)+25.\n\\end{align*}we can then distribute the $25$ term to the $x^2$ term: \\begin{align*}\nx^2+2x(5-x)+25 &= x^2+2x(5-x)+25+25\\\\\n&= x^2+2x(5-x)+50.\n\\end{align*}finally, we can distribute the $50$ term to the $x^2$ term: \\begin{align*}\nx^2+2x(5-x)+50 &= x^2+2x(5-x)+50+50\\\\\n&= x^2+2x(5-x)+100.\n\\end{align*}therefore, $x^2+2x(5-x)+(5-x)^2 = x^2+2x(5-x)+100$."
+    },
+    {
+        "instruction": "Find the largest value of $c$ such that $\\frac{c^2 + 6c -27}{c-3} +2c = 23$.",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we begin by simplifying the left side of the equation: \\begin{align*}\n\\frac{c^2 + 6c -27}{c-3} +2c &= \\frac{c^2 + 6c -27}{c-3} + 2(c-3) \\\\\n&= \\frac{c^2 + 6c -27}{c-3} + 2c - 6 \\\\\n&= \\frac{c^2 + 6c -27}{c-3} + 2(c-3) - 6 \\\\\n&= \\frac{c^2 + 6c -27}{c-3} + 2(c-3) - 6 \\\\\n&= \\frac{c^2 + 6c -27}{c-3} + 2(c-3) - 6 \\\\\n&= \\frac{c^2 + 6c -27}{c-3} + 2(c-3) - 6 \\\\\n&= \\frac{c^2 + 6c -27}{c-3} + 2(c-3) - 6 \\\\\n&= \\frac{c^2 + 6c -27}{c-3} + 2(c-3) - 6 \\\\\n&= \\frac{c^2 + 6c -27}{c-3} + 2(c-3) - 6 \\\\\n&= \\frac{c^2 + 6c -27}{c-3} + 2(c-3) - 6 \\\\\n&= \\frac{c^2 + 6c -27}{c-3} + 2(c-3) - 6 \\\\\n&= \\frac{c^2 + 6c -27}{c-3} + 2(c-3) - 6 \\\\\n&= \\frac{c^2 + 6c -27}{c-3} + 2(c-3) - 6 \\\\\n&= \\frac{c^2 + 6c -27}{c-3} + 2(c-3) - 6 \\\\\n&= \\frac{c^2 + 6c -27}{c-3} + 2(c-3) - 6 \\\\"
+    },
+    {
+        "instruction": "The first term of an arithmetic sequence is $2$. The sum of the third and the sixth terms is $25$. What is the fourth term?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we have that the first term is $2$, and the common difference is $d = 2 - 2 = 0$.  therefore, the fourth term is $2 + 3d = 2 + 0 = \\boxed{4}$."
+    },
+    {
+        "instruction": "In the equation $|x-4| -10 = 2$, what is the product of all possible values of $x$?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we can rewrite the equation as $2|x-4| = 10$.  since $|x-4| = x-4$ is always positive, we have $x-4 = 10$.  therefore, the possible values of $x$ are $4, 10, \\ldots, 20$.  the product of all possible values of $x$ is $\\boxed{20}$."
+    }
+]

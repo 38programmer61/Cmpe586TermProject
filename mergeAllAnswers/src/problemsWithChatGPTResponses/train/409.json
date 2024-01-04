@@ -1,0 +1,7 @@
+{
+    "problem": "Expand the product $(9x+2)(4x^2+3)$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Multiplying out the expression, we find that $(9x+2)(4x^2+3)=\\boxed{36x^3+8x^2+27x+6}$.",
+    "chatgpt_solution": "When using the distributive property, we combine each term of the first expression with each term of the second expression: \\begin{align*}\n&(9x+2)(4x^2+3)\\\\\n&\\qquad= 9x\\cdot 4x^2+9x\\cdot 3+2\\cdot 4x^2+ 2\\cdot 3\\\\\n&\\qquad= \\boxed{36x^3+27x+8x^2+6}.\n\\end{align*}"
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Solve for $x$: $\\frac{5x}{(x+3)} - \\frac3{(x+3)} = \\frac1{(x+3)}$",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "First, we combine the fraction on the left to give $\\frac{5x-3}{x+3} = \\frac{1}{x+3}$.  Then, multiplying both sides by $x+3$ gets rid of the denominators and leaves $5x-3 = 1$.  Adding 3 to both sides gives $5x=4$, so $x = \\boxed{\\frac{4}{5}}$.",
+    "chatgpt_solution": "We begin by subtracting $\\dfrac{1}{(x+3)}$ from both sides of the equation: \\begin{align*}\n\\dfrac{5x}{(x+3)} - \\dfrac{3}{(x+3)} &= \\dfrac{1}{(x+3)} \\\\\n\\dfrac{5x}{(x+3)} - \\dfrac{3}{(x+3)} - \\dfrac{1}{(x+3)} &= \\dfrac{1}{(x+3)} - \\dfrac{1}{(x+3)} \\\\\n\\dfrac{5x}{(x+3)} - \\dfrac{3 + 1}{(x+3)} &= 0 \\\\\n\\dfrac{5x}{(x+3)} - \\dfrac{4}{(x+3)} &= 0.\n\\end{align*}We can combine the two fractions on the left-hand side to get  \\[\\frac{5x - 4}{x+3} = 0.\\]Since the denominator $(x+3)$ can't be zero, in order for this equation to be true, we must have $5x - 4 = 0.$ From this equation, we have $5x = 4.$ Dividing both sides by 5 gives $x= \\boxed{\\dfrac{4}{5}}.$"
+}

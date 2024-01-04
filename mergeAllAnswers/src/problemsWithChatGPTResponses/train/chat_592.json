@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JqSbc1n1ec3GU2qiEWHoQAzxs5dg",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let's assume there are n rows in total.\nThe number of cans in the top row is 1.\nThe number of cans in the second row is 1+2=<<1+2=3>>3.\nThe number of cans in the third row is 3+2=<<3+2=5>>5.\nSimilarly, the number of cans in the nth row is 1+2*(n-1).\nSo, the total number of cans in n rows is 1+3+5+...+ (1+2*(n-1)).\nThis sum can be written as n^2.\nSince the total number of cans is given as 100, n^2=100.\nn=10.\nTherefore, there are 10 rows in the display. Answer: \\boxed{10}.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699740581,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 167,
+        "prompt_tokens": 52,
+        "total_tokens": 219
+    }
+}

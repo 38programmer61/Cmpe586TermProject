@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jhnewo3vy2SQuYbTgP5s4biGt379",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We can factor the quadratic as $(x - 14)(x + 3) = 0$. Therefore, the solutions are $x = 14$ and $x = -3$, and the larger of these solutions is $\\boxed{14}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699707290,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 52,
+        "prompt_tokens": 33,
+        "total_tokens": 85
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "What is the sum of all integers from 80 through 90, inclusive?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "The sum of an arithmetic series is equal to the average of the first and last term, multiplied by the number of terms.  The number of integers from 80 to 90 is $90 - 80 + 1 = 11$, so the sum is $(80 + 90)/2 \\cdot 11 = \\boxed{935}$.",
+    "chatgpt_solution": "To find the sum of all integers from 80 through 90, inclusive, we can use the formula for the sum of an arithmetic series:\n\nS = (n/2)(a + l),\n\nwhere S is the sum, n is the number of terms, a is the first term, and l is the last term.\n\nThe first term is 80 and the last term is 90. The number of terms can be calculated using the formula:\n\nn = l - a + 1,\n\nwhere n is the number of terms, l is the last term, and a is the first term.\n\nPlugging in the values, we get:\n\nn = 90 - 80 + 1\n  = 11.\n\nNow, we can calculate the sum:\n\nS = (n/2)(a + l)\n  = (11/2)(80 + 90)\n  = 5.5(170)\n  = 935.\n\nTherefore, the sum of all integers from 80 through 90, inclusive, is 935."
+}

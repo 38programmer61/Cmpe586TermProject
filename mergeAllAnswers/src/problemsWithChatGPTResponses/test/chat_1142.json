@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Js6RZapvg6TFkBWYNdZdnRTZU4qU",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "By cleverly factoring $m^2-2mn+n^2=(m-n)^2$, we get $(m-n)^2=(m+n)^2-4mn$, so $(m-n)^2=8^2-4\\cdot7=64-28=\\boxed{36}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699746895,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 62,
+        "prompt_tokens": 36,
+        "total_tokens": 98
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JrdTa7pxTSBYn23k1DPmKlgy5Jhm",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "To find the $y$-intercept, we set $x = 0$ and solve for $y$.  The equation $x - 2y = 5$ then becomes $0 - 2y = 5$, or $-2y = 5$.  Thus, $y = \\boxed{-\\frac{5}{2}}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699745099,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 75,
+        "prompt_tokens": 30,
+        "total_tokens": 105
+    }
+}

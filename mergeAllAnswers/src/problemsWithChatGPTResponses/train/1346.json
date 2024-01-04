@@ -1,0 +1,7 @@
+{
+    "problem": "Find $h(x)$, with terms in order of decreasing degree, if  \\[3x^4+2x-1+h(x)=5x^2-6x-1.\\]",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "This equation is solved by \\[h(x)=(5x^2-6x-1)-(3x^4+2x-1)=\\boxed{-3x^4+5x^2-8x}\\]",
+    "chatgpt_solution": "First, we rewrite the given equation as \\[\\begin{aligned} (3x^4+2x-1) + h(x) &= (5x^2-6x-1) \\\\ 3x^4+2x-1-(5x^2-6x-1) + h(x)&=0. \\end{aligned}\\]Next, we collect like terms to get \\[(3x^4-5x^2)+(2x+6x)+(-1-1)+h(x) = 0.\\]Simplifying the terms in parentheses, we have \\[3x^4-5x^2+8x-2+h(x)=0.\\]Since the equation is true for all $x$ (we can substitute any number into it), the only way this can be true is if each coefficient of each power of $x$ is 0. Therefore, we set each of the terms to 0: \\begin{align*}\n3x^4-5x^2+8x-2&=0, \\\\\nh(x)&=0.\n\\end{align*}This gives us two equations to solve. We factored a quadratic in Intermediate Algebra, so we could use the Quadratic Formula to find a quadratic equation's roots. However, since the quartic $3x^4-5x^2+8x-2=0$ is factored, we see that the quadratic $3x^4-5x^2+8x-2=0$ has four roots. So, $h(x) = \\boxed{0}$."
+}

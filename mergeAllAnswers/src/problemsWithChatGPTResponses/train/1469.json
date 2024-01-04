@@ -1,0 +1,7 @@
+{
+    "problem": "What is the distance on a Cartesian coordinate plane from $(1, -1)$ to  $(7, 7)?$",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Using the distance formula, we get that the distance is $$\\sqrt{ (1-7)^2 + (-1-7)^2} = \\sqrt{36+64} = \\sqrt{100} = \\boxed{10}.$$",
+    "chatgpt_solution": "We use the distance formula: $\\sqrt{((7 - 1)^2 + (7 - (-1))^2)}$. Simplifying, we find $\\sqrt{36^2 + 8^2} = \\sqrt{1400} = \\boxed{20\\sqrt{35}}$."
+}

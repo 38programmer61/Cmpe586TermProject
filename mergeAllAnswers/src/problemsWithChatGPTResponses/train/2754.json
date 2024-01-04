@@ -1,0 +1,7 @@
+{
+    "problem": "Monica is trying to solve the following equation by completing the square: $$x^2-8x+8 = 0.$$She successfully rewrites the above equation in the following form: $$(x + b)^2 = c,$$where $b$ and $c$ are integers. What is the value of $b + c$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We rewrite the equation as follows, trying to create a square of a binomial on the left side: \\begin{align*}\nx^2 - 8x + 8 &= 0\\\\\nx^2 - 8x + 16 &= 8\\\\\n(x - 4)^2 &= 8.\n\\end{align*}Therefore, $b = -4$ and $c = 8$, and $b + c = \\boxed{4}.$",
+    "chatgpt_solution": "We rewrite the equation $x^2 - 8x + 8 = 0$ slightly by subtracting $8$ from both sides: $$x^2 - 8x = -8.$$Now comes the completing the square step. Since the coefficient of $x$ is $-8$, half the coefficient is $-4$. So we add and subtract $(-4)^2 =16$ to the left side: \\begin{align*}\nx^2-8x&=-8\\\\\n( x^2-8x +16) - 16 & =-8\\\\\n(x-4)^2-16&=-8\\\\\n(x-4)^2 &= 8.\\\\\n\\end{align*}Thus we can take $b=-4$ and $c=8$. Therefore, $b+c=-4+8=\\boxed{4}$."
+}

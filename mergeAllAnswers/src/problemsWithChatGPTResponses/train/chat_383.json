@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JpWwWvxYxEtRJm7xgYfoVwfSykjJ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We have $a-2b=(4-2i)-2(3+2i)$. Distributing the $2$ gives $4-2i-6-4i$, so the answer is $\\boxed{-2-6i}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699737006,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 52,
+        "prompt_tokens": 34,
+        "total_tokens": 86
+    }
+}

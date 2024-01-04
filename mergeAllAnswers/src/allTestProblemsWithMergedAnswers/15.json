@@ -1,0 +1,11 @@
+{
+    "problem": "If $a * b = a^b + b^a$, for all positive integer values of $a$ and $b$, then what is the value of $2 * 6$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "untrained_llama2_solution": "integers $a$ and $b$, then what can be said about the value of $a^b + b^a$?\n\ninput: $a = 3$ and $b = 4$\n\nresponse: $a^b + b^a = (3 \\times 4) + (4 \\times 3) = 12 + 12 = 24$.",
+    "llama2_trained_with_chatgpt_labels_solution": "we have $2 * 6 = 2^6 + 6^2$.  expanding the right side gives $2 * 6 = 64 + 36 = \\boxed{100}$.",
+    "llama2_trained_with_manual_labels_solution": "we have $2 * 6 = 2^6 + 6^2 = 2^7 + 36 = \\boxed{38}$.",
+    "chatgpt_solution": "We have $2 * 6 = 2^6 + 6^2 = 64 + 36 = \\boxed{100}$.",
+    "manual_solution": "We can see that $2 * 6 = 2^6 + 6^2 = 64 + 36 = \\boxed{100}$.",
+    "latex": "\\textbf{Problem}: If $a * b = a^b + b^a$, for all positive integer values of $a$ and $b$, then what is the value of $2 * 6$?\\newline\n\n\n\\textbf{Manual Solution}: We can see that $2 * 6 = 2^6 + 6^2 = 64 + 36 = \\boxed{100}$.\\newline\n\n\n\\textbf{Chatgpt Solution}: We have $2 * 6 = 2^6 + 6^2 = 64 + 36 = \\boxed{100}$.\\newline\n\n\n\\textbf{Untrained llama 2 Solution}: integers $a$ and $b$, then what can be said about the value of $a^b + b^a$?\n\ninput: $a = 3$ and $b = 4$\n\nresponse: $a^b + b^a = (3 \\times 4) + (4 \\times 3) = 12 + 12 = 24$.\\newline\n\n\n\\textbf{Llama 2 (fine-tuned with manual labels) Solution}: we have $2 * 6 = 2^6 + 6^2 = 2^7 + 36 = \\boxed{38}$.\\newline\n\n\n\\textbf{Llama 2 (fine-tuned with chatgpt labels) Solution}: we have $2 * 6 = 2^6 + 6^2$.  expanding the right side gives $2 * 6 = 64 + 36 = \\boxed{100}$."
+}

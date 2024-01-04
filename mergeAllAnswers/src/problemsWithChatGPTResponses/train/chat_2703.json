@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JoaEP3zHKRLFZbo9jyuHXax9NLff",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We know that in one hour, Mary can mow $\\frac{1}{4}$ of the lawn, and Tom can mow $\\frac{1}{5}$ of the lawn. So in 2 hours of work, Tom can mow a total of $\\frac{1}{5} \\cdot 2 = \\frac{2}{5}$ of the lawn. Thus, the fraction of the lawn that remains to be mowed is $1 - \\frac{2}{5} = \\boxed{\\frac{3}{5}}$ of the lawn.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699733366,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 115,
+        "prompt_tokens": 49,
+        "total_tokens": 164
+    }
+}

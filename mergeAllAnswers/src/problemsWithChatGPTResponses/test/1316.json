@@ -1,0 +1,7 @@
+{
+    "problem": "If $\\frac{x}{y}= 2$ and $\\frac{z}{x}= 4$, what is the value of $\\frac{z}{y}$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "$\\frac z y=\\frac z x\\cdot\\frac x y=4\\cdot2=\\boxed{8}$.",
+    "chatgpt_solution": "Multiplying both equations gives: \\[\\left(\\frac{x}{y}\\cdot\\frac{z}{x}\\right)=2\\cdot 4,\\] so $\\frac{z}{y}=\\boxed{8}$."
+}

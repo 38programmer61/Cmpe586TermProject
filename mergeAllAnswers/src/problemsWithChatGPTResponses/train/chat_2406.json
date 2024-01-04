@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jn3GZ5OxK11xExi8gBvy9hXghydm",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We have that $f(3) = 2(3)^2 - 4(3) + 9 = 18$, so $2f(3) = 2(18) = 36$.  We also have that $f(-3) = 2(-3)^2 - 4(-3) + 9 = 18$, so $3f(-3) = 3(18) = 54$.  Therefore, $2f(3) + 3f(-3) = 36 + 54 = \\boxed{90}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699727478,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 121,
+        "prompt_tokens": 44,
+        "total_tokens": 165
+    }
+}

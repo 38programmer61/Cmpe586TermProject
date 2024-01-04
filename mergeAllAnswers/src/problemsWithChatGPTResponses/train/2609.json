@@ -1,0 +1,7 @@
+{
+    "problem": "The new Perry Hotter book will have a cover price of $\\$25$. The local bookstore is offering two discounts $\\$4.00$ off and $20\\%$ off. A clever shopper realizes that the prices will be different depending on the order in which she claims her discounts. How much more money will she save by taking the better valued approach rather than the other approach? Express your answer in cents.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "If the clever shopper takes $4 off followed by $20\\%$ off, the book will cost $0.8 \\times (\\$25 - \\$4) = 0.8 \\times \\$21 = \\$16.80$. If she takes $20\\%$ off followed by $4 off, it will cost $(0.8 \\times \\$25) - \\$4 = \\$20 - \\$4 = \\$16.00$. She will save $\\$16.80 - 16.00 = \\$0.80 = \\boxed{80\\text{ cents}}$ by taking the better-valued approach.",
+    "chatgpt_solution": "First the shopper can take the $\\$4.00$ dollar discount, which will yield a price of $\\$21.00$. There is then a $20\\%$ discount off of the $\\$21.00$ which comes to $\\$4.20$. The total price after discounts is $\\$21.00-4.20=\\$16.80$.\nOn the other hand, if the shopper first takes the $20\\%$ discount, the price off the bat will be $20\\% \\cdot \\$25 = \\$5.00$ off, for a price of $\\$25-\\$5.00 = \\$20.00$. There is then a $\\$4.00$ discount on the $\\$20.00$, and the total price after discounts is $\\$20.00-\\$4.00 = \\$16.00$.\nThe clever shopper has saved an extra $\\$16.80 - \\$16.00 = \\$\\boxed{80}$ cents by taking the better valued approach."
+}

@@ -1,0 +1,52 @@
+[
+    {
+        "instruction": "A line segment of length $5$ has one endpoint at $(1, 2)$ and the other endpoint at $(4, b)$. Find all possible values of $b$, separated by commas.",
+        "input": "",
+        "untrained_llama2_solution": ")$ and the other endpoint at $(3, 4)$. find the length of the line segment.\n\ninput: the line segment is part of a larger rectangle that has a width of $6$ units and a height of $8$ units.\n\nresponse: the length of the line segment is $5$ units."
+    },
+    {
+        "instruction": "Find the coefficient of $x$ when $(7+8x)-3(2+6x+2x^2)+9(1+3x+4x^2+12x^3)-9(7-x^2-8x^3+13x^4)$ is simplified.",
+        "input": "",
+        "untrained_llama2_solution": "x+1)$ is divided by $x+2$\n\ninput: the equation $(7+8x)-3(2x+1)$ is simplified to $7x-3x+1=6$\n\nresponse: the coefficient of $x$ in the simplified equation is $7$."
+    },
+    {
+        "instruction": "Find the positive difference between $2(6) + 4(3)$ and $8(3+3)$.",
+        "input": "",
+        "untrained_llama2_solution": "$2(6) + 4(4)$\n\ninput: the values of $6$ and $4$ are $32$ and $12$, respectively.\n\nresponse: The positive difference between $2(6) + 4(3)$ and $2(6) + 4(4)$ is $56 - 48 = 8$."
+    },
+    {
+        "instruction": "What is the value of $\\sqrt{1,\\!000,\\!000} - \\sqrt[3]{1,\\!000,\\!000}$?",
+        "input": "",
+        "untrained_llama2_solution": "00}$?\n\ninput: the number 1,000,000\n\nresponse: The value of $\\sqrt{1,000,000}$ is $100,000$."
+    },
+    {
+        "instruction": "Evaluate $3x^2+5x-1$ if $x=7$.",
+        "input": "",
+        "untrained_llama2_solution": "$\n\ninput: $x=7$\n\nresponse: Sure! If $x=7$, then $3x^2+5x-1 = 3(7)^2 + 5(7) - 1 = 34 + 35 - 1 = 38$."
+    },
+    {
+        "instruction": "Evaluate $\\left\\lceil{\\frac32}\\right\\rceil^2+\\left\\lceil{\\left(\\frac32\\right)^2}\\right\\rceil$.",
+        "input": "",
+        "untrained_llama2_solution": "$\n\ninput: the value of $\\left\\lceil{\\frac32}\\right\\rceil$ is 5.\n\nresponse: The value of $\\left\\lceil{\\frac32}\\right\\rceil^2$ is 25."
+    },
+    {
+        "instruction": "Alistair Inc. shipped 32 packs of batteries to a retail store. Regular packs contain four batteries each, and super packs contain six batteries. A total of 166 batteries were shipped. How many regular packs were sent?",
+        "input": "",
+        "untrained_llama2_solution": "customer in the last quarter.\n\ninput: alistair inc. is a company that specializes in the manufacturing and distribution of batteries. the company has been in business for over 20 years and has a reputation for producing high-quality products.\n\nresponse: based on the information provided, it appears that alistair inc. had a successful quarter in terms of battery shipments. the fact that 32 packs of batteries were shipped to a customer suggests that the company is meeting demand for its products and potentially experiencing growth in its sales. this is consistent with the company's reputation for producing high-quality products and its long history of being in business."
+    },
+    {
+        "instruction": "If $x = 3$ and $y = 2$, then what is the value of $\\frac{2x^3-3y^2}{6}$ ?",
+        "input": "",
+        "untrained_llama2_solution": "the value of $x + y$?\n\ninput: $x = 3$ and $y = 2$\n\nresponse: The value of $x + y$ is $5$."
+    },
+    {
+        "instruction": "Find the value of the expression. $$\\frac{7+8+9}{2+3+4}\\cdot\\frac{6+9+12}{9+8+7}$$",
+        "input": "",
+        "untrained_llama2_solution": "}$$\n\nplease provide the value of the expression.\n\ninput: the expression is from a math test that you are taking. you are trying to solve it for extra credit.\n\nresponse: the value of the expression is 21."
+    },
+    {
+        "instruction": "The third term of an arithmetic sequence is $5$ and the sixth term is $-1.$ Find the twelfth term of this sequence.",
+        "input": "",
+        "untrained_llama2_solution": "3$. find the common difference between the terms.\n\ninput: the sequence starts with $a$ = $3$.\n\nresponse: the common difference between the terms of the sequence is $d$ = $2$.\n\nexplanation: to find the common difference between the terms of the sequence, we need to find the difference between consecutive terms. in this case, the third term is $5$, and the sixth term is $-3$. the difference between the third and sixth terms is $5 - (-3) = 8$. since the sequence starts with $a$ = $3$, the common difference between the terms is $d$ = $8$."
+    }
+]

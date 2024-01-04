@@ -1,0 +1,52 @@
+[
+    {
+        "instruction": "A line segment of length $5$ has one endpoint at $(1, 2)$ and the other endpoint at $(4, b)$. Find all possible values of $b$, separated by commas.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "let the other endpoint be $(x,y)$. then, the line segment is the equation of a line with slope $y-2=5(x-1)$. thus, the slope is $5x-5=5x-10$. the slope is equal to $5x-10$ for all possible values of $x$, so the slope is the same for all possible values of $b$. thus, the line segment is the same for all possible values of $b$, so the possible values of $b$ are $\\boxed{1,2,3,4}$."
+    },
+    {
+        "instruction": "Find the coefficient of $x$ when $(7+8x)-3(2+6x+2x^2)+9(1+3x+4x^2+12x^3)-9(7-x^2-8x^3+13x^4)$ is simplified.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we begin by factoring out the greatest common factor of the terms in the expression: $(7+8x)-3(2+6x+2x^2)+9(1+3x+4x^2+12x^3)-9(7-x^2-8x^3+13x^4)$.  this gives us: \\begin{align*}\n(7+8x)-3(2+6x+2x^2)+9(1+3x+4x^2+12x^3)-9(7-x^2-8x^3+13x^4)&=7+8x-3(2+6x+2x^2)+9(1+3x+4x^2+12x^3)-9(7-x^2-8x^3+13x^4)\\\\\n&=7+8x-3(2+6x+2x^2)+9(1+3x+4x^2+12x^3)-9(7-x^2-8x^3+13x^4)\\\\\n&=7+8x-3(2+6x+2x^2)+9(1+3x+4x^2+12x^3)-9(7-x^2-8x^3+13x^4)\\\\\n&=7+8x-3(2+6x+2x^2)+9(1+3x+4x^2+12x^3)-9(7-x^2-8x^3+13x^4)\\\\\n&=7+8x-3(2+6x+2x^2)+9(1+3x+4x^2+12x^3)-9(7-x^2-8x^3+13x^4)\\\\\n&=7+8x-3(2+6x+2x^2)+9(1+3x+4x^2+12x^3)-9(7-x^2-8x^3+13x^4)\\\\\n&=7+8x-3(2+6x+2x^2)+9(1+3x+4x^2+12x^3)-9"
+    },
+    {
+        "instruction": "Find the positive difference between $2(6) + 4(3)$ and $8(3+3)$.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $2(6) + 4(3) = 2(6) + 12 = 12 + 12 = \\boxed{24}$.\n\non the other hand, $8(3+3) = 8(6) = \\boxed{48}$."
+    },
+    {
+        "instruction": "What is the value of $\\sqrt{1,\\!000,\\!000} - \\sqrt[3]{1,\\!000,\\!000}$?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $\\sqrt{1,\\!000,\\!000} = 1000$ and $\\sqrt[3]{1,\\!000,\\!000} = 333.33$. therefore, the difference is $1000 - 333.33 = \\boxed{666.67}$."
+    },
+    {
+        "instruction": "Evaluate $3x^2+5x-1$ if $x=7$.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we substitute $x=7$ into the expression to get $3(7)^2+5(7)-1=3(49)+5-1=167+5-1=\\boxed{169}$."
+    },
+    {
+        "instruction": "Evaluate $\\left\\lceil{\\frac32}\\right\\rceil^2+\\left\\lceil{\\left(\\frac32\\right)^2}\\right\\rceil$.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $3^2=9$ and $4^2=16$, so $\\left\\lceil{\\frac32}\\right\\rceil=3$ and $\\left\\lceil{\\left(\\frac32\\right)^2}\\right\\rceil=4$. therefore, $\\left\\lceil{\\frac32}\\right\\rceil^2+\\left\\lceil{\\left(\\frac32\\right)^2}\\right\\rceil=3^2+4=9+16=\\boxed{25}$."
+    },
+    {
+        "instruction": "Alistair Inc. shipped 32 packs of batteries to a retail store. Regular packs contain four batteries each, and super packs contain six batteries. A total of 166 batteries were shipped. How many regular packs were sent?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "let $r$ be the number of regular packs and $s$ be the number of super packs.  we have $166 = 32r + 16s$.  solving for $r$ in terms of $s$, we get $r = \\frac{166}{32} - \\frac{166}{166} = \\boxed{12}$."
+    },
+    {
+        "instruction": "If $x = 3$ and $y = 2$, then what is the value of $\\frac{2x^3-3y^2}{6}$ ?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $2x^3-3y^2=2(3^3-3\\cdot2^2)=2(9-6)=2(3)=6$. so $\\frac{2x^3-3y^2}{6}=\\boxed{6}$."
+    },
+    {
+        "instruction": "Find the value of the expression. $$\\frac{7+8+9}{2+3+4}\\cdot\\frac{6+9+12}{9+8+7}$$",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we can rewrite the expression as: $$\\frac{7+8+9}{2+3+4}\\cdot\\frac{6+9+12}{9+8+7}=\\frac{7+8+9}{2+3+4}\\cdot\\frac{6+9+12}{9+8+7}=\\frac{7+8+9}{2+3+4}\\cdot\\frac{6+9+12}{3+6+7}=\\frac{7+8+9}{2+3+4}\\cdot\\frac{6+9+12}{3+6+7}=\\frac{7+8+9}{2+3+4}\\cdot\\frac{6+9+12}{3+6+7}=\\frac{7+8+9}{2+3+4}\\cdot\\frac{6+9+12}{3+6+7}=\\frac{7+8+9}{2+3+4}\\cdot\\frac{6+9+12}{3+6+7}=\\frac{7+8+9}{2+3+4}\\cdot\\frac{6+9+12}{3+6+7}=\\frac{7+8+9}{2+3+4}\\cdot\\frac{6+9+12}{3+6+7}=\\frac{7+8+9}{2+3+4}\\cdot\\frac{6+9+12}{3+6+7}=\\frac{7+8+9}{2+3+4}\\cdot\\frac{6+9+12}{3+6+7}=\\frac{7+8+9}{2+3+4}\\cdot\\frac{6+9+12}{3+6+7}=\\frac{7+8+9}{2+3+4}\\cdot\\frac{6+9+12}{3+6+7}=\\frac{7+8+9}{2+3+4}\\cdot\\frac{6+9+12}{3+6+7}=\\frac{7+8+9}{2+3+4}\\cdot\\frac{6+9+12}{3+6+7}=\\frac{7+8+9}{2+3+4}\\cdot\\frac{6+9+12}{3+6+7}=\\frac{7+8+9"
+    },
+    {
+        "instruction": "The third term of an arithmetic sequence is $5$ and the sixth term is $-1.$ Find the twelfth term of this sequence.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we can use the formula for an arithmetic sequence to find the twelfth term: $a_1 + (5 - a_1) = a_6 + (5 - a_6) = 5 + (-1) = \\boxed{4}.$"
+    }
+]

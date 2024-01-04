@@ -1,0 +1,7 @@
+{
+    "problem": "What is \\[2-4x-6x^2+8+10x-12x^2-14+16x+18x^2\\] in terms of $x$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Combining like terms, the given expression is equal to $(2+8-14)+(-4x+10x+16x)+(-6x^2-12x^2+18x^2)=\\boxed{22x-4}$.",
+    "chatgpt_solution": "We can rewrite the given expression as \\[\\begin{aligned} 2-4x-6x^2+8+10x-12x^2-14+16x+18x^2 &= (2+8-14)+(10x-4x+16x) + (-6x^2-12x^2+18x^2) \\\\ &= -4 + 22x + (18-18-12)x^2 \\\\ &= \\boxed{-4+22x-12x^2}. \\end{aligned}\\]"
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "What is the sum of the first ten positive multiples of $13$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "The first ten positive multiples of 13 are 13, $13 \\cdot 2$, $\\dots$, $13 \\cdot 10$, so we want to find the sum $13 + 13 \\cdot 2 + \\dots + 13 \\cdot 10 = 13 \\cdot (1 + 2 + \\dots + 10)$.\n\nFor all $n$, $1 + 2 + \\dots + n = n(n + 1)/2$, so $13 \\cdot (1 + 2 + \\dots + 10) = 13 \\cdot 10 \\cdot 11/2 = \\boxed{715}$.",
+    "chatgpt_solution": "The first ten positive multiples of $13$ are $13$, $2 \\cdot 13$, $3 \\cdot 13$, $\\ldots$, $10 \\cdot 13$. This is an arithmetic sequence with first term $13$, common difference $13$, and last term $10 \\cdot 13 = 130$. Thus, the sum of this arithmetic sequence is equal to $$\\frac{13 + 130}{2} \\cdot 10 = \\frac{143}{2} \\cdot 10 = \\boxed{715}.$$"
+}

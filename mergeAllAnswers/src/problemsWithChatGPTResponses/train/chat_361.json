@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JpPWrQ5BWBH7uqszE96FTJHr3XKH",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We have  \\[\\frac{109^2-100^2}{9}=\\frac{(109+100)(109-100)}{9}=\\frac{209\\cdot9}{9}=\\boxed{209}.\\]",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699736546,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 48,
+        "prompt_tokens": 29,
+        "total_tokens": 77
+    }
+}

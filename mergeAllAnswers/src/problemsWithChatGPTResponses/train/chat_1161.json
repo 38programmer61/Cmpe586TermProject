@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JhdcXKQnHbW4PZrZU1g1JBi7Mr6P",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We find that $30 \\cdot \\frac{1}{6} = \\boxed{\\frac{5}{2}}$ cup of flour goes into each of the small pie crusts. Since the same total amount of flour will go into each of the large crusts, we divide $\\frac{5}{2}$ by $2$ to find that $\\boxed{\\frac{5}{4}}$ cup of flour will go into each of the new crusts.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699706668,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 94,
+        "prompt_tokens": 83,
+        "total_tokens": 177
+    }
+}

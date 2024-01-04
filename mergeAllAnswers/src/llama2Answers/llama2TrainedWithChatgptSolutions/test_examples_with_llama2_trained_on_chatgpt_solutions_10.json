@@ -1,0 +1,52 @@
+[
+    {
+        "instruction": "Compute $99^2+99+1$ in your head.",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we can compute $99^2$ by using the formula $a^2 = a \\cdot a = 99 \\cdot 99 = 9801$.  then we have $99^2 + 99 = 9801 + 99 = \\boxed{9900}$."
+    },
+    {
+        "instruction": "What is the value of $x + y + z$ when $6x + 5y - 2z = -4$ and $4x + 5y + 12z = 54$?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we can solve the first equation for $x$, $y$, and $z$ to find that $x = -2$, $y = 3$, and $z = -1$.  substituting these values into the second equation, we find that $x + y + z = 6$.  thus, the value of $x + y + z$ is $\\boxed{6}$."
+    },
+    {
+        "instruction": "A stack of 100 nickels has a height of 6.25 inches. What is the value, in dollars, of an 8-foot stack of nickels? Express your answer to the nearest hundredth.",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we find the volume of a stack of nickels by multiplying the height of the stack by the number of nickels in the stack. the volume of a stack of nickels is 100(6.25) = <<100*6.25=625>>625 cubic inches.\n\nwe convert the volume of nickels to dollars by dividing by $0.05, the value of a nickel. the value of an 8-foot stack of nickels is 625(0.05) = <<625*0.05=31.25>>31.25 dollars. answer: \\boxed{31.25}."
+    },
+    {
+        "instruction": "The largest and smallest of three consecutive terms in an arithmetic sequence differ by 14. Half of the smallest term is added to each term and the sum of the resulting three numbers is 120. What is the value of the original smallest term?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we set up a system of equations to solve for the smallest term. let $t_1$, $t_2$, and $t_3$ be the three consecutive terms in the arithmetic sequence. we are given that $t_1 + t_2 + t_3 = 120$ and $t_1 + (1/2)(t_1) = t_2$ and $t_2 + (1/2)(t_2) = t_3$ and $t_3 + (1/2)(t_3) = t_1$. we can solve these equations by substituting $t_1$ for $t_1 + (1/2)(t_1)$ in the first equation, $t_2$ for $t_2 + (1/2)(t_2)$ in the second equation, and $t_3$ for $t_3 + (1/2)(t_3)$ in the third equation. we get $t_1 + t_2 + t_3 = 120$, $t_1 + t_1 + t_2 = t_2$, and $t_1 + t_2 + t_3 = t_1$. we can solve these equations by subtracting the first equation from the second equation and the second equation from the third equation. we get $t_2 = t_1 + t_2 - t_1 - t_2 = t_1 + t_2 - t_1 - t_2 = t_2 - t_1 - t_2 = -t_1 - t_2$, and $t_3 = t_1 + t_2 + t_3 - t_1 - t_2 - t_3 = t_1 + t_2 + t_3 - t_1 - t_2 - t_3 = t_1 + t_2 + t_3 - t_1 - t_2 - t_3 = t_1 + t_2 + t_3 - t_1 - t_2 - t_3 = t_1 + t_2 + t_3 - t_1 - t_2 - t_3 = t_1 + t_2 + t_3 - t_1 - t_2 - t_3 = t_1 + t_2 + t_3 - t_"
+    },
+    {
+        "instruction": "What is the length of the segment of the number line consisting of the points that satisfy $(x-4)^2 \\le 9$?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we begin by factoring the quadratic: $(x-4)^2 \\le 9$ is equivalent to $x^2-4x+36 \\le 0$. we can factor this quadratic as $(x-4)(x-9) \\le 0$. since we want to find the length of the segment, we look for the smallest positive value of $x$ that satisfies the inequality. this is $x=9$. the length of the segment is $\\boxed{1}$."
+    },
+    {
+        "instruction": "Factor $9z^3 - 27z^2 + 27z$.",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we can factor out a $z^3$ from the first term, and a $z^2$ from the second term, to get $9z^3 - 27z^2 + 27z = (3z - 1)(3z^2 + 9z - 27)$."
+    },
+    {
+        "instruction": "How many units long is a line segment whose endpoints have coordinates $(-3,7)$ and $(2,-5)$?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we find the length of the line segment by using the distance formula:\n\ndistance = $\\sqrt{(-3-2)^2+(7-(-5))^2}$\n\n= $\\sqrt{(-5+7)^2+(3-(-3))^2}$\n\n= $\\sqrt{2^2+(-2)^2}$\n\n= $\\sqrt{4+4}$\n\n= $\\sqrt{8}$\n\n= $\\boxed{2\\sqrt{2}}$\n\ntherefore, the line segment is $\\boxed{2\\sqrt{2}}$ units long."
+    },
+    {
+        "instruction": "Consider the function $g(x)=3x-4$.  What is $g(0)$?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we have $g(0)=3(0)-4=0$."
+    },
+    {
+        "instruction": "When Frederick was born, his grandparents gave him a gift of $\\$2000$, which was invested at a simple interest rate of $5\\%$ per year.  How much money will Frederick have when he can collect the money at the age of $18$?  (Assume no money is added to the account besides the interest.)",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we find the future value of the investment by using the formula for the future value of an investment: $FV = PV \\cdot (1 + r)^n$, where $PV$ is the present value, $r$ is the interest rate, and $n$ is the number of years.  in this case, $PV = \\$2000$, $r = 0.05$, and $n = 18$.  plugging these values into the formula, we find that $FV = \\$2000 \\cdot (1 + 0.05)^18 = \\$2000 \\cdot 1.23 = \\$2460$.  so, when frederick is $18$ years old, he will have $\\boxed{2460}$ dollars."
+    },
+    {
+        "instruction": "The sum of the $x$-coordinates of the vertices of a triangle in the Cartesian plane equals $\\sqrt{13}$.  Let $S$ equal the sum of the $x$-coordinates of the midpoints of the sides of the triangle. Find $S^2$.",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we have that the $x$-coordinates of the vertices of a triangle are $x_1 = 0$, $x_2 = 1$, and $x_3 = 2$.  therefore, the sum of the $x$-coordinates of the vertices is $x_1 + x_2 + x_3 = 0 + 1 + 2 = \\boxed{3}$."
+    }
+]

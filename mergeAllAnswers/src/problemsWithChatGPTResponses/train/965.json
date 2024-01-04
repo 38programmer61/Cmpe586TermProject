@@ -1,0 +1,7 @@
+{
+    "problem": "If $a$ is three times $b$, $b$ is twice $c$, and $c$ is four times $d$, what is the value of $\\frac{a\\cdot c}{b\\cdot d}$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We have that $c=4d$, $b=2c$, and $a=3b$ and thus we can use the equations $c=4d$, $b=8d$, and $a=24d$ to find the value of the expression.  Plugging in these values we get $\\frac{24d \\cdot 4d}{8d \\cdot d}=\\boxed{12}$.",
+    "chatgpt_solution": "Since $a = 3b$, $b = \\frac13a$. Since $b = 2c$, $c = \\frac12b = \\frac12 \\cdot \\frac13a =\\frac{1}{6}a$. Finally, since $c = 4d$, $d = \\frac14c = \\frac14 \\cdot \\frac16a = \\frac{1}{24}a$. Then $\\frac{ac}{bd}=\\frac{a\\cdot(\\frac{1}{6}a)}{\\frac{1}{3}a\\cdot(\\frac{1}{24}a)} = \\frac{\\frac{1}{6}a^2 }{\\frac{1}{8}a^2} = \\frac{\\frac{1}{6} }{\\frac{1}{8}}=\\frac{8}{6}=\\boxed{\\frac{4}{3}}$."
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jk4nKEBlJoZ9ofck0Xl5dDpOd8bZ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "By the quadratic formula, we obtain that the solution to $ax^2+20x+c=0$ is\n$$x=\\frac{-20\\pm\\sqrt{20^2-4ac}}{2a} = \\frac{-20\\pm 20\\sqrt{1-\\frac{c}{5a}}}{2a} = \\frac{-10\\pm\\sqrt{4(1-\\frac{c}{5a})}}{a}$$Since the quadratic has only one solution, the discriminant must be equal to 0. Thus\n$$4\\left(1-\\frac{c}{5a}\\right) = 0 \\Rightarrow a=\\frac{c}{5}$$We can then substitute this into $a+c = 29$ to obtain the system of equations\n\\begin{align*} a+c &= 29\\\\ a &= \\frac{c}{5} \\end{align*}Solving gives\n\\begin{align*} a &= \\frac{25}{6}\\\\ c &= \\frac{145}{6} \\end{align*}Therefore, $(a,c)=\\boxed{\\left(\\frac{25}{6}, \\frac{145}{6}\\right)}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699716041,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 255,
+        "prompt_tokens": 47,
+        "total_tokens": 302
+    }
+}

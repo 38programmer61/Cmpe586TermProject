@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jj4ovSbRPoXvqUfqIUp4pIvnzDDv",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "First, let's subtract $7x$ from both sides to get $x^2-7x<0$. We can factor this as $x(x-7)<0$. Then, we get the solution $0 < x < 7$. There are $\\boxed{6}$ integer values between 0 and 7: 1, 2, 3, 4, 5, 6.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699712198,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 85,
+        "prompt_tokens": 27,
+        "total_tokens": 112
+    }
+}

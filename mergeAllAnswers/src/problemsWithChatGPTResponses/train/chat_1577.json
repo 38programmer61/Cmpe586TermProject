@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JjwdxgRRXtljhT36ks9ojstOk3Cv",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We have $(3-2i)-(5-2i) = 3-2i-5+2i = \\boxed{-2}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699715535,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 31,
+        "prompt_tokens": 21,
+        "total_tokens": 52
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "What is $\\sqrt[4]{16} \\cdot \\sqrt[3]{8} \\cdot \\sqrt{4}$ expressed as a positive integer?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "All three factors equal to 2, so the product is $2\\cdot2\\cdot2=\\boxed{8}$.",
+    "chatgpt_solution": "Since $16$ equals $2^4$, $\\sqrt [4]{16} = \\sqrt [4]{2^4} = 2$.  Similarly, since $8 = 2^3$, $\\sqrt [3]{8} = \\sqrt [3]{2^3} = 2$.  Finally, $\\sqrt {4} = 2$.  Hence, $\\sqrt [4]{16} \\cdot \\sqrt [3]{8} \\cdot \\sqrt {4} = 2\\cdot2\\cdot 2 = \\boxed{8}$."
+}

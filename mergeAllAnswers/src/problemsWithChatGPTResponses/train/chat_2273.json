@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JmAgVrbIJ9rDsUYURkANwlIPjUXW",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let's call the two numbers x and y. \n\nAccording to the given information, we can set up two equations: \n\nx + y = 22 (equation 1) \nx - y = 4 (equation 2) \n\nTo solve for x and y, we can add the two equations: \n\n(equation 1) + (equation 2):\nx + y + x - y = 22 + 4\n2x = 26 \n\nNext, we divide both sides by 2 to solve for x: \n\n2x/2 = 26/2\nx = 13 \n\nNow that we have the value of x, we can substitute it back into either of the original equations to solve for y. Let's use equation 1: \n\n13 + y = 22 \ny = 22 - 13 \ny = 9 \n\nTherefore, the greater of the two numbers is 13.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699724094,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 194,
+        "prompt_tokens": 31,
+        "total_tokens": 225
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlN4pLKJbkILTZ8hPj0rBimdQYkp",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Expanding both equations gives $x^2 + xy = 27$ and $xy + y^2 = 54$.  Adding these two equations gives \\[x^2 + 2xy + y^2 = 81.\\]Since $x(x + y) = 27$, we have $x^2 + xy = 27$, so \\[x^2 + xy + y^2 = 27 + y^2 = 81.\\]Hence, $y^2 = 54$, so $y = \\pm 3 \\sqrt{6}$.  Since $y > 0$, $y = 3 \\sqrt{6}$.  Then $x^2 + xy = 27$, so $x^2 = 27 - xy = 27 - 3 \\sqrt{6} \\cdot 3 \\sqrt{6} = 9$, so $x = \\pm 3$.  Since $x > 0$, $x = 3$.  Hence, $(x + y)^2 = (3 + 3 \\sqrt{6})^2 = \\boxed{54 + 18 \\sqrt{6}}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699721018,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 246,
+        "prompt_tokens": 41,
+        "total_tokens": 287
+    }
+}

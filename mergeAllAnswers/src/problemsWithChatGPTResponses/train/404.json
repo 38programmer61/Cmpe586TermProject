@@ -1,0 +1,7 @@
+{
+    "problem": "The seventh and tenth terms of a geometric sequence are $7$ and $21$, respectively. What is the $13$th term of this progression?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "To get from the seventh term to the tenth term, we multiply the seventh term by 3 ($7\\times3=21$). So to get from the tenth term to the $13$th term, we multiply the tenth term by 3 since the ratio between terms is constant. The $13$th term is $21\\times3=\\boxed{63}$.\n\nTo be more specific, we can write the eighth term as $7r$, where $r$ is the common ratio of the geometric sequence. The ninth term is $7r^2$, the tenth term is $7r^3$, etc. If $7r^3=21$, then $r^3=3$. So $a_n=a_{n-3}r^3=3a_{n-3}$. We get the $13$th term with $3a_{10}=3\\times21=\\boxed{63}$.",
+    "chatgpt_solution": "Since the seventh term equals $7$ and we know that the common ratio between terms is the same, we see that the tenth term is equal to $\\frac{21}{7}=\\boxed{3}$. The ratio is then $3/7$. We can check that this is common ratio by further multiplying by $3/7$ to yield 1, the base term of the geometric sequence. Thus the twelfth term is $3\\cdot \\frac{3}{7}=\\frac{9}{7}$ and the thirteenth term is $\\frac{9}{7}\\cdot\\frac{3}{7}=\\boxed{\\frac{27}{49}}$."
+}

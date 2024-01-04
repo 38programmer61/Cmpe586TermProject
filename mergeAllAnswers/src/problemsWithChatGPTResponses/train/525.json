@@ -1,0 +1,7 @@
+{
+    "problem": "What is the least integer value of $x$ such that  $\\lvert2x+ 7\\rvert\\le 16$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Clearly, the inequality has some solutions for which $2x+7$ is negative.  For example, if $x = -4$, then $2x+7 = -1$, so $|2x+7| = 1$, which is less than 16.  As we make $x$ even smaller, $2x+7$ gets even more less than zero, so $|2x+7|$ gets larger.  But how small can we make $x$?  To figure this out, we note that if $2x+7$ is negative, then $|2x+7| = -(2x+7)$.  Then, our inequality becomes $-(2x+7) \\le 16$.  Multiplying both sides by $-1$ (and flipping the direction of the inequality symbol) gives $2x +7 \\ge -16$.  Subtracting 7 and then dividing by 2 gives $x \\ge -11.5$.  So, the smallest possible integer value for $x$ is $\\boxed{-11}$.  Checking, we see that when $x=-11$, we have $|2x + 7| = 15$, which is less than 16.",
+    "chatgpt_solution": "$16\\ge \\lvert2x + 7\\rvert$ means that $-16 \\le 2x+7 \\le 16$. Subtracting 7 gives  \\[-23\\le 2x\\le 9.\\] Dividing by 2 gives \\[-\\frac{23}{2} \\le x\\le \\frac{9}{2}.\\] Therefore, the possible integer values of $x$ are $-11$, $-10, \\ldots, 4$ inclusive. The least integer value is $\\boxed{-11}$."
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Find the sum of the first five terms in the geometric sequence $\\frac13,\\frac19,\\frac1{27},\\dots$. Express your answer as a common fraction.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "This is a finite geometric series with first term $\\frac13$ and common ratio $\\frac13$. There are five terms, so the sum of this series is $\\frac{\\frac13\\left(1-\\left(\\frac13\\right)^5\\right)}{1-\\frac13} = \\boxed{\\frac{121}{243}}$.",
+    "chatgpt_solution": "The first term is $\\frac13$ and the common ratio is $\\frac19\\div\\frac13=\\frac19\\cdot\\frac31=\\frac13$. The sum of the first five terms is  $$\\frac{\\frac13(1-\\left(\\frac13\\right)^5)}{1-\\frac13}=\\frac{\\frac13\\left(1-\\frac1{3^5}\\right)}{\\frac23}=\\frac{2\\cdot\\frac13\\left(1-\\frac1{3^5}\\right)}{3}=\\boxed{\\frac{121}{729}}.$$"
+}

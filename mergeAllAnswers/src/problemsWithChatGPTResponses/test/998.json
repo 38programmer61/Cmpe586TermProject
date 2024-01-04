@@ -1,0 +1,7 @@
+{
+    "problem": "The sum of the $x$-coordinates of the vertices of a triangle in the Cartesian plane equals $\\sqrt{13}$.  Let $S$ equal the sum of the $x$-coordinates of the midpoints of the sides of the triangle. Find $S^2$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Let the $x$-coordinates of the vertices be $a,b,c$.  Then the $x$-coordinates of the midpoints of the sides are $\\frac{a+b}2,\\frac{a+c}2,\\frac{b+c}2$.  The sum of these equals $\\frac{2a+2b+2c}2=a+b+c$.  Thus the desired answer is $\\left(\\sqrt{13}\\right)^2=\\boxed{13}$.",
+    "chatgpt_solution": "For simplicity, scale the triangle so that the sum of the x-coordinates of its vertices is 3. Let the vertices of the triangle be $(a,0),(b,c),(3-a,0),$ with $a,b<1.$ The coordinates of midpoint of a side of the triangle with one vertex $(a,0)$ and another $(b,c)$ is $(\\frac{a+b}{2},\\frac{c}{2}).$ Note that the x-coordinate of the midpoint of any side is strictly between zero and one. Thus $S,S'$ (the sum of the y-coordinates) is a point strictly inside a triangle with vertices $(0,0),(1,0),(0,c),$ hence $(x,y)$ satisfies $x+yS'=\\frac{b+c}{4}<\\frac{3}{4}.$ Therefore $S'<\\frac{3}{4}$ and thus $S<\\sqrt{\\left(\\frac{3}{4}\\right)^2+1^2}<\\sqrt{2}.$ As $S$ is the x-coordinate of a point on the circle with diameter $SM,$ it follows that $S^2<2,$ so the answer is $\\boxed{001}.$"
+}

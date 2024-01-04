@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JmBsfQs3WY19gTUDhSIFoFXye63X",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Cubing both sides gives $4-\\frac{x^2}{3}=-8$, so $\\frac{x^2}{3}=12$.  Therefore $x^2=36$ and the two solutions are $x=\\pm6$.  The positive difference between them is $\\boxed{12}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699724168,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 63,
+        "prompt_tokens": 40,
+        "total_tokens": 103
+    }
+}

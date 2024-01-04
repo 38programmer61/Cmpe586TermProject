@@ -1,0 +1,7 @@
+{
+    "problem": "If the two roots of the quadratic $7x^2+3x+k$ are $\\frac{-3\\pm i\\sqrt{299}}{14}$, what is $k$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Using the quadratic formula, we find that the roots of the quadratic are $\\frac{-3\\pm\\sqrt{3^2-4(7)(k)}}{14}=\\frac{-3\\pm\\sqrt{9-28k}}{14}$. Since the problem tells us that these roots must equal $\\frac{-3\\pm i\\sqrt{299}}{14}$, we have \\begin{align*} \\sqrt{9-28k}&=i\\sqrt{299}\n\\\\\\Rightarrow\\qquad 9-28k&=-299\n\\\\\\Rightarrow\\qquad -28k&=-308\n\\\\\\Rightarrow\\qquad k&=\\boxed{11}.\n\\end{align*}",
+    "chatgpt_solution": "By Vieta's formulas, the sum of the roots of this quadratic is $-\\tfrac37$ and the product is $\\tfrac{k}{7}$. Because the roots are complex conjugates, the sum is real and the product is purely imaginary.\n\nSuppose that we have two complex numbers with a sum that is real and a product that is purely imaginary. We can write the first number as $a + bi$ and the second as $a - bi$.\n\nThe sum is\n\\[(a + bi) + (a - bi) = 2a,\\]which is real. The product is\n\\[(a + bi)(a - bi) = a^2 - (bi)^2 = a^2 + b^2,\\]which is real. Therefore, $2a$ and $a^2 + b^2$ are both real, so $a$ and $b$ must be real (which means that the roots of the original quadratic must be real!), or $b = 0$. But $b$ must be nonzero for the roots to be $-\\tfrac37 \\pm \\tfrac{\\sqrt{299}i}{14}$, so the roots of the quadratic must be real, which means they are not the roots of this quadratic at all. Conclusion: $\\boxed{\\text{no such } k}$ works."
+}

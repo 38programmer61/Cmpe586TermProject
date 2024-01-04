@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlQ1I2MPpDl9vJXyVu5WRaXFKL9E",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let the three consecutive even integers be $n$, $n+2$, and $n+4$. We are given that $n + (n+4) = 128$. Simplifying the left side gives $2n + 4 = 128$, or $2n = 124$. Dividing both sides by $2$ gives $n = \\boxed{62}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699721201,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 79,
+        "prompt_tokens": 30,
+        "total_tokens": 109
+    }
+}

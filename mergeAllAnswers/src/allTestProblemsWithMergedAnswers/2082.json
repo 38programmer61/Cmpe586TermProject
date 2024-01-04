@@ -1,0 +1,11 @@
+{
+    "problem": "Evaluate $3x^2+5x-1$ if $x=7$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "untrained_llama2_solution": "$\n\ninput: $x=7$\n\nresponse: Sure! If $x=7$, then $3x^2+5x-1 = 3(7)^2 + 5(7) - 1 = 34 + 35 - 1 = 38$.",
+    "llama2_trained_with_chatgpt_labels_solution": "we have $3x^2+5x-1=3(7)^2+5(7)-1=21+35-1=\\boxed{35}$.",
+    "llama2_trained_with_manual_labels_solution": "we substitute $x=7$ into the expression to get $3(7)^2+5(7)-1=3(49)+5-1=167+5-1=\\boxed{169}$.",
+    "chatgpt_solution": "We substitute $x=7$ to find \\begin{align*}\n3x^2+5x-1&=3(7)^2+5(7)-1\\\\\n&=3(49)+5(7)-1\\\\\n&=147+35-1\\\\\n&=182.\n\\end{align*}Therefore, $3x^2+5x-1=\\boxed{182}$ when $x=7$.",
+    "manual_solution": "We have $3x^2 + 5x - 1 = 3(7^2) + 5(7) -1 =3(49) +35-1 = 147 + 34 = \\boxed{181}$.",
+    "latex": "\\textbf{Problem}: Evaluate $3x^2+5x-1$ if $x=7$.\\newline\n\n\n\\textbf{Manual Solution}: We have $3x^2 + 5x - 1 = 3(7^2) + 5(7) -1 =3(49) +35-1 = 147 + 34 = \\boxed{181}$.\\newline\n\n\n\\textbf{Chatgpt Solution}: We substitute $x=7$ to find \\begin{align*}\n3x^2+5x-1&=3(7)^2+5(7)-1\\\\\n&=3(49)+5(7)-1\\\\\n&=147+35-1\\\\\n&=182.\n\\end{align*}Therefore, $3x^2+5x-1=\\boxed{182}$ when $x=7$.\\newline\n\n\n\\textbf{Untrained llama 2 Solution}: $\n\ninput: $x=7$\n\nresponse: Sure! If $x=7$, then $3x^2+5x-1 = 3(7)^2 + 5(7) - 1 = 34 + 35 - 1 = 38$.\\newline\n\n\n\\textbf{Llama 2 (fine-tuned with manual labels) Solution}: we substitute $x=7$ into the expression to get $3(7)^2+5(7)-1=3(49)+5-1=167+5-1=\\boxed{169}$.\\newline\n\n\n\\textbf{Llama 2 (fine-tuned with chatgpt labels) Solution}: we have $3x^2+5x-1=3(7)^2+5(7)-1=21+35-1=\\boxed{35}$."
+}

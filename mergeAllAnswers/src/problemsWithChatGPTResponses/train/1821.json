@@ -1,0 +1,7 @@
+{
+    "problem": "It takes 24 minutes for Jana to walk one mile. At that rate, how far in miles will she walk in 10 minutes? Express your answer as a decimal to the nearest tenth.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Using dimensional analysis, we have $\\dfrac{1\\mbox{ mile}}{24\\mbox{ min}} \\times 10\\mbox{ min} = \\dfrac{5}{12}$ miles, or $\\boxed{0.4\\mbox{ miles}}$ to the nearest tenth.",
+    "chatgpt_solution": "We set up a proportion to solve for the distance Jana will walk in 10 minutes. Because 24 minutes corresponds to one mile, then $\\frac{1}{24}$ of a mile correspond to a minute walk. Therefore, if $x$ is the distance Jana walks in 10 minutes, then $\\frac{1}{24}=\\frac{x}{10}$. Cross-multiplying gives $240=24x$, so $x=\\boxed{10}$."
+}

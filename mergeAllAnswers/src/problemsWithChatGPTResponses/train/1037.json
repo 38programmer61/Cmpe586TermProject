@@ -1,0 +1,7 @@
+{
+    "problem": "The points $(-1,4)$ and $(2,-3)$ are adjacent vertices of a square. What is the area of the square?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The side length of the square is the distance between the given points, or $\\sqrt{(-1 - 2)^2 + (4 - (-3))^2} = \\sqrt{3^2 + 7^2} = \\sqrt{58}$. The area of the square is the square of the side length, or $\\boxed{58}$.",
+    "chatgpt_solution": "The side length of the square equals the distance between the points $(-1,4)$ and $(2,-3)$. Using the distance formula, we get $\\sqrt{(-1-2)^2+(4-(-3))^2}=\\sqrt{3^2+7^2}=\\sqrt{9+49}=\\sqrt{58}$. The area of the square is $(\\sqrt{58})^2=\\boxed{58}$."
+}

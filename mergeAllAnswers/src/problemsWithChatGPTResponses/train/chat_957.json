@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JrlRnHGMRBFMVNBMdp8XkPKZPxj6",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "After five years, Lisa's account will have grown to 1000*(1+0.01)^5 = $1051.16.\nSo the amount of interest she will have earned is 1051.16 - 1000 = $<<1051.16-1000=51.16>>51.16.\nTo the nearest dollar, Lisa will earn $<<51*1=51>>51 in interest. Answer: \\boxed{51}.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699745593,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 94,
+        "prompt_tokens": 62,
+        "total_tokens": 156
+    }
+}

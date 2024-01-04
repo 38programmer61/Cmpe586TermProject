@@ -1,0 +1,52 @@
+[
+    {
+        "instruction": "Find $x$, such that $\\log_{64^{\\frac{1}{3}}}4^x=1$.",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we have $\\log_{64^{\\frac{1}{3}}}4^x=1$ and $\\log_{64^{\\frac{1}{3}}}4^x=1$ implies $64^{\\frac{1}{3}} = 4^x$.  we have $64 = 4^x$ and $x = \\log_4(64) = \\boxed{4}$."
+    },
+    {
+        "instruction": "Evaluate: $\\left( \\frac{1}{2} + \\frac{1}{3} \\right) \\left( \\frac{1}{2} - \\frac{1}{3} \\right)$",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we have that $\\frac{1}{2} + \\frac{1}{3} = \\frac{1}{2} \\cdot \\frac{3}{2} = \\frac{3}{4}$ and $\\frac{1}{2} - \\frac{1}{3} = \\frac{1}{2} \\cdot \\frac{3}{2} - \\frac{1}{3} = \\frac{3}{4} - \\frac{1}{3} = \\frac{1}{4}$. therefore, $\\left( \\frac{1}{2} + \\frac{1}{3} \\right) \\left( \\frac{1}{2} - \\frac{1}{3} \\right) = \\left( \\frac{3}{4} \\right) \\left( \\frac{1}{4} \\right) = \\boxed{\\frac{3}{4}}$."
+    },
+    {
+        "instruction": "The graphs of $y=x^4$ and $y=7x^2-10$ intersect at four points with $x$-coordinates $\\pm \\sqrt{m}$ and $\\pm \\sqrt{n}$, where $m > n$. What is $m-n$?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we find the $x$-coordinates of the four points of intersection by solving the equations $x^4 = 7x^2 - 10$ and $x^4 = 0$. the first equation gives $x^4 = 7x^2 - 10 = 0$, so $x^4 = 0$ gives $x = 0$. the second equation gives $x^4 = 7x^2 - 10 = 0$, so $x^4 = 0$ gives $x = \\pm \\sqrt{m}$. the first equation gives $x^4 = 7x^2 - 10 = 0$, so $x^4 = 0$ gives $x = \\pm \\sqrt{n}$. the second equation gives $x^4 = 7x^2 - 10 = 0$, so $x^4 = 0$ gives $x = \\pm \\sqrt{m}$. the first equation gives $x^4 = 7x^2 - 10 = 0$, so $x^4 = 0$ gives $x = \\pm \\sqrt{n}$. the second equation gives $x^4 = 7x^2 - 10 = 0$, so $x^4 = 0$ gives $x = \\pm \\sqrt{m}$. the first equation gives $x^4 = 7x^2 - 10 = 0$, so $x^4 = 0$ gives $x = \\pm \\sqrt{n}$. the second equation gives $x^4 = 7x^2 - 10 = 0$, so $x^4 = 0$ gives $x = \\pm \\sqrt{m}$. the first equation gives $x^4 = 7x^2 - 10 = 0$, so $x^4 = 0$ gives $x = \\pm \\sqrt{n}$. the second equation gives $x^4 = 7x^2 - 10 = 0$, so $x^4 = 0$ gives $x = \\pm \\sqrt{m}$. the first equation gives $x^4 = 7x^2 - 10 = 0$, so $x^4 = 0$ gives $x = \\pm \\sqrt{n}$. the second equation gives $x^4 = 7"
+    },
+    {
+        "instruction": "Rationalize the denominator: $\\frac{5}{\\sqrt{3}}$ .",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we can rationalize the denominator by multiplying both the numerator and denominator by the same fraction, $\\frac{1}{\\sqrt{3}}$. this gives us $\\frac{5}{\\sqrt{3}}=\\frac{5\\cdot1}{\\sqrt{3}\\cdot1}=\\frac{5\\cdot1}{\\sqrt{3}}$. we can simplify this fraction further by multiplying both the numerator and denominator by $\\sqrt{3}$, giving us $\\frac{5\\cdot1}{\\sqrt{3}}=\\frac{\\sqrt{3}\\cdot5}{\\sqrt{3}\\cdot1}=\\boxed{\\sqrt{3}}$."
+    },
+    {
+        "instruction": "Simplify: $3!(2^3+\\sqrt{9})\\div 2$.",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we have $2^3+\\sqrt{9}=(2^3+1)(2^3+1)=2^6+2^3+1$.  therefore, $3!(2^3+\\sqrt{9})=3!(2^6+2^3+1)=3!(2^9+2^3+1)=3!(2^11)$.  simplifying, we find that $3!(2^11)=\\boxed{2^11}$."
+    },
+    {
+        "instruction": "Rationalize the denominator of $\\displaystyle\\frac{33}{\\sqrt{33}}$.",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we have \\[\\frac{33}{\\sqrt{33}} = \\frac{33}{33} = \\boxed{1}.\\]"
+    },
+    {
+        "instruction": "Given the two functions $f(x)=x^3+2x+1$ and $g(x)=x-1$, find $f(g(1))$.",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we have $g(1)=1$, so $f(g(1))=f(1)=1^3+2(1)+1=\\boxed{1}$."
+    },
+    {
+        "instruction": "A parabola with equation $y=x^2+bx+c$ passes through the points $(2,3)$ and $(4,3)$. What is $c$?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we have that $y=x^2+bx+c$ passes through $(2,3)$ if $2^2+b(2)+c=3$, and it passes through $(4,3)$ if $4^2+b(4)+c=3$.  we can solve these two equations to find $c$.  we find that $c=1$."
+    },
+    {
+        "instruction": "Suzanne walks four miles every third day. What is the fewest number of miles she can walk in February?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we find that suzanne walks 4 miles every 3 days, so she walks 4/3 miles per day.\n\nsince she walks 4 miles every third day, she walks 4/3 * 3 = <<4/3*3=12>>12 miles in a day.\n\ntherefore, the fewest number of miles she can walk in february is 28, since she walks 12 miles per day and there are 28 days in february. answer: \\boxed{28}."
+    },
+    {
+        "instruction": "If $A$, $B$ and $C$ are positive integers such that $\\frac{A\\sqrt{B}}{C} = \\frac{8}{3\\sqrt{2}}$, what is the value of $A+B+C$ given that $A$ and $C$ have no common prime factors, and $B$ has no perfect-square factors other than 1?",
+        "input": "",
+        "llama2_fine_tuned_on_chatgpt_solution": "we have $\\frac{a\\sqrt{b}}{c} = \\frac{8}{3\\sqrt{2}}$. cross-multiplying gives $a\\sqrt{b} = 8c$. dividing both sides by $c^2$ gives $a\\sqrt{b} = 8$. dividing both sides by $8$ gives $a = \\sqrt{b}$. dividing both sides by $2$ gives $b = \\sqrt{a}$. dividing both sides by $2$ again gives $a = b$. finally, dividing both sides by $2$ gives $a + b + c = \\boxed{6}$."
+    }
+]

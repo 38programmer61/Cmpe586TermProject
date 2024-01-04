@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlDX7XEE21h1jJ4arj4sXmZY0aWJ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We have $x + y = 16$ and $x - y = 2$. Adding these equations gives $2x = 18$, so $x = 9$. Subtracting the second equation from the first gives $2y = 14$, so $y = 7$. Therefore, $x^2 - y^2 = (\\cancel{9})^2 - (\\cancel{7})^2 = \\boxed{40}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699720427,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 93,
+        "prompt_tokens": 39,
+        "total_tokens": 132
+    }
+}

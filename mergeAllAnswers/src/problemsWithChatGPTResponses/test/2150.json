@@ -1,0 +1,7 @@
+{
+    "problem": "Find the value of the expression. $$\\frac{7+8+9}{2+3+4}\\cdot\\frac{6+9+12}{9+8+7}$$",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Notice that there is a $7+8+9$ in the numerator and a $9+8+7$ in the denominator. Cancel these, leaving $\\frac{6+9+12}{2+3+4}$. At this point, simply perform the addition to get $\\frac{27}{9}$, which equals $\\boxed{3}$.",
+    "chatgpt_solution": "We begin our computations with the fraction on the left: \\begin{align*}\n\\frac{7+8+9}{2+3+4} &= \\frac{24}{9} \\\\\n&= \\frac{8}{3}.\n\\end{align*}Next, we evaluate the fraction on the right: \\begin{align*}\n\\frac{6+9+12}{9+8+7} &= \\frac{27}{24} \\\\\n&= \\frac{9}{8}.\n\\end{align*}The value of the entire expression is then: \\begin{align*}\n\\frac{8}{3}\\cdot \\frac{9}{8} &= \\frac{(8\\cdot9)}{(3\\cdot1)} \\\\\n&= \\frac{72}{3} \\\\\n&= \\boxed{24}.\\end{align*}"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlXMpnBTCw51FGWM0TiY5uSdL5eE",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Since the coefficient of $x^2$ is negative, the parabola $-32x^2 + 84x + 135=0$ opens downward.  Therefore, we can find the sum of the solutions of the equation by taking the opposite of the coefficient of $x$, so the sum of the solutions is $\\boxed{-\\frac{84}{-32}}=\\frac{21}{8}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699721656,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 86,
+        "prompt_tokens": 32,
+        "total_tokens": 118
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "What is the product of all real numbers that are doubled when added to their reciprocals?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Let such a real number be $x$. We have the property that $x+\\frac{1}{x}=2x$, or $x=\\frac{1}{x} \\Rightarrow x^2-1=0$. Thus, the product of the (both real) solutions is $-1\\cdot 1=\\boxed{-1}$.",
+    "chatgpt_solution": "Let $x$ be a real number. We are given that $2(x+\\frac{1}{x}) = 2x + \\frac{2}{x}$ is the product of all real numbers that fit the given condition. Square $2x + \\frac{2}{x}$ to get \\begin{align*}\n(2x + \\frac{2}{x})^2 &= 4x^2 + \\frac{8}{x} + \\frac{8}{x}+\\frac{4}{x^2}\\\\\n&= 4x^2 + \\frac{16}{x} + \\frac{4}{x^2}.\n\\end{align*} Also, note that $(2x + \\frac{2}{x})(2 + \\frac{2}{x}) = 4x^2 + \\frac{8}{x} + \\frac{8}{x}+\\frac{4}{x^2}$, so $(2x + \\frac{2}{x})^2 = (2x + \\frac{2}{x})(2 + \\frac{2}{x})$. Therefore, \\[(2x + \\frac{2}{x})^2 = 4x^2 + \\frac{16}{x} + \\frac{4}{x^2} = (2x + \\frac{2}{x})(2 + \\frac{2}{x}).\\] Since this must be true for all real $x$ (not equal to zero), it follows that the product of all real $x$ that satisfy the given condition is $\\boxed{4}$."
+}

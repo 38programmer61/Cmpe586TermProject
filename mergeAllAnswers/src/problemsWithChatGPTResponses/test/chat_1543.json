@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JsCDw6KiBsnMhn7nQGkAucBbfNOH",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We can set up a proportion to solve this problem.\n\nThe ratio of students wearing red in Angie's class to the total number of students in her class is 11/24.\n\nLet x represent the total number of students wearing red in the school.\n\nSo the proportion is 11/24 = x/480.\n\nSimplifying the proportion, we get 11 * 480 = 24 * x.\n\nMultiplying, we get 5280 = 24x.\n\nDividing both sides by 24, we find x = 220.\n\nTherefore, Angie estimates that 220 students in her school will be wearing red on Valentine's Day.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699747253,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 130,
+        "prompt_tokens": 70,
+        "total_tokens": 200
+    }
+}

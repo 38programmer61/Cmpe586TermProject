@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JkK7fGFgJmRqglueun2J1ZZsU6ZF",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "$(17+10)^2-(17-10)^2 = 27^2-7^2 = 729-49 = \\boxed{680}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699716991,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 33,
+        "prompt_tokens": 22,
+        "total_tokens": 55
+    }
+}

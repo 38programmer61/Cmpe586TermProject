@@ -1,0 +1,7 @@
+{
+    "problem": "Compute $54 \\times 46$ in your head.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We can rewrite this expression as $(50 + 4)\\times (50 - 4)$. This is a difference of squares: $(50 + 4)(50 - 4) = 50^2 - 4^2 = 2500 - 16 = \\boxed{2484}$.",
+    "chatgpt_solution": "To find the product of $54$ and $46$ in your head, we can use mental math strategies. \n\nFirst, we can break $54$ into $50$ and $4$, and break $46$ into $40$ and $6$. \n\nThen, we can multiply $50\\times40$ to get $2000$. \n\nNext, we can multiply $50\\times6$ to get $300$. \n\nSimilarly, we can multiply $4\\times40$ to get $160$. \n\nFinally, we can multiply $4\\times6$ to get $24$. \n\nAdding these partial products together, we get $2000+300+160+24=2484$. \n\nTherefore, $54 \\times 46 = \\boxed{2484}$."
+}

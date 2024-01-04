@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JmGlyPvEPxf3H1zYQnBNmD7e9JIO",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "The first 1$\\%$ late charge is an increase of $\\frac{1}{100} \\times \\$400 = \\$\\frac{1}{100}\\times 400$. There is now a total of $\\$400 + \\$\\frac{1}{100}\\times 400 = \\$400 + \\$4 = \\$404$. After a $1\\%$ increase, the new total is $\\$404 + \\frac{1}{100} \\times 404 = \\$404 + \\$4.04 = \\$\\boxed{\\$408.04}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699724471,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 115,
+        "prompt_tokens": 81,
+        "total_tokens": 196
+    }
+}

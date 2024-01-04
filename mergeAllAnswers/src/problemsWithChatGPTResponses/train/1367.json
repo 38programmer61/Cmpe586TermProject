@@ -1,0 +1,7 @@
+{
+    "problem": "An airplane has three sections: First Class (24 seats), Business Class ($25\\%$ of the total number of seats) and Economy ($\\frac{2}{3}$ of the total number of seats). How many seats does the plane have?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Suppose that the airplane has $s$ seats.  Then we have that $24 + 0.25 s + \\frac{2}{3} s = s$.  Solving, we find that $s = \\boxed{288}$.",
+    "chatgpt_solution": "Let $x$ be the total number of seats in the plane. There are $\\frac{2}{3}x$ economy seats and $24+\\frac{2}{3}x+\\frac{1}{4}x=x$ total seats.  Since the total number of seats in the plane is equal to the number of first class seats, we have $\\frac{2}{3}x+x=24+\\frac{2}{3}x+\\frac{1}{4}x$, or $x=\\boxed{96}$."
+}

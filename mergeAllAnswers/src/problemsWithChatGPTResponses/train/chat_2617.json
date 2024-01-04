@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jo73gVUK2X2uhlYzy6chsjO6gQxF",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Since the constant term of $h(x)$ is 3, $h(0) = 3 = (-4)\\cdot g(0)$.  Solving, we find $g(0) = \\boxed{-\\frac{3}{4}}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699731557,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 72,
+        "total_tokens": 126
+    }
+}

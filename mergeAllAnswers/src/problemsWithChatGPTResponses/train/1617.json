@@ -1,0 +1,7 @@
+{
+    "problem": "What is $\\log_{7}{2400}$ rounded to the nearest integer?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We can have $\\log_{7}343=3$ and $\\log_{7}2401=4$.  Since $\\log_{7}x$ increases as $x$ increases, we know that $\\log_{7}343<\\log_{7}2400<\\log_{7}2401$, meaning $3<\\log_{7}2400<4$. Moreover, we can see that $2400$ is much closer to $2401$ than to $343,$ so it stands to reason that $\\log_{7}2400$ rounded to the nearest integer is $\\boxed{4}.$",
+    "chatgpt_solution": "$7^3=343$ is less than 2400, but $7^4=2401$ is greater. So $\\log_7 2400$ is between 3 and 4. Because 2400 is much closer to 2401 than it is to 343, we round $\\log_7 2400$ up to the nearest integer.  Therefore, $\\lfloor\\log_7 2400\\rfloor = \\boxed{4}$."
+}

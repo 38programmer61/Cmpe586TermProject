@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jkaq3gqOMFM8ALTa18WIhfa2L6up",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Combining the fractions, we find that $\\frac{2t-2}{t+2} = 3$, or $(2t-2) = 3(t+2)$. Expanding the right side gives $2t-2 = 3t+6$, so $t=\\boxed{-8}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699718028,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 66,
+        "prompt_tokens": 50,
+        "total_tokens": 116
+    }
+}

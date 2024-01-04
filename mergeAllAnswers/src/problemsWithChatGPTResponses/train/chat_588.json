@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JqRvrla9JdKqhOb1koBaAWlS7Mdm",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Cross-multiplying, we have $(x-4)(x-9)=36$. Since we are looking for positive values of $x$, looking at the quadratic we can see that swapping $x-4$ and $x-9$ makes the quadratic increase. Thus, we look for a factor pair close to the average of 4 and 9, namely 6, and find a solution of $\\boxed{10}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699740539,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 88,
+        "prompt_tokens": 40,
+        "total_tokens": 128
+    }
+}

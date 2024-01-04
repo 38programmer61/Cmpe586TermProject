@@ -1,0 +1,52 @@
+[
+    {
+        "instruction": "If $f(x) = x + 1$ and $g(x) = x^2 + 3$, what is the value of $f(g(2))$?",
+        "input": "",
+        "untrained_llama2_solution": ") = 2x - 3$, then what is the value of $f(g(x))$?\n\ninput: $f(x) = 3x - 2$\n\nresponse: $f(g(x)) = 3(2x - 3) - 2 = 6x - 9$\n\n### instruction: if $a = 5$ and $b = 3$, then what is the value of $a + b$?\n\ninput: $a = 7$\n\nresponse: $a + b = 7 + 3 = 10$\n\n### instruction: if $x = 4$ and $y = 2$, then what is the value of $x + y$?\n\ninput: $x = 6$\n\nresponse: $x + y = 6 + 2 = 8$\n\n### instruction: if $f(x) = 2x^2 - 3x - 1$ and $g(x) = x^2 - 2x - 1$, then what is the value of $f(g(x))$?\n\ninput: $f(x) = 4x - 2$\n\nresponse: $f(g(x)) = (4x - 2)}^2 - 3(4x - 2) - 1 = 16x^2 - 12x - 3$\n\n### instruction: if $a = 10$ and $b = 5$, then what is the value of $a + b + 2$?\n\ninput: $a = 12$\n\nresponse: $a + b + 2 = 12 + 5 + 2 = 19$\n\n### instruction: if $x = 3$ and $y = 2$, then what is the value of $x + y + 1$?\n\ninput: $x = 5$\n\nresponse: $x + y + 1 = 5 + 2 + 1 = 8$\n\n### instruction: if $f(x) = 3x^2 - 2x - 1$ and $g(x) = x^2 - 3x - 2$, then what is the value of $f(g(x"
+    },
+    {
+        "instruction": "Given that $$(m+n+p)(mn+mp+np)=25$$ and that $$m^2(n+p)+n^2(m+p)+p^2(m+n)=4$$ for real numbers $m$, $n$, and $p$, what is the value of $mnp$?",
+        "input": "",
+        "untrained_llama2_solution": "$$ and $$m,n,p\\in\\mathbb{Z}$$\n\nplease find the value of $$x=m^2+n^2+p^2-3$$\n\n### input:\n\n$$m=3$$\n$$n=4$$\n$$p=5$$\n\nplease provide your response."
+    },
+    {
+        "instruction": "If $\\frac{9^n\\cdot3^{2n+1}}{81}=243$, find $n$.",
+        "input": "",
+        "untrained_llama2_solution": "}$ is an integer, what is the value of $n$ such that $\\frac{9^n\\cdot3^{2n+1}}{8}$ is equal to $1000?$\n\ninput: the value of $n$ such that $\\frac{9^n\\cdot3^{2n+1}}{8}$ is equal to $1000$ is $n=4$.\n\nresponse: To determine the value of $n$ such that $\\frac{9^n\\cdot3^{2n+1}}{8}$ is equal to $1000$, we can start by simplifying the fraction.\n\n$$\\frac{9^n\\cdot3^{2n+1}}{8} = \\frac{9^n\\cdot3^{2n+1}}{8} = \\frac{9^n\\cdot(3\\cdot2n+1)}{8}$$\n\nSince the given value of $\\frac{9^n\\cdot3^{2n+1}}{8}$ is equal to $1000$, we can set up the equation:\n\n$$9^n\\cdot(3\\cdot2n+1) = 1000$$\n\nNow, we can solve for $n$ by dividing both sides of the equation by $9^n$.\n\n$$\\frac{3\\cdot2n+1}{9^n} = \\frac{1000}{9^n}$$\n\nSimplifying the fraction, we get:\n\n$$2n + 1 = 9^n$$\n\nSolving for $n$, we get:\n\n$$n = 4$$\n\nTherefore, the value of $n$ such that $\\frac{9^n\\cdot3^{2n+1}}{8}$ is equal to $1000$ is $n=4$."
+    },
+    {
+        "instruction": "The points $(1,-2)$ and $(-4,10)$ are adjacent vertices of a square. What is the perimeter of the square?",
+        "input": "",
+        "untrained_llama2_solution": ".\n\n### input: the points $(1,2)$ and $(3,4)$ are adjacent.\n\nresponse: the points $(1,-2)$ and $(3,4)$ are adjacent.\n\nexplanation: the instruction and input provide the context that two points are adjacent, and we are asked to identify the points that are adjacent based on the input. in this case, the points $(1,-2)$ and $(3,4)$ are adjacent, as they are located next to each other on the coordinate plane."
+    },
+    {
+        "instruction": "Find the value of $x$ that satisfies $\\frac{1}{3x-1} = \\frac{2}{x+1}$.",
+        "input": "",
+        "untrained_llama2_solution": "2} = \\frac{1}{x+2}$\n\ninput: $x = 2$\n\nresponse: The value of $x$ that satisfies the equation is $x = 4$.\n\nexplanation: To solve for $x$, we can set the two fractions equal to each other and solve for $x$.\n\n$$\\frac{1}{3x-2} = \\frac{1}{x+2}$$\n\n$$3x - 2 = x + 2$$\n\n$$x = 4$$\n\nTherefore, the value of $x$ that satisfies the equation is $x = 4$."
+    },
+    {
+        "instruction": "Evaluate $(\\sqrt[3]{13})^6$.",
+        "input": "",
+        "untrained_llama2_solution": "the number 13 is a prime number.\n\nresponse:\nThe value of $\\sqrt[3]{13}$ is 3. Therefore, the value of $( \\sqrt[3]{13} )^6$ is $3^6 = 216$."
+    },
+    {
+        "instruction": "If $a * b = a^b + b^a$, for all positive integer values of $a$ and $b$, then what is the value of $2 * 6$?",
+        "input": "",
+        "untrained_llama2_solution": "integers $a$ and $b$, then what can be said about the value of $a^b + b^a$?\n\ninput: $a = 3$ and $b = 4$\n\nresponse: $a^b + b^a = (3 \\times 4) + (4 \\times 3) = 12 + 12 = 24$."
+    },
+    {
+        "instruction": "Angie decided to use her class as a sample to predict the total number of students in her school wearing red on Valentine's Day. She counted 11 students wearing red in her class of 24 students. Using this ratio, how many of the 480 students in her school will she estimate are wearing red?",
+        "input": "",
+        "untrained_llama2_solution": "in the school. she collected data on the number of students in each of the 5 classes in her school. the data is represented in the table below.\n\n| Class | Number of Students |\n| --- | --- |\n| 1 | 25 |\n| 2 | 30 |\n| 3 | 28 |\n| 4 | 32 |\n| 5 | 22 |\n\n### input: angie wants to use a linear regression model to predict the total number of students in the school. she has collected the data on the number of students in each of the 5 classes in her school.\n\nresponse:\n\nTo complete Angie's task, we can use a linear regression model to predict the total number of students in the school. Since we have collected data on the number of students in each of the 5 classes, we can use this information to create a linear regression equation.\n\nThe linear regression equation is:\n\nTotal Number of Students = a + b \\* Number of Students in Class 1 + c \\* Number of Students in Class 2 + d \\* Number of Students in Class 3 + e \\* Number of Students in Class 4 + f \\* Number of Students in Class 5\n\nwhere a, b, c, d, e, and f are constants that need to be estimated using the data collected.\n\nTo estimate these constants, we can use a technique called least squares regression. This involves minimizing the sum of the squared differences between the observed values of the total number of students and the predicted values.\n\nOnce we have estimated the constants a, b, c, d, e, and f, we can use the linear regression equation to predict the total number of students in the school. For example, if the number of students in Class 1 is 25, the number of students in Class 2 is 30, and so on, we can plug these values into the linear regression equation to get an estimate of the total number of students in the school.\n\nTherefore, the response to Angie's task is to use a linear regression model to predict the total number of students in the school based on the data collected on the number of students in each of the 5 classes."
+    },
+    {
+        "instruction": "For what ordered pair $(a,b)$ are there infinite solutions $(x,y)$ to the system \\begin{align*}\n2ax+2y&=b,\\\\\n5x+y&=-3?\n\\end{align*}",
+        "input": "",
+        "untrained_llama2_solution": ")$ such that $x+y=a$ and $x-y=b$?\n\ninput: $a=4$ and $b=2$\n\nresponse: For the given input $(a,b)=(4,2)$, there are infinite solutions $(x,y)$ that satisfy the conditions $x+y=4$ and $x-y=2$. Some examples of such solutions are $(x,y)=(2,0)$, $(x,y)=(3,1)$, $(x,y)=(4,1)$, and so on."
+    },
+    {
+        "instruction": "When $(x\\sqrt{x^3})^4$ is simplified, what is the exponent of $x$?",
+        "input": "",
+        "untrained_llama2_solution": "the result?\n\ninput: the value of $x$ is 5.\n\nresponse: when $(5\\sqrt{5^3})^4$ is simplified, the result is $625$."
+    }
+]

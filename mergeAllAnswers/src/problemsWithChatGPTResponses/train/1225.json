@@ -1,0 +1,7 @@
+{
+    "problem": "What is the value of $(x - y)(x + y)$ if $x = 10$ and $y = 15$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "$(x-y)(x+y)=(10-15)(10+15) = (-5)(25) = \\boxed{-125}$.",
+    "chatgpt_solution": "Substituting 10 for $x$ and 15 for $y$ in the expression $(x - y)(x + y)$, we get $(10 - 15)(10 + 15) = (-5)(25) = \\boxed{-125}$."
+}

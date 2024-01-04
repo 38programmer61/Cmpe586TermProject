@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JgtQsdpAl2XZiVmGAtOf9Pr2vO1N",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let the number of days he works be $x$, and the number of days he does not work be $y$. We have two equations: \\begin{align*}\n60x + 30y& =660, \\\\\nx + y &= 20.\n\\end{align*} Dividing the first equation by 30, we have $2x+y=22$. Subtracting the second equation from the third equation, we get $x=2$. Then the second equation tells us $y=18$. Hence, he does not work $\\boxed{18}$ days.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699703804,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 118,
+        "prompt_tokens": 72,
+        "total_tokens": 190
+    }
+}

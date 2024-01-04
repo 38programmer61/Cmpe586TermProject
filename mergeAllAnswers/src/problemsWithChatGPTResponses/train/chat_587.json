@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JqRRZbOhx5B2luK5o75zb147D7kT",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Rewriting the fraction $\\frac{x}{y}$ with \"quantity-per-unit\" language, we have $x$ is $0.9$ of $y$. Since $x$ is closer to $1$ than $0$, it follows that $x>y/2$. If this is the case, $x+y>1.5y$, which implies $399>1.5y$, so $y<266$. This leaves us with three possible integral values for $y$: $y=1,2,...,265$. Testing the vast majority of the values for $y$, one should find $y=234$ as a solution, whereby $x=210$. This gives $y-x=234-210=\\boxed{24}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699740509,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 153,
+        "prompt_tokens": 52,
+        "total_tokens": 205
+    }
+}

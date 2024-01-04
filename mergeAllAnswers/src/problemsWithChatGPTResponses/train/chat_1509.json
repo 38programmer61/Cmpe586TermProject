@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JjK7a9xb62ybhsxXUMqbJ0p9AcPN",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Squaring both sides of our equation, we obtain $$\\frac{5x}{3(x-1)}=4.$$Cross-multiplying the equation and expanding gives $20x = 12(x-1)$, so $20x = 12x - 12$, and $8x = -12$.  Dividing both sides by 8, we find $x = \\boxed{-\\frac{3}{2}}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699713147,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 91,
+        "prompt_tokens": 43,
+        "total_tokens": 134
+    }
+}

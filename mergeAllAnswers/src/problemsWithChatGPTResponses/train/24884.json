@@ -1,0 +1,7 @@
+{
+    "problem": "All positive integers whose digits add up to 11 are listed in increasing order:  $29, 38, 47, ...$. What is the eleventh number in that list?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "To generate the next 2-digit number on this list, we just increment the tens digit of the current one and decrement the ones.  Thus the 8th number on the list will be 92.  The first 3-digit number is 119, which is the 9th number in the list.  Continuing the earlier pattern, the 10th is 128, and the 11th is $\\boxed{137}$.",
+    "chatgpt_solution": "For a number to have positive digits that sum to 11, either it ends with a \"2\" or a \"3.\"  If the number ends in \"2,\" the remaining digits must add to $11 - 2 = 9$.  The remaining digits can be any arrangement of the digits 2, 1, 1, 1, 1, 1, 1, 1, giving us ${8 \\choose 1} = 8$ numbers.\n\nIf the number ends in \"3,\" the remaining digits must add to $11 - 3 = 8$.  The remaining digits can be any arrangement of the digits 2, 2, 1, 1, 1, 1, 1, giving us ${7 \\choose 2} = 21$ numbers.\n\nTherefore, the 11th number is the 3rd number that ends in \"3.\"  The third such number is $\\boxed{129}$."
+}

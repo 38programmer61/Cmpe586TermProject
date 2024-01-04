@@ -1,0 +1,7 @@
+{
+    "problem": "The sixteenth and seventeenth terms of an arithmetic sequence are 8 and 10, respectively. What is the second term?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Let $a$ be the first term in the arithmetic sequence, and let $d$ be the common difference.  The sixteenth term is $a + 15d = 8$, and the seventeenth term is $a + 16d = 10$, so the common difference is $d = 10 - 8 = 2$.\n\nSubstituting into the equation $a + 15d = 8$, we get $a + 30 = 8$, so $a = -22$.  Then the second term is $a + d = -22 + 2 = \\boxed{-20}$.",
+    "chatgpt_solution": "Let the common difference be $d$. Counting by $d$, we have our sequence: $$\\dots, a-3d, a-2d, a-d, a, a+d,\\dots$$ Setting $a-2d = 8$ and $a+d = 10$, we have the system of equations $$\\begin{cases} a-2d &= 8\\\\ a+d &= 10\\end{cases}$$ Substituting $a = 10-d$ in the first equation, we have $(10-d)-2d = 8 \\Longrightarrow 10-3d = 8 \\Longrightarrow 0 - 3d = -2 \\Longrightarrow d = \\frac{2}{3}$. Thus, the second term is $a - d = 10 - \\frac23 = \\frac{30}{3} - \\frac{2}{3} = \\boxed{8}.$"
+}

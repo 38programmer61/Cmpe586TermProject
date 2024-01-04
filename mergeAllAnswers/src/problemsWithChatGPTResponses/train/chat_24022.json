@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jn2ceBK6H0qZJNPYsGpi0TzpATrm",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "On Monday, $w$ widgets per hour worked for $t$ hours gives $w \\cdot t = 2t \\cdot t = 2t^2$ widgets produced. On Tuesday, $w+4$ widgets per hour worked for $t-2$ hours gives $(w+4) \\cdot (t-2) = (2t+4) \\cdot (t-2) = 2t^2-4$ widgets produced. The difference between Monday's and Tuesday's production is thus $2t^2 - (2t^2-4) = \\boxed{4}$ widgets.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699727438,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 129,
+        "prompt_tokens": 82,
+        "total_tokens": 211
+    }
+}

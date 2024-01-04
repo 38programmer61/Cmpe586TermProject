@@ -1,0 +1,7 @@
+{
+    "problem": "Find the distance between the points $(-5,-2)$ and $(7,3)$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We use the distance formula to find that the distance is \\[\\sqrt{(-5 -7)^2 + (-2-3)^2} = \\!\\sqrt{144 + 25} = \\boxed{13}.\\]",
+    "chatgpt_solution": "We could use the distance formula to find the distance between the two points, but we can also find the distance without the distance formula. Drawing a right triangle with horizontal and vertical legs, we see that the horizontal leg has length $7-(-5)=12$ and the vertical leg has length $3-(-2)=5$. Applying the Pythagorean Theorem, we find the length of the hypotenuse is $\\sqrt{12^2+5^2}=\\sqrt{144+25}=\\sqrt{169}=\\boxed{13}$."
+}

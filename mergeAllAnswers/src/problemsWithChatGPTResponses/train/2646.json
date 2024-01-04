@@ -1,0 +1,7 @@
+{
+    "problem": "One more than the reciprocal of a particular number is $\\frac{7}{3}$. What is the original number expressed as a common fraction?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Letting the original number be $x$, we must have $$1+\\frac{1}{x}=\\frac{7}{3}.$$ Subtracting 1 from both sides gives $$\\dfrac{1}{x} = \\dfrac{4}{3}.$$ Taking the reciprocal of both sides gives  $x=\\boxed{\\frac{3}{4}}.$",
+    "chatgpt_solution": "Let the number be $x$. We have $1+\\frac{1}{x}=\\frac73$. Since we have a fraction on the right-hand side, we can multiply both sides of the equation by $x$ to eliminate the fraction: $1+\\frac{1}{x}=\\frac73\\Rightarrow 1\\cdot x+\\frac{1}{x}\\cdot x = \\frac73 \\cdot x$. Simplifying gives $x+1 = \\frac73x$. Now, we have an equation with a variable in the denominators. Let's eliminate the denomiators by multiplying both sides of the equation by $3x$, giving $3x(x+1)=3x\\cdot\\frac73x$. Simplifying, we have $3x(x+1)=\\frac{21}{3}\\cdot x^2$, or $3x^2+3x=7x^2$. Combining like terms and moving all terms to the left-hand side gives $4x^2-3x=0$. Factoring out $x$ from the left-hand side, we have $x(4x-3)=0$. Either $x=0$ or $4x-3=0$. If $x=0$, then $\\frac{1}{x}$ is undefined, so $x$ must be $\\boxed{\\frac{3}{4}}$ to make the equation work. Checking, we see that $\\frac{1}{\\frac{3}{4}}=\\frac{4}{3}$. Adding $1$ to $\\frac{4}{3}$ gives $\\frac{7}{3}$, which is what we desired."
+}

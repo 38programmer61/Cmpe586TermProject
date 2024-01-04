@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JnoiDGQjWXh3tRc4x9nz4nVmQgi9",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let T be the number of tables in the room.\nThe total number of stools in the room is 6 stools/table * T tables = <<6*T=6T>>6T stools.\nThe total number of legs from stools is 3 legs/stool * 6T stools = <<3*6*T=18T>>18T legs.\nThe total number of legs from tables is 4 legs/table * T tables = <<4*T=4T>>4T legs.\nAltogether, there are 18T legs + 4T legs = 484 legs.\nThus, 22T = 484.\nTherefore, the number of tables in the room is T = 484 / 22 = <<484/22=22>>22. Answer: \\boxed{22}.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699730420,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 161,
+        "prompt_tokens": 73,
+        "total_tokens": 234
+    }
+}

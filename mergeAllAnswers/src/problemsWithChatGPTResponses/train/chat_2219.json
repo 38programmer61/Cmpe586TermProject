@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlpYeyAxp4yj0xbnQP21iE3yRfMG",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "By Vieta's formulas, $d+e=\\frac{-10}{3}$ and $de=\\frac{-25}{3}$. Thus, $(d-e)^2=(d+e)^2-4de=\\left(\\frac{-10}{3}\\right)^2-4\\left(\\frac{-25}{3}\\right)=\\boxed{\\frac{400}{9}}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699722784,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 79,
+        "prompt_tokens": 39,
+        "total_tokens": 118
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "What is the value of $23^2 + 2(23)(2) + 2^2$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "This is the square of a binomial: $23^2 + 2(23)(2) + 2^2 = (23+2)^2 = 25^2 = \\boxed{625}$.",
+    "chatgpt_solution": "We compute as follows: \\begin{align*}\n23^2 + 2(23)(2) + 2^2 &= (23)(23) + 2(23)(2) + 2(2)\\\\\n&= (23^2) + 4(23) + 4\\\\\n&= 529 + 92 + 4\\\\\n&= \\boxed{625}.\n\\end{align*}"
+}

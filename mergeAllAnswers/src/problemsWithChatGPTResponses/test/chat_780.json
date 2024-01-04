@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jsol5E56qkePIV2Q49wwxxAsqHIY",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We want to find the value of $x+y+z.$  Adding the two equations, we get $10x + 10y + 10z = 50,$ so $x+y+z=\\boxed{5}.$",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699749643,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 46,
+        "prompt_tokens": 52,
+        "total_tokens": 98
+    }
+}

@@ -1,0 +1,52 @@
+[
+    {
+        "instruction": "Suppose $K$ is a constant, such that no pair of real numbers $(x,y)$ satisfies this system of equations: $$6x + 4y = 7$$ $$Kx + 8y = 7$$\n\nWhat is the value of $K$?",
+        "input": "",
+        "untrained_llama2_solution": ",y)$ satisfies $x+y=k$.\n\n### input: $k=5$\n\nplease provide a counterexample to the instruction.\n\nresponse:\n\nconsider the pair of real numbers $(3,2)$. then, $3+2=5$, which satisfies the condition given in the instruction."
+    },
+    {
+        "instruction": "New York and Denver are in different time zones.  When it is noon in New York, it is 10 a.m. in Denver.  A train leaves New York at 2 p.m. (New York time) and arrives in Denver 45 hours later.  What time is it in Denver when the train arrives?",
+        "input": "",
+        "untrained_llama2_solution": "on in new york, what time is it in denver?\n\ninput: denver is in the mountain time zone.\n\nresponse: it is 10:00 am in denver.\n\nexplanation: new york is in the eastern time zone, which is 3 hours ahead of the mountain time zone. therefore, if it is noon in new york, it is 9:00 am in denver."
+    },
+    {
+        "instruction": "Let $f(x) = x - 3$ and $q(x) = bx +1$.  If $f(q(1)) = -3$, what is $b$?",
+        "input": "",
+        "untrained_llama2_solution": ") = 2x - 5$. find $f(q(x))$.\n\ninput: $x = 4$.\n\nresponse: $f(q(x)) = f(2x - 5) = (2x - 5) - 3 = 9$."
+    },
+    {
+        "instruction": "If $f(x)=\\dfrac{2}{x+1}$, then what is the value of $f^{-1}\\left(\\frac{1}{5}\\right)$?",
+        "input": "",
+        "untrained_llama2_solution": "the value of $f(3)$?\n\ninput: $x=2$\n\nresponse: $f(2) = \\dfrac{2}{2+1} = \\dfrac{4}{3}$\n\nexplanation: to find the value of $f(3)$ given that $f(x)$ is a function that takes $x$ as input and returns $\\dfrac{2}{x+1}$, we can substitute $x=3$ into the function $f(x)$: $f(3) = \\dfrac{2}{3+1} = \\dfrac{2}{4} = \\dfrac{1}{2}$\n\n### instruction: if $a+b=10$, $a=5$, and $b=3$, what is the value of $a+b$\n\ninput: $a=7$\n\nresponse: $a+b = (7)+(3) = 10$\n\nexplanation: to find the value of $a+b$ given that $a+b=10$, $a=5$, and $b=3$, we can simply add $a$ and $b$: $a+b = 5+3 = 8$\n\n### instruction: if $x+y=12$, $x=4$, and $y=3$, what is the value of $x+y$\n\ninput: $x=7$\n\nresponse: $x+y = (7)+(3) = 10$\n\nexplanation: to find the value of $x+y$ given that $x+y=12$, $x=4$, and $y=3$, we can simply add $x$ and $y$: $x+y = 4+3 = 7$\n\n### instruction: if $a\\times b=12$, $a=3$, and $b=4$, what is the value of $a\\times b$\n\ninput: $a=2$\n\nresponse: $a\\times b = (2)\\times(4) = 8$\n\nexplanation: to find the value of $a\\times b$ given that $a\\times b=12$, $a=3$, and $b=4$, we can simply multiply $a$ and $b$: $a\\times b"
+    },
+    {
+        "instruction": "If a recipe for a two-pound cake requires 1.5 cups of flour, how many cups are needed for 2 five-pound cakes?",
+        "input": "",
+        "untrained_llama2_solution": "cups of sugar, and you want to make a smaller version of the cake for a single serving, how much sugar should you use?\n\ninput: you want to make a single serving of the cake that is about 1/4 the size of the original cake.\n\nresponse: to make a single serving of the cake that is about 1/4 the size of the original cake, you should use 1/4 cup of sugar. this is because the original recipe called for 1.5 cups of sugar, and you want to scale down the recipe by a factor of 4 to make a smaller serving."
+    },
+    {
+        "instruction": "Kim has exactly enough money to buy 40 oranges at $3x$ cents each. If the price rose to $4x$ cents per orange, how many oranges could she buy?",
+        "input": "",
+        "untrained_llama2_solution": "per orange. how much will it cost her in total?\n\ninput: kim has exactly enough money to buy 40 oranges at $3x per orange. she wants to buy them from a store that is having a sale and the oranges are marked down to $2x per orange. how much will it cost her in total?\n\nresponse: to find out how much it will cost kim in total to buy 40 oranges, we need to consider both the original price and the sale price. at the original price of $3x per orange, it would cost kim $120 (40 x $3x). however, since the store is having a sale, the oranges are now marked down to $2x per orange. so, the total cost to kim for buying 40 oranges at the sale price would be $80 (40 x $2x). therefore, the total cost to kim in total would be $120 (original price) + $80 (sale price) = $200."
+    },
+    {
+        "instruction": "Let $a_1,a_2,a_3,\\dots$ be an arithmetic sequence. If $\\frac{a_4}{a_2} = 3$, what is $\\frac{a_5}{a_3}$?",
+        "input": "",
+        "untrained_llama2_solution": "a sequence of numbers, and let $n$ be a positive integer. compute the sum of the first $n$ terms of the sequence.\n\ninput: the sequence $a_1,a_2,a_3,\\dots$ contains the following terms: $a_1=2, a_2=4, a_3=6, a_4=8$.\n\nresponse: The sum of the first $n$ terms of the sequence is $2+4+6+8=20$."
+    },
+    {
+        "instruction": "Expand the following product: $\\frac{1}{4}\\left(\\frac{4}{y} + 4y\\right)$.",
+        "input": "",
+        "untrained_llama2_solution": "}{x}\\right)$\n\ninput: $x = 2$\n\nresponse: $\\frac{1}{4}\\left(\\frac{4}{2}\\right) = \\frac{1}{4}\\cdot 2 = \\frac{1}{2}$"
+    },
+    {
+        "instruction": "Jeremiah is riding in a car that is traveling 60 miles per hour. At this rate, how many minutes will it take him to travel 20 miles?",
+        "input": "",
+        "untrained_llama2_solution": "per hour. he looks out the window and sees a tree that is 100 feet tall. how many seconds will it take for the car to pass the tree if jeremiah is looking at it?\n\ninput: jeremiah is looking out the window of the car and the tree is directly in front of him.\n\nresponse: it will take jeremiah's car 6 seconds to pass the tree if he is looking at it directly in front of him while traveling at 60 miles per hour.\n\n### instruction: alex is holding a pencil that is 18 inches long. he is standing 3 feet away from a wall that is 8 feet tall. how many inches does the pencil reach from the ground to the top of the wall?\n\ninput: alex is standing on a flat surface and the wall is perpendicular to him.\n\nresponse: the pencil reaches 24 inches from the ground to the top of the wall if alex is standing on a flat surface and the wall is perpendicular to him.\n\n### instruction: samantha is swimming in a pool that is 50 meters long. she is swimming at a speed of 2 meters per second. how many seconds will it take for her to swim the entire length of the pool?\n\ninput: samantha is swimming in a straight line and the pool is a constant depth.\n\nresponse: it will take samantha 25 seconds to swim the entire length of the pool if she is swimming at a speed of 2 meters per second in a straight line and the pool is a constant depth.\n\n### instruction: james is carrying a backpack that weighs 20 pounds. he is walking uphill at a rate of 2 miles per hour. how many minutes will it take for him to climb a hill that is 1000 feet tall?\n\ninput: james is walking uphill and the hill is a constant slope.\n\nresponse: it will take james 50 minutes to climb a hill that is 1000 feet tall if he is walking uphill at a rate of 2 miles per hour."
+    },
+    {
+        "instruction": "Expand and simplify completely: \\begin{align*}\nx\\left(x(1+x)+2x\\right)-3(x^2-x+2)\n\\end{align*}",
+        "input": "",
+        "untrained_llama2_solution": "t) + y(t)\\right) &= z(t) \\end{align*}\n\n### input:\n\nthe expression `x(t) + y(t)` is a function of the variables `x` and `y`, and `z(t)` is a function of the variable `x`.\n\nplease provide the simplified expression for the given equation."
+    }
+]

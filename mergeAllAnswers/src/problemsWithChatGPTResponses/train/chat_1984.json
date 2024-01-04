@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlIurJ4qyYIxH5E1atxG8rD2wXuG",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let $x$ be the number of gallons that the tank holds when it is full. Since the tank is $\\frac78$ full, $(\\frac78)(x) = \\frac{7}{8}x$ gallons of gasoline are in the tank. After $\\frac78x - 12 = \\frac{7}{8}x - 12$ gallons have been used, the tank is half full, or $\\frac{1}{2}(x)$ gallons. So \\[\\begin{array}{r@{\\;}c@{\\;}c@{\\;}c}\n\\frac{7}{8}x - 12 &=& \\frac{1}{2}x. \\\\\n(2)\\left(\\frac{7}{8}x - 12\\right) &=& (2)\\left(\\frac{1}{2}x\\right). \\\\\n\\frac{14}{8}x - 24 &=& x. \\\\\n\\frac{14}{8}x - x &=& 24. \\\\\n\\frac86x - \\frac86x &=& 24. \\\\\n\\frac26x &=& 24. \\\\\nx &=& \\boxed{72} \\text{ gallons}.\n\\end{array}\\]",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699720760,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 253,
+        "prompt_tokens": 43,
+        "total_tokens": 296
+    }
+}

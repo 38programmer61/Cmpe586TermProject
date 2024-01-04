@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JhB2xzUCPtCIA5ipnjeYxLF4t1wS",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let $l$ be the length of the garden and $w$ be the width. We have $l=2w$. The perimeter is $2l+2w=60$. Substituting the value for $l$ from the second equation into the first equation, we get $2(2w)+2w=60$. Simplifying the left side of the equation gives $6w=60$. Dividing both sides by 6 gives $w=10$. Substituting this value into the equation $l=2w$ gives $l=20$. Thus, the area of the garden is $l\\cdot w=20\\cdot10=\\boxed{200}$ square feet.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699704896,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 143,
+        "prompt_tokens": 41,
+        "total_tokens": 184
+    }
+}

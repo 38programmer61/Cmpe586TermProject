@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JpvEEimkertxWBGhjl1ZThsyldpR",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Since the parabola passes through $(-1,7)$ and $(5,7),$ its equation can be written in the form\n\\[y = a(x + 1)(x - 5).\\]Substituting $(6,10),$ we get\n\\[10 = a(6 + 1)(6 - 5),\\]so $a = 2.$  This means the equation of the parabola is $y = 2(x + 1)(x - 5) = 2(x^2 - 4x - 5).$\n\nWe can expand $y = 2(x^2 - 4x - 5)$ to get $y = 2x^2 - 8x - 10.$  Completing the square:\n\\begin{align*}\ny &= 2(x^2 - 4x - 5) \\\\\n&= 2(x^2 - 4x + 4 - 4 - 5) \\\\\n&= 2((x - 2)^2 - 9) \\\\\n&= 2(x - 2)^2 - 18.\n\\end{align*}Thus, the $x$-coordinate of the vertex is $\\boxed{2}.$",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699738512,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 260,
+        "prompt_tokens": 71,
+        "total_tokens": 331
+    }
+}

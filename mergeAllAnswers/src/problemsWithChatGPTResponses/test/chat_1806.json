@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JsEg7io9IEaKYxzh7VyRyOk4Zp7g",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We calculate:\n\n\\begin{align*}\n((t) \\Join (t+2)) - ((t+1) \\Join (t+1)) &= (t+2)(t-3) - (t+1)(t-2) \\\\\n&= (t^2 - t - 6) - (t^2 - t - 2) \\\\\n&= \\boxed{-4}.\n\\end{align*}",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699747406,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 90,
+        "prompt_tokens": 62,
+        "total_tokens": 152
+    }
+}

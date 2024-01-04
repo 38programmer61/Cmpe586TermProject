@@ -1,0 +1,52 @@
+[
+    {
+        "instruction": "If $2^8=4^x$, what is the value of $x$?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $2^8=4^x$ and $4^x=2^8$.  therefore, $4^x=2^8=256$.  solving for $x$ gives $x=\\boxed{8}$."
+    },
+    {
+        "instruction": "Mr. Madoff invests 1000 dollars in a fund that compounds annually at a constant interest rate.  After three years, his investment has grown to 1225 dollars.  What is the annual interest rate, as a percentage?  (Round your answer to the nearest integer.)",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "let the interest rate be $r$ percent.  then, the investment grows by $r\\cdot 1000$ dollars over three years, so the investment grows by $3r\\cdot 1000$ dollars over $3$ years.  since the investment grows by $1225$ dollars, the interest rate must be $1225/3r = 408/3r = \\boxed{136.33}$ percent."
+    },
+    {
+        "instruction": "What is the number of units in the distance from the origin to the point $(-8,6)$ in a coordinate system?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "the distance from the origin to the point $(-8,6)$ is $8+6=\\boxed{14}$ units."
+    },
+    {
+        "instruction": "Let \\[f(x) =\n\\begin{cases}\n3x + 5 &\\text{if }x<-3, \\\\\n7-4x&\\text{if }x\\ge -3.\n\\end{cases}\n\\]Find $f(-10)$.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "let $x=-10$.  if $x<-3$, then $f(-10) = 3(-10) + 5 = \\boxed{-25}$.  if $x\\ge -3$, then $f(-10) = 7-4(-10) = \\boxed{17}$."
+    },
+    {
+        "instruction": "What is the value of $x$ in the equation $(17^6-17^5)\\div16=17^x$?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we can rewrite the equation as $(17^6-17^5)\\div16=17^{17^x}$.  expanding the right side, we have $(17^6-17^5)\\div16=17^{17^x-17^5}$.  this is equal to $17^{17^x-17^5}=17^{17^x-17^5-17^5}=17^{17^x-17^5-17^5}=17^{17^x-17^5}$.  therefore, $(17^6-17^5)\\div16=17^{17^x-17^5}$.  solving for $x$, we have $17^x-17^5=17^{17^x-17^5}=17^{17^x-17^5-17^5}=17^{17^x-17^5}=17^{17^x-17^5}=17^{17^x-17^5}=17^{17^x-17^5}=17^{17^x-17^5}=17^{17^x-17^5}=17^{17^x-17^5}=17^{17^x-17^5}=17^{17^x-17^5}=17^{17^x-17^5}=17^{17^x-17^5}=17^{17^x-17^5}=17^{17^x-17^5}=17^{17^x-17^5}=17^{17^x-17^5}=17^{17^x-17^5}=17^{17^x-17^5}=17^{17^x-17^5}=17^{17^x-17^5}=17^{17^x-17^5}=17^{17^x-17^5}=17^{17^x-17^5}=17^{17^x-17"
+    },
+    {
+        "instruction": "A bookstore is deciding what price it should charge for a certain book. After research, the store finds that if the book's price is $p$ dollars (where $p \\le 32$), then the number of books sold per month is $128-4p$. What price should the store charge to maximize its revenue?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we want to maximize the number of books sold per month, so we set $128-4p$ equal to $0$. solving for $p$ gives $p=128/4=32$. since $p\\le 32$, the store should charge $32$ dollars for the book."
+    },
+    {
+        "instruction": "Evaluate $(1+2i)6-3i$.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $(1+2i)6-3i=(1+2i)(6)-3i=(1+2i)6-3i+3i=12-3i$. thus, $(1+2i)6-3i=12-3i$ and $(1+2i)6-3i=12-3i=9$."
+    },
+    {
+        "instruction": "What value of $x$ will give the minimum value for $x^2- 14x + 3$?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we can factor the quadratic expression as $(x-7)(x-4)$. the minimum value of $x^2-14x+3$ is $14$ when $x=7$ and $x=4$. the minimum value is $14$ when $x=7$ and $x=4$ because the expression is $0$ when $x=7$ and $x=4$. thus, the minimum value is $14$ when $x=7$ and $x=4$."
+    },
+    {
+        "instruction": "If $a = 8$, what is the value of $\\left(16\\sqrt[3]{a^2}\\right)^{\\frac 13}$?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $16\\sqrt[3]{a^2} = 16\\sqrt[3]{(8^2)^\\frac 13} = 16\\sqrt[3]{(64)^\\frac 13} = 16\\sqrt[3]{(64)^\\frac 13} = 16\\sqrt[3]{27}$. therefore, $\\left(16\\sqrt[3]{a^2}\\right)^{\\frac 13} = \\left(16\\sqrt[3]{27}\\right)^{\\frac 13} = \\boxed{27}$."
+    },
+    {
+        "instruction": "Let $m$ and $n$ satisfy $mn=7$ and $m+n=8$. What is $|m-n|$?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $mn=7\\rightarrow m=7/n\\rightarrow m=8-n$ and $m+n=8\\rightarrow n=8-m$.  therefore, $|m-n|=8-7=1$."
+    }
+]

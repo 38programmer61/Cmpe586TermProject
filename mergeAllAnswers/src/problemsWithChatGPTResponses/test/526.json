@@ -1,0 +1,7 @@
+{
+    "problem": "Rationalize the denominator: $\\frac{5}{\\sqrt{3}}$ .",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Multiplying both the numerator and the denominator of the fraction by $\\sqrt{3}$, we get: $$\\frac{5}{\\sqrt{3}} = \\frac{5}{\\sqrt{3}} \\cdot \\frac{\\sqrt{3}}{\\sqrt{3}} = \\boxed{\\frac{5\\sqrt{3}}{3}}.$$",
+    "chatgpt_solution": "We could multiply the numerator and denominator by $\\sqrt{3}$:  \\[\n\\frac{5}{\\sqrt{3}} \\cdot \\frac{\\sqrt{3}}{\\sqrt{3}} = \\frac{5\\sqrt{3}}{3}.\n\\]Or, we could recognize that the denominator $\\sqrt{3}$ is the square root of a prime, so $\\frac{5}{\\sqrt{3}}$ is already in simplified form."
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "What is the value of $y$ in the equation $\\frac{30}{50}=\\sqrt{\\frac{y}{50}}$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Squaring both sides, we have $\\frac{30^2}{50^2}=\\frac{y}{50}$. Solving for $y$ yields $y=900/50=\\boxed{18}$.",
+    "chatgpt_solution": "Squaring both sides of the equation, we have $\\left(\\frac{30}{50}\\right)^2=\\frac{y}{50}$.  Simplifying the left side gives $\\frac{900}{2500}=\\frac{9}{25}$, so we have $\\frac{9}{25}=\\frac{y}{50}$.  Multiplying both sides by 50, we have $18=y$, so the value of $y$ is $\\boxed{18}$."
+}

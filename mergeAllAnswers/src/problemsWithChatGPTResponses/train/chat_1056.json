@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JhC16LAzGvOLfpJJ5Quc3AGFqSSk",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let's call the integer $x$.\nAccording to the problem, $x^2=x+182$.\nRearranging the equation, we get $x^2-x-182=0$.\nFactoring the equation results in $(x-14)(x+13)=0$.\nTherefore, $x=14$ or $x=-13$.\nThe sum of the integers is $14+(-13)=\\boxed{1}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699704957,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 93,
+        "prompt_tokens": 34,
+        "total_tokens": 127
+    }
+}

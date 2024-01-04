@@ -1,0 +1,7 @@
+{
+    "problem": "The bacteria in a jar triple every 20 seconds. After three minutes, there are 275,562 bacteria in the jar. How many were in the jar at the beginning of the experiment?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "After three minutes, the number of bacteria $n$ has tripled $9$ times.  This gives us the equation $n \\cdot 3^9 = 275,\\!562$, or $19,\\!683n=275,\\!562$, so $n = \\boxed{14}$",
+    "chatgpt_solution": "Three minutes is equal to 3 x 60 = <<3*60=180>>180 seconds.\nThe bacteria triple every 20 seconds, so in 180 seconds, they triple 180/20 = <<180/20=9>>9 times.\nSo, 1 x 3^9 = 19683 bacteria were in the jar at the beginning of the experiment. Answer: \\boxed{19683}."
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Simplify $t^3\\cdot t^4$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "$t^3\\cdot t^4 = t^{3+4} = \\boxed{t^7}$.",
+    "chatgpt_solution": "When multiplying monomials, we add the exponents of the variables. Hence \\[\nt^3 \\cdot t^4 = t^{3+4} = t^{\\boxed{7}}.\n\\]"
+}

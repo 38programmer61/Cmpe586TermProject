@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JoebcachgbPDDyCnTG1F1GqNDmj5",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let the two positive integers be $a$ and $b$, where $a > b$. Since their sum is $50$, we have $a + b = 50$, and since their difference is $12$, we have $a - b = 12$. Adding these equations gives $2a = 62$, so $a = 31$. Then the positive difference of their squares is $a^2 - b^2 = (a + b)(a - b) = 50 \\cdot 12 = \\boxed{600}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699733637,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 112,
+        "prompt_tokens": 39,
+        "total_tokens": 151
+    }
+}

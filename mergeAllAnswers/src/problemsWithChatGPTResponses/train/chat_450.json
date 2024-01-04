@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JprwhfH5ZdfO1SC9PYN2q9XmVDpf",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "She got $5x-x=4x$ problems correct. To get a percent, we need to find a \"part\" out of a \"whole\". In this case, the \"part\" is $4x$ and the \"whole\" is $5x$. We have $\\frac{4x}{5x}=\\frac{4}{5}=\\boxed{80\\%}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699738308,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 81,
+        "prompt_tokens": 40,
+        "total_tokens": 121
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JhcS7l634y0cO4KKgwidq0jnx8XL",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We begin by moving all the terms to the left-hand side to obtain $x^2 + 5x - 6 < 0$. This inequality factors as $(x-1)(x+6) < 0$. Setting both factors equal to zero shows that $x=1$ and $x=-6$ are critical values.  Testing a number in each of the intervals defined by these critical values shows that $x^2+5x-6 <0$ when $-6 < x < 1$.  This interval can be expressed in interval notation as $\\boxed{(-6,1)}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699706596,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 126,
+        "prompt_tokens": 31,
+        "total_tokens": 157
+    }
+}

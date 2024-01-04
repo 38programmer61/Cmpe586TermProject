@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlHSOWKKrSU3llorzcQzkh7RVgHL",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Since $(x + 2)(3x^2 - x + 5) = Ax^3 + Bx^2 + Cx + D$,\n\\[3x^2 - x + 5 = Ax^2 + (A + 3)x + 2A + 5.\\]Comparing coefficients, we get\n\\begin{align*}\nA + 3 &= -1, \\\\\n2A + 5 &= 5, \\\\\n2A &= 0.\n\\end{align*}Hence, $A = 0.$  Then $B = 3,$ $C = -1,$ and $D = 5,$ so $A + B + C + D = \\boxed{7}.$",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699720670,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 153,
+        "prompt_tokens": 54,
+        "total_tokens": 207
+    }
+}

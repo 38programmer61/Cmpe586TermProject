@@ -1,0 +1,7 @@
+{
+    "problem": "Evaluate $\\log_432$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Let $x=\\log_432$.  Then, we must have $4^x = 32$.  Writing both 4 and 32 with 2 as the base gives $(2^2)^x = 2^5$, so $2^{2x} = 2^5$.  Therefore, we must have $2x =5$, so $x =\\boxed{\\frac{5}{2}}$.",
+    "chatgpt_solution": "Instead of using numerical values, we can write $32$ as $2^5$ and also as $4^2.$  We can then take logarithms base 2 and base 4, respectively, to get\n\\[\\log_2 32 = 5 \\quad \\text{and} \\quad \\log_4 32 = 2.\\]Since $\\log_b b = 1,$ we can write\n\\[\\log_432 = \\frac{\\log_2 32}{\\log_2 4} = \\frac{5}{2} = \\boxed{2.5}.\\]"
+}

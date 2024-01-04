@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JqmwqcBRPJoIDuzJdYhaXWXMU6Zs",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We factor the difference of squares to obtain $(x + y)(x - y) = 51$.  We prime factorize 51 into $3 \\cdot 17$, so we get four cases.\n\nCase 1: $(x + y) = 1$ and $(x - y) = 51$.  Solving gives $x = 26$, $y = 25$.\n\nCase 2: $(x + y) = 3$ and $(x - y) = 17$.  Solving gives $x = 10$, $y = -7$.  But $y$ must be positive, so there are no solutions in this case.\n\nCase 3: $(x + y) = 17$ and $(x - y) = 3$.  Solving gives $x = 10$, $y = 7$.\n\nCase 4: $(x + y) = 51$ and $(x - y) = 1$.  Solving gives $x = 26$, $y = 25$.\n\nIn total, there are $\\boxed{3}$ solutions.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699741842,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 231,
+        "prompt_tokens": 29,
+        "total_tokens": 260
+    }
+}

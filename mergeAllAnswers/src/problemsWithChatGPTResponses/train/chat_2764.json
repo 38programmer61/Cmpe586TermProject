@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jon9MKWrvXtLzTuGjAhFSGzIPKVi",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let $x$ be the number of liters the tank holds when it is full.  The tank contains $\\frac{1}{5}x$ liters of water.  Adding three liters gives us $\\frac{1}{5}x + 3 = \\frac{1}{4}x$.  Multiplying both sides by 20 yields $4x+60=5x$, so $x=\\boxed{60}$ liters.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699734167,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 89,
+        "prompt_tokens": 52,
+        "total_tokens": 141
+    }
+}

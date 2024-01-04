@@ -1,0 +1,7 @@
+{
+    "problem": "Evaluate $\\left\\lceil3\\left(6-\\frac12\\right)\\right\\rceil$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Firstly, $3\\left(6-\\frac12\\right)=18-1-\\frac12=17-\\frac12$.  Because $0\\le\\frac12<1$, we have $\\left\\lceil17-\\frac12\\right\\rceil=\\boxed{17}$.",
+    "chatgpt_solution": "First, we have \\[3\\left(6-\\frac{1}{2}\\right)=3\\cdot\\frac{11}{2}=\\frac{33}{2}\\approx17.5.\\] The smallest integer that is at least $17.5$ is $\\boxed{18}$."
+}

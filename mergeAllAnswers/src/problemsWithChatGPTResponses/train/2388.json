@@ -1,0 +1,7 @@
+{
+    "problem": "At the Hardey Fitness Center, the management did a survey of their membership. The average age of the female members was 40 years old. The average age of the male members was 25 years old. The average age of the entire membership was 30 years old. What is the ratio of the female to male members? Express your answer as a common fraction.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Let $m$ denote the number of male members and $f$ the number of female members.  The sum of the ages of the female members is $40f$ and the sum of the ages of the male members is $25m$.  The sum of the ages of all the members is $40f+25m$, and the total number of members is $f+m$.  Since the average age for all the members is $30$, we have \\[\n\\frac{40f+25m}{f+m}=30.\n\\] Multiply both sides by $f+m$ to get \\[\n40f+25m=30f+30m.\n\\] Collecting like terms we find $10f=5m$ so $f/m=\\boxed{\\frac{1}{2}}$.",
+    "chatgpt_solution": "Let $m$ be the number of male members and $f$ the number of female members. The total age contribution of the female members is $40f$ and the total age contribution of the male members is $25m$. Therefore the total age contribution of all the members is $40f + 25m$, which we are given to be $30(m + f)$. Simplifying, we find \\begin{align*}\n40f + 25m &= 30(m + f)\n\\\\\\Rightarrow\\qquad 10f &= 5m\n\\\\\\Rightarrow\\qquad 2f &= m\n\\end{align*} Therefore the ratio of females to males is $\\boxed{\\frac{1}{2}}$."
+}

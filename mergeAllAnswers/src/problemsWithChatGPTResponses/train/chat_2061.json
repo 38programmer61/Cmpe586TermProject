@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlSe900E8ZDNIMj2ColJShJACDVO",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let $a$ and $b$ be our positive integers. Our given information is $\\frac{a}{b}=\\frac{5}{2}$ and $ab=160$. Rewriting the first equation as $2a=5b$ and substituting into the second equation gives $ab=160 \\Longrightarrow 5b^2=320$. Dividing both sides by 5 gives $b^2=64$. Since $b$ must be positive, we find that $b=8$ and $a=\\frac{5}{2}b=20$. So the answer is $\\boxed{20}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699721364,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 127,
+        "prompt_tokens": 40,
+        "total_tokens": 167
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JqLM6VHYJ5li4L3DCpnurXWakhVA",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Since the vertex of the parabola is $(3,7)$, the quadratic can be written in the form\n\\[y = a(x - 3)^2 + 7.\\]We are told that $(-2,0)$ is one of the $x$-intercepts.  This means that when $x = -2,$ the expression becomes 0:\n\\[0 = a((-2) - 3)^2 + 7.\\]Then\n\\[0 = 25a + 7,\\]so $a = -\\frac{7}{25}.$\n\nThe general equation is then\n\\[y = -\\frac{7}{25} (x - 3)^2 + 7.\\]The other $x$-intercept occurs when $y = 0.$  Then\n\\[\\frac{7}{25} (x - 3)^2 = 7.\\]Dividing both sides by 7, we get\n\\[\\frac{1}{25} (x - 3)^2 = 1.\\]Then $(x - 3)^2 = 25.$  Since $x - 3 = 5$ has the other solution $x = 8,$ the other $x$-intercept is $\\boxed{8}.$",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699740132,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 268,
+        "prompt_tokens": 75,
+        "total_tokens": 343
+    }
+}

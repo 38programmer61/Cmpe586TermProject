@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JoVYX5rlJ0Kwpw5UbtJZwse2g9xK",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let's assume that the two numbers are x and y.\n\nWe know that the sum of two numbers is 6, so we can write the equation:\nx + y = 6\n\nWe also know that the difference of their squares is 12, so we can write the equation:\nx^2 - y^2 = 12\n\nTo find the positive difference of the two numbers, we need to solve for x and y.\n\nIf we rearrange the first equation to solve for x, we get:\nx = 6 - y\n\nSubstituting this value of x into the second equation, we get:\n(6 - y)^2 - y^2 = 12\n\nExpanding the equation, we get:\n36 - 12y + y^2 - y^2 = 12\n\nSimplifying the equation, we get:\n12y = 24\n\nDividing both sides by 12, we get:\ny = 2\n\nSubstituting this value of y into the first equation, we get:\nx + 2 = 6\n\nSolving for x, we get:\nx = 4\n\nTherefore, the positive difference of the two numbers is:\n4 - 2 = 2\n\nSo, the positive difference of the two numbers is 2.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699733076,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 263,
+        "prompt_tokens": 35,
+        "total_tokens": 298
+    }
+}

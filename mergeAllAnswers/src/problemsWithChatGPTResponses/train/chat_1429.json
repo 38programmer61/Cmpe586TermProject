@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jj5PvaoVuu0IuDTTPWI56iWzUjvw",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let's call Brenda's age x.\nAddison's age is 3 * x.\nJanet's age is x + 6.\nSince Addison and Janet are twins, their ages are equal: x + 6 = 3 * x.\nSubtracting x from both sides, we get: 6 = 3 * x - x.\nCombining like terms, we get: 6 = 2 * x.\nDividing both sides by 2, we get: x = 3. So Brenda is 3 years old. Answer: \\boxed{3}.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699712235,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 118,
+        "prompt_tokens": 37,
+        "total_tokens": 155
+    }
+}

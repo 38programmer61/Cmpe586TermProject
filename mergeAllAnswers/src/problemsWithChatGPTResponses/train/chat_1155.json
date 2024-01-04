@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jhd8meZZkJV1MxSVnSmmLXiBijy7",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Factor $t^2-49$ using difference of squares. We find that $t^2-49$ is equal to $(t-7)(t+7)$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699706638,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 36,
+        "prompt_tokens": 15,
+        "total_tokens": 51
+    }
+}

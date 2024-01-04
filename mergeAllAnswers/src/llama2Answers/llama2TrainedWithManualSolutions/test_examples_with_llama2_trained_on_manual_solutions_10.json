@@ -1,0 +1,52 @@
+[
+    {
+        "instruction": "Compute $99^2+99+1$ in your head.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $99^2=9818$ and $99+1=99$. therefore, $99^2+99+1=9818+99=9907$."
+    },
+    {
+        "instruction": "What is the value of $x + y + z$ when $6x + 5y - 2z = -4$ and $4x + 5y + 12z = 54$?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we can solve the system of equations by substituting the second equation into the first.  this gives us $6x + 5y - 2z = -4 \\rightarrow 6x + 5y - 2z = -4 \\rightarrow 6x + 5y - 2z = 0$.  solving for $x$ gives $x = -2$.  substituting this value into the second equation gives $4x + 5y + 12z = 54 \\rightarrow 4(-2) + 5y + 12z = 54 \\rightarrow -8 + 5y + 12z = 54 \\rightarrow 5y + 12z = 42 \\rightarrow y = \\boxed{8} and $z = \\boxed{12}$."
+    },
+    {
+        "instruction": "A stack of 100 nickels has a height of 6.25 inches. What is the value, in dollars, of an 8-foot stack of nickels? Express your answer to the nearest hundredth.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "let $h$ be the height of the 8-foot stack of nickels. since the 6.25-inch stack of nickels has 100 coins, the 8-foot stack has $8h$ coins. the value of the 8-foot stack is $8h\\cdot 5\\text{ cents} = 40h\\text{ dollars}$. since the 6.25-inch stack has 100 coins, the 8-foot stack has $100\\cdot 6.25/12 = 80\\text{ coins}$. the value of the 8-foot stack is $80\\cdot 5\\text{ cents} = 400\\text{ dollars}$. since the 6.25-inch stack has 100 coins and the 8-foot stack has 80 coins, the 8-foot stack has 20 more coins than the 6.25-inch stack. therefore, the 8-foot stack has $h = 20\\cdot 6.25/12 = 12\\text{ inches}$ coins. the value of the 8-foot stack is $400\\cdot 5\\text{ cents} = 2000\\text{ dollars}$."
+    },
+    {
+        "instruction": "The largest and smallest of three consecutive terms in an arithmetic sequence differ by 14. Half of the smallest term is added to each term and the sum of the resulting three numbers is 120. What is the value of the original smallest term?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "let the three consecutive terms be $a$, $b$, and $c$. the largest term is $c-14=b-14$, and the smallest term is $a-14=b-28$. the sum of the three terms is $a+b+c=a+b-28+b-14=a+b-42$. the problem states that half of the smallest term is added to each term, so the sum of the three terms is $a+b+c+a/2+b/2+c/2=a+b+c+a+b-42+b-42-c-42=a+b+c+a+b+c-126$. the problem states that the sum is 120, so $a+b+c=120$. solving for $a$, we find that $a=120-b-c$, so $a=120-28-c$. solving for $c$, we find that $c=120-28-28=62$. solving for $b$, we find that $b=120-28-62=30$. solving for $a$, we find that $a=120-30-62=15$."
+    },
+    {
+        "instruction": "What is the length of the segment of the number line consisting of the points that satisfy $(x-4)^2 \\le 9$?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we can complete the square on the left-hand side of the inequality to get $(x-4)^2 \\le 9 \\rightarrow (x-4)^2 \\le 9 + 18 = 27$.  this inequality is satisfied if and only if $(x-4) \\le 3$.  therefore, the length of the segment is $\\boxed{3}$."
+    },
+    {
+        "instruction": "Factor $9z^3 - 27z^2 + 27z$.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we can factor out a $z^2$ from the first two terms, and then factor out a $z$ from the last term.  this gives us $9z^3 - 27z^2 + 27z = 9z^2(z - 3) + 27z = 9z^2(z - 3) + 27$.  this is a quadratic, so we can factor it as $(z - 3)(9z^2 + 27) = 9z^2(z - 3) + 27$.  this gives us $9z^2 + 27 = 9z^2 + 27 = 9z^2 + 27 = \\boxed{9z^2 + 27}$."
+    },
+    {
+        "instruction": "How many units long is a line segment whose endpoints have coordinates $(-3,7)$ and $(2,-5)$?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "the midpoint of the line segment is at a distance of $\\sqrt{(-3-2)^2+7^2-(-5)^2}$ from both endpoints.  this distance is $\\sqrt{19+49-25}=\\sqrt{89}$ units.  since the line segment is $\\sqrt{89}$ units long, it is $\\sqrt{89}/2=\\boxed{44.5}$ units long."
+    },
+    {
+        "instruction": "Consider the function $g(x)=3x-4$.  What is $g(0)$?",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "we have $g(0)=3(0)-4=3\\cdot0-4=\\boxed{3}$."
+    },
+    {
+        "instruction": "When Frederick was born, his grandparents gave him a gift of $\\$2000$, which was invested at a simple interest rate of $5\\%$ per year.  How much money will Frederick have when he can collect the money at the age of $18$?  (Assume no money is added to the account besides the interest.)",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "let $x$ be the amount of money frederick will have when he is $18$.  we can set up the equation: \\begin{align*}\nx &= 2000 \\cdot (1 + 0.05^5) \\\\\n&= 2000 \\cdot (1 + 0.125) \\\\\n&= 2000 \\cdot 1.125 \\\\\n&= 2250.\n\\end{align*}"
+    },
+    {
+        "instruction": "The sum of the $x$-coordinates of the vertices of a triangle in the Cartesian plane equals $\\sqrt{13}$.  Let $S$ equal the sum of the $x$-coordinates of the midpoints of the sides of the triangle. Find $S^2$.",
+        "input": "",
+        "llama2_fine_tuned_on_manual_solution": "let the vertices of the triangle be $(x_1,y_1)$, $(x_2,y_2)$, and $(x_3,y_3)$.  the midpoint of the side from $(x_1,y_1)$ to $(x_2,y_2)$ is $(x_1+x_2)/2,y_1+y_2/2$.  the midpoint of the side from $(x_2,y_2)$ to $(x_3,y_3)$ is $(x_2+x_3)/2,y_2+y_3/2$.  the midpoint of the side from $(x_1,y_1)$ to $(x_3,y_3)$ is $(x_1+x_3)/2,y_1+y_3/2$.  the $x$-coordinates of the midpoints are $x_1+x_2+x_3/2=x_1+x_2+x_3/2=x_1+x_3/2=x_s$.  the $y$-coordinates of the midpoints are $y_1+y_2+y_3/2=y_1+y_2+y_3/2=y_1+y_3/2=y_s$.  the sum of the $x$-coordinates of the midpoints is $x_s+x_s=2x_s$.  the sum of the $y$-coordinates of the midpoints is $y_s+y_s=2y_s$.  the sum of the $x$-coordinates of the vertices is $x_1+x_2+x_3=x_1+x_2+x_3=\\sqrt{13}$.  the sum of the $y$-coordinates of the vertices is $y_1+y_2+y_3=y_1+y_2+y_3=\\sqrt{13}$.  therefore, $x_s=x_1+x_2+x_3/2=x_1+x_2+x_3/2=x_1+x_3/2=x_s=\\sqrt{13}$ and $y_s=y_1+y_2+y_3/"
+    }
+]

@@ -1,0 +1,7 @@
+{
+    "problem": "What is the domain of the function $$\\ell(y) = \\frac{1}{(y-2)+(y-8)}~?$$ Express your answer in interval notation.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We can simplify: $$\\ell(y) = \\frac{1}{2y-10}.$$ The fraction $\\frac{1}{2y-10}$ fails to be defined only if the denominator is zero. This occurs when $y$ is the solution of the equation $$2y-10=0,$$ which is $y=5$. Thus the domain of $\\ell(y)$ is $\\boxed{(-\\infty,5)\\cup (5,\\infty)}$.",
+    "chatgpt_solution": "The expression $(y-2)+(y-8)$ is defined for all real numbers $y.$ However, the function $\\ell(y)=\\frac{1}{(y-2)+(y-8)}$ is undefined when the denominator is equal to $0,$ so we cannot allow $y=2$ or $y=8.$ In interval notation, the domain of the function is $\\boxed{(-\\infty,2) \\cup (2,8) \\cup (8,\\infty)}.$"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JhPja9Je6MFqoEOhPcHSYQW02Tkf",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let the two numbers be $x$ and $y$. We have the system of equations \\begin{align*}\nx+y&=45, \\\\\nx-y&=3.\n\\end{align*} Adding the two equations yields $2x=48$ and $x=\\boxed{24}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699705807,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 63,
+        "prompt_tokens": 31,
+        "total_tokens": 94
+    }
+}

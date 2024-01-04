@@ -1,0 +1,7 @@
+{
+    "problem": "Find the product of all values of $t$ such that $t^2 = 36$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "There are two numbers whose square is 36; these numbers are 6 and $-6$, and their product is $\\boxed{-36}$.",
+    "chatgpt_solution": "Taking the square root of both sides of the equation $t^2 = 36$, we have $t = \\pm 6$. The product of $6$ and $-6$ is $\\boxed{-36}$."
+}

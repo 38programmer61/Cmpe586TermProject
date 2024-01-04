@@ -1,0 +1,7 @@
+{
+    "problem": "Lauren solved the equation $|x-5| = 2$. Meanwhile Jane solved an equation of the form $x^2+ bx + c = 0$ that had the same two solutions for $x$ as Lauren's equation. What is the ordered pair $(b, c)$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "To start, we solve Lauren's equation.  If $x-5$ is positive, then: $$|x-5|=x-5=2$$ $$x=7$$ On the other hand, if $x-5$ is negative, then: $$|x-5|=5-x=2$$ $$x=3$$ Jane's quadratic equation must have roots of 7 and 3.  In factored form , this quadratic will look like: $$(x-3)(x-7)=0$$ Expanding, we find Jane's equation is: $$x^2-10x+21=0$$ The ordered pair is $\\boxed{(-10,21)}$.",
+    "chatgpt_solution": "For the equation $|x-5| = 2$, Lauren reasoned that the $x$ values 2 and 8 satisfy this equation since $|2-5| = 3 = 2+1$ and $|8-5| =3 = 2+1$. Thus, the solutions to $x^2+bx+c=0$ are both 2 and 8. Notice that $x=2$ and $x=8$ are solutions to the equation $(x-2)(x-8)=0$, i.e. $x^2-10x+16=0$. The ordered pair is $\\boxed{(-10, 16)}$. Notice that if we expanded $(x-2)(x-8)$, we would get $x^2-(8+2)x+ (2\\cdot 8)= x^2-10x+16$ as expected."
+}

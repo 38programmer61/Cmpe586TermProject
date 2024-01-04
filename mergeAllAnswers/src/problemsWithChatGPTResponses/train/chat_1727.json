@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JknAfOpLAL3xGzaANWjiaRTEi6wB",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "The common difference of this arithmetic sequence is $3-(-2) = 5$, so the eight terms form the arithmetic sequence $-2, 3, 8, 13, \\dots, 33$.  The average of the eight terms is $\\frac{1}{2}(-2 + 33) = 15.5$, so the sum of the eight terms is $8 \\cdot 15.5 = \\boxed{124}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699718792,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 95,
+        "prompt_tokens": 33,
+        "total_tokens": 128
+    }
+}

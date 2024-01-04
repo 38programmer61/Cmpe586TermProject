@@ -1,0 +1,7 @@
+{
+    "problem": "Find the leading coefficient in the polynomial $-3(x^4 - x^3 + x) + 7(x^4 + 2) - 4(2x^4 + 2x^2 + 1)$ after it is simplified.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The leading coefficient is the coefficient of the term with the highest power of $x$, which in this case is $x^4$.  The coefficient of $x^4$ in $-3(x^4 - x^3 + x) + 7(x^4 + 2) - 4(2x^4 + 2x^2 + 1)$ is $-3 + 7 - 4 \\cdot 2 = \\boxed{-4}$.",
+    "chatgpt_solution": "We simplify each \"quantity\" separately.\n\nFor the first quantity $-3(x^4 - x^3 + x)$, we distribute the $-3$ to get $-3x^4 +3x^3 -3x$.\n\nFor the second quantity $7(x^4 + 2)$, we distribute the $7$ to get $7x^4 +14$.\n\nFor the third quantity $-4(2x^4 + 2x^2 + 1)$, we distribute the $-4$ to get $-8x^4 -8x^2 -4$.\n\nThe sum of these three quantities is  \\begin{align*}\n-3x^4 +3x^3 -3x+ 7x^4 +14-8x^4 -8x^2 -4 &= (7x^4 - 8x^4 - 3x^4) + 3x^3+ (-8x^2) + (-3x)+ (14-4)\\\\\n&=-4x^4+3x^3-8x^2-3x+10.\n\\end{align*}The leading coefficient of a polynomial is the coefficient of the highest degree term.  Therefore, the leading coefficient is $\\boxed{-4}$."
+}

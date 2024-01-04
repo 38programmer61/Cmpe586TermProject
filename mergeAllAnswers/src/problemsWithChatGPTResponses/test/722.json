@@ -1,0 +1,7 @@
+{
+    "problem": "Compute $99^2+99+1$ in your head.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Factoring the first two terms, we have:\n\n$99^2+99+1=99(99+1)+1=99\\cdot 100+1=9900+1=\\boxed{9901}$.",
+    "chatgpt_solution": "We note that $99^2 = (100-1)^2 = 100^2 - 2(100) + 1 = 10000 - 200 + 1 = 9801.$ Thus, \\[\n99^2 + 99 + 1 = 9801 + 99 + 1 = \\boxed{9901}.\n\\][asy]\npathpen = linewidth(0.7);\nint i;\nfor(i = 1; i <= 10; ++i) {\ndraw((0,i)--(10,i));\ndraw((i,0)--(i,10));\n}\nlabel(\"$99^2$\", (5,3));\nlabel(\"$99$\", (6.0,5.0));\nlabel(\"$1$\", (6.0,6.0));\nlabel(rotate(90)*\"$99^2$\", (3,5));\nlabel(rotate(90)*\"$99$\", (5.0,6.1));\nlabel(rotate(90)*\"$1$\", (5.0,7.1));\n[/asy]"
+}

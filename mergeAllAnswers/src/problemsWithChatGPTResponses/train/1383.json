@@ -1,0 +1,7 @@
+{
+    "problem": "Each day, Jenny ate $20\\%$ of the jellybeans that were in her jar at the beginning of that day. At the end of second day, 32 remained. How many jellybeans were in the jar originally?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Since Jenny ate $20\\%$ of the jellybeans remaining each day, $80\\%$ of the jellybeans are left at the end of each day. If $x$ is the number of jellybeans in the jar originally, then $(0.8)^2x=32$. Thus $x=\\boxed{50}$.",
+    "chatgpt_solution": "Since Jenny ate $20\\%$ of the jellybeans each day, the fraction remaining at the end of each day is $1-20\\%=1-\\frac{1}{5}=\\frac{4}{5}$ of the fraction remaining the previous day.  Thus, if the number of jellybeans is $x$ at the beginning of the second day, we have $\\frac{4}{5}\\cdot\\frac{4}{5}\\cdot x=32$, so $\\frac{16}{25}\\cdot x=32$ and $x=\\boxed{50}$."
+}

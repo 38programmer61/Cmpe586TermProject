@@ -1,0 +1,7 @@
+{
+    "problem": "What is the sum of the eight terms in the arithmetic sequence $-2, 3, \\dots, 33$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "The sum of an arithmetic series is equal to the average of the first and last term, multiplied by the number of terms, so the sum is $\\dfrac{-2 + 33}{2} \\cdot 8 = \\boxed{124}$.",
+    "chatgpt_solution": "The common difference of this arithmetic sequence is $3-(-2) = 5$, so the eight terms form the arithmetic sequence $-2, 3, 8, 13, \\dots, 33$.  The average of the eight terms is $\\frac{1}{2}(-2 + 33) = 15.5$, so the sum of the eight terms is $8 \\cdot 15.5 = \\boxed{124}$."
+}

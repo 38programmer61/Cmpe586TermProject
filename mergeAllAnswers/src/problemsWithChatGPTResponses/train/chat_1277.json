@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Ji5HzMdn2LNJ4GEjXX9drOWZKlCf",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "After $18$ years, at the age of $18$, the money will have had $18$ years to compound.  Therefore, the amount of money that Frederick will have is the principal, $P$, multiplied by one plus the interest rate, $r$, compounded $n$ times a year, raised to the power of $nt$, where $n$ is the number of times a year the interest is compounded, and $t$ is the number of years the money is invested for.  Hence, at the age of $18$, Frederick will have a total of $\\$2000\\left(1+\\dfrac{.05}{1}\\right)^{1\\cdot 18}$ dollars.  Evaluating this expression, we find the amount to be $\\$2000(1.05)^{18} = 2000(1.05^{10.5})\\approx \\boxed{\\$5997.36}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699708383,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 194,
+        "prompt_tokens": 75,
+        "total_tokens": 269
+    }
+}

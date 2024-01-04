@@ -1,0 +1,7 @@
+{
+    "problem": "The square root of $x$ is greater than 2 and less than 4. How many integer values of $x$ satisfy this condition?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We have: $4 > \\sqrt{x} > 2$. Squaring, we get $16 > x > 4$.  Thus, the integers from 15 to 5, inclusive, satisfy this inequality. That's a total of $15-5+1=\\boxed{11}$ integers.",
+    "chatgpt_solution": "The square root of $x$ must lie between 2 and 4. This means that $2 < \\sqrt{x} < 4$. Taking the square of both sides of each inequality won't change the sign of the inequality, as $x$ is positive. Squaring, we have $4 < x < 16$. The integers between 4 and 16 inclusive are 4, 5, 6, $\\dots,$ 15, giving us $\\boxed{12}$ values of $x$."
+}

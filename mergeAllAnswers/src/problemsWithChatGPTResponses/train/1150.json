@@ -1,0 +1,7 @@
+{
+    "problem": "If the system of equations  \\begin{align*}\n3x+y&=a,\\\\\n2x+5y&=2a,\n\\end{align*} has a solution $(x,y)$ when $x=2$, compute $a$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Substituting in $x=2$, we obtain the equations\n\n\\begin{align*}\ny+6&=a,\\\\\n5y+4&=2a.\n\\end{align*}\n\nMultiplying the first equation by $5$ and subtracting it from the second equation, we find\n\n$$-26=-3a\\Rightarrow a=\\boxed{\\frac{26}{3}}.$$",
+    "chatgpt_solution": "We are given that $x = 2$, so we substitute into the first equation of the system to get $6 + y = a$. We substitute into the second equation to get $4 + 5y = 2a$. Multiplying the second equation by $3$ gives $12 + 15y = 6a$. Subtracting the first equation, $6 + y = a$ from the third equation, $12 + 15y = 6a$, we get $6 + 14y = 6a - a$, or $14y = 5a - 6$. If $(x,y)$ is a solution to this system, then substituting $x = 2$ and $y = \\tfrac{5a - 6}{14}$ into the second equation in the system should give an equation that is true (i.e., the two sides of the equation will be equal). We compute: $$2(2) + 5 \\cdot \\frac{5a - 6}{14} = 2(2) + \\frac{25a - 30}{7} = 4 + \\frac{25a - 30}{7} = \\frac{28 + 25a - 30}{7} = \\frac{25a - 2}{7}.$$This equation is equal to $2a$, the right side of the equation $2x + 5y = 2a$, so we have $$\\frac{25a - 2}{7} = 2a.$$Multiplying both sides by $7$ gives $25a - 2 = 14a$, so $11a = 2$, or $a = \\boxed{\\tfrac{2}{11}}$."
+}

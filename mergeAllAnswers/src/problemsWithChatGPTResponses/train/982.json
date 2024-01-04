@@ -1,0 +1,7 @@
+{
+    "problem": "For how many positive integers $x$ is $x^2 + 6x + 9$ between 20 and 40?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We see that $x^2 + 6x + 9 = (x + 3)^2$. If $x$ must be positive, we can see that this expression can take on the value of any perfect square that is greater than or equal to 16. Thus, the problem is asking for how many perfect squares there are between 20 and 40. There are only $\\boxed{2}$, namely 25 and 36.",
+    "chatgpt_solution": "For $x^2 + 6x + 9$ to be between 20 and 40, we need to have $20 < x^2 + 6x + 9 < 40$. Subtracting 20 from all three parts of this inequality gives  \\[\n0 < x^2 + 6x - 11 < 20.\n\\]Completing the square on $x^2+6x-11$ gives\n\\begin{align*}\nx^2+6x-11 &= (x^2 + 6x + 9) - 20 \\\\\n&= (x+3)^2 - 20.\n\\end{align*}So we need $(x+3)^2 - 20 < 20$.  Add 20 to all three parts of this inequality to get  \\[\n(x+3)^2 < 40\n\\]Multiplying each part by $-1$ gives $-(x+3)^2 > -40$.  Dividing each part by $-1$ reverses the inequalities: $$-40 < -(x+3)^2 < 40.$$Taking the square roots of each part gives $\\sqrt{-40} < -(x+3) < \\sqrt{40}$.  Since $x$ is a positive integer, $-(x+3)$ is negative, hence $x+3$ must be between $\\sqrt{40}$ and $-\\sqrt{40}$.  The only positive integer that lies between $\\sqrt{40}$ and $-\\sqrt{40}$ is 6.  Since $x+3=6$, we have $x = \\boxed{3}$ as the only solution."
+}

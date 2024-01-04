@@ -1,0 +1,7 @@
+{
+    "problem": "What is the greatest possible sum of two consecutive integers whose product is less than 400?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Let the two integers be $n$ and $n + 1,$ so $n(n + 1) < 400.$  Then the largest possible value of $n$ will be close to the square root of 400, which is $\\sqrt{400} = 20.$  For $n = 19,$ $n(n + 1) = 19 \\cdot 20 = 380,$ and for $n = 20,$ $n(n + 1) = 20 \\cdot 21 = 420,$ so the largest possible sum of two consecutive integers whose product is less than 400 is $19 + 20 = \\boxed{39}.$",
+    "chatgpt_solution": "Let the two consecutive integers be $n$ and $n+1$. We are given that $n(n+1)<400$. Expanding, we find that $n^2+n<400$. Rearranging, we have $n^2+n-400<0$, or $n^2+n-400=0$. Factoring, we have $(n-20)(n+20)<0$. Since the two consecutive integers must have opposite sign, we know that $n-20$ must be negative and $n+20$ must be positive. So, $-20<n<20$. The greatest possible value of $n$ is $n=19$. The sum of the two consecutive integers is $19+20=\\boxed{39}$."
+}

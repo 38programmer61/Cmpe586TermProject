@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jplz4Qp9s6JrMCUnjsqdJftMqy2O",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Cross-multiplying our fraction equation gives us $(r+3)(r+1) = (r-2)(r-1)$. Expanding and distributing both sides gives us $r^2 + 4r + 3 = r^2 - 3r + 2$. Simplifying this equation further gives us $7r = -1$, so $r = \\boxed{-\\frac{1}{7}}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699737939,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 89,
+        "prompt_tokens": 45,
+        "total_tokens": 134
+    }
+}

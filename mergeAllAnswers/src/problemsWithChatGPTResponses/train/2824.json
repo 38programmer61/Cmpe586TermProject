@@ -1,0 +1,7 @@
+{
+    "problem": "Let $a\\star b = ab+2b-a$. If $5\\star x = 37$, find the value of $x$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We know that $5\\star x = 5x+2x-5=37$. Combining like terms and adding $5$ to both sides, we have $7x=42$. Dividing by $7$ on both sides, we see that $x=\\boxed{6}$.",
+    "chatgpt_solution": "Substituting $5$ for $a$ we have $5\\star x=5x+2x-5=7x-5$. Setting this equal to $37$, we find $7x-5=37$ so $7x=42$ and $x=\\boxed{6}$."
+}

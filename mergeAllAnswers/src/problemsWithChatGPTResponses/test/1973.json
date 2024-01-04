@@ -1,0 +1,7 @@
+{
+    "problem": "If a recipe for a two-pound cake requires 1.5 cups of flour, how many cups are needed for 2 five-pound cakes?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We first find that $2$ five-pound cakes results in $2 \\times 5 = 10$ pounds of cake total. Since a two-pound cake requires $1.5$ cups of flour, a ten pounds of cake will require five times as much flour (since $10/2=5$). Five times $1.5$ cups of flour is $\\boxed{7.5}$ pounds of flour.",
+    "chatgpt_solution": "To calculate how many cups of flour are needed for 2 five-pound cakes, we need to adjust the quantities proportionally. \n\nSince the ingredient is flour, it is necessary to keep the ratio of flour to cake constant. \n\nGiven that the original recipe calls for 1.5 cups of flour for a two-pound cake, we can set up a proportion to find the amount of flour needed for one five-pound cake.\n\n1.5 cups of flour / 2 pounds of cake = X cups of flour / 5 pounds of cake\n\nCross-multiplying, we get:\n\n1.5 * 5 = 2 * X\n\n7.5 = 2X\n\nX = 7.5 / 2\n\nX = 3.75\n\nTherefore, one five-pound cake requires 3.75 cups of flour. \n\nFor 2 five-pound cakes, we will double that amount:\n\n2 * 3.75 cups of flour = 7.5 cups of flour\n\nTherefore, 7.5 cups of flour are needed for 2 five-pound cakes."
+}

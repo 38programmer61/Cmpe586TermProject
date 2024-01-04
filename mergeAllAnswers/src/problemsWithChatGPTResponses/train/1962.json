@@ -1,0 +1,7 @@
+{
+    "problem": "How many miles can a car travel in 20 minutes if it travels $ \\, \\frac{3}{4} \\, $ as fast as a train going 80 miles per hour?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "The car travels at a speed of $$\\frac{3}{4}\\times80\\text{ miles per hour}=3\\times20=60\\text{ miles per hour}.$$ In $20$ minutes, the car travels $$\\frac{60 \\text{ miles}}{60\\text{ minutes}}\\times20\\text{ minutes}=1\\times20=\\boxed{20\\text{ miles}}.$$",
+    "chatgpt_solution": "Since we know that the car travels $ \\, \\frac{3}{4} \\, $ as fast as the train, we find that the car's speed is $ \\,  \\frac{3}{4} \\times 80 \\, $ miles per hour, or $ \\, 3 \\times 20 \\, $ miles per hour.  In $ \\, 20 \\, $ minutes the car would travel $ \\, \\frac{3 \\cdot 20}{60} \\, $ miles.  Multiplying fractions gives $$\\frac{3 \\cdot 20}{60} = \\frac{3 \\cdot (2 \\cdot 10)}{3 \\cdot 20} = \\frac{2 \\cdot 10}{20} = \\boxed{10} \\, \\text{miles}.$$"
+}

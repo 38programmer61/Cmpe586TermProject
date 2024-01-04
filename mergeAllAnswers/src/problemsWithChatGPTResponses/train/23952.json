@@ -1,0 +1,7 @@
+{
+    "problem": "A freight train travels 1 mile in 1 minute 30 seconds. At this rate, how many miles will the train travel in 1 hour?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "The train travels 1 mile in 1 minute 30 seconds. Then it will travel 2 miles in 3 minutes. Since 60 minutes contains 20 groups of 3 minutes, the train will travel $20 \\times 2 = \\boxed{40}$ miles in 1 hour.",
+    "chatgpt_solution": "To find out how many miles the train will travel in 1 hour, we need to find out how many minutes are in 1 hour.\n\nSince there are 60 minutes in 1 hour, the train will travel 1 mile in 1 minute 30 seconds.\n\nTherefore, the train will travel 60 miles in 1 hour. Answer: \\boxed{60}."
+}

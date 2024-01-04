@@ -1,0 +1,7 @@
+{
+    "problem": "Find $w$, such that $5^65^w=25$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "The laws of exponents give us $5^65^w=5^{6+w}$.  And, because $25=5^2$, we have $5^{6+w}=5^2$.  It follows that $6+w=2$.  Subtracting 6 from both sides gives us $w=\\boxed{-4}$.",
+    "chatgpt_solution": "Rewrite 25 as $5^2$, and we have \\[(5^6)(5^w)=5^2.\\]We can now equate the exponents, to obtain $6+w=2$.  Solving, we find $w=\\boxed{-4}$."
+}

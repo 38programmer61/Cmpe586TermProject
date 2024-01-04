@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JsdezZup0R3KU28ADJP1bJhftMVv",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let the first term be $a$ and the common difference be $d$.  Then the second term is $a + d$, and the ninth term is $a + 8d$.  We are given that $a + d = 2$ and $a + 8d = 30$, so $8d = 30 - 2 = 28$.  Then $d = 3.5$, so the fiftieth term is $a + 49d = 2 + 49(3.5) = \\boxed{172}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699748954,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 119,
+        "prompt_tokens": 34,
+        "total_tokens": 153
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Evaluate $x^2y^3z$ if $x = \\frac13$, $y = \\frac23$, and $z = -9$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have  \\[x^2 y^3 z = \\left(\\frac13\\right)^2 \\left(\\frac23\\right)^3(-9) = \\frac{1}{9}\\cdot \\frac{8}{27}\\cdot (-9) = -\\frac{8}{27}\\left(\\frac19\\cdot 9\\right) = \\boxed{-\\frac{8}{27}}.\\]",
+    "chatgpt_solution": "We have $x^2 = \\left(\\frac13\\right)^2 = \\frac19$, $y^3 = \\left(\\frac23\\right)^3 = \\frac{8}{27}$, and $z = -9$.  Therefore, $x^2y^3z = \\frac19 \\cdot \\frac{8}{27} \\cdot (-9) = \\boxed{-\\frac{8}{27}}$."
+}

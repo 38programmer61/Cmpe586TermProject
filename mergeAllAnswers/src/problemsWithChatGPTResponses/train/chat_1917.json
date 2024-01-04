@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jl7ucW0jCprixg9ew3TtveXKFybB",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "So, we have three original numbers $a$, $b$, and $c$ whose sum is 99, and the three resulting numbers are equal.\n\nLet $x$ be the common value of $a+6$, $b-6$, and $5c$. From here, $a+6=x$, $b-6=x$, and $5c=x$. Since the three original numbers sum to 99, we have $a+b+c=99$. Now, we can express $x$ in terms of $a$ (since $a+6=x$, we have $a=x-6$), substitute that expression into the equation $a+b+c=99$ and substitute the values of $a$ and $x$, and solve for $b$.\n\nSubstituting $a=x-6$, we get $(x-6)+b+c=99$. Substituting the value of $x$ in terms of $a$ and $c$ (from before), $b+c=99$. Using the third equality, $5c=x$, we have $b+5c=99$. Rewriting $b+c$ as $(b+5c)-4c$, we get $99=(x-6)-4c$. Solving this equation gives $x=105-4c$.\n\nSince $a+6=x$, $a+6=105-4c$. Solving for $a$ gives $a=99-4c$. Since $a+6=x$, $99-4c+6=105-4c=x$. Thus, $x=105-4c$. Now we need to solve for $b$.\n\nSince $b=x+6$, $b=105-4c+6=111-4c$. We can substitute this value of $b$ into the equation $5c=x$, since we know $x=105-4c$, and solve for $c$.\n\nSubstituting, we have $5c=105-4c$. Solving, we get $9c=105$, so $c=105/9=35/3$. Thus, $b=111-4(35/3)=111-140/3=333/3-140/3=\\boxed{\\frac{193}{3}}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699720078,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 474,
+        "prompt_tokens": 68,
+        "total_tokens": 542
+    }
+}

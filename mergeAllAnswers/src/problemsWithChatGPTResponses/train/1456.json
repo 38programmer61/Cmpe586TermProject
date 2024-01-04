@@ -1,0 +1,7 @@
+{
+    "problem": "Two-thirds of the people in a room are seated in three-fourths of the chairs. The rest of the people are standing. If there are 6 empty chairs, how many people are in the room?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Because the 6 empty chairs are $\\frac{1}{4}$ of the chairs in the room, there are $6\\times 4=24$ chairs in all. The number of seated people is $\\frac{3}{4}\\times24=18$, and this is $\\frac{2}{3}$ of the people present. It follows that \\[\\frac{18}{\\textrm{people present}}=\\frac{2}{3}.\\]So there are $\\boxed{27}$ people in the room.",
+    "chatgpt_solution": "Let x be the number of people in the room.\nTwo-thirds of the people in a room are seated, so (2/3)*x of the people are seated.\nThe rest of the people, (1 - 2/3)*x = 1/3*x, are standing.\nThree-fourths of the chairs are filled, so (3/4)*(x+6) are occupied.\n0.75*(x+6) = 2/3*x\n0.75x + 4.5 = (2/3)*x\n3 * (0.75x + 4.5) = 2x\n2.25x + 13.5 = 2x\n0.25x = 13.5\nx = 13.5 / 0.25\nx = <<54=54>>54\nThere are 54 people in the room. Answer: \\boxed{54}."
+}

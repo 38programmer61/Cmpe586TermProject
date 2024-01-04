@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlmlV2mfaNMQYqO7sqMsroQ0kig9",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We have \\[\n\\frac{10^{2000}+10^{2002}}{10^{2001}+10^{2001}}=\\frac{10^{2000}(1+100)}{10^{2001}(1+1)}=\\frac{101}{20}.\n\\]The closest whole number to this is $\\boxed{5}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699722611,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 74,
+        "prompt_tokens": 43,
+        "total_tokens": 117
+    }
+}

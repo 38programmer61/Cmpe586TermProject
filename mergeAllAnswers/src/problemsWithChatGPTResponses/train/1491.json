@@ -1,0 +1,7 @@
+{
+    "problem": "What is the slope of the line determined by any two solutions to the equation $\\frac{2}{x}+\\frac{3}{y} = 0$? Express your answer as a common fraction.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We can quickly see that we can get a solution to the equation if the first fraction is 1 and the second is -1 which gives $(x, y) = (2, -3)$.  Similarly if we let $(x, y) = (-2, 3)$ we get the first fraction to be $-1$ and the second to be 1.  The slope of the line through these two points is $\\frac{-3 - 3}{2 - (-2)} = \\boxed{- \\frac 32}$.",
+    "chatgpt_solution": "We could solve for $y$ in terms of $x$, or vice versa, but that would make the equation more difficult to work with. Letting the two solutions be $(x_1,y_1)$ and $(x_2,y_2)$, we substitute those values in to find \\[\n\\frac{2}{x_1}+\\frac{3}{y_1} = 0 \\quad\\text{and}\\quad \\frac{2}{x_2}+\\frac{3}{y_2} = 0.\n\\] Subtracting the equations yields \\[\n\\frac{2}{x_1}-\\frac{2}{x_2}+\\frac{3}{y_1}-\\frac{3}{y_2} = 0,\n\\] so \\[\n\\frac{2x_2-2x_1}{x_1x_2}+\\frac{3y_2-3y_1}{y_1y_2}=0.\n\\] Cross multiplying and moving all the terms to the left side gives \\[\n2x_2-2x_1+3y_2-3y_1=0.\n\\] We recognize the left side as $(2x_2+3y_2)-(2x_1+3y_1)$, so this equation is just of the form\n$$(\\text{slope for }P_2)-(\\text{slope for }P_1) = 0,$$ where $P_1=(x_1,y_1)$ and $P_2=(x_2,y_2)$. Thus the line has a slope of $\\frac{3}{2},$ and our answer is $\\boxed{\\frac32}$."
+}

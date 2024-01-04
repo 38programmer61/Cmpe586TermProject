@@ -1,0 +1,7 @@
+{
+    "problem": "If $f(n) = n^2 + n + 17$, what is the value of $f(11)$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Plugging in, $f(11) = 11^2 + 11 + 17 = 121 + 28 = \\boxed{149}$.",
+    "chatgpt_solution": "Plugging in $n=11$ into the given equation, we have $f(11) = 11^2 + 11 + 17 = \\boxed{139}$."
+}

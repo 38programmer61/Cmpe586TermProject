@@ -1,0 +1,7 @@
+{
+    "problem": "Simplify the fraction by rationalizing the denominator: $$\\frac{4}{\\sqrt{108}+2\\sqrt{12}+2\\sqrt{27}}.$$",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "First, we can write $\\sqrt{108}=6\\sqrt{3}$, $2\\sqrt{12}=4\\sqrt{3}$ and $2\\sqrt{27}=6\\sqrt{3}$.  Substituting these, the expression becomes: $$\\frac{4}{6\\sqrt{3}+4\\sqrt{3}+6\\sqrt3}=\\frac{4}{16\\sqrt{3}}=\\frac{1}{4\\sqrt{3}}=\\boxed{\\frac{\\sqrt{3}}{12}}$$",
+    "chatgpt_solution": "We begin by simplifying each of the square roots:\n\\begin{align*}\n\\sqrt{108}&=\\sqrt{36\\cdot 3}=\\sqrt{36}\\cdot\\sqrt{3}=6\\sqrt{3},\\\\\n\\sqrt{12}&=\\sqrt{4\\cdot 3}=2\\sqrt{3},\\\\\n\\sqrt{27}&=\\sqrt{9\\cdot 3}=\\sqrt{9}\\cdot\\sqrt{3}=3\\sqrt{3}.\n\\end{align*}Therefore, the fraction is \\[\n\\frac{4}{6\\sqrt{3}+2\\sqrt{3}+3\\sqrt{3}} = \\frac{4}{11\\sqrt{3}}.\n\\]Finally, we rationalize the denominator by multiplying the numerator and denominator by $\\sqrt{3}$: \\[\n\\frac{4}{11\\sqrt{3}}\\cdot \\frac{\\sqrt{3}}{\\sqrt{3}} = \\frac{4\\sqrt{3}}{33} = \\boxed{\\frac{4\\sqrt{3}}{33}}.\n\\]"
+}
