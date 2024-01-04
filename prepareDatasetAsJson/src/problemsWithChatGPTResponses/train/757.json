@@ -1,0 +1,7 @@
+{
+    "problem": "What is the minimum value of $5x^2-20x+1357$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Let $y=5x^2 -20x + 1357$.  First, complete the square as follows: $y=5x^2-20x+1357=5(x^2-4x)+1357$. To complete the square, we need to add $\\left(\\dfrac{4}{2}\\right)^2=4$ after the $-4x$. So we have $y+20=5\\left(x^2-4x+4\\right)+1357$. This gives $y=5\\left(x-2\\right)^2+1337$.\n\nNow, since $\\left(x-2\\right)^2\\ge0$, the minimum value is when the squared term is equal to $0$.  So the minimum value is $y=5\\left(x-2\\right)^2+1337=5\\cdot0+1337=\\boxed{1337}$.",
+    "chatgpt_solution": "We could try completing the square to find the minimum value, but there is an easier way. Since the coefficient of $x^2$ is positive, we know that the parabola $y=5x^2-20x+1357$ opens upward, so the vertex is the minimum point. The $x$-coordinate of the vertex is $-\\frac{-20}{2\\cdot 5}=2$, so plugging in $x=2$ to find the $y$-coordinate, we have $5(2)^2-20(2)+1357=\\boxed{1357}.$ [asy]\nLabel f;\n\nf.p=fontsize(0);\n\nxaxis(-4,4,Ticks(f, 1.0));\n\nyaxis(0,4,Ticks(f, 1.0));\n\nreal f(real x)\n\n{\n\nreturn 5*x^2-20*x+1357;\n\n}\n\ndraw(graph(f,-4,4),linewidth(1));\n\ndot((2,1357));\n\nlabel(\"(2, 1357)\", (2, 1357), NE);\n\n[/asy]"
+}

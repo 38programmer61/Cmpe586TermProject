@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JriSCA1UhgF0ViDM0Df7ZGTpPO7l",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We first need to find $g(5)$ and $f(5)$.  From the definition of $g(x)$, we have $g(5) = 5+3 =8$.  From the definition of $f(x)$, we have $f(5) = 5^{2}-2(5)+5 = 25-10+5 = 20$.  Hence, $f(g(5)) -g(f(5)) = f(8)-g(20)$. From the definition of $f(x)$ and $g(x)$, we know $f(x) = x^{2}-2(5)+5 = x^2 - 10 + 5 = x^2 - 5$ and $g(x) = x+3$ so  \\begin{align*}\nf(8)-g(20) &= 8^2-5-3-20\\\\\n&= 64+2-23=\\boxed{43}.\n\\end{align*}",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699745408,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 212,
+        "prompt_tokens": 52,
+        "total_tokens": 264
+    }
+}

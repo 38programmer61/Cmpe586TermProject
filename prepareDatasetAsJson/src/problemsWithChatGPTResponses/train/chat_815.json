@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JrGThhRe8az7b9PVLS98wAaw2C76",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let the two integers be $x$ and $y$. The problem states $xy + x + y = 103$. Factoring we have $xy + x + y = (x+1)(y+1) - 1 = 103$. Since $x$ and $y$ are less than 20, then $x+1$ and $y+1$ are less than or equal to 21. Checking through these possible values, we find that $(x+1)(y+1)=104 = 13\\cdot 8=2^3\\cdot 13$. The possible pairs are $(12,7)$ or $(3,103)$. The sum is $12 + 7 = \\boxed{19}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699743673,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 153,
+        "prompt_tokens": 43,
+        "total_tokens": 196
+    }
+}

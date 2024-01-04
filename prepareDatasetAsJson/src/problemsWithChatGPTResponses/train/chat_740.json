@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jr2jAgLxK9kGgWQbHHg61X23kLys",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "If it took Steve 24 minutes to run 3 miles, Jordan ran 2 miles in 24 minutes / (3 miles/2 miles) = 16 minutes.\nSo the rate at which Jordan ran is 2 miles/16 minutes = 1/8 miles/minute.\nHence, it would take Jordan (5 miles) / (1/8 miles/minute) = 40 minutes to run 5 miles. Answer: \\boxed{40}.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699742821,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 95,
+        "prompt_tokens": 56,
+        "total_tokens": 151
+    }
+}

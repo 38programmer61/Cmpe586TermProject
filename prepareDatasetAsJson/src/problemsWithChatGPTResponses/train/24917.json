@@ -1,0 +1,7 @@
+{
+    "problem": "Points $A$ and $B$ have the same $y$-coordinate of 13, but different $x$-coordinates. What is the sum of the slope and the $y$-intercept of the line containing both points?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The slope of a line is $\\dfrac{y_2-y_1}{x_2-x_1}$. In this case, there is no vertical difference between points $A$ and $B$, so the line is simply a horizontal line with a slope of 0. Since the line is a horizontal line, its $y$-intercept equals the $y$-coordinate of all the other points on the line, 13. So, the sum of the slope and the $y$-intercept is $\\boxed{13}$.",
+    "chatgpt_solution": "The $y$-intercept of a line is the $y$-coordinate of a point on the line when $x=0$. Therefore, if $(x,y)$ is a point on the line, we have $y=mx+b$ for some slope $m$ and $y$-intercept $b$. If $y=13$ when $x=0$, then $13=0\\cdot m+b=b$, so $b=13$. Therefore, the sum of the slope and the $y$-intercept of the line containing both points is $m+b=m+13$."
+}

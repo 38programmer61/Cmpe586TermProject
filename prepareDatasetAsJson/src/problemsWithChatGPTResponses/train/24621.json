@@ -1,0 +1,7 @@
+{
+    "problem": "The operation $\\Diamond$ is defined by $a\\Diamond b=ab^2-b+1$.  What is the value of $(-1)\\Diamond 6$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "$$(-1)\\Diamond 6=(-1)6^2-6+1=\\boxed{-41}$$",
+    "chatgpt_solution": "We have $a\\Diamond b = ab^2-b+1$. Since we are given $a=-1$ and $b=6$, we can substitute these values of $a$ and $b$ into the expression for $a\\Diamond b$ to find that $(-1)\\Diamond 6=(-1)(6)^2-6+1$.  We can further simplify the expression by finding $6^2=6\\cdot 6=36$. This gives us $(-1)\\Diamond 6=(-1)(6^2)-6+1=(-1)(36)-6+1=-36-6+1$.  Finally, we can simplify the expression $-36-6+1$ to find $\\boxed{-41}$."
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JnqTUFGQbDozBGG4ygRyrRsSnxEc",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let the length of the rectangle be L and the width be W.\nThe perimeter is equal to 2L + 2W.\nThe area is equal to L * W.\nAccording to the problem, the area is ten times the perimeter, so:\nL * W = 10(2L + 2W).\nExpanding the right side of the equation, we get:\nL * W = 20L + 20W\nSubtracting 20L from both sides, we get:\nL * W - 20L = 20W\nFactoring out an L from the left side, we get:\nL(W - 20) = 20W\nDividing both sides by (W - 20), we get:\nL = 20W / (W - 20)\nAccording to the problem, Wendy has 180 feet of fencing, so the perimeter is 180 feet.\nSubstituting 180 for the perimeter in the equation, we get:\n180 = 2L + 2W\nDividing both sides by 2, we get:\n90 = L + W\nRearranging this equation, we get:\nL = 90 - W.\nSubstituting this equation for L in the earlier equation, we get:\n90 - W = 20W / (W - 20)\nMultiplying both sides by (W - 20), we get:\n90(W - 20) - W(W - 20) = 20W\nExpanding both sides, we get:\n90W - 1800 - W^2 + 20W = 20W\nCombining like terms, we get:\n90W - 1800 - W^2 + 20W - 20W = 0\nCombining like terms again, we get:\n-W^2 + 90W - 1800 = 0\nDividing all terms by -1, we get:\nW^2 - 90W + 1800 = 0\nFactoring the left side, we get:\n(W - 60)(W - 30) = 0\nSetting each factor equal to zero, we get:\nW - 60 = 0 or W - 30 = 0\nSolving each equation, we find that W = 60 or W = 30.\nIf W = 60, then L = 90 - 60 = 30.\nIf W = 30, then L = 90 - 30 = 60.\nSince we want to find the largest side of the rectangle, the answer is 60 feet. Answer: \\boxed{60}.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699730529,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 541,
+        "prompt_tokens": 55,
+        "total_tokens": 596
+    }
+}

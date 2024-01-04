@@ -1,0 +1,7 @@
+{
+    "problem": "Machiavelli added together $1+3i$ and $2-4i$. What number did he get?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Adding together the real part and imaginary parts separately, we have $(1+2)+(3-4)i=\\boxed{3-i}$.",
+    "chatgpt_solution": "Machiavelli combined the real parts of $1 + 3i$ and $2 - 4i$ to get $1 + 2 = \\boxed{3}$. He also combined the imaginary parts to get $3 - 4i$. So the number Machiavelli got is $3 + (3 - 4i) = 3 + 3 - 4i = \\boxed{6-4i}$."
+}

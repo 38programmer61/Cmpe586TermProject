@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JmywaVxLsUDvwdPBS0NZzZ4FCfmV",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "By the distance formula, the distance between $(2,2)$ and $(-1,-1)$ is $\\sqrt{(-1-2)^2+(-1-2)^2}=\\sqrt{9+9}=\\boxed{3\\sqrt{2}}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699727210,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 55,
+        "prompt_tokens": 26,
+        "total_tokens": 81
+    }
+}

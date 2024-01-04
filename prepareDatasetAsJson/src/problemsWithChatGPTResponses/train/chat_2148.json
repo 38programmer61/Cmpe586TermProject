@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JleAmzhMmSIQGmIymGd89fcRigob",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let the smallest of the five consecutive even numbers be $x.$ Then the other four consecutive even numbers are $x+2,$ $x+4,$ $x+6,$ and $x+8.$ Their sum is $320,$ so $$x + (x+2) + (x+4) + (x+6) + (x+8) = 320.$$Simplifying the left side gives $5x + 20 = 320,$ so $5x = 300$ and $x = \\boxed{60}.$",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699722078,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 114,
+        "prompt_tokens": 51,
+        "total_tokens": 165
+    }
+}

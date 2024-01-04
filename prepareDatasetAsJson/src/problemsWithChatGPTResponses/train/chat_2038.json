@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlPbTQLy8f0Thazh5qqHZZt3iHIl",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let the three integers be $2n,$ $2n + 2,$ and $2n + 4,$ for some positive integer $n.$  Then\n\\[(2n)(2n + 2)(2n + 4) = 20(6n + 6).\\]Expanding, we get\n\\[8n^3 + 24n^2 + 16n = 120n + 120.\\]Then $8n^3 + 24n^2 - 104n - 120 = 0,$ which factors as $2(n - 1)(2n + 5)(n + 4) = 0.$  The positive solution is $n = 1,$ so the sum of the three integers is $2 + 4 + 6 = \\boxed{12}.$",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699721175,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 174,
+        "prompt_tokens": 30,
+        "total_tokens": 204
+    }
+}

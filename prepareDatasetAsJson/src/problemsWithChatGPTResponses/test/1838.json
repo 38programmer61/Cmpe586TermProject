@@ -1,0 +1,7 @@
+{
+    "problem": "Factor $r^2+10r+25$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "The quadratic term is the square of $r$ and the constant term is $5^2$.  The linear term is $2(r)(5)$, so we see that $r^2 + 10r+25 = \\boxed{(r+5)^2}$.",
+    "chatgpt_solution": "We can see that $r^2+10r+25$ factors as $(r+5)(r+5)$. In fact, we can also see that $r^2+10r+25$ is a perfect square: $(r+5)^2$, which is equal to $r^2+10r+25$."
+}

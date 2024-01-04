@@ -1,0 +1,7 @@
+{
+    "problem": "What is the greater of the solutions to the equation $x^2 + 15x -54=0$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We can find the roots of this equation by factoring the quadratic as $(x + 18)(x - 3) = 0$. This gives us the solutions $x = -18$ or $x = 3$. We want the greater solution, so our answer is $\\boxed{3}$.",
+    "chatgpt_solution": "We could find the solutions by factoring, however, we can notice that  we just happen to have a quadratic of the form $(x + a)(x + b)$ where $a$ and $b$ are reversed. That is kind of strange.  We could eventually get lucky and just sort of guess that $x + 9$ and $x - 6$ could work, but that probably won't always work. Instead, we can complete the square.\n\nSince the quadratic is irreducible, completing the square is easier. Adding 54 to both sides we have $x^2 + 15x=54$, we get $(x + \\frac{15}{2})^2 = \\frac{441}{4}$. Taking the square root of both sides (and making sure to include the negative roots) we have $x + \\frac{15}{2} = \\pm \\frac{21}{2}$. Subtracting $\\frac{15}{2}$ from both sides we have $x = \\frac{-15 \\pm 21}{2}$. The two solutions are therefore $x = \\frac{6}{2} = 3$ and  $x = \\frac{-36}{2} = -18$, so the greatest solution is $\\boxed{3}$"
+}

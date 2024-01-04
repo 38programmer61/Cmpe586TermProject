@@ -1,0 +1,7 @@
+{
+    "problem": "Solve for $x$: $\\dfrac{1}{2} + \\dfrac{1}{x} = \\dfrac{5}{6}$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Subtracting $\\frac12$ from both sides gives $\\frac1x = \\frac56-\\frac12 = \\frac13$, so taking the reciprocal of both sides gives $x = \\boxed{3}$.",
+    "chatgpt_solution": "Subtracting $\\frac12$ from both sides of the equation, we have $\\dfrac{1}{x} = \\dfrac{5}{6} - \\dfrac{1}{2} = \\dfrac{5}{6} - \\dfrac{3}{6} = \\dfrac{2}{6}$. Since $\\frac{1}{6}\\cdot6 = 1$, we have $6\\cdot \\frac{1}{6} = 6\\cdot1$.  So $\\frac{6}{6} = 6$, and $\\frac16\\cdot 6 = 1\\cdot 6$, which implies $x = \\boxed{6}$."
+}

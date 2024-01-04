@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JmoC6eL6qBIuW2QIHuDWBqSQ6wD8",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Adding both equations, $(x - y) + (x + y) = 6 + 12$, we get $2x = 18$, so $x = \\boxed{9}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699726544,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 34,
+        "total_tokens": 75
+    }
+}

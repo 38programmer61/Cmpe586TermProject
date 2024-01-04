@@ -1,0 +1,7 @@
+{
+    "problem": "Define $E(a,b,c) = a \\cdot b^2 + c$. What value of $a$ is the solution to the equation $E(a,4,5) = E(a,6,7)$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "$E(a,4,5) = a \\cdot 4^2 + 5 = 16a + 5$ and $E(a,6,7) = a \\cdot 6^2 + 7 = 36a + 7.$ We set these equal to each other: $16a + 5 = 36a + 7.$ Now we simplify and have $20a=-2$, so $a = \\boxed{-\\frac{1}{10}}.$",
+    "chatgpt_solution": "Substituting the given values, we have $E(a,4,5) = a \\cdot 4^2 + 5 = 16a + 5$ and $E(a,6,7) = a \\cdot 6^2 + 7 = 36a + 7$.  We want to find the value of $a$ such that $16a+5=36a+7$. Subtracting $16a$ from both sides gives $5=20a+7$, so $-2=20a$, which means $a=\\boxed{-\\frac{1}{10}}$."
+}

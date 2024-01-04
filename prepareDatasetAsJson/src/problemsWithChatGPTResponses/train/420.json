@@ -1,0 +1,7 @@
+{
+    "problem": "Simplify $5(3-i)+3i(5-i)$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "$5(3-i) + 3i(5-i) = 15-5i + 15i - 3i^2 = 15 +10i -3(-1) = \\boxed{18+10i}$.",
+    "chatgpt_solution": "We distribute in the expression $3i(5-i)$ to obtain $5(3-i)+3i(5-i)=5(3-i)+(3i)(5)-(3i)(i)=15-5i+15i-3i^2$. Since $i^2=-1$, we have $15-5i+15i-3i^2=15-5i+15i-3(-1)=15-5i+15i+3= \\boxed{18}$."
+}

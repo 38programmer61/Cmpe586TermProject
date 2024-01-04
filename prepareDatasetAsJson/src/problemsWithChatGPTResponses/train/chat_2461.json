@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JnKdOKhaxEQdVXFTRjUHu0Z2aruE",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let the three integers be $x$, $3x$, and $4x$. We have the equation $x+3x+4x=72$, so $8x=72$, and $x=\\boxed{9}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699728555,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 48,
+        "prompt_tokens": 37,
+        "total_tokens": 85
+    }
+}

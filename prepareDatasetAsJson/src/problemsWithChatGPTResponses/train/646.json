@@ -1,0 +1,7 @@
+{
+    "problem": "If a school bus leaves school with 48 students on board, and one-half of the students get off the bus at each of the first three stops, how many students remain on the bus after the third stop?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "At each stop, the number of students on the bus is cut in half. Therefore, after 3 stops, the number of students on the bus is $48(\\frac12)^3 = \\frac{48}8 = \\boxed{6}$.",
+    "chatgpt_solution": "At the first stop, half of the students, or 48 / 2 = <<48/2=24>>24 students get off the bus.\nThis leaves 48 - 24 = <<48-24=24>>24 students on the bus.\nAt the second stop, another half of the students get off, leaving 24 / 2 = <<24/2=12>>12 students on the bus.\nAt the third stop, half of the remaining students get off, leaving 12 / 2 = <<12/2=6>>6 students on the bus. Answer: \\boxed{6}."
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Factor $9y^2-30y+25$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The quadratic is the square of $3y$,  the constant term is the square of $-5$, and the linear term equals $2(3y)(-5)$, so we have $9y^2 -30y + 25 = \\boxed{(3y - 5)^2}$.",
+    "chatgpt_solution": "We notice that $25$ is a perfect square and the coefficient of the middle term, $-30y$ is twice the product of the square root of $25$ and $y$. Since we have a perfect square trinomial, it factors as $(3y-5)(3y-5)$ or $(3y-5)^{2}$."
+}

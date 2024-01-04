@@ -1,0 +1,7 @@
+{
+    "problem": "New York and Denver are in different time zones.  When it is noon in New York, it is 10 a.m. in Denver.  A train leaves New York at 2 p.m. (New York time) and arrives in Denver 45 hours later.  What time is it in Denver when the train arrives?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "2 p.m. New York time is noon in Denver.  45 hours past noon is 21 hours past noon the next day, which is 9 a.m. the day after that.  Think about it this way - 48 hours would mean two full days, and 45 hours is 3 hours less than that, thus, 3 hours before noon is $\\boxed{9\\text{ a.m.}}$",
+    "chatgpt_solution": "Since New York is 2 hours ahead of Denver, when it is 2 p.m. in New York, it will be 12 p.m. (noon) in Denver.\n\nThe train takes 45 hours to travel from New York to Denver.\n\nSince it left New York at 2 p.m., when it arrives 45 hours later, it will be 47 hours after 2 p.m.\n\nTo calculate the time in Denver when the train arrives, we add 47 hours to 12 p.m. (noon):\n\n12 p.m. + 47 hours = 59 hours\n\nHowever, there are only 24 hours in a day, so we need to subtract 24 hours from 59 hours:\n\n59 hours - 24 hours = 35 hours\n\nTherefore, the train arrives in Denver at 35 hours after 12 p.m., which is 11 a.m."
+}

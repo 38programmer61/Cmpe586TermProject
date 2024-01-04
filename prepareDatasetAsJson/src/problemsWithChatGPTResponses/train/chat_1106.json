@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JhUk1dD05w23jHCm3eelbJ8boi6t",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let the two consecutive page numbers be $n$ and $n + 1.$ Then we have the equation $$n(n + 1) = 18{,}360.$$We can write $18{,}360 = 2^3 \\cdot 3^2 \\cdot 5 \\cdot 17 \\cdot 19.$ To make the left-hand side into this factorization, we look for factors of $n$ that are one less than $n + 1$ (since then, when we multiply, we will get one factor of $n,$ and one factor of $n + 1$). Checking potential factors starting with $n = 2,$ we find that $n = 170.$\n\nTherefore, the two consecutive page numbers are $170$ and $170 + 1 = 171.$ Their sum is $170 + 171 = \\boxed{341}.$\n\nIndeed, notice that $341 = 11^3.$",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699706118,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 198,
+        "prompt_tokens": 32,
+        "total_tokens": 230
+    }
+}

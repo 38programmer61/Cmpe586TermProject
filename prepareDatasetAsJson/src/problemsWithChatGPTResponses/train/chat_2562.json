@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jnwu7lfk36XM39XwO5758xZfHRCg",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let $p$ be the cost of a pen in cents, and let $c$ be the cost of a pencil in cents.  The first sentence of the problem gives us the equation $4p+3c=224$.  The second sentence gives us $2p+5c=154$.  Multiplying the second equation by 2 gives us $4p+10c=308$. Subtracting the first equation from this equation gives $7c = 84$, so $c = \\boxed{12}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699730928,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 108,
+        "prompt_tokens": 47,
+        "total_tokens": 155
+    }
+}

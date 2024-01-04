@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JrBjF0NEznboypLZ5hHlwbYktVDM",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We could use the distance formula to find the distance between the two points, but we can also find the distance without the distance formula. Drawing a right triangle with horizontal and vertical legs, we see that the horizontal leg has length $7-(-5)=12$ and the vertical leg has length $3-(-2)=5$. Applying the Pythagorean Theorem, we find the length of the hypotenuse is $\\sqrt{12^2+5^2}=\\sqrt{144+25}=\\sqrt{169}=\\boxed{13}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699743379,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 114,
+        "prompt_tokens": 26,
+        "total_tokens": 140
+    }
+}

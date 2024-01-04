@@ -1,0 +1,7 @@
+{
+    "problem": "Evaluate: $(723)(723)-(722)(724)$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Note that we have a difference of squares: $(722)(724) = (723 - 1)(723 + 1) = 723^2 - 1^2$. Thus, this expression evaluates to $(723)(723) - (722)(724) = 723^2 - (723^2 - 1^2) = 1^2 = \\boxed{1}$.",
+    "chatgpt_solution": "Expanding the given expression in terms of addition and multiplication:\n\n$(723)(723)-(722)(724)=$\n\n$(723)(723)-(722)(720+4)=$\n\n$(723)(723)-[(722)(720)+(722)(4)]=$\n\n$(723)(723)-[(722)(720)+(722)(4)]=$\n\n$(723)(723)-[(722)(720)+(722)(720)+(722)(4)]=$\n\n$(723)(723)-(722)[(720)+(720)+(4)]=$\n\n$(723)(723)-(722)(1440)=$\n\n$(723)^2-(722)(1440)=$\n\n$523329-(722)(1440)$\n\nTo simplify further, we need to calculate $(722)(1440)$.\n\n$722(1440)=722(1440)+722(60)=722(1500)=1444000$\n\nNow, we substitute this value back into the previous expression:\n\n$523329-(722)(1440)=523329-1444000$\n\nSince $523329-1444000=\\boxed{-920671}$, we are done."
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Luke wants to fence a square piece of land of at least 400 square feet. What should the side of the square be if he wants to use the least amount of fencing?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "The area of the land would be $s^2$, where $s$ is the length of the side. Since it has to be at least 400 square feet, we get $s^2\\geq 400$. Therefore, we get that $s \\le -20 \\text{ or } s \\ge 20$. Since the dimensions can't be negative, the least value of $s$ would be $\\boxed{20}$.",
+    "chatgpt_solution": "To determine the least amount of fencing needed for a square piece of land, we need to find the side length of the square.\n\nLet's assume the side length of the square is \"x\" feet.\n\nThe area of a square is given by the formula A = x^2, where A represents the area.\n\nAccording to the problem, the area should be at least 400 square feet. So we can write the inequality:\n\nx^2 \u2265 400\n\nTo determine the smallest possible value of x, we take the square root (\u221a) of both sides of the inequality:\n\n\u221a(x^2) \u2265 \u221a(400)\n\nx \u2265 20\n\nSince the length must be a whole number, Luke should choose a side length of at least 20 feet.\n\nTherefore, the side of the square should be at least 20 feet to use the least amount of fencing."
+}

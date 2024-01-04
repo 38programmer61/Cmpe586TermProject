@@ -1,0 +1,7 @@
+{
+    "problem": "What is the smallest possible real value of $x^2 + 8x$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Completing the square, we get $x^2 + 8x = (x^2 + 8x + 16) - 16 = (x + 4)^2 - 16,$ so the smallest possible value is $\\boxed{-16}.$",
+    "chatgpt_solution": "We could complete the square:\n\n\\begin{align*}\nx^2 + 8x &= x^2 + 8x + (8/2)^2 - (8/2)^2\\\\\n&=(x + 4)^2 - 16 \\\\\n&\\geq -16,\n\\end{align*}where we take the $\\geq$ symbol since $y^2$ is nonnegative for real numbers $y.$  There is one value of $x$ that produces $-16,$ namely $x = -4,$ where $(x + 4)^2 - 16 = (-4 + 4)^2 - 16 = -16,$ so the answer is $\\boxed{-16}.$"
+}

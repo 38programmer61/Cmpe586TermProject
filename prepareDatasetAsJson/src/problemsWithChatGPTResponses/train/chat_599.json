@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JqTQrM9ezVEgTC34YQ3w7IloJ1D2",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Factor $t^2-121$ using difference of squares. We rewrite 121 as $11^2$ and apply the pattern $a^2-b^2=(a+b)(a-b)$: \\begin{align*}\nt^2-121&=(t)^2-(11)^2\\\\\n&=(t+11)(t-11).\n\\end{align*}Therefore, $\\boxed{(t+11)(t-11)}$ is the factored form.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699740632,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 100,
+        "prompt_tokens": 15,
+        "total_tokens": 115
+    }
+}

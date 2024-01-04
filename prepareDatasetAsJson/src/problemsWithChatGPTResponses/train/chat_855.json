@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JrOSvMCk4LGDGoce5tUZtFy63mF8",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let $h$ be the number of hardcover volumes and $p$ be the number of paperback volumes.  We have the equations \\begin{align*}\np+h&=10 \\quad\\Rightarrow\\quad h=10-p, \\\\\n15p+25h&=220.\n\\end{align*} Subtracting five times the first equation from the second, we have $15p+25h-5(p+h)=220-5\\cdot 10$, which simplifies to $10p+20h=170$.  Subtracting twice the first equation from the second gives $15p+25h-2(p+h)=220-2\\cdot 10$, so $11p+23h=200$. Since $ p$ and $ h$ are integers, $p$ must be a multiple of 10. The only solutions are $p=0$, $h=10$, and $p=10$, $h=0$.  Therefore, Theresa bought $\\boxed{10}$ hardcover volumes.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699744168,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 211,
+        "prompt_tokens": 64,
+        "total_tokens": 275
+    }
+}

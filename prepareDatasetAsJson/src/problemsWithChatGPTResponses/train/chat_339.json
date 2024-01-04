@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JpHfvV6cb2T5KdRUPwIWpwLMqcCj",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let $P$ be the center of the circle.  Let $O_1,$ $O_2,$ and $O_3$ be the centers of the smaller circles.\n\n[asy]\nunitsize(0.15 cm);\n\npair A, B, C, P;\nreal r = 1.86308;\n\nA = (0,0);\nB = (25,0);\nC = intersectionpoint(arc(A,22,0,180),arc(B,27,0,180));\nP = intersectionpoint(arc(A,10 + r,0,180),arc(B,15 + r,0,180));\n\ndraw(Circle(A,10));\ndraw(Circle(B,15));\ndraw(Circle(C,12));\ndraw(Circle(P,r));\ndraw(A--(A + (0,-10)));\ndraw(B--(B + (15,0)));\ndraw(C--(C + (0,12)));\ndraw(P--(P + (r,0)));\n\nlabel(\"$a$\", A + (0,-10)/2, W);\nlabel(\"$b$\", B + (15,0)/2, S);\nlabel(\"$c$\", C + (0,12)/2, W);\nlabel(\"$r$\", P + (r,0), E);\nlabel(\"$O_1$\", A, SW);\nlabel(\"$O_2$\", B, SE);\nlabel(\"$O_3$\", C, NE);\nlabel(\"$P$\", P, N);\n[/asy]\n\nFrom the Pythagorean Theorem applied to right triangles $O_1 O_3 P$ and $O_2 O_3 P,$\n\\[(a + r)^2 + (c + r)^2 = (b + r)^2 + (c + r)^2.\\]This simplifies to $r = \\frac{a^2 + b^2 - c^2}{2(a + b + c)}.$  Therefore, when $a = 4,$ $b = 9,$ and $c = 36,$ $r = \\boxed{13}.$",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699736059,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 421,
+        "prompt_tokens": 354,
+        "total_tokens": 775
+    }
+}

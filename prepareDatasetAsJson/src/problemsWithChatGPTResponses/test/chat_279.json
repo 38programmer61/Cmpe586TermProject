@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JsjIKaNZWJkG6ygWBk9ll17Pv9C1",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "First we note that $c\\neq 3$ because of the denominator. Since we have an expression with $c-3$ in the denominator, we can invoke Simon's Favorite Factoring Trick: add and subtract $9$ in the numerator to get \\[\\frac{c^2 + 6c -27}{c-3} +2c =\\frac{c^2 + 6c -27+9-9}{c-3} +2c=\\frac{c^2 + 6c -18}{c-3} +(2c-6)\\] Factoring the numerator in the fraction, we get \\[\\frac{(c-3)(c+9)}{c-3} +(2c-6)=c+9+2c-6=3c+3\\] Thus we have $3c+3=23$, so $3c=20$ and $c = \\boxed{\\frac{20}{3}}$. We can check that this solution works by inserting $\\frac{20}{3}$ back into the equation; alternatively, since we used $c\\neq 3$ in our first manipulation, $c=3$ would not be a valid solution anyway.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699749304,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 255,
+        "prompt_tokens": 41,
+        "total_tokens": 296
+    }
+}

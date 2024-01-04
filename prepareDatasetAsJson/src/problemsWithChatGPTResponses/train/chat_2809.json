@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JowYbieSKSZtiMz0QZJf6AQZxxvA",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let the larger number be $x$.  Then the other number is $x - 4$, so we want to solve the equation $x + (x - 4) = 30$.  Simplifying the left side gives $2x - 4 = 30$, so $2x = 34$ and $x = 17$.  Therefore, the larger number is $\\boxed{17}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699734750,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 85,
+        "prompt_tokens": 31,
+        "total_tokens": 116
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "The first and thirteenth terms of an arithmetic sequence are $\\frac79$ and $\\frac45$, respectively. What is the seventh term?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Since the seventh term is halfway between the first term and thirteenth term, it is simply the average of these terms, or \\[\\frac{7/9 + 4/5}{2} = \\boxed{\\frac{71}{90}}.\\]",
+    "chatgpt_solution": "Let $d$ be the common difference, and let $a_1$ be the first term.  Since the common difference between consecutive terms is $d$, the second term is $a_1 + d$, the third term is $a_1 + 2d$, etc.  Therefore, we can write the thirteenth term as\n\\[a_1 + 12d.\\]Since the first term is $\\frac{7}{9}$, we have\n\\[\\frac{7}{9} + 12d = \\frac{4}{5}.\\]Isolating $d$, we find $d = \\frac{1}{36}$.  Therefore, the seventh term is\n\\[\\frac{7}{9} + 6 \\cdot \\frac{1}{36} = \\boxed{\\frac{1}{2}}.\\]+"
+}

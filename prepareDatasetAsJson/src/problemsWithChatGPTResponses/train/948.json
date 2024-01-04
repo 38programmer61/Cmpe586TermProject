@@ -1,0 +1,7 @@
+{
+    "problem": "Given that $f(x) = x^{2}-2x+5$ and $g(x) =x+3$, what is the value of $f(g(5)) -g(f(5))$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Since $g(5) = 5+3=8$ and $f(5) = 5^2 - 2(5) + 5 = 25-10+5 = 20$, we have $f(g(5)) -g(f(5)) = f(8) - g(20) = 8^2 - 2(8) + 5 - (20+3) = 64 - 16 + 5 - 23 = \\boxed{30}$.",
+    "chatgpt_solution": "We first need to find $g(5)$ and $f(5)$.  From the definition of $g(x)$, we have $g(5) = 5+3 =8$.  From the definition of $f(x)$, we have $f(5) = 5^{2}-2(5)+5 = 25-10+5 = 20$.  Hence, $f(g(5)) -g(f(5)) = f(8)-g(20)$. From the definition of $f(x)$ and $g(x)$, we know $f(x) = x^{2}-2(5)+5 = x^2 - 10 + 5 = x^2 - 5$ and $g(x) = x+3$ so  \\begin{align*}\nf(8)-g(20) &= 8^2-5-3-20\\\\\n&= 64+2-23=\\boxed{43}.\n\\end{align*}"
+}

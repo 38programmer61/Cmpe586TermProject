@@ -1,0 +1,7 @@
+{
+    "problem": "Max bought a new dirt bike and paid $10\\%$ of the cost upfront, which was $\\$150$. What was the price of the bike?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "If $10\\%$ of the price of the dirt bike was $\\$150$, then $100\\%$ of the price must have been ten times the amount that Max paid upfront. Therefore, the price of the bike must have been $10 \\times \\$150=\\boxed{\\$ 1500}$.",
+    "chatgpt_solution": "If Max paid $10\\%$ of the cost of the bike upfront, and the upfront payment was $\\$150$, then the total cost of the bike is $100\\% - 10\\% = 90\\%$ of the upfront payment.  Since $90\\%$ of $\\$150$ is $\\frac{90}{100} \\times \\$150 = \\$\\frac{90}{100} \\times 150 = \\frac{9}{10} \\times 150 = \\frac{9}{2} \\times 15 = 9 \\times 15 = \\boxed{135}$ dollars, the price of the bike was $\\boxed{\\$135}$."
+}

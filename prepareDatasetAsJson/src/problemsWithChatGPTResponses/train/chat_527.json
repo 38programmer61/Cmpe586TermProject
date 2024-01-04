@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JqDb0DXAWfh179vEVfXubyLm9U0J",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "The greatest integer less than or equal to $-2.54$ is $-3,$ and the least integer greater than or equal to $25.4$ is $26.$  Therefore, $\\lfloor-2.54\\rfloor + \\lceil25.4\\rceil = -3 + 26 = \\boxed{23}.$",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699739651,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 72,
+        "prompt_tokens": 27,
+        "total_tokens": 99
+    }
+}

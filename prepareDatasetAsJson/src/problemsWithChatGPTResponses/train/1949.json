@@ -1,0 +1,7 @@
+{
+    "problem": "If $x + y = 16$ and $x-y = 2$, what is the value of $x^2 - y^2$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "$x^2 - y^2$ factors into $(x+y)(x-y)$, so, to obtain the value of $x^2 - y^2$, simply multiply $16 \\cdot 2$ to get $\\boxed{32}$.",
+    "chatgpt_solution": "We have $x + y = 16$ and $x - y = 2$. Adding these equations gives $2x = 18$, so $x = 9$. Subtracting the second equation from the first gives $2y = 14$, so $y = 7$. Therefore, $x^2 - y^2 = (\\cancel{9})^2 - (\\cancel{7})^2 = \\boxed{40}$."
+}

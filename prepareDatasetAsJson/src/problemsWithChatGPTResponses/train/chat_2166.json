@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlgS4Dr8UMHWwueW2G1iH9Qa24VO",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Adding these three equations, we have $2a + 2b + 2c = \\boxed{-1}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699722220,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 25,
+        "prompt_tokens": 76,
+        "total_tokens": 101
+    }
+}

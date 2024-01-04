@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JrtjZnwCskd1yinmpjKrD0ZiZVkb",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Using the distance formula, the distance between $(0,0)$ and $(-8,6)$ is $\\sqrt{(-8-0)^2+(6-0)^2}=\\sqrt{64+36}=\\sqrt{100}=10$. The answer is $\\boxed{10}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699746107,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 60,
+        "prompt_tokens": 33,
+        "total_tokens": 93
+    }
+}

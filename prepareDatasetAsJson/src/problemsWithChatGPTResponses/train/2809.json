@@ -1,0 +1,7 @@
+{
+    "problem": "The sum of two numbers is $30$. Their difference is $4$. What is the larger of the two numbers?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Let $x,y$ be the larger and smaller numbers, respectively. We have $x+y=30$ and $x-y=4$. Thus: $x=\\frac{1}{2}((x+y)+(x-y))=\\frac{1}{2}(30+4)=\\boxed{17}$.",
+    "chatgpt_solution": "Let the larger number be $x$.  Then the other number is $x - 4$, so we want to solve the equation $x + (x - 4) = 30$.  Simplifying the left side gives $2x - 4 = 30$, so $2x = 34$ and $x = 17$.  Therefore, the larger number is $\\boxed{17}$."
+}

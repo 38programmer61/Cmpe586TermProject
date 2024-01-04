@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JnVMyJWYHbpOmi3bWYeEi29Sl7f6",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "For a number to have positive digits that sum to 11, either it ends with a \"2\" or a \"3.\"  If the number ends in \"2,\" the remaining digits must add to $11 - 2 = 9$.  The remaining digits can be any arrangement of the digits 2, 1, 1, 1, 1, 1, 1, 1, giving us ${8 \\choose 1} = 8$ numbers.\n\nIf the number ends in \"3,\" the remaining digits must add to $11 - 3 = 8$.  The remaining digits can be any arrangement of the digits 2, 2, 1, 1, 1, 1, 1, giving us ${7 \\choose 2} = 21$ numbers.\n\nTherefore, the 11th number is the 3rd number that ends in \"3.\"  The third such number is $\\boxed{129}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699729220,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 201,
+        "prompt_tokens": 45,
+        "total_tokens": 246
+    }
+}

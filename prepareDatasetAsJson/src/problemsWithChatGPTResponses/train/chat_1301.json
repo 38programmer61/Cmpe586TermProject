@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Ji9oE9BgHWunNMs9mfEtkBI7qTYm",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let's call the number of miles Phoenix hiked on the first day x.\nOn the second day, she hiked 22 - x miles.\nOn the third day, she hiked 26 - x miles.\nOn the fourth day, she hiked 30 - (26 - x) = 4 + x miles.\nIn total, she hiked x + (22 - x) + (26 - x) + (4 + x) = 52 miles.\nSimplifying the expression, we get 52 = 52.\nTherefore, the trail was 52 miles long. Answer: \\boxed{52}.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699708664,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 128,
+        "prompt_tokens": 89,
+        "total_tokens": 217
+    }
+}

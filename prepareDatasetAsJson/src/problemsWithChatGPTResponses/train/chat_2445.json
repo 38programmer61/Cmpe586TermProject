@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JnFCBF12gWj3sbQWlcg7PcpUh0Jm",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let $k$ be the common value of $x$ and $y$. From the given information, we have \\[\n\\frac{x+y}{2} = 18 \\quad\\Rightarrow\\quad x+y = 36 \\quad \\text{and} \\quad xy = 92.\n\\] Notice that\n\\begin{align*}\n(x+y)^2 &= x^2+2xy+y^2 \\\\\n&= x^2+y^2+2(xy) \\\\\n&= x^2+y^2+2(92),\n\\end{align*} so $x^2+y^2+2(92)=36^2=1296$. Therefore $x^2+y^2=\\boxed{1112}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699728218,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 153,
+        "prompt_tokens": 43,
+        "total_tokens": 196
+    }
+}

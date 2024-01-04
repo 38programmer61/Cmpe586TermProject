@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JqT5skurLyLkH5WL9x58UU90YmpH",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Since \"percent of a percent\" deals can be tricky, we invoke some subterfuge by promoting Mary's coupon to be a discount off the regular price, resulting in $\\$30-(25\\%)(\\$30)=\\$30-\\$7.50=\\$22.50$. Since the two successive discounts result in $\\$22.50$, then a single discount of $(\\$30-\\$22.50)/(\\$30)\\approx \\boxed{25\\%}$ would result in the same sale price.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699740611,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 105,
+        "prompt_tokens": 62,
+        "total_tokens": 167
+    }
+}

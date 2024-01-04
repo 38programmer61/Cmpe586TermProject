@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JrKJqEvfznAPK9gM8JJwm9lXryoe",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We can solve this problem using a system of equations. Let's assume that Abby weighs x pounds and Damon weighs y pounds.\n\nFrom the information given, we know that:\n\nAbby + Bart = 260   -->   Abby = 260 - Bart\nBart + Cindy = 245   -->   Cindy = 245 - Bart\nCindy + Damon = 270   -->   Damon = 270 - Cindy\n\nSubstituting the expressions for Abby, Cindy, and Damon from the equations above into the equation Abby + Damon = ?, we get:\n\n(260 - Bart) + (270 - (245 - Bart)) = ?\n(260 - Bart) + (270 - 245 + Bart) = ?\n(260 - Bart) + (25 + Bart) = ?\n260 + 25 = ?\n285\n\nTherefore, Abby and Damon weigh together 285 pounds.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699743911,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 176,
+        "prompt_tokens": 56,
+        "total_tokens": 232
+    }
+}

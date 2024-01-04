@@ -1,0 +1,7 @@
+{
+    "problem": "In the equation $|x-4| -10 = 2$, what is the product of all possible values of $x$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We rearrange the given equation to $|x-4| = 12$.  Thus either $x-4 = 12$, meaning $x = 16$, or $x-4 = -12$, meaning $x=-8$.  Our answer is therefore $16\\cdot (-8) = \\boxed{-128}$.",
+    "chatgpt_solution": "If $|x-4|-10 = 2$, we add 10 to both sides of the equation to get $|x-4| = 12$.  The equation $|x-4| = 12$ is satisfied by $x-4=12$ or $x-4=-12$.  Both equations yield integer solutions, with $x=16$ or $x=-8$.  The product of these solutions is $16\\cdot (-8) = \\boxed{-128}$."
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "The Cookie Monster encounters a cookie whose boundary is the equation $x^2+y^2 + 21 = 4x + 18 y$ and is very confused. He wants to know if this cookie is a lunch-sized cookie or a snack-sized cookie. What is the radius of this cookie?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The equation $x^2+y^2+21=4x+18y$ can be rewritten as $x^2-4x+y^2-18y=-21$. Completing the square, this can further be rewritten as $(x-2)^2-4+(y-9)^2-81=-21$. Moving the constants to the right side of the equation, this is $(x-2)^2+(y-9)^2=64$, which is the equation of a circle with center $(2,9)$ and radius $\\boxed{8}$.",
+    "chatgpt_solution": "To begin, we can rewrite the given equation in standard form by completing the square for $x$ and $y$. \n\nStarting with $x^2+y^2 + 21 = 4x + 18 y,$ we can rearrange the terms to obtain $x^2 - 4x + y^2 - 18y + 21 = 0.$\n\nCompleting the square for $x,$ we add $(4/2)^2=4$ to both sides of the equation, giving us $(x-2)^2 + y^2 - 18y + 21 = 4.$\n\nNext, we complete the square for $y,$ by adding $(18/2)^2=81$ to both sides of the equation. This gives us $(x-2)^2 + y^2 - 18y + 21 + 81 = 4 + 81.$\n\nSimplifying the equation, we have $(x-2)^2 + (y-9)^2 = 85.$\n\nThe equation is now in standard form, where the equation of a circle with center $(h, k)$ and radius $r$ is given by $(x-h)^2 + (y-k)^2 = r^2.$\n\nTherefore, the radius of the cookie is $\\sqrt{85} = \\boxed{\\sqrt{85}}.$"
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Solve the following system of equations: \\begin{align*}\n3x-5y&=-11,\\\\\n7x+2y&=-12.\n\\end{align*}Express your answer as an ordered pair $(x,y).$",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We can find $x$ by adding twice the first equation to five times the second. From \\begin{align*}\n2(3x-5y)+5(7x+2y)&=6x+35x\\\\&=41x,\n\\end{align*}and \\begin{align*}\n2(3x-5y)+5(7x+2y)&=2(-11)+5(-12)\\\\&=-22-60\\\\&=-82,\n\\end{align*}we find that $41x = -82$, or $x=-2.$\n\nSubstituting into the second equation, we can find $y:$ \\begin{align*}\n7x+2y&=-12 \\\\ \\implies y&=\\frac{1}{2}(-12-7(-2))\\\\&=\\frac{1}{2}(-12+14)\\\\&=\\frac{1}{2}(2)\\\\&=1.\n\\end{align*}Thus our answer is $\\boxed{(-2,1)}.$",
+    "chatgpt_solution": "We could solve this system by multiplying the first equation by $2$ and the second equation by $5,$ but notice that we could add these equations directly to get $$(3x-5y)+(7x+2y)=(-11)+(-12).$$Simplifying, we get $10x-3y=-23.$  Subtracting this equation from $2$ times the first equation, we get $$(2)(3x-5y)-(10x-3y)=(2)(-11)-(-23).$$Simplifying, we find $-4y=-1,$ so $y=\\frac14.$\n\nWe have $3x-5y = -11,$ so $3x = -11 + 5y = -11+ 5\\left(\\frac14\\right) = -11 + \\frac54 = -\\frac64 + \\frac54 = -\\frac14.$ Therefore, $x=\\boxed{-\\frac{1}{12}},$ so the solution is $\\left(-\\frac{1}{12},\\frac{1}{4}\\right).$"
+}

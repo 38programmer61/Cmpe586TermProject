@@ -1,0 +1,7 @@
+{
+    "problem": "If $23=x^4+\\frac{1}{x^4}$, then what is the value of $x^2+\\frac{1}{x^2}$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We begin by adding 2 to both sides of the equation, \\begin{align*} 23&=x^4+\\frac{1}{x^4}\n\\\\\\Rightarrow\\qquad 25&=x^4+\\frac{1}{x^4}+2\n\\\\\\Rightarrow\\qquad 25&=x^4+2(x^2)\\left(\\frac{1}{x^2}\\right)+\\frac{1}{x^4}\n\\\\\\Rightarrow\\qquad 25&=\\left(x^2+\\frac{1}{x^2}\\right)^2\n\\end{align*}  So $x^2+\\frac{1}{x^2}$ is equal to either $5$ or $-5$. Since $x^2+\\frac{1}{x^2}$ is the sum of two squares, it cannot be negative.  So $x^2+\\frac{1}{x^2}=\\boxed{5}$.",
+    "chatgpt_solution": "We notice that $x^4 + \\frac{1}{x^4}$ looks suspiciously similar to what we get when we square $x^2 + \\frac{1}{x^2}$: \\begin{align*}\n\\left(x^2 + \\frac{1}{x^2}\\right)^2 &= x^4 + 2(x^2)\\left(\\frac{1}{x^2}\\right) + \\frac{1}{x^4}\\\\\n&= x^4 + 2 + \\frac{1}{x^4}.\n\\end{align*} We notice that $x^4 + 2 + \\frac{1}{x^4}$ is a sum that appears in the problem statement, and we can deduce that $23 = x^4 + \\frac{1}{x^4}$. Thus, \\[\\left(x^2 + \\frac{1}{x^2}\\right)^2 = 23.\\] Taking the positive square root of both sides, we have \\[x^2 + \\frac{1}{x^2} = \\boxed{\\sqrt{23}}.\\]"
+}

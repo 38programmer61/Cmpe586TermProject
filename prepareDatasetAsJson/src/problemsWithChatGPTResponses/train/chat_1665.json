@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JkKJT5SQk3MR4tQJgKZBiKIGoShB",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Since the number of people working is inversely proportional to the number of days, $(\\text{workers})(\\text{days})=\\text{constant}$. When there are $75$ workers it takes $4$ days, which gives $75(4)=50(x)$, where $x$ is the number of days it takes for $50$ workers to complete the embankment. Simplifying the expression gives $300=50x$, and dividing by $50$ gives $x=\\boxed{6}$ days.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699717003,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 108,
+        "prompt_tokens": 59,
+        "total_tokens": 167
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlDpDHPeZZW7mGOwiFRZT994vQYS",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We begin by multiplying both sides of the equation by $r + 4$ to find that $r^2 - 3r - 17 = 2r^2 + 15r + 28$. Simplifying the equation, we have $r^2 + 18r + 45 = 0$. Notice that this equation factors as $(r + 3)(r + 15) = 0$. Thus, the solutions to the equation are $r = -3, -15$.\n\nSince the problem asks for the positive difference between the solutions, we do not have to worry about considering the negative root $r = -15$. Our answer is $\\boxed{12}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699720445,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 143,
+        "prompt_tokens": 39,
+        "total_tokens": 182
+    }
+}

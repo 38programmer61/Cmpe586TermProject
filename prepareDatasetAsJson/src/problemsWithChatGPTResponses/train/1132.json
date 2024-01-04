@@ -1,0 +1,7 @@
+{
+    "problem": "Let $f(x) = \\left\\lceil\\dfrac{1}{x+2}\\right\\rceil$ for $x > -2$, and $f(x) = \\left\\lfloor\\dfrac{1}{x+2}\\right\\rfloor$ for $x < -2$. ($f(x)$ is not defined at $x = -2$.) Which integer is not in the range of $f(x)$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "For $x > -2$, $\\dfrac{1}{x+2}$ takes on all positive values. Thus, $f(x)$ takes on all positive integers for $x > -2$.\n\nFor $x < -2$, $\\dfrac{1}{x+2}$ takes on all negative values. Thus, $f(x)$ takes on all negative integers for $x < -2$.\n\nSo, the range of $f(x)$ is all integers except for $\\boxed{0}$.",
+    "chatgpt_solution": "We can consider the graphs of the two rules for $f(x)$. For $x > -2$, the graph is a staircase with $f(x)=1$ between $-\\frac{3}{2}<x<-1$, $f(x)=2$ between $-\\frac{4}{3}<x<-\\frac{3}{2}$, and so forth. Similarly, graph for $x < -2$ is a staircase with $f(x)=0$ between $-2<x<-1$, $f(x)=-1$ between $-3<x<-2$.  Since the first rule never gives an integer of 0, and the second rule never gives a positive integer,  the answer is $\\boxed{0}$."
+}

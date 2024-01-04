@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jj27hrjyzhhofzovSQa67i3ugMxm",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Sixteen is $64\\%$ of $x$ can also be written as $\\frac{16}{x} = \\frac{64}{100}$. Simplifying, we find $\\frac{16}{x} = \\frac{4}{5}$. Solving for $x$, we get $x = \\boxed{20}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699712031,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 71,
+        "prompt_tokens": 19,
+        "total_tokens": 90
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Solve  \\[\\frac{x^2+2x+3}{x+4}=x+5\\]for $x$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Cross-multiplication gives  \\[x^2+2x+3=(x+4)(x+5)=x^2+9x+20.\\]Therefore \\[0=7x+17\\]and $x=\\boxed{-\\frac{17}7}$.",
+    "chatgpt_solution": "Multiply both sides by $x+4$ to get  \\[x^2+2x+3=(x+4)(x+5).\\]Expanding the right side gives  \\[x^2+2x+3=x^2+9x+20.\\]Canceling common terms will further give  \\[0=7x+17,\\]and finally \\[-7x=17\\]or \\[x = \\boxed{-\\frac{17}{7}}.\\]"
+}

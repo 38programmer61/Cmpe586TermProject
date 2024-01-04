@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JrfpRDkEZvGFJ40941ZZeKOmsJWz",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Subtracting $3x + 16$ from both sides of $x^2 - 4x - 14 = 3x + 16$ gives $x^2 - 7x - 30 = 0$.  Factoring this quadratic gives $(x - 10)(x + 3) = 0$, so $x = 10$ or $x = -3$.  The sum of these solutions is $10 + (-3) = \\boxed{7}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699745245,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 104,
+        "prompt_tokens": 37,
+        "total_tokens": 141
+    }
+}

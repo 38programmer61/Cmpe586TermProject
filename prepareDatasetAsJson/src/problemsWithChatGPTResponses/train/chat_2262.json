@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jm8hMQO9XDr58O2LkgE8PRwjH1sj",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let $a$, $b$, and $c$ denote the original portions of Al, Betty, and Clare, respectively. We have the equations\n\\begin{align*}\na + b + c &= 1000, \\\\\na - 100 + 2b + 2c &= 1500,\n\\end{align*}which we can rewrite as\n\\begin{align*}\na + b + c &= 1000, \\\\\na + 2b + 2c &= 1600.\n\\end{align*}We can eliminate $a$ by subtracting the equations, to get\n\\[b + c = 600.\\]Then $a = 400.$  Hence, Al's original portion is $\\boxed{\\$400}.$",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699723971,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 159,
+        "prompt_tokens": 77,
+        "total_tokens": 236
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JhTTQ0VfVimbMnHcWwqg7tITTrW9",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "First, we expand the product on the left-side of the equation: \\begin{align*}\n(x-5)(2x+9) &= x^2 - 5 \\cdot 2x + 9 \\cdot x - 5 \\cdot 9 \\\\\n&= x^2 - 13x - 45.\n\\end{align*}So we have $$x^2 - 13x - 45 = x^2 - 13x + 40.$$The quadratic $x^2 - 13x + 40 = 0$ factors as $(x-5)(x-8)=0$.  Thus, the solutions are $p=5$ and $q=8$.  Consequently, $$(p+3)(q+3) = (5+3)(8+3) = \\boxed{88}.$$",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699706039,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 177,
+        "prompt_tokens": 58,
+        "total_tokens": 235
+    }
+}

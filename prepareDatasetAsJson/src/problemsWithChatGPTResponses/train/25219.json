@@ -1,0 +1,7 @@
+{
+    "problem": "Compute $\\sqrt[4]{12960000}.$",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Since $6^4=6\\cdot6\\cdot6\\cdot6=36\\cdot6\\cdot6=216\\cdot6=1296$, and $10^4=10000$, we have $60^4=6^4\\cdot10^4=12960000$ and $$\\sqrt[4]{12960000}=\\boxed{60}.$$",
+    "chatgpt_solution": "Prime factorizing 12,960,000, we find  \\[12,\\!960,\\!000 = 2^7 \\cdot 3^4 \\cdot 5^2.\\]Therefore, \\[\\sqrt[4]{12,\\!960,\\!000} = \\sqrt[4]{2^7 \\cdot 3^4 \\cdot 5^2} = \\boxed{120}.\\]"
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Rationalize the denominator of $\\frac{1+\\sqrt{3}}{1-\\sqrt{3}}$. When you write your answer in the form $A+B\\sqrt{C}$, where $A$, $B$, and $C$ are integers, what is $ABC$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "When we multiply both the numerator and denominator by the conjugate of the denominator, we get $\\frac{1+\\sqrt{3}}{1-\\sqrt{3}}$ = $\\frac{(1+\\sqrt{3})(1+\\sqrt{3})}{(1-\\sqrt{3})(1+\\sqrt{3})}$. Simplifying, we obtain $\\frac{1+2\\sqrt{3}+3}{1-3}$ = $\\frac{4+2\\sqrt{3}}{-2} = -2-\\sqrt{3}$. Thus $A=-2$, $B=-1$, $C=3$, and $ABC=\\boxed{6}$.",
+    "chatgpt_solution": "To rationalize the denominator, we multiply the numerator and denominator by the conjugate of the denominator: $$\\begin{aligned} \\frac{1+\\sqrt{3}}{1-\\sqrt{3}} &= \\frac{1+\\sqrt{3}}{1-\\sqrt{3}}\\cdot\\frac{1+\\sqrt{3}}{1+\\sqrt{3}} \\\\ &= \\frac{(1+\\sqrt{3})(1+\\sqrt{3})}{(1-\\sqrt{3})(1+\\sqrt{3})} \\\\ &= \\frac{1+2\\sqrt{3}+3}{1-3} \\\\ &= \\frac{4+2\\sqrt{3}}{-2} \\\\ &= -2-2\\sqrt{3} \\end{aligned}$$So $ABC=(-2)(-2)(3)=\\boxed{12}$."
+}

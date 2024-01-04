@@ -1,0 +1,7 @@
+{
+    "problem": "If $x^2- 2x = 0$ and $x \\neq 0$, what is the value of $x$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Dividing both sides by $x$ (noting that $x\\ne0$), we have $x-2=0$ and so $x=\\boxed{2}$.",
+    "chatgpt_solution": "Factor out an $x$ from the left side to obtain $x(x-2)=0$. Since $x \\neq 0$, the second factor, $(x-2)$, must be zero, so $x-2=0$. Thus, $x = \\boxed{2}$."
+}

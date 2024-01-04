@@ -1,0 +1,7 @@
+{
+    "problem": "Sean adds up all the even integers from 2 to 500, inclusive. Julie adds up all the integers from 1 to 250, inclusive. What is Sean's sum divided by Julie's sum?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Note that if we factor out a 2, then Sean's sum is $2 + 4 + \\cdots + 500 = 2(1 + 2 + \\cdots + 250)$. Julie's sum is $1 + 2 + \\cdots + 250$. So Sean's sum divided by Julie's sum is $$\n\\frac{2(1 + 2 + \\cdots + 250)}{(1 + 2 + \\cdots + 250)} = \\boxed{2}.\n$$",
+    "chatgpt_solution": "We know that the sum of an arithmetic series is equal to the average of the first and last term, multiplied by the number of terms. \n\nThe sum of all the even integers from 2 to 500, inclusive, is $2 + 4 + \\dots + 500$. Since this sequence has an even number of terms, the average of the first and last term is $251$, and the number of terms is $\\frac{500}{2}=250$. So the sum is $2(251)(250)=251000$.\n\nThe sum of all integers from 1 to 250, inclusive, is $1 + 2 + \\dots + 250$. By the formula for the sum of an arithmetic series, this is $\\frac{250(1+250)}{2}=31375$.\n\nTherefore, Sean's sum divided by Julie's sum is $\\frac{251000}{31375} = \\boxed{8}$."
+}

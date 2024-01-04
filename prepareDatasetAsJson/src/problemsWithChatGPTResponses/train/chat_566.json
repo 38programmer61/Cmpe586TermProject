@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JqLxHvrzIfBEuLQ2tRqxr23UfPn1",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Squaring both sides of the equation, we have $\\left(\\frac{30}{50}\\right)^2=\\frac{y}{50}$.  Simplifying the left side gives $\\frac{900}{2500}=\\frac{9}{25}$, so we have $\\frac{9}{25}=\\frac{y}{50}$.  Multiplying both sides by 50, we have $18=y$, so the value of $y$ is $\\boxed{18}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699740169,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 101,
+        "prompt_tokens": 36,
+        "total_tokens": 137
+    }
+}

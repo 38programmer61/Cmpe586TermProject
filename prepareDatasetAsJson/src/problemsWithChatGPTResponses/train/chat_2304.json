@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JmDGD8JdJHLEY78WP0D6GjO2QrVE",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let G be the number of girls at the school and B be the number of boys.\nWe know that G + B = 1200 and G/3 + B/2 = 730.\nMultiplying the second equation by 6, we get G*2 + B*3 = 4380.\nMultiplying the first equation by 2, we get G*2 + B*2 = 2400.\nSubtracting the second equation from the first, we get G = 1980.\nThus, 1980/3 = <<1980/3=660>>660 girls attend the picnic. Answer: \\boxed{660}.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699724254,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 133,
+        "prompt_tokens": 75,
+        "total_tokens": 208
+    }
+}

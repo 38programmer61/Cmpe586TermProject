@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlLUJGz7hUWyFxXpZg2RSTilPoYo",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Subtracting 4 from both sides gives  \\[z^2-40z+336\\le 0.\\]The left side factors as $(z-4)(z-84)\\le 0$. The quadratic is equal to 0 when $z=4$ and $z=84$.  Both factors are positive when $z<4$ and both factors are negative when $84<z$. For $0\\le z\\le4$, the quadratic is nonpositive. For $4\\le z\\le84$, the quadratic is nonnegative.  Our answer is the interval $\\boxed{[0,4]\\cup[4,84]}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699720920,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 138,
+        "prompt_tokens": 37,
+        "total_tokens": 175
+    }
+}

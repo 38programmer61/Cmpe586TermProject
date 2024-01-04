@@ -1,0 +1,7 @@
+{
+    "problem": "If $z=3+4i$, find $z^2$. (Note that $i^2 = -1.$)",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We multiply $(3+4i)(3+4i)=9+12i+12i-16=\\boxed{-7+24i}$.",
+    "chatgpt_solution": "We have $z^2 = (3 + 4i)^2$.  We can expand this using the distributive property. \\begin{align*}\n(3 + 4i)^2 &= (3 + 4i)(3 + 4i) \\\\\n&= 3(3) + 3(4i) + 4i(3) + 4i(4i) \\\\\n&= 9 + 12i + 12i + 16i^2.\n\\end{align*}Since $i^2 = -1$, we have $z^2 = 9 + 12i + 12i + 16i^2 = \\boxed{(-7) + 24i}$."
+}

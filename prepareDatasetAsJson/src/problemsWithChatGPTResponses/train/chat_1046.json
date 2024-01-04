@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JgzbqMamqpvIrOVCd7gy6q5fP0Mh",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let $d$ be the common difference, and let $a_1$ be the first term.  Since the common difference between consecutive terms is $d$, the $13^{\\text{th}}$ term is $a_1 + 12d$.  Setting this equal to $29$, we have  \\[a_1 + 12d = 29.\\]Since $a_1 = 5$, we have $5 + 12d = 29$, so $12d = 24$ and $d = 2$.  Therefore, the $50^{\\text{th}}$ term is $a_1 + 49d = 5 + 49 \\cdot 2 = \\boxed{103}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699704187,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 155,
+        "prompt_tokens": 36,
+        "total_tokens": 191
+    }
+}

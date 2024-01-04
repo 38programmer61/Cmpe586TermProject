@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jn0IpyG8h3ylmc7Upfv7qAgwaWNE",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "The quadratic has roots $\\frac{-5 \\pm \\sqrt{c}}{2}$, so the quadratic can be factored as $(x - \\tfrac{-5 - \\sqrt{c}}{2})(x - \\tfrac{-5 + \\sqrt{c}}{2})$.  Expanding, we find that the quadratic is equal to $x^2 + 5x + \\frac{-5 - \\sqrt{c}}{2} \\cdot \\frac{-5 + \\sqrt{c}}{2}$.\n\nExpanding the product on the right, we get\n\\[\\frac{25 - c}{4}.\\]Thus, the value of $c$ is $\\boxed{25}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699727294,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 149,
+        "prompt_tokens": 53,
+        "total_tokens": 202
+    }
+}

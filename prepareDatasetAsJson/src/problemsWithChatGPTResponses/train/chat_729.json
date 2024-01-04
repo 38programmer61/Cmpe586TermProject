@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jr0WQq3YiJ9ARtCYiKY4SmePeicf",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let the side lengths of the squares be $s$ and $t$, and we are given that $\\frac{s^2}{t^2} = \\frac{192}{80} = \\frac{6}{5}$. Therefore, $\\frac{s}{t} = \\sqrt{\\frac{6}{5}} = \\frac{\\sqrt{6}}{\\sqrt{5}} = \\frac{0 \\cdot \\sqrt{5} + \\sqrt{6}}{1 \\cdot \\sqrt{5}}$. Rationalizing the denominator yields that $\\frac{s}{t} = \\frac{\\sqrt{6}}{\\sqrt{5}} \\cdot \\frac{\\sqrt{5}}{\\sqrt{5}} = \\frac{\\sqrt{30}}{5}$. Thus, the answer is $30 + 5+ 5 = \\boxed{40}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699742684,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 177,
+        "prompt_tokens": 82,
+        "total_tokens": 259
+    }
+}

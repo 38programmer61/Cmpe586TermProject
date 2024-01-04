@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JpvsiqHrz6jDFjh34ScYjrkTTME6",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We set up a system of equations.  Since we are told that \"The sum of two numbers is $30$,\" we get: \\begin{align*}\nx + y &= 30.\n\\end{align*}We also know that \"If we double the larger number, and subtract three times the smaller number, the result is $5$,\" which we can translate to:\\begin{align*}\n2x - 3y &= 5.\n\\end{align*}We could solve this system by substitution.  From $x + y = 30,$ we have $y = 30 - x.$  Substituting $y = 30 - x$ into the second equation, we get $2x - 3(30 - x) = 5,$ which gives us $x = 23.$  Then $y = 30 - 23 = 7,$ so the positive difference between the two numbers is $23 - 7 = \\boxed{16}.$",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699738552,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 207,
+        "prompt_tokens": 49,
+        "total_tokens": 256
+    }
+}

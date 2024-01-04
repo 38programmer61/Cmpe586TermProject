@@ -1,0 +1,7 @@
+{
+    "problem": "Define the operation $a\\nabla b = 2 + b^a$. What is the value of $(1\\nabla 2) \\nabla 3$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We see that\n\n$$1\\nabla 2=2+2^1=4$$\n\nThen,\n\n$$4\\nabla 3=2+3^4=83$$\n\nSo the answer is $\\boxed{83}$.",
+    "chatgpt_solution": "For any numbers $a$ and $b$, we have $a \\nabla b = 2 + b^a$. To find the value of $(1 \\nabla 2) \\nabla 3$, we first compute $1 \\nabla 2$. Plugging in $a=1$ and $b=2$ into the definition of $\\nabla$, we have $1 \\nabla 2 = 2 + 2^1 = 4$. \n\nNow, we can find $(1 \\nabla 2) \\nabla 3$ by plugging in $a=4$ and $b=3$ into the definition of $\\nabla$. We have $(1 \\nabla 2) \\nabla 3 = 4 \\nabla 3 = 2 + 3^4 = 2 + 81 = \\boxed{83}$."
+}

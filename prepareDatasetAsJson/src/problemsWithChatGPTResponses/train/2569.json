@@ -1,0 +1,7 @@
+{
+    "problem": "What is the value of $c$ if the lines with equations $y = 8x + 2$ and $y = (2c)x - 4$ are parallel?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Two lines are parallel if and only if their slopes are equal.  The slope of a line whose equation is $y = mx + b$ is $m$.  Thus $8 = 2c \\Rightarrow c = \\boxed{4}$.",
+    "chatgpt_solution": "For two lines to be parallel, their slopes must be equal. Since the equation $y=8x+2$ is in slope-intercept form ($y=mx+b$) and its slope $m$ is 8, the slope of the second line will also be 8. We can set $(2c)x-4$ equal to $y$ to find the slope of the second line: $$\\begin{aligned} y &= (2c)x - 4 \\\\ 8 &= 2c. \\end{aligned}$$To solve for $c$, we divide both sides by 2: $c = \\boxed{4}.$"
+}

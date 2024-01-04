@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JkbqBZytu4Iae3tIMgEfpnxMTvfl",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Subtracting 19 from both sides, we have $x^2-4x-12=0$, which factors as $(x-6)(x+2)=0$.  Thus, the solutions are $x=6$ and $x=-2$, so $2a + b = 2 \\cdot 6 + (-2) = \\boxed{10}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699718090,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 78,
+        "prompt_tokens": 51,
+        "total_tokens": 129
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "What is the greatest integer $n$ such that $n^2 - 11n +24 \\leq 0$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We can factor $n^2-11n+24$ as $(n-3)(n-8)$. For this quantity to be less than or equal to 0, one of the factors must be less than or equal to 0 and the other factor must be greater than or equal to 0. Specifically, since $n-8<n-3$ for all $n$, we must have $$n-8 \\le 0 \\le n-3.$$ The first inequality, $n-8\\le 0$, tells us that $n\\le 8$. The second inequality, $0\\le n-3$, tells us that $n\\ge 3$. The solutions to the original inequality must satisfy both conditions, so they are given by $3\\le n\\le 8$. The largest integer in this interval is $n=\\boxed{8}$.",
+    "chatgpt_solution": "We notice that $(n-3)(n-8)=n^2-11n+24$. The quadratic is $0$ when $n=3$ or $n=8$, so the quadratic changes sign at $n=3$ and $n=8$. We want the quadratic to be less than or equal to $0$, which means it has to be non-positive. Since the quadratic changes sign at $n=3$ and $n=8$, the quadratic is negative when $3\\leq n\\leq 8$, so the greatest integer $n$ that satisfies $n^2 - 11n +24 \\leq 0$ is $\\boxed{8}$."
+}

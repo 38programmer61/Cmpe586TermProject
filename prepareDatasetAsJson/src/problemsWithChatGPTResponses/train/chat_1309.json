@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JiKpZT6b0xr6dKtrR18y4zcYjZjO",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We have $g(-3) = 3(-3) + 4 = -5$, so $f(g(-3)) = f(-5) = \\boxed{25}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699709347,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 40,
+        "total_tokens": 79
+    }
+}

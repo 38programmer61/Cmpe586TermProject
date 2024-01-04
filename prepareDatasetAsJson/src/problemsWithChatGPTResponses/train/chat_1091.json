@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JhSAm5kgyIOQujifeXr2DxkLDndq",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We compute $AP=\\sqrt{4^2+2^2}=2\\sqrt{5}$. For $BP$, observe that $\\angle APB$ must equal $120^\\circ$ because the $60^\\circ$ rotation centered at $A$ sends $C$ to $B$. Then by the Law of Cosines on triangle $APB$, we get $PB=\\sqrt{10^2+2^2-2(10)(2)\\cos 120^\\circ}=2\\sqrt{5}$. Similarly, $CP=2\\sqrt{5}$.\n\nFinally, we obtain $AP+BP+CP=2(2\\sqrt{5})=4\\sqrt{5}$ for an answer of $4+5=\\boxed{009}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699705958,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 160,
+        "prompt_tokens": 352,
+        "total_tokens": 512
+    }
+}

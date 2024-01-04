@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jraytpa1tT0HxF4AyPdV2ogdt9tL",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "By Vieta's formulas, the sum of the roots of the equation $ax^2-2ax + b = 0$ is $\\frac{2a}{a} = 2$.  If the two roots are $r$ and $s$, then the average of the roots is $\\frac{r+s}{2} = \\boxed{1}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699744944,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 75,
+        "prompt_tokens": 38,
+        "total_tokens": 113
+    }
+}

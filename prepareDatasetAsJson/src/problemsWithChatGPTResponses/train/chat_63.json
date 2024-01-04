@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JqfXZ2iRzIxNBrA9sNDg6OMU8r3s",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We \"complete the square.\" Factoring a $-16$ out from the $-16t^2 + 32t$ terms, we can write \\begin{align*}\n-16t^2 + 32t + 15 &= -16(t^2 - 2t) + 15 = -16(t^2 - 2t + 1) + 16 + 15 \\\\\n&= -16(t - 1)^2 + 31.\n\\end{align*}Since $-16(t - 1)^2$ is at most 0, $-16(t - 1)^2 + 31$ is at most $\\boxed{31}$.  This maximum occurs when $t = 1$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699741383,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 155,
+        "prompt_tokens": 62,
+        "total_tokens": 217
+    }
+}

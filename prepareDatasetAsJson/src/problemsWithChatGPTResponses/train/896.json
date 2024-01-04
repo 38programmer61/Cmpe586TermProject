@@ -1,0 +1,7 @@
+{
+    "problem": "We have a rectangle of dimensions $x - 2$ by $2x + 5$ such that its area is $8x - 6$. What is the value of $x$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We proceed as follows: \\begin{align*}\n(x - 2)(2x + 5) &= 8x - 6\\\\\n2x^2 + x - 10 &= 8x - 6\\\\\n2x^2 - 7x - 4 &= 0\\\\\n(x - 4)(2x + 1) &= 0.\n\\end{align*}This gives us $x = 4$ or $x = -\\frac{1}{2}.$ However, since the latter would make $x - 2$ negative, we see that $x = \\boxed{4}.$",
+    "chatgpt_solution": "The area of a rectangle is equal to the length multiplied by the width, so the equation $(x - 2)(2x + 5) = 8x - 6$ must be satisfied. We expand the left side of the equation and further simplify by collecting like terms: \\begin{align*}\n(x - 2)(2x + 5) &= 8x - 6\\\\\n2x^2+5x-4x-10&=8x-6\\\\\n2x^2+x-10&=8x-6\\\\\n2x^2-7x-4&=0\n\\end{align*} Factoring the quadratic or applying the quadratic formula can give us values of $x.$ The quadratic factors to $(2x + 1)(x-4) = 0,$ so either $2x+1=0$ or $x-4=0.$ If $2x+1=0,$ we find $x=\\boxed{-\\frac{1}{2}}.$ If $x-4=0,$ then $x=4,$ so $x=4$ is another solution to the equation."
+}

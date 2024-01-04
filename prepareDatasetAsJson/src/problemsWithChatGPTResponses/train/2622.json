@@ -1,0 +1,7 @@
+{
+    "problem": "The expression $16x^2-106x-105$ can be written as $(8x + a)(2x + b),$ where $a$ and $b$ are integers. What is $a + 2b$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We see that $16x^2-106x-105 = (8x + 7)(2x - 15)$, thus $a = 7$ and $b = -15$ and $a + 2b = \\boxed{-23}.$",
+    "chatgpt_solution": "We can factor out a $2$ from the first two terms: \\begin{align*}\n16x^2 - 106x - 105 &= 2(8x^2-53x-52)\\\\\n&= 2(8x^2 + 4x - 57x - 52)\\\\\n&= 2(4x(2x+1)-13(2x+1)).\n\\end{align*}Notice that the expression $2x+1$ appears as a common factor, so we can apply the distributive property backwards (inverse of the distributive property) to factor: \\begin{align*}\n2(4x(2x+1)-13(2x+1)) &= 2\\left((4x-13)(2x+1)\\right)\n\\end{align*}We now have our expression in the desired form. We see that $a = -13$ and $b = 2,$ so $a+2b = -13 + 2(2) = \\boxed{-9}.$"
+}

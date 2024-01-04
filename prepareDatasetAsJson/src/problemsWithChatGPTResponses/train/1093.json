@@ -1,0 +1,7 @@
+{
+    "problem": "Simplify $(3-2i)^2$. (Your answer should be of the form $a+bi$.)",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "$(3-2i)^2 = (3-2i)(3-2i)= 3(3) + 3(-2i) -2i(3) - 2i(-2i) = 9-6i-6i -4 = \\boxed{5-12i}$.",
+    "chatgpt_solution": "We compute $(3-2i)^2$ as follows:\n\\begin{align*}\n(3-2i)^2 &= (3-2i)(3-2i)\\\\\n&= 3(3) + 3(-2i) - 2i(3) - 2i(-2i)\\\\\n&= 9 - 6i - 6i + 4i^2.\n\\end{align*}Since $i^2=-1$, we have $4i^2=4(-1)=-4$.  Therefore, we have \\begin{align*}\n(3-2i)^2 &= 9 - 6i - 6i + 4i^2\\\\\n&= 9 - 12i + 4i^2\\\\\n&= 9 -12i -4\\\\\n&= \\boxed{5-12i}.\n\\end{align*}"
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Evaluate $\\log_464$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have $4^3=64$, so $\\log_4 64 = \\boxed{3}$.",
+    "chatgpt_solution": "Instead of using numerical values, we can write $64$ as $4^3$ and then use the rules of logarithms: \\begin{align*}\n\\log_4 64 &= \\log_4 (4^3) \\\\\n&= \\boxed{3}.\n\\end{align*}"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlQmvNgWx5ajWZJZMk5WQjSfXx0U",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let $n$ be the smaller of the two integers. Then $n(n+1) = 2550$. We guess that $n = 50$. But $50\\cdot 51 > 2550$, so we try $n = 49$, and $49\\cdot 50 = 2450$. Now we know $\\frac{2450}{n} = 50$, so $n = 49$ is correct. Thus, the two integers are 49 and 50, and their sum is $\\boxed{99}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699721248,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 113,
+        "prompt_tokens": 28,
+        "total_tokens": 141
+    }
+}

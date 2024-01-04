@@ -1,0 +1,7 @@
+{
+    "problem": "Given that $a > 0$, if $f(g(a)) = 8$, where $f(x) = x^2 + 8$ and $g(x) = x^2 - 4$, what is the value of $a$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "First, we solve for $b = g(a)$.\n\n\\begin{align*}\nf(g(a)) &= 8 \\\\\nf(b) &= 8 \\\\\nb^2 + 8 &= 8 \\\\\nb^2 &= 0 \\\\\n\\end{align*}\n\nTherefore, $b = g(a) = 0.$ Now, we solve for $a$ using $g(a) = a^2 - 4 = 0.$ From this, $a = \\pm 2.$ Since we are given that $a > 0$, our answer is $a = \\boxed{2}.$",
+    "chatgpt_solution": "From the given information, we see that $f(g(a)) = f((a^2) - 4) = ((a^2) - 4)^2 + 8 = a^4 - 8a^2 + 24$. To find $a$, we set this equal to 8: \\begin{align*}\n0 &= a^4 - 8a^2 + 24 - 8\\\\\n&=a^4 - 8a^2 + 16\\\\\n&=(a - 4)^2(a + 4)^2,\n\\end{align*}which has solutions $a = 4$ and $a = -4.$ The condition $a > 0$ implies that $a = \\boxed{4}.$"
+}

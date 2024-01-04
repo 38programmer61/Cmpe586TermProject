@@ -1,0 +1,7 @@
+{
+    "problem": "What is the eighth term in the arithmetic sequence $\\frac 23, 1, \\frac 43, \\dots$? Express your answer in simplest form.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "The common difference is $1 - 2/3 = 1/3$, so the eighth term is $\\frac{2}{3}+7\\cdot\\frac{1}{3}=\\boxed{3}$.",
+    "chatgpt_solution": "The common difference in this arithmetic sequence is $1 - \\frac23 = \\frac13$, so the $n^{\\text{th}}$ term is $\\frac23 + \\frac{n-1}{3} = \\frac{2n+1}{3}$.  In particular, the eighth term is $\\frac{2(8)+1}{3} = \\boxed{5}$."
+}

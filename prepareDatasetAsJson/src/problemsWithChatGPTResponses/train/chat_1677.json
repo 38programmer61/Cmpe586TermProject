@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JkMF4yUWqYsj5HdDU1HUyXyjy7lw",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We can begin our solution by expressing $10x^2 + 12xy + 10y^2$ in terms of $x$ and $y$. Recognize that:  $$3x + y = 10\\quad\\Rightarrow\\quad y=10-3x.$$Substituting into $10x^2 + 12xy + 10y^2$, we have:  \\begin{align*}\n10x^2 + 12xy + 10y^2 &= 10x^2 + 12x(10-3x) + 10(10-3x)^2\\\\\n&= 10x^2 + 120x-36x^2 + 100(10-3x)^2\\\\\n&=10x^2 + 120x+100(100-60x+9x^2)\\\\\n&=\\boxed{900}.\n\\end{align*}",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699717123,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 196,
+        "prompt_tokens": 46,
+        "total_tokens": 242
+    }
+}

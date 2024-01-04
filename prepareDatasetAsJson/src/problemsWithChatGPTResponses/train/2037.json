@@ -1,0 +1,7 @@
+{
+    "problem": "Find $x$, such that $4^{\\log_7x}=16$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Since $4^2=16$, $\\log_7x$ must equal $2$. Writing the equation $\\log_7x=2$ in exponential form gives $7^2=x$, so $x=\\boxed{49}$.",
+    "chatgpt_solution": "First we could write $16$ as a power of $2$ (which happens to be $2^4$, just as $16$ itself happens to be $4^2$). In this case it works out, but even if the number didn't wind up simplifying so nicely, we could eventually simplify it using the steps outlined below. \\begin{align*}\n4^{\\log_7x}&=2^4\\\\ \\Rightarrow\\qquad\\left(2^2\\right)^{\\log_7x}&=2^4\\\\ \\Rightarrow\\qquad2^{2\\log_7x}&=2^4 \\\\ \\Rightarrow\\qquad 2\\log_7x&=4\\\\ \\Rightarrow\\qquad \\log_7x&=2\n\\end{align*}We can then convert this last statement into exponential form. \\begin{align*}\nx &= 7^2\\\\ &= \\boxed{49}\n\\end{align*}"
+}

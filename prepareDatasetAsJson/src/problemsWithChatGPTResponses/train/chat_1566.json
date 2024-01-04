@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JjuXQMU60JpdXxPI2XVdbtPtPTvM",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We could pair up the terms at the beginning and end: $(1+49)+(2+48)+(3+47)+\\cdots +(24+26)+25$. Each pair sums to 50, so the sum is $50\\cdot25=\\boxed{1250}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699715405,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 58,
+        "prompt_tokens": 26,
+        "total_tokens": 84
+    }
+}

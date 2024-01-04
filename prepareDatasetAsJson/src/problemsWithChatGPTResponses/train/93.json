@@ -1,0 +1,7 @@
+{
+    "problem": "What is the value of \\[\\frac{x^1\\cdot x^2\\cdot x^3\\cdots x^{15}}{x^2\\cdot x^4 \\cdot x^6 \\cdots x^{20}}\\]if $x=2$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The numerator is equal to $x^{1+2+3+\\cdots + 15}$. The exponent is the sum of the first 15 consecutive positive integers, so its sum is $\\frac{15\\cdot16}{2}=120$. So the numerator is $x^{120}$.\n\nThe denominator is equal to $x^{2+4+6+\\cdots + 20}=x^{2(1+2+3+\\cdots + 10)}$. The exponent is twice the sum of the first 10 consecutive positive integers, so its sum is $2\\cdot \\frac{10\\cdot11}{2}=110$. So the denominator is $x^{110}$.\n\nThe entire fraction becomes $\\frac{x^{120}}{x^{110}}=x^{120-110}=x^{10}$. Plugging in $x=2$ yields $2^{10}=\\boxed{1024}$.",
+    "chatgpt_solution": "For simplicity, we first write the expression in terms of exponents of $x.$ We can do this by separating out each factor: \\begin{align*}\n\\frac{x^1 \\cdot x^2 \\cdot x^3 \\cdots x^{15}}{x^2 \\cdot x^4 \\cdot x^6 \\cdots x^{20}} &= \\frac{x^1}{x^2} \\cdot \\frac{x^2}{x^4} \\cdot \\frac{x^3}{x^6} \\cdots \\frac{x^{15}}{x^{20}} \\\\\n&= x^{(1-2)+(2-4)+(3-6)+\\cdots +(15-20)}.\n\\end{align*}Using the formula for an arithmetic series, this sum is \\begin{align*}\n(1-2) + (2-4) + (3-6) + \\dots + (15-20) &= (1+2+\\cdots+15) - (2+4+\\cdots+20) \\\\\n&= \\frac{15(1+15)}{2}-2(1+2+\\cdots+10) \\\\\n&= \\frac{15(16)}{2}-2\\cdot \\frac{10(1+10)}{2} \\\\\n&= \\frac{15(16)}{2}-10(11) \\\\\n&= 15(8)-10(11) \\\\\n&= 120-110 \\\\\n&= \\boxed{10}.\n\\end{align*}"
+}

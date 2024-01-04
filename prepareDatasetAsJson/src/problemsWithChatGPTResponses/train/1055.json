@@ -1,0 +1,7 @@
+{
+    "problem": "A triangle has three sides of the following side lengths: $7$, $10$, and $x^2$. What are all of the positive integer values of $x$ such that the triangle exists? Separate your answers using commas and express them in increasing order.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "For a triangle to exist, the sum of two sides of the triangle must be greater than the third. Therefore, we have three formulas: $x^2+7>10 \\to x^2>3$, $x^2+10>7 \\to x^2>-3$, and $7+10>x^2 \\to x^2<17$. Thus, we have two quadratics, $x^2>3$ and $x^2<17$. Therefore, possible values for $x$ are $\\boxed{2, 3, \\text{ and } 4}$.",
+    "chatgpt_solution": "By the Triangle Inequality, a triangle with side lengths $7$, $10$, and $x^2$ exists if and only if \\begin{align*}\n10 + 7 &> x^2 \\quad\\Rightarrow \\\\\n17 &> x^2 \\quad\\Rightarrow \\\\\n\\sqrt{17} &> x\n\\end{align*}and \\begin{align*}\n7 + x^2 &> 10 \\quad\\Rightarrow \\\\\nx^2 &> 3 \\quad\\Rightarrow \\\\\nx &> \\sqrt{3}\n\\end{align*}Therefore, the triangle exists if and only if $\\sqrt{3} < x < \\sqrt{17},$ where $x$ is an integer. The integers between $\\sqrt{3}$ and $\\sqrt{17}$ are $2,3,4$, and $5,$ so the positive integer values of $x$ are $\\boxed{2,3,4,5}.$"
+}

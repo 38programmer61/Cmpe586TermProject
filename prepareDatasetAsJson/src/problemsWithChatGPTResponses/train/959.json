@@ -1,0 +1,7 @@
+{
+    "problem": "If $x = 3$, what is the value of $2x + 3$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "$2x + 3 = 2(3) + 3 = 6 + 3 = \\boxed{9}$.",
+    "chatgpt_solution": "If $x = 3$, then $2x + 3$ equals $2 \\cdot 3 + 3 = \\boxed{9}$."
+}

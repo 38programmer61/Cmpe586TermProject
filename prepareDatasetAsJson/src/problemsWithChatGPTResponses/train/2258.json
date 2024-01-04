@@ -1,0 +1,7 @@
+{
+    "problem": "A line is described by the equation $y-4=4(x-8)$. What is the sum of its $x$-intercept and $y$-intercept?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "To solve for the $x$-intercept, we let $y$ equal 0, and then solve for the value of $x$ as shown: \\begin{align*}\n0-4&=4(x-8)\\\\\n\\Rightarrow\\qquad -1&=(x-8)\\\\\n\\Rightarrow\\qquad 7&=x\n\\end{align*} Similarly, let $x$ equal 0, and solve for the $y$-intercept: \\begin{align*}\ny-4&=4(0-8)\\\\\n\\Rightarrow\\qquad y-4&=-32\\\\\n\\Rightarrow\\qquad y&=-28\n\\end{align*} Therefore, the sum of the $x$ and $y$ intercepts is $7+(-28)=\\boxed{-21}$.",
+    "chatgpt_solution": "For a point to be on the $x$-axis, $y=0$.  Plugging this into the equation $y-4=4(x-8)$, we have $0-4=4(x-8)$, so $x=\\frac{4}{4}+8=2+8=\\boxed{10}$.  For a point to be on the $y$-axis, $x=0$.  Plugging this into the equation $y-4=4(x-8)$, we have $y-4=4(0-8)$, so $y=\\frac{-32}{4}+4=-8+4=-4$.  The sum of the $x$- and $y$-intercepts is thus $-4+10=\\boxed{6}$.+"
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Find $k$, if ${(3^k)}^6=3^6$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Following exponent laws, ${(3^k)}^6=3^{6k}$.  Because $3^{6k}=3^6$, we have $6k=6$, which, dividing by 6, solves to $k=\\boxed{1}$.",
+    "chatgpt_solution": "First we could reduce the left-hand side to get $3^{6k}=3^6$. Since the base is $3$, we could equate the exponents $6k=6$. Dividing both sides by $6$, we find that $k=\\boxed{1}$."
+}

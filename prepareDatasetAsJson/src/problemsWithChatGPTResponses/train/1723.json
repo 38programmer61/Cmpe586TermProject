@@ -1,0 +1,7 @@
+{
+    "problem": "If $(x+2)(x-3)=14$, find the product of the possible values of $x$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Expanding the left side of the given equation, we have $x^2-x-6=14 \\Rightarrow x^2-x-20=0$. Since in a quadratic  with equation of the form $ax^2+bx+c=0$ the product of the roots is $c/a$, the product of the roots of the given equation is $-20/1 = \\boxed{-20}$.",
+    "chatgpt_solution": "We can also find the values of $x$ by factoring $14$ and we note that $14$ has factors of $1,2,7,14$, so we get four cases. \nWhen the left side of the given equation is equal to $1$, $x+2=1$ and $x-3=14$, and we get the solutions $x=-1$ and $x=17$. \nWhen the left side of the given equation is equal to $2$, $x+2=2$ and $x-3=7$, and we get the solutions $x=0$ and $x=10$. \nWhen the left side of the given equation is equal to $7$, $x+2=7$ and $x-3=2$, and we get the solutions $x=5$ and $x=10$. \nWhen the left side of the given equation is equal to $14$, $x+2=14$ and $x-3=1$, and we get the solutions $x=12$ and $x=4$. \nThe product of $-1, 17, 0, 10, 5, 12$, and $4$ is $(-1)(17)(0)(10)(5)(12)(4) = (-1)(10)(5)(12)(17)(4) = \\boxed{122400}$."
+}

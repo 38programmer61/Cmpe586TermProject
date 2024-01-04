@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jiy0GVHAkrmpgNzQA8J7qEKQcwHC",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let $x$ be the total number of seats in the plane. There are $\\frac{2}{3}x$ economy seats and $24+\\frac{2}{3}x+\\frac{1}{4}x=x$ total seats.  Since the total number of seats in the plane is equal to the number of first class seats, we have $\\frac{2}{3}x+x=24+\\frac{2}{3}x+\\frac{1}{4}x$, or $x=\\boxed{96}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699711776,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 110,
+        "prompt_tokens": 58,
+        "total_tokens": 168
+    }
+}

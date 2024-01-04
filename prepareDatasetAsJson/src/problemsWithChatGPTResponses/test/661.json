@@ -1,0 +1,7 @@
+{
+    "problem": "Suzanne walks four miles every third day. What is the fewest number of miles she can walk in February?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "February has 28 days with one extra day during leap years. We want the fewest number of miles, so we go with 28 days in February. The fewest number of days she can walk is $\\left\\lfloor\\frac{28}{3}\\right\\rfloor=9$. So the fewest number of miles she can walk is $9\\cdot4=\\boxed{36}$ miles.",
+    "chatgpt_solution": "February has 28 days, thus Suzanne can walk $\\dfrac{28}{3}=\\boxed{9\\frac{1}{3}}$ groups of \"every third day.\" Although Suzanne can't walk $\\frac13$ of a mile, she must walk at least $9$ miles, and the next \"every third day\" would require her to walk the leftover distance to $12$ miles."
+}

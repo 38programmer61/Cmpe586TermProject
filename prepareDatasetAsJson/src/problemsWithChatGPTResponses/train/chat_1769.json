@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JksiLv4TYDvrhL9WbWBaTSH7Ydq5",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We have  \\[\\frac{235^2-221^2}{14}=\\frac{(235+221)(235-221)}{14}=\\frac{456\\cdot 14}{14}=\\boxed{456}.\\]",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699719136,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 49,
+        "prompt_tokens": 29,
+        "total_tokens": 78
+    }
+}

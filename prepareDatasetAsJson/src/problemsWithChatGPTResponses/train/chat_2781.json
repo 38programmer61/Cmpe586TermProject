@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jos0Z8vF5HgNXalruXH4SIdzVWpY",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Recall that $64^2$ means $64\\cdot 64$ and $36^2$ means $36\\cdot 36$. Then our expression becomes $64\\cdot 64 - 36\\cdot 36$. We can simplify this as follows: \\begin{align*}\n64\\cdot 64 - 36\\cdot 36 &= (64-36)(64+36)\\\\\n&= 28\\cdot 100\\\\\n&= \\boxed{2800}.\n\\end{align*}",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699734468,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 109,
+        "prompt_tokens": 18,
+        "total_tokens": 127
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "How many integers $m \\neq 0$ satisfy the inequality $\\frac{1}{|m|}\\geq \\frac{1}{8}$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Since $|m| > 0$, we can clear fractions from the inequalities, arriving at $8 \\geq |m|$.  This is satisfied for $-8 \\leq m \\leq 8$.  There are 17 integers in this range, but 0 is not allowed, so our final answer is $\\boxed{16}$.",
+    "chatgpt_solution": "Recall that $|m|$ represents the absolute value of $m$. The inequality $\\frac{1}{|m|}\\geq \\frac{1}{8}$ is satisfied when $|m|$ is less than or equal to $8$. Since $m \\neq 0$, we have $|m|=8$ or $1\\leq |m|<8$. When $|m|=8$, there are $\\boxed{2}$ possible integers $m$, namely $8$ and $-8$. On the other hand, when $1\\leq |m|<8$, any integer $m$ which satisfies $|m| = 1,2,3,\\ldots,7$ will satisfy the inequality. There are $7$ choices for $|m|$, and since $m$ could be positive or negative, there are a total of $7\\cdot 2 = 14$ possible integers $m$. (Note: The number of integers between $-n$ and $n$ is given by $2n+1$.) Thus, there are a total of $2+14 = \\boxed{16}$ solutions to the inequality."
+}

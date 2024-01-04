@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Js9PVN1X6wwQPdJ5V7QLEUd8eqqz",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let $x$ be the number of students enrolled last year. This year, the enrollment is $x+\\frac{4}{100}x=x\\left(1+\\frac{4}{100}\\right)=x(1.04)$. We set this expression equal to $598$ and solve: $$1.04x = 598.$$Dividing both sides by $1.04$ gives $x = \\frac{598}{1.04} = \\boxed{575}$ students.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699747079,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 102,
+        "prompt_tokens": 47,
+        "total_tokens": 149
+    }
+}

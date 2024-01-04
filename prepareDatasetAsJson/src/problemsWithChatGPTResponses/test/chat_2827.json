@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JsjmHyxQ1eL5e7oQOuDnVG96lK7I",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let $d$ be the common difference.  Then the third term is $2 + 2d$, and the sixth term is $2 + 5d$, so $2 + 2d + 2 + 5d = 25$.  Simplifying the left side gives $7d + 4 = 25$, so $7d = 21$ and $d = 3$.  The fourth term is $2 + 3d = \\boxed{11}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699749334,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 102,
+        "prompt_tokens": 37,
+        "total_tokens": 139
+    }
+}

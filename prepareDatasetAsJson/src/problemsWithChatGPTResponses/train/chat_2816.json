@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JoxfYL35jReJcCDYPIW8QSUemZIx",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let the vertices of the triangle be $(x_1,y_1),$ $(x_2,y_2),$ $(x_3,y_3).$  Then $x_1 + x_2 + x_3 = 10.$\n\n[asy]\nunitsize(1 cm);\n\npair A, B, C;\n\nA = (1,0);\nB = (5/2,3^(1/2)/2);\nC = (3,0);\n\ndraw(A--B--C--cycle);\ndraw((A + B)/2--(B + C)/2--(C + A)/2);\n\nlabel(\"$A$\", A, SW);\nlabel(\"$B$\", B, N);\nlabel(\"$C$\", C, SE);\nlabel(\"$D$\", (A + B)/2, NW);\nlabel(\"$E$\", (B + C)/2, NE);\nlabel(\"$F$\", (C + A)/2, S);\n[/asy]\n\nFor convenience, let $D,$ $E,$ and $F$ denote the midpoints of $\\overline{BC},$ $\\overline{CA},$ and $\\overline{AB},$ respectively.  Then the $x$-coordinates of $D,$ $E,$ and $F$ are $\\frac{x_2 + x_3}{2},$ $\\frac{x_3 + x_1}{2},$ and $\\frac{x_1 + x_2}{2},$ respectively.  Their sum is then\n\\[\\frac{x_2 + x_3}{2} + \\frac{x_3 + x_1}{2} + \\frac{x_1 + x_2}{2} = \\frac{2(x_1 + x_2 + x_3)}{2} = \\boxed{10}.\\]",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699734819,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 371,
+        "prompt_tokens": 52,
+        "total_tokens": 423
+    }
+}

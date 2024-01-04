@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Js7y1HWhebdqwed6HkCDnBXqRoNs",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "First we need to find $g(2)$ by substituting $2$ for $x$ into the expression for $g(x)$: \\begin{align*}\ng(2)&=2^2+3\\\\\n&=4+3\\\\\n&=7.\n\\end{align*}Then we need to find $f(g(2))$ by substituting $g(2)=7$ into the expression for $f(x)$: \\begin{align*}\nf(g(2))&=f(7)\\\\\n&=2(7)-4\\\\\n&=\\boxed{10}.\n\\end{align*}",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699746990,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 135,
+        "prompt_tokens": 38,
+        "total_tokens": 173
+    }
+}

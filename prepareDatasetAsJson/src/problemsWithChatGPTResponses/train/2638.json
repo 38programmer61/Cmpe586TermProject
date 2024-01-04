@@ -1,0 +1,7 @@
+{
+    "problem": "What is the distance between (-2,4) and (3,-8)?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We use the distance formula to find that the distance is  $$\\sqrt{(3-(-2))^2+(-8-4)^2}=\\sqrt{25+144}=\\sqrt{169}=\\boxed{13}.$$",
+    "chatgpt_solution": "To find the distance between two points (x1, y1) and (x2, y2), we can use the distance formula:\n\nDistance = sqrt((x2 - x1)^2 + (y2 - y1)^2)\n\nFor the given points (-2, 4) and (3, -8), the distance can be calculated as follows:\n\nDistance = sqrt((3 - (-2))^2 + (-8 - 4)^2)\n          = sqrt(5^2 + (-12)^2)\n          = sqrt(25 + 144)\n          = sqrt(169)\n          = 13\n\nTherefore, the distance between (-2, 4) and (3, -8) is 13 units."
+}

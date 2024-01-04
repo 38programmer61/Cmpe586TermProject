@@ -1,0 +1,7 @@
+{
+    "problem": "The graphs of $2y + x + 3 = 0$  and $3y + ax + 2 = 0$ are perpendicular. Solve for $a.$",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Solving $2y + x + 3 = 0$ for $y$ gives $ y = \\frac{-1}{2}x - \\frac{3}{2},$ so the slope of this line is $-\\frac{1}{2}.$\n\nSolving $3y + ax + 2 = 0$ for $y$ gives $ y = \\frac{-a}{3}x - \\frac{2}{3},$ so the slope of this line is $- \\frac{a}{3}.$\n\nIn order for these lines to be perpendicular, we must have $$\\left(-\\frac{1}{2}\\right)\\left(-\\frac{a}{3}\\right) = -1.$$Solving for $a$ gives $a = \\boxed{-6}.$",
+    "chatgpt_solution": "In general, we can determine whether two lines are perpendicular by checking if the product of their slopes is $-1.$\n\nThe slope-intercept form of a line is of the form $y = mx+b$ for some real numbers $m$ and $b,$ and it is clear that the slope of the graph $y=mx+b$ is $m.$ Therefore, given a line in the form $Ax+By+C=0,$ we can determine the slope of the graph as $-\\frac{A}{B}.$\n\nThe slope-intercept form of the line $2y + x + 3 = 0$ is $y = -\\frac{1}{2} x - \\frac{3}{2},$ and the slope-intercept form of the line $3y + ax + 2 = 0$ is $y = -\\frac{a}{3} x - \\frac{2}{3}.$  Thus, the slopes of these two lines are $-\\frac{1}{2}$ and $-\\frac{a}{3},$ respectively.  Hence,\n\\[-\\frac{1}{2} \\cdot \\left( -\\frac{a}{3} \\right) = -1.\\]Solving for $a$ gives $a = \\boxed{6}.$"
+}

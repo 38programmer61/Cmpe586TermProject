@@ -1,0 +1,7 @@
+{
+    "problem": "Find the positive real number $x$ such that $\\lfloor x \\rfloor \\cdot x = 70$. Express $x$ as a decimal.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Knowing that $\\lfloor x \\rfloor \\leq x < \\lfloor x \\rfloor + 1,$ we see that $\\lfloor x \\rfloor$ must be $8,$ since $8 \\cdot 8 \\leq 70 < 9 \\cdot 9.$\n\nNow we see that $\\lfloor x \\rfloor \\cdot x = 8x = 70,$ so $x = \\frac{70}{8} = \\boxed{8.75}.$",
+    "chatgpt_solution": "We know that $x = \\lfloor x \\rfloor + \\{x\\}$, where $\\lfloor x \\rfloor$ is the greatest integer less than or equal to $x$, and $\\{x\\}$ is the fractional part of $x$. Substituting $\\lfloor x \\rfloor + \\{x\\}$ for $x$ in the equation $\\lfloor x \\rfloor \\cdot x = 70$, we have: \\[\\lfloor x \\rfloor \\cdot (\\lfloor x \\rfloor + \\{x\\}) = 70.\\]We are given that the answer is a decimal, so $\\lfloor x \\rfloor$ must be less than $x$. Similarly, since $\\lfloor x \\rfloor = x - \\{x\\}$, we substitute for $\\lfloor x \\rfloor$: \\[x \\cdot (\\lfloor x \\rfloor + \\{x\\}) = (x - \\{x\\}) \\cdot x = 70.\\]Expanding the equation, we see that $(x - \\{x\\}) \\cdot x = x^2 - x\\{x\\} = 70$. Therefore, $x^2 - x\\{x\\} - 70 = 0$.\n\nThe correct answer is a decimal, and $x$ is positive, so we can disregard any extraneous solutions with a value of $x$ that is negative or less than 1. Testing the values $1$, $2$, $3$, etc., we find that $x = \\boxed{8.739}$ is a solution."
+}

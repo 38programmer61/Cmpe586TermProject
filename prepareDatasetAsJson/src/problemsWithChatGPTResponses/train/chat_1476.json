@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JjDPlDwfcXSVGqcJ7iYNJR5JHvzI",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let the numerator of the fraction be $x$. The denominator is then $3x-7$. Since the fraction is equivalent to $\\frac{2}{5}$, $\\frac{x}{3x-7}=\\frac{2}{5}$. Cross-multiplying gives $5x=2(3x-7)$. Expanding the right side gives $5x=6x-14$. Subtracting $5x$ from both sides gives $0=x-14$, so $x=\\boxed{14}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699712731,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 108,
+        "prompt_tokens": 43,
+        "total_tokens": 151
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JhTrkHvAd4OKAXOfgSgPr3H5ezlF",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Because $\\sqrt{n}$ and $\\sqrt{2n + 5}$ are both increasing when $n$ is nonnegative, we can square the inequalities to get rid of the square roots: $n \\le 4n - 6 < 2n + 5$. This simplifies to $n \\ge 11$.\n\nBecause $\\sqrt{4n - 6}$ is increasing and $n \\ge 0$, we know that when $n \\ge 3$, both conditions $\\sqrt{n} \\le \\sqrt{4n-6}$ and $\\sqrt{4n - 6} < \\sqrt{2n + 5}$ hold. It is easy to check that for $n = 0, 1, 2$, the second condition fails.\n\nTherefore, when $n \\ge 11$ is an integer, both conditions hold. Hence, there are $11 - 0 + 1 = \\boxed{12}$ such integers.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699706063,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 201,
+        "prompt_tokens": 44,
+        "total_tokens": 245
+    }
+}

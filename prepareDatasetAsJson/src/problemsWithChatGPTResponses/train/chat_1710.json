@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JkZC5Fg8xajjCH7G5VXCjDZFe9Ot",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "The greatest integer that is less than or equal to $3.2$ is $\\boxed{3}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699717926,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 22,
+        "prompt_tokens": 19,
+        "total_tokens": 41
+    }
+}

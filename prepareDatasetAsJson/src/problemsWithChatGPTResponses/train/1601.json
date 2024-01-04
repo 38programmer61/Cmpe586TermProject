@@ -1,0 +1,7 @@
+{
+    "problem": "The sum of the squares of two positive integers is 90. The product of the two integers is 27. What is the sum of the two integers?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Call the two integers $x$ and $y$. We are given that $x^2 + y^2 = 90$ and that $xy = 27$. We want to find $x + y$. Note that $(x + y)^2 = x^2 + y^2 + 2xy = 90 + 2\\cdot 27 = 144$. Taking the square root of 144, we see that $x + y = \\boxed{12}$.",
+    "chatgpt_solution": "Let the two positive integers be $a$ and $b$. We are given that $a^2 + b^2 = 90$ and $ab = 27$. The first equation can be factored as $(a+b)(a-b) = 90$. We also know that $ab = 27$, which can be written as $a = \\frac{27}{b}$. Substituting this expression for $a$ into the factored equation, we get $\\frac{27}{b}+b)(\\frac{27}{b}-b) = 90$. Simplifying, we have $(\\frac{27+b^2}{b})(\\frac{27-b^2}{b}) = 90$. This can be rewritten as $\\frac{(27+b^2)(27-b^2)}{b^2} = 90$. Expanding the numerator, we have $\\frac{27^2 - b^4}{b^2} = 90$. Multiplying both sides by $b^2$ and then subtracting $27^2$ from both sides, we have $-b^4 + 90b^2 - 27^2 = 0$. Recognizing that this is a quadratic in $b^2$, we can factor as $(b^2 - 9)(-b^2 + 97) = 0$. This means that $b^2 = 9$ or $b^2 = 97$. Taking the square root of both sides of these equations, we have $b = \\pm 3$ or $b = \\pm \\sqrt{97}$. Since the question asks for positive integers, we know that $b$ must be $3$. From $a = \\frac{27}{b} = \\frac{27}{3} = 9$, the sum of the two integers is $a + b = 9 + 3 = \\boxed{12}$."
+}

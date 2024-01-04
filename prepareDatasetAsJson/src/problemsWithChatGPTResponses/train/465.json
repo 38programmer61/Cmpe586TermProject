@@ -1,0 +1,7 @@
+{
+    "problem": "Kyle knows that $4 = 2^{5r+1}$. What is the value of $r$? Express your answer as a common fraction.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Replacing the $4$ with $2^2$ we have $2^2 = 2^{5r+1}$, so $2=5r+1$.  Solve for $r$ to get $r=\\boxed{\\frac{1}{5}}$",
+    "chatgpt_solution": "We have $2^2 = 2^{5r + 1} = 2^{2 + 3(5r + 1)} = 2^{2 + 15r + 3} = 2^{5 + 15r} = 32\\cdot (2^{15})^r$. Therefore, $4 = 32\\cdot (2^{15})^r$, which implies $2^{-4} = 2^{15r}$. Equating exponents now gives us $-4 = 15r$, from which $r = \\boxed{-\\frac{4}{15}}$."
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Express $\\frac{0.\\overline{666}}{1.\\overline{333}}$ as a common fraction.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We might recognize the top as $\\frac{2}{3}$, and the bottom as $\\frac{4}{3}$, thereby giving you a value of $\\frac{1}{2}$.  If not, call the numerator $x$.  Multiplying by 10, and subtracting $x$, you get 9x = 6, and thus, $x = \\frac{2}{3}$.  We then notice that the denominator is $1 + \\frac{x}{2}$, thereby giving us a value of $\\boxed{\\frac{1}{2}}$ for the entire fraction.",
+    "chatgpt_solution": "Let $x = 0.\\overline{666}$ and $y = 1.\\overline{333}$. Multiplying both sides of $x$ and $y$ by $10$, we get $10x = 6.\\overline{666}$ and $10y = 13.\\overline{333}$. Subtracting $y$ from $10y$ and $x$ from $10x$, we get $10y-y = 13.\\overline{333}-1.\\overline{333}=12$ and $10x - x = 6.\\overline{666}-0.\\overline{666} = 6.$ Also, $10y-y = 9y$ and $10x - x = 9x$, so $9y = 12$ and $9x = 6$. Dividing both sides of $9y = 12$ by $9$ and $9x = 6$ by $9$, we have $y = \\frac129$ and $x = \\frac{6}{9}$, respectively. As we seek $\\frac{x}{y}$, we substitute these values to find $\\frac{x}{y} = \\frac{\\frac{6}{9}}{\\frac{1}{9}} = \\boxed{6}$."
+}

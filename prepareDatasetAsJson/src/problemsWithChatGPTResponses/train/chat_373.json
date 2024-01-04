@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JpRwJxEe2OzLzVNFCpDOAxix50pJ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let the first integer be $n$.  Then the three consecutive integers are $n$, $n + 1$, and $n + 2$.  The sum of the first and third integer is $n + (n + 2) = 2n + 2$.  We are told that this is equal to 118, so we have the equation $2n + 2 = 118$.  Subtracting 2 from both sides gives $2n = 116$, so $n = 58$.  Therefore, the second integer is $\\boxed{59}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699736696,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 121,
+        "prompt_tokens": 31,
+        "total_tokens": 152
+    }
+}

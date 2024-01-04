@@ -1,0 +1,7 @@
+{
+    "problem": "What is the value of $x$ in the equation $(17^6-17^5)\\div16=17^x$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Factoring a $17^5$ from the two terms in the parenthesis, we get $17^5(17-1)\\div16=17^5$. Thus, $x=\\boxed{5}$.",
+    "chatgpt_solution": "Expanding $(17^6 - 17^5)\\div 16$, we have \\[\n\\frac{17^6 - 17^5}{16} = \\frac{17^5 \\cdot (17 - 1)}{16} = \\frac{17^5 \\cdot 16}{16} = 17^5.\n\\]So $x = \\boxed{5}$."
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JpGw2Fi9s7gHWeYcAwiwumHFKORE",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We find the coordinates of the vertices of the two parabolas as follows:\n\nCompleting the square in $x^2 - 2x + 3$, we get\n\\[y = (x - 1)^2 + 2.\\]This means the vertex of the first parabola is $(1,2)$.\n\nCompleting the square in $x^2 + 4x + 10$, we get\n\\[y = (x + 2)^2 + 6.\\]This means the vertex of the second parabola is $(-2,6)$.\n\n[asy]\nunitsize(1.5 cm);\n\nreal parab (real x) {\n  return(x^2 - 2*x + 3);\n}\n\npair A, B;\n\nA = (1,2);\nB = (-2,6);\n\ndraw(graph(parab,-2.5,3.5),red);\ndraw(graph(parab,-3.5,1.5),red);\ndraw((-3.5,0)--(3.5,0));\ndraw((0,-0.5)--(0,8));\n\ndot(\"$A$\", A, NW);\ndot(\"$B$\", B, W);\n[/asy]\n\nThen by the distance formula, the distance between $A$ and $B$ is\n\\[\\sqrt{(-2 - 1)^2 + (6 - 2)^2} = \\sqrt{9 + 16} = \\boxed{5}.\\]",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699736014,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 305,
+        "prompt_tokens": 72,
+        "total_tokens": 377
+    }
+}

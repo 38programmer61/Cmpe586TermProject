@@ -1,0 +1,7 @@
+{
+    "problem": "The equation of the line that passes through the points $(-3,5)$ and $(0,-4)$ can be expressed in the form $y=mx+b$. What is the value of $m+b$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Since both of these points lie on the line, plugging them into the equation of the line will produce a true statement.  Thus $(-3, 5)$ gives us $5 = -3m + b$ and $(0, -4)$ gives us $-4 = b$.  So we now know what $b$ is and can plug it back into the first equation to get $5 = -3m - 4$.  So $m = -3$ and $m + b = \\boxed{-7}$.",
+    "chatgpt_solution": "The slope between two points $(x_1,y_1)$ and $(x_2,y_2)$ is $\\frac{y_2-y_1}{x_2-x_1}$. Therefore, the slope of the line passing through $(-3,5)$ and $(0,-4)$ is \\[\n\\frac{-4-5}{0-(-3)} = \\frac{-9}{3} = -3. \\]Since $(0,-4)$ lies on the line, we can apply the point-slope formula to obtain the equation \\[\ny+4 = -3(x-0).\n\\]Simplifying the equation gives $y=-3x-4$.  Therefore $m + b = \\boxed{-7}$."
+}

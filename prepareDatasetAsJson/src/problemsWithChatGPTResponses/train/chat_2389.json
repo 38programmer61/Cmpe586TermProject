@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JmvaFWvstjpSJHYfSEC28uOYAQGk",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "The cube root of 100 is approximately 4.64159. The closest integer to this is 5.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699727002,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 23,
+        "prompt_tokens": 19,
+        "total_tokens": 42
+    }
+}

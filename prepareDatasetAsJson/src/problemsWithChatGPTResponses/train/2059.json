@@ -1,0 +1,7 @@
+{
+    "problem": "The value of $\\log_{10}{17}$ is between the consecutive integers $a$ and $b$.  Find $a+b$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We can have $\\log_{10}10=1$ and $\\log_{10}100=2$.  Since $\\log_{10}x$ increases as $x$ increases, we know that $\\log_{10}10<\\log_{10}17<\\log_{10}100$, meaning $1<\\log_{10}17<2$.  Thus, the desired sum is $1+2=\\boxed{3}$.",
+    "chatgpt_solution": "Since $16 < 17$ and $17 < 100 = 10^2$, we know that $\\log_{10} 16 < \\log_{10} 17 < \\log_{10} 100 = 2$. We conclude that $a=1$ and $b=2$, and so $a+b = \\boxed{3}$."
+}

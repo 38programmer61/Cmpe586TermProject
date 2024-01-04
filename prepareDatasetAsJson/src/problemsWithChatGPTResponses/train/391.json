@@ -1,0 +1,7 @@
+{
+    "problem": "If $f(x)=\\frac{16}{5+3x}$, what is the value of $\\left[f^{-1}(2)\\right]^{-2}$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Substituting $f^{-1}(x)$ into our expression for $f$, we get \\[f(f^{-1}(x))=\\frac{16}{5+3f^{-1}(x)}.\\]Since $f(f^{-1}(x))=x$ for all $x$ in the domain of $f^{-1}$, we have \\[x=\\frac{16}{5+3f^{-1}(x)}.\\]When $x=2$ this says \\[2=\\frac{16}{5+3f^{-1}(2)}.\\]Solving for $f^{-1}(2)$, we find $f^{-1}(2) = 1$.  Then $[f^{-1}(2)]^{-2} = 1^{-2} = \\boxed{1}$.",
+    "chatgpt_solution": "Since $f(f^{-1}(x))=x$ for all $x$ in the domain of $f^{-1}$, looking at the expression $\\left[f^{-1}(2)\\right]^{-2}$ suggests that we find the inverse of $f$ first and then apply it to $2$. To find the inverse of $f$, we look for $y$ such that $f^{-1}(y)=x$ if and only if $f(x)=y$. So, we have  \\[\\frac{16}{5+3x}=y.\\] Multiplying both sides by $5+3x$ gives $16=y(5+3x)$. Expanding the right side gives $16=5y+3xy$, and rearranging terms gives $xy+5y=16$. Factoring gives $y(x+5)=16$ or $y=\\frac{16}{x+5}$. Therefore, $f^{-1}(y)=\\frac{16}{y+5}$. Because we want to substitute $y=2$ into $f^{-1}(y)$,  \\[f^{-1}(2)=\\frac{16}{2+5}=\\frac{16}{7}.\\] Hence, the desired value is \\[\\left[f^{-1}(2)\\right]^{-2}=\\left(\\frac{16}{7}\\right)^{-2}=\\boxed{\\frac{49}{256}}.\\]"
+}

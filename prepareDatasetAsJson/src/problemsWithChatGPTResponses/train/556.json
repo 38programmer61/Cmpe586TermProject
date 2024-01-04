@@ -1,0 +1,7 @@
+{
+    "problem": "If a regular polygon has a total of nine diagonals, how many sides does it have?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Given the number of sides of a polygon, $n$, the number of diagonals is given by $D=\\frac{n(n-3)}{2}$.  To find the number of sides given the number of diagonals, we can solve this equation for $n$. \\begin{align*}D&=\\frac{n(n-3)}{2} \\\\ 2D&=n^2-3n \\\\ 0&=n^2-3n-2D.\\end{align*}  Then, using the quadratic formula we have $n=\\frac{3\\pm\\sqrt{3^2-4(1)(-2D)}}{2(1)}=\\frac{3\\pm\\sqrt{9+8D}}{2}$.\n\nSince we are given that $D=9$, we have $n=\\frac{3\\pm\\sqrt{9+8(9)}}{2}=\\frac{3\\pm9}{2}=-3\\text{ or }6$.  Since we must have a positive number of sides, a polygon with nine diagonals has $\\boxed{6}$ sides.",
+    "chatgpt_solution": "The formula to find the number of diagonals in a regular polygon is given by:\n\nd = n(n-3)/2\n\nWhere d is the number of diagonals and n is the number of sides.\n\nSo, we have:\n\n9 = n(n-3)/2\n\nRearranging the equation, we get:\n\nn(n-3) = 18\n\nExpanding the equation, we get:\n\nn^2 - 3n = 18\n\nNow, subtracting 18 from both sides:\n\nn^2 - 3n - 18 = 0\n\nFactoring the equation, we get:\n\n(n-6)(n+3) = 0\n\nSetting each factor equal to zero, we have two possible solutions:\n\nn - 6 = 0 or n + 3 = 0\n\nSolving each equation, we find:\n\nn = 6 or n = -3\n\nSince a polygon cannot have a negative number of sides, the only valid solution is n = 6.\n\nTherefore, the regular polygon has 6 sides."
+}

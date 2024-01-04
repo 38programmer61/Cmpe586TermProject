@@ -1,0 +1,7 @@
+{
+    "problem": "Find the sum of the solutions of the equation $-32x^2 + 84x + 135=0$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "If you solved this problem by finding the solutions to the equation, go back and read the section again.  The sum of the roots is $-b/a$, where $b$ is the coefficient of the linear term and $a$ is the coefficient of the quadratic term.  So, the desired sum is $-(84)/(-32)=\\boxed{\\frac{21}{8}}$.",
+    "chatgpt_solution": "Since the coefficient of $x^2$ is negative, the parabola $-32x^2 + 84x + 135=0$ opens downward.  Therefore, we can find the sum of the solutions of the equation by taking the opposite of the coefficient of $x$, so the sum of the solutions is $\\boxed{-\\frac{84}{-32}}=\\frac{21}{8}$."
+}

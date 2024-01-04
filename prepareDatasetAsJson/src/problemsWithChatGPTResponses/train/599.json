@@ -1,0 +1,7 @@
+{
+    "problem": "Factor $t^2-121$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have $t^2 -121 = t^2 - 11^2 = \\boxed{(t-11)(t+11)}$.",
+    "chatgpt_solution": "Factor $t^2-121$ using difference of squares. We rewrite 121 as $11^2$ and apply the pattern $a^2-b^2=(a+b)(a-b)$: \\begin{align*}\nt^2-121&=(t)^2-(11)^2\\\\\n&=(t+11)(t-11).\n\\end{align*}Therefore, $\\boxed{(t+11)(t-11)}$ is the factored form."
+}

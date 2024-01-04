@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JknkC1Mn38MpnhG71j1o93pPQ0Fy",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Squaring the equation $m + n = 5$, we get $m^2 + 2mn + n^2 = 25$.  Subtracting $4mn = 16$ gives $m^2 - 2mn + n^2 = 9$, so $(m - n)^2 = 9$, hence $|m - n| = \\boxed{3}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699718828,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 83,
+        "prompt_tokens": 36,
+        "total_tokens": 119
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "If $F(a, b, c, d) = a^b + c \\times d$, what is the value of $x$ such that $F(2, x, 4, 11) = 300$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Plugging in, we have that $2^x + 4\\times 11 = 300$.  This rearranges to $2^x = 256$, or $x = \\boxed{8}$.",
+    "chatgpt_solution": "We have $F(2, x, 4, 11) = 2^x + 4 \\times 11 = 300$.  Simplifying the left side gives $2^x + 44 = 300$, so $2^x = 256 = 2^8$.  Hence, $x = \\boxed{8}$."
+}

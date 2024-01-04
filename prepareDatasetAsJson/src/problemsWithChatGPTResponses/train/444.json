@@ -1,0 +1,7 @@
+{
+    "problem": "A super ball is dropped from 100 feet and rebounds half the distance it falls each time it bounces. How many feet will the ball have traveled when it hits the ground the fourth time?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The ball traveled $100+50+25+12.5 = 187.5$ feet on its four descents. The ball also traveled $50+25+12.5 = 87.5$ feet on its three ascents. Thus, the ball traveled $187.5+87.5 = \\boxed{275}$ feet total.",
+    "chatgpt_solution": "The ball hits the ground for the first time after falling 100 feet. It then rebounds half of that distance, so it travels 100/2 = <<100/2=50>>50 feet after the first bounce.\nFor the second bounce, the ball will fall 50 feet and then rebound half that distance, so it will travel an additional 50/2 = <<50/2=25>>25 feet after the second bounce.\nFor the third bounce, the ball will fall 25 feet and rebound half that distance, so it will travel an additional 25/2 = <<25/2=12.5>>12.5 feet after the third bounce.\nFinally, for the fourth bounce, the ball will fall 12.5 feet and rebound half that distance, so it will travel an additional 12.5/2 = <<12.5/2=6.25>>6.25 feet.\nTherefore, the ball will have traveled 100 + 50 + 25 + 12.5 + 6.25 = <<100+50+25+12.5+6.25=193.75>>193.75 feet when it hits the ground the fourth time. Answer: \\boxed{193.75}."
+}

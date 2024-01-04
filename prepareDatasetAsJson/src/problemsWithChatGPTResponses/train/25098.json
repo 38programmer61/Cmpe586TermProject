@@ -1,0 +1,7 @@
+{
+    "problem": "Simplify $\\frac{4}{3x^{-3}} \\cdot \\frac{3x^{2}}{2}$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "First, we recognize that $\\frac{4}{3x^{-3}}$ can be rewritten as $\\frac{4x^3}{3}$. Thus, we have  \\begin{align*}\n\\frac{4}{3x^{-3}} \\cdot \\frac{3x^{2}}{2} & = \\frac{4x^3}{3} \\cdot \\frac{3x^2}{2} \\\\\n& = \\frac{(4 \\cdot 3)(x^3 \\cdot x^2)}{3 \\cdot 2} \\\\\n& = 2x^{3+2} \\\\\n& = \\boxed{2x^5}.\n\\end{align*}",
+    "chatgpt_solution": "First we simplify $\\frac{4}{3x^{-3}} \\cdot \\frac{3x^{2}}{2}$ to $\\frac{4\\cdot3x^{2}}{3x^{-3}\\cdot2}$. Notice that $x^{2}$ multiplied by $x^{-3}$ is $x^{-1}$, since $x^{2} \\cdot x^{-3} = x^{2+(-3)} = x^{-1}$. Thus $\\frac{4\\cdot3x^{2}}{3x^{-3}\\cdot2} = \\frac{12x^{2}}{6x^{-1}}$. To simplify the denominator, write $6x^{-1}$ as $\\frac{6}{x}$. Thus, we have $\\frac{12x^2 }{\\frac{6}{x}}$. Next we substitute the reciprocal of $\\frac{6}{x}$ for $\\frac{6}{x}$ in the expression $\\frac{12x^2 }{\\frac{6}{x}}$. The reciprocal of $\\frac{6}{x}$ is equal to $1$ over $\\frac{6}{x}$, or $\\frac{1}{\\frac{6}{x}}$. Writing $\\frac{1}{\\frac{6}{x}}$ as $\\frac{x}{6}$, we get $\\frac{12x^2}{\\frac{6}{x}}=12x^2 \\cdot \\frac{1}{\\frac{6}{x}} = 12x^2 \\cdot \\frac{x}{6}$. Finally, we have $\\frac{12x^2}{\\frac{6}{x}} = 12x^2 \\cdot \\frac{x}{6} = \\frac{(12)(x^2)(x)}{(6)(1)} = \\frac{12 \\cdot x^3}{6} = \\boxed{2x^3}$."
+}

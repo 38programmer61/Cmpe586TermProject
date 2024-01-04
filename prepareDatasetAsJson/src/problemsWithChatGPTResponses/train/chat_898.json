@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JrYihkWOd6LaGtffeq7iLQwNa3dz",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We are given that $q(x) = ax^2 + bx + c.$ From the graph, we can see that $q(x)$ is decreasing on the interval $7 < x < 8,$ and increasing on the intervals $(-\\infty, 7) \\cup (8, \\infty).$\n\nSince $q(x)$ is symmetrical about the vertical line $x = 7.5,$ $q(8)$ is an integer. From the graph, the value of this integer appears to be 4.\n\nObserve that $q(x) = 4 - \\frac{x - 8}{8} \\cdot (x - 7),$ which clearly equals 4 when $x = 15.$ Thus the integer in question is $\\boxed{4}.$",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699744804,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 162,
+        "prompt_tokens": 396,
+        "total_tokens": 558
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Compute the square of 1017 without a calculator.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "\\[1017^2=(10^3+17)^2=10^6+2\\cdot17\\cdot10^3+289=\\boxed{1034289}.\\]",
+    "chatgpt_solution": "To compute the square of 1017 without a calculator, we can use the method of long multiplication.\n\nFirst, we write down 1017 twice, one below the other:\n      1017\n   \u00d7 1017\n____________\n\nNext, we multiply the rightmost digit of the bottom number (7) by the entire top number (1017) and write down the result below, slightly offset to the right:\n        1017\n    \u00d7 1017\n____________\nostep 1:   712..\n____________\n\nNext, we multiply the second rightmost digit of the bottom number (1) by the entire top number (1017) and write down the result below, slightly offset to the left:\n        1017\n    \u00d7 1017\n____________\nostep 2:  712..\n     1017..\n____________\n\nNext, we multiply the third rightmost digit of the bottom number (0) by the entire top number (1017) and write down the result below, slightly offset to the left:\n        1017\n    \u00d7 1017\n____________\nostep 3:  712.7\n     1017..\n____________\n\nFinally, we multiply the leftmost digit of the bottom number (1) by the entire top number (1017) and write down the result slightly below, slightly offset to the left:\n        1017\n    \u00d7 1017\n____________\nostep 4:  712.7\n     1017..\n   ________\n   1017017\n\nTherefore, the square of 1017 is 1,017,017."
+}

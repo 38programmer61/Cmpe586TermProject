@@ -1,0 +1,7 @@
+{
+    "problem": "A line with slope 3 intersects a line with slope 5 at the point $(10,15)$. What is the distance between the $x$-intercepts of these two lines?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The two lines have equations \\[\ny -15=3(x-10)\\quad\\text{and}\\quad y -15=5(x-10).\n\\]The $x$-intercepts, obtained by setting $y=0$ in the respective equations, are 5 and 7.  The distance between the  points $(5,0)$ and $(7,0)$ is $\\boxed{2}$.",
+    "chatgpt_solution": "Since we know the slope of each line, we can find an equation for each line. Specifically, the equation for the line with slope 3 is $y = 3x + b$ for some constant $b$, and the equation for the line with slope 5 is $y = 5x + c$ for some constant $c$. To find $b$ and $c$, we substitute the coordinates of the intersection point $(10, 15)$ for $x$ and $y$: \\begin{align*}\n15 &= 3(10) + b \\\\\n15 &= 5(10) + c.\n\\end{align*}Simplifying these equations gives us $b = -15$ and $c = -35$.\n\nTo find the $x$-intercept of the first line (the line with slope 3), we substitute $y = 0$ into its equation: \\begin{align*}\n0 &= 3x - 15 \\\\\n3x &= 15 \\\\\nx &= 5.\n\\end{align*}Thus, the $x$-intercept of the first line is $(5, 0)$. Similarly, the $x$-intercept of the second line (the line with slope 5) is $(7, 0)$. The distance between $(5, 0)$ and $(7, 0)$ is $7 - 5 = \\boxed{2}$."
+}

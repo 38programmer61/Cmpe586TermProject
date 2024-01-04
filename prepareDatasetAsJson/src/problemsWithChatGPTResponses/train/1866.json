@@ -1,0 +1,7 @@
+{
+    "problem": "If $f(x)=\\frac{x^5-1}3$, find $f^{-1}(-31/96)$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The value $x=f^{-1}(-31/96)$ is the solution to $f(x)=-31/96$.  This means \\[\\frac{x^5-1}3=\\frac{-31}{96}.\\]Multiplying by 3 gives \\[x^5-1=\\frac{-31}{32}.\\]If we add 1 we get  \\[x^5=\\frac{-31}{32}+\\frac{32}{32}=\\frac1{32},\\]and the only value that solves this equation is  \\[x=\\boxed{\\frac12}.\\]",
+    "chatgpt_solution": "When working with inverse functions, it is often helpful to replace $f(x)$ with $y$ and solve the equation $y=f^{-1}(x)$ for $x$. In this case, we get \\[\n-\\frac{31}{96}=f^{-1}\\left(\\frac{x^5-1}{3}\\right).\n\\]To isolate $x^5-1$, we multiply both sides by $3$ to get \\[\n\\frac{x^5-1}{3}=-\\frac{31}{32}.\n\\]We can multiply both sides by $5$ to get $x^5-1=\\frac{-155}{32}$ and adding $1$ gives $x^5=\\frac{-123}{32}$. The inverse function $f^{-1}$ will give us the value of $x$ such that $f(x)=-\\frac{31}{96}$; in other words, such that $x=\\frac{-31}{96}$. Algebra gives us five solutions to the equation $x^5=\\frac{-123}{32}$, so we need to determine which of these five satisfies $x=\\frac{-31}{96}$. Some experimentation (or some number sense, or a bit of guess and check) tells us that $\\boxed{\\frac{-31}{32}}$ is the solution that works."
+}

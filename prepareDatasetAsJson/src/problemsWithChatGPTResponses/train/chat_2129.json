@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlbFlNp3qS6xkgtmFckGtwpRaKRd",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let $P$ be the principal you invested four years ago.  After four years, at 10% annual interest compounded yearly, the account will have grown to $1.10^4 P = 1.4641P$.  Therefore we must solve the equation\n\\[1.4641P = 439.23.\\]Dividing both sides by $1.4641$, we find $P = \\boxed{300}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699721897,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 91,
+        "prompt_tokens": 52,
+        "total_tokens": 143
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "What value of $x$ will give the maximum value for $-x^2- 6x + 12$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We start by completing the square: \\begin{align*}\n-x^2 -6x +12 &= -(x^2 + 6x) + 12\\\\ &= -(x^2 + 6x + (6/2)^2 - (6/2)^2) + 12\\\\ &= -((x+3)^2 -3^2) + 12 \\\\&= -(x+3)^2 +3^2 + 12 \\\\&= -(x+3)^2 + 21.\\end{align*}Since the square of a real number is at least 0, we have $(x+3)^2\\ge 0$, so $-(x+3)^2 \\le 0$.  Therefore, $-(x+3)^2 + 21$ is at most 21.  Since $(x+3)^2 =0$ when $x=-3$, this maximum of $21$ is achieved when $x= \\boxed{-3}$.",
+    "chatgpt_solution": "To find the maximum value of $-x^2 - 6x + 12,$ we complete the square. Writing $-x^2 - 6x$ as $-(x^2 + 6x),$ we get\n\\[-x^2 - 6x + 12 = -(x^2 + 6x) + 12 = -(x^2 + 6x + 9) + 12 + 9 = -((x + 3)^2 - 9) + 12 + 9 = -(x + 3)^2 + 30.\\]The maximum value is thus $\\boxed{30},$ which occurs when $x = \\boxed{-3}.$"
+}

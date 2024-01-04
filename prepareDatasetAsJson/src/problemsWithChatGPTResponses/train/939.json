@@ -1,0 +1,7 @@
+{
+    "problem": "The graph of $y=ax^2+bx+c$ is given below, where $a$, $b$, and $c$ are integers.  Find $a$.\n\n[asy]\nsize(140);\nLabel f;\n\nf.p=fontsize(4);\n\nxaxis(-3,3,Ticks(f, 1.0));\n\nyaxis(-4,4,Ticks(f, 1.0));\n\nreal f(real x)\n\n{\n\nreturn -2x^2+4x+1;\n\n}\n\ndraw(graph(f,-.7,2.7),linewidth(1),Arrows(6));\n[/asy]",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The vertex of the parabola appears to be at the value $x=1$, where $y=3$.  Therefore we should have \\[y=a(x-1)^2+3\\] for some integer $a$.  We also know that $(0,1)$ is on the graph of the equation, so \\[1=a(0-1)^2+3=a+3.\\] Therefore  \\[a=1-3=\\boxed{-2}.\\]",
+    "chatgpt_solution": "Because the parabola goes through $(0,1)$, the constant term is 1, so $c=1$.  Because the parabola passes through the points $(2,1)$ and $(1,3)$, substituting these into $y=ax^2+bx+c$ gives us $4a+2b+1=1$ and $a+b+1=3$.  We can multiply the first equation by 2, subtract it from the second equation, and get $-2a-b=1$.  We can subtract this equation from the second equation and get $3a=2$, or $a=\\boxed{\\frac{2}{3}}$."
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JkLaUMYvY8TCRhDGZFNIosK6SSiC",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Cross-multiplying gives $(r + 9)(r + 5) = (r - 3)(r - 2)$. Expanding both sides gives $r^2 + 14r + 45 = r^2 - 5r + 6$. Simplifying gives $19r = -39$, so $r = \\boxed{-2}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699717082,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 77,
+        "prompt_tokens": 36,
+        "total_tokens": 113
+    }
+}

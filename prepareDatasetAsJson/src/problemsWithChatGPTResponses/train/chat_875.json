@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JrUqeHJhT3nJNoKaq67B16XVCDcJ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "The distance between $A$ and $B$ is $\\sqrt{3250^2-3000^2}=700$ km. Therefore, the cost to fly from $A$ to $B$ is $100+0.10(700)=\\boxed{170}$. Alternatively, we could observe that the airplane fare is $\\$0.10$ per km, so the cost is $0.10(3250)=\\$325$, but since Piravena is partway through the trip, she has already paid $0.10(3000)=\\$300$, so she still owes $\\$325-\\$300=\\$25$ in airplane tickets. However, since the cost to go by bus would be $\\$0.15(3250)=\\$487.50$, she chooses to fly, and the cost is only $\\$100+\\$25=\\boxed{\\$125}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699744564,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 185,
+        "prompt_tokens": 294,
+        "total_tokens": 479
+    }
+}

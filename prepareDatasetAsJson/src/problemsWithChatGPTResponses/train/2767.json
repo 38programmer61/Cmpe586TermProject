@@ -1,0 +1,7 @@
+{
+    "problem": "Given two real numbers $1<p<q$ so that $\\frac{1}{p} + \\frac{1}{q} = 1$ and $pq = \\frac{9}{2}$, what is $q$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Solving $pq = \\frac{9}{2}$ for $p$ we see that $p = \\frac{9}{2q}$. Plugging this into $\\frac{1}{p} + \\frac{1}{q} = 1$ we then get \\[ \\frac{2q}{9} + \\frac{1}{q} = 1 \\Rightarrow 2q^2 - 9q +9 = 0 .\\] Applying the quadratic equation we then see that  \\[ q = \\frac{9 \\pm \\sqrt{81-72}}{4} = \\frac{9 \\pm 3}{4} .\\] Now, the smaller root corresponds to $p$ and the larger to $q$, so we see that $\\boxed{q = 3}$.",
+    "chatgpt_solution": "We are given that $\\frac{1}{p} + \\frac{1}{q} = 1$ and $pq = \\frac{9}{2}$.  Multiplying both sides of $\\frac{1}{p} + \\frac{1}{q} = 1$ by $pq$, we obtain \\[\\frac{pq}{p} + \\frac{pq}{q} = pq,\\]which becomes $q + p = \\frac{9}{2}$.  Since we are told that $p<q$, we have \\[q + p = \\frac{9}{2} \\quad\\text{and}\\quad q - p > 0.\\]Adding these two inequalities, we get $2q > \\frac{9}{2}$, so $q>\\frac{9}{4}$.  Since $p<q$, we have \\[p + 2p = 3p < \\frac{9}{4} + \\frac{9}{4} = \\frac{9}{2} < q + p = \\frac{9}{2},\\]so $3p<\\frac92$, which forces $p<\\frac32$. Therefore, since $p$ is a fraction between $\\frac32$ and $\\frac92$, $q$ must be bigger than $\\frac92$.  So, the only number that is both greater than $\\frac92$ and greater than $\\frac{9}{4}$ is $\\boxed{\\frac92}$."
+}

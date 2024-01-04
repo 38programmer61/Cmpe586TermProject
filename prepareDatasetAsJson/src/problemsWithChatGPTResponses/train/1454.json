@@ -1,0 +1,7 @@
+{
+    "problem": "Lee can make 18 cookies with two cups of flour. How many cookies can he make with three cups of flour?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Let $x$ be the number of cookies that Lee can make with three cups of flour. We can set up the proportion $\\frac{18}{2} = \\frac{x}{3}$. Solving for $x$, we find that $x = \\boxed{27}$.",
+    "chatgpt_solution": "If Lee can make 18 cookies with 2 cups of flour, he makes 18/2 = <<18/2=9>>9 cookies with each cup of flour.\nTherefore, with three cups of flour, Lee can make 9*3 = <<9*3=27>>27 cookies. Answer: \\boxed{27}."
+}

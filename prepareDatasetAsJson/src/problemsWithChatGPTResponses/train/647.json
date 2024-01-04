@@ -1,0 +1,7 @@
+{
+    "problem": "The vertex of the parabola described by the equation $y=-3x^2-30x-81$ is $(m,n)$. What is $n$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We will complete the square on the given quadratic expression to find the vertex. Factoring $-3$ from the first two terms, we have \\[y=-3(x^2+10x)-81\\]In order to make the expression inside the parentheses a perfect square, we need to add and subtract $(10/2)^2=25$ inside the parentheses. Doing this, we get \\[y=-3(x^2+10x+25-25)-81 = -3(x+5)^2-6\\]The graph of an equation of the form $y=a(x-h)^2+k$ is a parabola with vertex at $(h,k)$, so the vertex of our parabola is at $(-5,-6)$. Thus, $n=\\boxed{-6}$.",
+    "chatgpt_solution": "To find the vertex we note that the equation is equal to $a(x-h)^2+k$ where $-3$ is the coefficient of $x^2$.\nThe name for this quantity $-3$ is the \"leading coefficient\".\nThis allows us to conclude that $h=-\\frac{30}{2(-3)}=\\frac{5}{2}$.\nTherefore, the parabola has $x$ coordinate equal to $\\frac{5}{2}$ for all of its extreme points and the vertex is $(\\frac{5}{2},-3(\\frac{5}{2})^2-30(\\frac{5}{2})-81)$. \nThis is $(\\frac{5}{2},-3(\\frac{25}{4})-15\\cdot 5-81)=(\\frac{5}{2},-\\frac{175}{2}-75-81)=(\\frac{5}{2},-\\frac{175+150+162}{2})=(\\frac{5}{2},-\\frac{487}{2})$.\nTherefore, the value of $n$ is $\\boxed{-\\frac{487}{2}}$."
+}

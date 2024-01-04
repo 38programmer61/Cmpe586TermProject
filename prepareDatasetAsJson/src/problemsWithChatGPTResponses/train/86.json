@@ -1,0 +1,7 @@
+{
+    "problem": "A recent study found that 60$\\%$ of men and 80$\\%$ of women surveyed support increased funding for particular medical research. The study surveyed 100 men and 900 women. What was the overall percent of the people surveyed who supported increased funding?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "$60\\%$ of $100$ men is $60$ people.\n\n$80\\%$ of $900$ women is $720$ people.\n\nSo out of $1000$ total people surveyed, $780$ are supportive.  This is $\\boxed{78\\%}$.",
+    "chatgpt_solution": "Out of the 100 men surveyed, 60% support increased funding, which is $0.60 \\cdot 100 = 60$ men.\nOut of the 900 women surveyed, 80% support increased funding, which is $0.80 \\cdot 900 = 720$ women.\nSo a total of $60 + 720 = 780$ people support increased funding out of the $100 + 900 = 1000$ people surveyed.\nTherefore, the overall percent who supported increased funding is $ \\frac{780}{1000} = 0.78 = \\boxed{78\\%}$."
+}

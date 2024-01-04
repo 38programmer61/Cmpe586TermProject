@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlThLXsYmV3UDRhMraQgTqSqBzCe",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "To rationalize the denominator, we multiply the numerator and denominator by the conjugate of the denominator: $$\\begin{aligned} \\frac{1+\\sqrt{3}}{1-\\sqrt{3}} &= \\frac{1+\\sqrt{3}}{1-\\sqrt{3}}\\cdot\\frac{1+\\sqrt{3}}{1+\\sqrt{3}} \\\\ &= \\frac{(1+\\sqrt{3})(1+\\sqrt{3})}{(1-\\sqrt{3})(1+\\sqrt{3})} \\\\ &= \\frac{1+2\\sqrt{3}+3}{1-3} \\\\ &= \\frac{4+2\\sqrt{3}}{-2} \\\\ &= -2-2\\sqrt{3} \\end{aligned}$$So $ABC=(-2)(-2)(3)=\\boxed{12}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699721429,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 179,
+        "prompt_tokens": 67,
+        "total_tokens": 246
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Let $f(x)=x^2-2x$. What is the value of $f(f(f(f(f(f(-1))))))$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We start from the inside and work our way out: $$f(-1)=(-1)^2-2(-1)=3.$$ Therefore $$f(f(f(f(f(f(-1))))))=f(f(f(f(f(3)))).$$ Now $f(3)=3^2-2\\cdot3=3$. We can use that fact repeatedly to conclude  \\begin{align*}\nf(f(f(f(f(f(-1))))))&=f(f(f(f(f(3))))\\\\\n&=f(f(f(f(3)))\\\\\n& \\vdots\\\\ &= f(3)=\\boxed{3}.\\end{align*}",
+    "chatgpt_solution": "We start by computing $f(-1)=1(-1)-2(-1)=-1-2=-3$. Next, we find $f(f(-1))=f(-3)=(-3)^2-2(-3)=9+6=15$. Continuing in this manner, we have $f(f(f(-1)))=f(15)=15^2-2(15)=225-30=195$, $f(f(f(f(-1))))=f(195)=195^2-2(195)=38025-390=37635$, $f(f(f(f(f(-1))))=f(37635)=37635^2-2(37635)=1414829225-75270=1414753955$, and finally $f(f(f(f(f(f(-1))))))=f(1414753955)=1414753955^2-2(1414753955)=2001486359942028025-2829507910=\\boxed{2001486359942025205}$."
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Mr. Sanchez's students were asked to add two positive integers. Juan subtracted by mistake and got 2. Maria mistakenly multiplied and got 120. What was the correct answer?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Call the two positive integers $x$ and $y$. Without loss of generality, assume $x > y$. We can write a system of equations to represent the information given in the problem:  \\begin{align*}\nx - y &= 2 \\\\\nx \\cdot y &= 120\n\\end{align*} Solving for $x$ in the first equation yields $x = y + 2$.\n\nSubstituting this into the second equation gives $(y + 2) \\cdot y = 120$, or $y^2 + 2y - 120 = 0$.\n\nThis quadratic equation factors into $(y + 12)(y-10) = 0$, so $y = 10$.\n\nGiven $y$, we can solve for $x$ to get $x = 12$, so $x + y = \\boxed{22}$.",
+    "chatgpt_solution": "Let x and y be the positive integers that Mr. Sanchez's students were asked to add.\nIf Juan mistakenly subtracted instead of adding, the equation would be: x - y = 2. (Equation 1)\nIf Maria mistakenly multiplied instead of adding, the equation would be: x * y = 120. (Equation 2)\nFrom equation 1, we can solve for x = y + 2 and substitute into equation 2.\n(y + 2) * y = 120\ny^2 + 2y - 120 = 0\nSolving this quadratic equation, we find two possible values for y: y = 10 or y = -12. Since we are looking for positive integers, y = 10.\nSubstituting y = 10 back into the equation x = y + 2, we find x = 10 + 2 = 12.\nTherefore, the correct answer is 12 + 10 = 22. Answer: \\boxed{22}."
+}

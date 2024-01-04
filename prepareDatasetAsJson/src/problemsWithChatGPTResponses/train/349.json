@@ -1,0 +1,7 @@
+{
+    "problem": "Let $P(n)$ and $S(n)$ denote the product and the sum, respectively, of the digits of the integer $n$. For example, $P(23) = 6$ and $S(23) = 5$. Suppose $N$ is a two-digit number such that $N = P(N) +\nS(N)$. What is the units digit of $N$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Suppose $N=10a+b$. Then $10a+b=ab+(a+b)$. It follows that $9a=ab$, which implies that $b=9$, since $a \\neq 0$. So the units digit of $N$ is $\\boxed{9}$.",
+    "chatgpt_solution": "Since $N = P(N) + S(N)$ we have \\[\\begin{aligned}N &= P(N) + S(N)\\\\ &= a+b + ab \\end{aligned}\\]where the digits of $N$ are $a,b$. Since $10|N$, we have $a+b + ab \\equiv 0 \\pmod{10}$. The possible values for $ab+a+b$ are $0,10,20,\\ldots,90$. The only ones giving single digit $a,b$ are $10,12,18,21,27,30,36,42,48$. Testing shows only $12$ and $18$ satisfy the condition given in the problem. It now remains to find which of $12=a_0 + b_0 + a_0b_0$ or $18 = a_1+b_1+a_1b_1$ is true. This gives $Tom Brady(2008) = \\boxed{8}$."
+}

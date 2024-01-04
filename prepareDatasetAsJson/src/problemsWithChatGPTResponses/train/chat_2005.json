@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlL4a0rYlctADMT7oEVkZdfiuetY",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Since the slope of the line is $-2$, we see that for every increase of $1$ in the x-coordinate, the y-coordinate decreases by $2$.  Thus, from the $x$-intercept $(5,0)$, if we decrease $x$ by $5$ units, we will be at the $y$-intercept $(5-5,0-10)=\\boxed{(-5,-10)}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699720894,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 92,
+        "prompt_tokens": 54,
+        "total_tokens": 146
+    }
+}

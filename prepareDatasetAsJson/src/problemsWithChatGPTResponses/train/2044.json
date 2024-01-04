@@ -1,0 +1,7 @@
+{
+    "problem": "The product of two consecutive negative integers is 2550. What is the sum of the two integers?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We start out with the equation $n(n + 1) = 2550$. Expanding, we find $n^2 + n - 2550 = 0$. This factors to $(n - 50)(n + 51) = 0$, so $n = 50\\text{ or }-51.$ Since $n$ must be negative, we have $n = -51$, hence our two integers are $n = -51$ and $n + 1= -50$, which add up to $\\boxed{-101}$.",
+    "chatgpt_solution": "Let $n$ be the smaller of the two integers. Then $n(n+1) = 2550$. We guess that $n = 50$. But $50\\cdot 51 > 2550$, so we try $n = 49$, and $49\\cdot 50 = 2450$. Now we know $\\frac{2450}{n} = 50$, so $n = 49$ is correct. Thus, the two integers are 49 and 50, and their sum is $\\boxed{99}$."
+}

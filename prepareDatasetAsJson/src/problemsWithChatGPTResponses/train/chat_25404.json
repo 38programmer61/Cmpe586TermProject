@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jnt1NW1ADBBAWEeqHCPaf3Gf7ofi",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "The midpoint of $\\overline{AB}$ is $\\left(\\frac{24 + 3}{2}, \\frac{7 + 4}{2}\\right) = \\left(\\frac{27}{2}, \\frac{11}{2}\\right),$ so the slope of $\\overleftrightarrow{AB}$ is\n\\[\\frac{11/2 - 4}{27/2 - 3} = \\frac{3}{2}.\\]Therefore, the slope of the line $p$ is $-\\frac{2}{3}.$  It follows that the line $p$ passes through $\\left(\\frac{27}{2}, \\frac{11}{2}\\right),$ so its equation is\n\\[y - \\frac{11}{2} = -\\frac{2}{3} \\left( x - \\frac{27}{2} \\right),\\]or $2x - 3y = 22.$\n\nSubstituting into this equation $2x - 3y = 22$ into $y = \\frac{2x + 26}{3}$ (Notice that $x$ is on the left side of $y$ in the fraction), we get\n\\[2x - 3 \\cdot \\frac{2x + 26}{3} = 22.\\]Solving, we find $x = 14.$  Then $y = \\frac{2(14) + 26}{3} = \\frac{46}{3},$ so $2x - 4y = \\boxed{-\\frac{8}{3}}.$\n\n[asy]\nunitsize(0.4 cm);\n\npair A, B, C;\n\nA = (24,7);\nB = (3,4);\nC = (27/2,11/2);\n\ndraw(A--B);\ndraw((-10,0)--(30,0));\ndraw((0,-10)--(0,16));\ndraw(A--C);\ndraw((-10,11/2 - 10*2/3)--(30,11/2 + 30*2/3),dashed);\n\ndot(\"$A$\", A, N);\ndot(\"$B$\", B, SW);\ndot(\"$C$\", C, NE);\n[/asy]",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699730687,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 467,
+        "prompt_tokens": 68,
+        "total_tokens": 535
+    }
+}

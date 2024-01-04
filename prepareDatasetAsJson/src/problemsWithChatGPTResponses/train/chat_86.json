@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JrPseCsxRqvQG9Nln1prRbyXSV8N",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Out of the 100 men surveyed, 60% support increased funding, which is $0.60 \\cdot 100 = 60$ men.\nOut of the 900 women surveyed, 80% support increased funding, which is $0.80 \\cdot 900 = 720$ women.\nSo a total of $60 + 720 = 780$ people support increased funding out of the $100 + 900 = 1000$ people surveyed.\nTherefore, the overall percent who supported increased funding is $ \\frac{780}{1000} = 0.78 = \\boxed{78\\%}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699744256,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 128,
+        "prompt_tokens": 61,
+        "total_tokens": 189
+    }
+}

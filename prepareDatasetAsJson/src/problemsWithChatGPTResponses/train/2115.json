@@ -1,0 +1,7 @@
+{
+    "problem": "Define $\\#N$ by the formula $\\#N = .5(N) + 1$. Calculate $\\#(\\#(\\#50))$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We have  \\begin{align*}\n\\#(\\#(\\#50))&=\\#(\\#(.5(50)+1))=\\#(\\#(26))\\\\\n&=\\#(.5(26)+1)=\\#(14)=(.5(14)+1)=\\boxed{8}.\n\\end{align*}",
+    "chatgpt_solution": "We start by computing $\\#(50)$. Using the formula $\\#N = .5(N) + 1$, we find $\\#(50) = .5(50) + 1 = 25 + 1 = 26$. Next, we compute $\\#(\\#(50))$. Again, we use the formula $\\#N = .5(N) + 1$. We plug in $50$ for $N$ and find $\\#(\\#(50)) = \\#(26) = .5(26) + 1 = 13 + 1 = 14$. Finally, we compute $\\#(\\#(\\#50))$. Plugging in $50$ for $N$, we find $\\#(\\#(\\#50)) = \\#(14) = .5(14) + 1 = 7 + 1 = \\boxed{8}$."
+}

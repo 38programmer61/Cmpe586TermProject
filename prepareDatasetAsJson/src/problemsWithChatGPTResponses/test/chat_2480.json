@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JsfR4f7zgA53qlKryusXEm5e1YXE",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Writing out all of the exponents, we have $\\dfrac{2^{10}-2^8}{2^7-2^6} = \\frac{1024-256}{128-64} = \\frac{768}{64} = \\boxed{12}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699749065,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 58,
+        "prompt_tokens": 37,
+        "total_tokens": 95
+    }
+}

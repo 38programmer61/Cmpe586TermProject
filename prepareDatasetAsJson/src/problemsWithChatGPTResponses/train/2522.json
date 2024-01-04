@@ -1,0 +1,7 @@
+{
+    "problem": "Calculate the sum of the geometric series $1+\\left(\\frac{1}{5}\\right)+\\left(\\frac{1}{5}\\right)^2 + \\left(\\frac{1}{5}\\right)^3 + \\dots$. Express your answer as a common fraction.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "This is an infinite geometric series with first term $1$ and common ratio $1/5$. Thus, the sum is $\\frac{1}{1-\\frac15} = \\boxed{\\frac{5}{4}}$.",
+    "chatgpt_solution": "Consider a geometric series with first term $a$ and common ratio $r$. Recall that the sum of the first $n$ terms of the geometric series is given by the formula $$S_n = \\frac{a(1-r^n)}{1-r}.$$ In this particular series, we have $a=1$ and $r=1/5$. We want to find the sum of the entire series, so we let $n$ approach infinity. Since $|r| < 1$, the term $r^n$ approaches 0 as $n$ becomes arbitrarily large, so we have $$\\lim_{n \\to \\infty } S_n = \\lim_{n \\to \\infty } \\frac{1(1-(1/5)^n)}{1-1/5} = \\frac{1(1-0)}{4} = \\boxed{\\frac14}.$$"
+}

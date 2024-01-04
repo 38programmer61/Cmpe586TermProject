@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jisa5iH6ryW35gYlJs7Ce38aPbW9",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "For a burger and a soda, Uri pays $\\$2.10 - \\$2.40$, or $.30$ dollars. Thus, the burger costs $.30$ dollars, so the soda costs $2.10/2-.30 = \\boxed{75}$ cents.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699711440,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 56,
+        "prompt_tokens": 45,
+        "total_tokens": 101
+    }
+}

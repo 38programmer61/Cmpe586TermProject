@@ -1,0 +1,7 @@
+{
+    "problem": "Find the product of the solutions of: $|y|=2(|y|-1)$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Rearranging, $|y|=2.$ Thus, $y=\\pm 2$ and the product of the solutions is $\\boxed{-4}.$",
+    "chatgpt_solution": "Solving $|y|=2(|y|-1)$ is essentially solving $2|y|-1=|y|$. Splitting this equation into two cases, we consider when $y$ is nonnegative and when $y$ is negative. When $y$ is nonnegative, $2y - 1 = y$, so $y=1$. When $y$ is negative, $-2y-1 = -y$, so $y=-1$. Hence the solutions of the equation are $y=-1$ and $y=1$, and the product of the solutions is $(-1)(1) = \\boxed{-1}$."
+}

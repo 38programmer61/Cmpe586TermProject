@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JpCdBkQA3ZVxnKqnNNJpfttwbhNc",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Squaring both sides we have $5 + x + 2\\sqrt{(5+x)(20-x)}+20-x = 49$, so $\\sqrt{(5+x)(20-x)} = 12$ and $(5+x)(20-x) = \\boxed{144}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699735747,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 59,
+        "prompt_tokens": 42,
+        "total_tokens": 101
+    }
+}

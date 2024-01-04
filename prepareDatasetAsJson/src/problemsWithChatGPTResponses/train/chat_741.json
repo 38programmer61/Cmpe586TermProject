@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jr35PBaln43SBbuwlgwDv7nP58UD",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Substituting $-1$ for $x$ in the expression $x^2 - 1$ gives $(-1)^2 - 1 = \\boxed{0}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699742843,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 38,
+        "prompt_tokens": 32,
+        "total_tokens": 70
+    }
+}

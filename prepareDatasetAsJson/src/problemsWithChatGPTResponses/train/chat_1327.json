@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JiW4I5ohEK0IEMDHR2DEUr0qxO2L",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "For real $r$, we can complete the square.  Shifting our focus from the quadratic term to the linear term, we find that $(5r^2)(40r)=200r^3$ has three times the cubic term.\n\nAlternatively, we could note that the quadratic coefficient $-5$ is slightly inconvenient; we'll make it more convenient with a little trial and error.  We can divide the polynomial by $-5$ getting $r^2-8r+\\frac{12}{5}$ so the $r^2$ coefficient becomes $1$.  That yields the quadratic with the maximum value of $\\boxed{\\frac{97}{5}}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699710044,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 137,
+        "prompt_tokens": 35,
+        "total_tokens": 172
+    }
+}

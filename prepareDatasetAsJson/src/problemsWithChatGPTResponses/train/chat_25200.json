@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JnhiOof2NvgZm0hlI8ud9k0u14BV",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let's say Sally's age is x.\nTed's age is 2x-15.\nThe sum of their ages is x+2x-15=54.\nCombining like terms gives 3x-15=54.\nAdding 15 to both sides gives 3x=69.\nDividing by 3 gives x=<<23=23>>23.\nTed is 2*23-15=<<46-15=31>>31 years old. Answer: \\boxed{31}.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699729986,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 102,
+        "prompt_tokens": 39,
+        "total_tokens": 141
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JqhZzUTiAfF2Q8ALvtuUhkfwKCAB",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Squaring both sides, we get $2+\\sqrt{x}=9.$  Then $\\sqrt{x}=7,$ so $x=\\boxed{49}.$",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699741509,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 33,
+        "prompt_tokens": 23,
+        "total_tokens": 56
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jlh3rTFXlpRWYNeeH60QZTUz15oY",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "By the distance formula, the distance from $(0,0)$ to $(-15,8)$ is $\\sqrt{(-15-0)^2 + (8-0)^2} = \\sqrt{225+64} = \\sqrt{289} = \\boxed{17}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699722257,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 59,
+        "prompt_tokens": 36,
+        "total_tokens": 95
+    }
+}

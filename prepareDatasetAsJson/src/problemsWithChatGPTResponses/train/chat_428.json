@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JppMhhsvG6WXtgBavvzCTsRm78F7",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Since the vertex of the parabola is $(2,-4)$ and $(4,12)$ is on the parabola,\nthe $x$-intercepts must be at $x=\\boxed{-2}$ and $x=6.$",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699738148,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 50,
+        "prompt_tokens": 154,
+        "total_tokens": 204
+    }
+}

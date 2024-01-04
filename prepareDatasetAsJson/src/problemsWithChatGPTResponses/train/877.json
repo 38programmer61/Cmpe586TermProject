@@ -1,0 +1,7 @@
+{
+    "problem": "If $f(x)$ and $g(x)$ are polynomials such that $f(x) + g(x) = -2 + x,$ then what is $g(x)$ if $f(x) = x^3 - 2x - 2$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We substitute $f(x) = x^3 - 2x - 2$ into $f(x) + g(x) = -2 + x$ to find that $(x^3 - 2x - 2) + g(x) = -2 + x.$ Then, $g(x) = -2 + x - (x^3 - 2x - 2).$ Distributing, we find $g(x) = -2 + x - x^3 + 2x + 2 = \\boxed{-x^3 + 3x}.$",
+    "chatgpt_solution": "We have that $-2 + x = f(x) + g(x) = x^3 - 2x - 2 + g(x).$  Rearranging, we get\n\\[g(x) = -2 + 2x + 2 - x^3 = \\boxed{2x - x^3}.\\]"
+}

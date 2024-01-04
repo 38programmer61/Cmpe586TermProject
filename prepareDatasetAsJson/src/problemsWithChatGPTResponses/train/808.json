@@ -1,0 +1,7 @@
+{
+    "problem": "June and Julia live 1 mile apart. It takes June 4 minutes to ride her bike directly to Julia's house. At the same rate, how many minutes would it take June to ride the 3.5 miles from her own house to Bernard's house?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Since it takes June 4 minutes to travel 1 mile, it takes her $4\\times3.5=\\boxed{14}$ minutes to travel 3.5 miles.",
+    "chatgpt_solution": "We need to find a ratio of time to distance: 1 mile to 4 minutes;\nThe ratio is 1/4 and we need to find the time it takes to ride 3.5 miles;\nThe time it takes to ride 3.5 miles is 3.5 times the amount of time it takes to ride 1 mile: 3.5*4=<<3.5*4=14>>14 minutes. Answer: \\boxed{14}."
+}

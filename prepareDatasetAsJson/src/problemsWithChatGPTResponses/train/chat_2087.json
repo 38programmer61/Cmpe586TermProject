@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlWhmKQXvQYwMyjqSRoOfQu9aWlD",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "There are 81 cubic feet in three cubic yards.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699721615,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 11,
+        "prompt_tokens": 17,
+        "total_tokens": 28
+    }
+}

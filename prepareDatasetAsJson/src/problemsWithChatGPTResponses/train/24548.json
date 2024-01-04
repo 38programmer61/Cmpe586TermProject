@@ -1,0 +1,7 @@
+{
+    "problem": "The variables $a$ and $b$ are inversely proportional. When the sum of $a$ and $b$ is 24, their difference is 6. What is $b$ when $a$ equals 5?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We know that when $a+b=24$, $a-b=6$. Adding these two equations gives $2a=30$, or $a=15$, and subtracting the second from the first gives $2b=18$, or $b=9$. Since $a$ and $b$ are inversely proportional, the product $ab$ is always the same. Call this product $C$. From the values of $a$ and $b$ we were given, we know that $C=ab=(15)(9)=135$. To find the value of $b$ when $a=5$, we solve the equation $(5)(b)=135$. This gives $b=\\boxed{27}$.",
+    "chatgpt_solution": "If the variables $a$ and $b$ are inversely proportional, we can write the equation $ab = k$, where $k$ is a constant.\n\nFrom the information given in the problem, we can set up a system of equations:\n\n\\begin{align*}\na + b &= 24, \\\\\na - b &= 6.\n\\end{align*}\n\nSolving for $a$ in the second equation, we find $a = b + 6.$ Substituting this into the first equation to eliminate $a$, we have $(b + 6) + b = 24.$\n\nCombining like terms gives $2b + 6 = 24$, so $2b = 18.$ Dividing by 2, we find $b = 9.$\n\nWhen $a = 5,$ we have the equation $5b = k.$\n\nSubstituting $b = 9,$ we have $5(9) = k,$ so $k = 45.$\n\nSubstituting $k = 45$ into the equation $ab = 45,$ we have $5(9) = 45,$ which is true.\n\nTherefore, $b = \\boxed{9}$ when $a = 5.$"
+}

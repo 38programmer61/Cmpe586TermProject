@@ -1,0 +1,7 @@
+{
+    "problem": "A stack of 100 nickels has a height of 6.25 inches. What is the value, in dollars, of an 8-foot stack of nickels? Express your answer to the nearest hundredth.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The height of each nickel is $6.25/100=0.0625$ inches.  Divide 8 feet by 0.0625 inches to find that there are $\\frac{8\\cdot 12}{0.0625}=1536$ nickels in an 8-foot stack.  The value of 1536 nickels is $1536\\times \\$0.05=\\boxed{\\$76.80}$.",
+    "chatgpt_solution": "The ratio between the height and the number of nickels is $6.25/100$.  Therefore, the ratio between the height of a stack of nickels and the number of nickels is $(6.25/100)\\text{ in.} = 0.0625\\text{ in.}$\n\nThere are $12$ inches in a foot, so the ratio is $0.0625\\text{ in.} = (1/12)(0.0625)\\text{ ft.}$\n\nThe height of an 8-foot stack is $8/(1/12)(0.0625) = 15360$ nickels.  At a rate of $5$ cents per nickel, the total value of the 8-foot stack is $15360(0.05)=768$ dollars.  Rounded to the nearest hundredth, this is $\\boxed{768.00\\text{ dollars}}$."
+}

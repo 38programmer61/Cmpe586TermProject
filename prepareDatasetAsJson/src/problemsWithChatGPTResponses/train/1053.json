@@ -1,0 +1,7 @@
+{
+    "problem": "The perimeter of a rectangular garden is 60 feet. If the length of the field is twice the width, what is the area of the field, in square feet?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "If the length is $l$ and the width is $w$, then the perimeter is $2l+2w$. We can set up the equations $2l+2w=60 \\Rightarrow l+w=30$ and $l=2w$. Now we substitute $l$ in terms of $w$ into the first equation and get $l+w=2w+w=30$, so $w=10$ and $l=2(10)=20$. That means the area of the rectangular garden is $lw=20(10)=\\boxed{200}$ square feet.",
+    "chatgpt_solution": "Let $l$ be the length of the garden and $w$ be the width. We have $l=2w$. The perimeter is $2l+2w=60$. Substituting the value for $l$ from the second equation into the first equation, we get $2(2w)+2w=60$. Simplifying the left side of the equation gives $6w=60$. Dividing both sides by 6 gives $w=10$. Substituting this value into the equation $l=2w$ gives $l=20$. Thus, the area of the garden is $l\\cdot w=20\\cdot10=\\boxed{200}$ square feet."
+}

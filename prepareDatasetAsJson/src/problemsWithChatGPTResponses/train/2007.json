@@ -1,0 +1,7 @@
+{
+    "problem": "What integer is closest to the value of $\\sqrt[3]{6^3+8^3}$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have $\\sqrt[3]{6^3 + 8^3} = \\sqrt[3]{216 + 512} = \\sqrt[3]{728}$. To find the integer closest to this, we note that $8^3 = 512$, $9^3= 729$, and $10^3 =1000$, so $\\sqrt[3]{728}$ is very close to $\\boxed{9}$.",
+    "chatgpt_solution": "We have  \\begin{align*}\n\\sqrt[3]{6^3+8^3}&=\\sqrt[3]{216+512}\\\\\n&=\\sqrt[3]{728}.\n\\end{align*} The prime factorization of 728 is $2^3\\cdot 7 \\cdot 13$. The prime factorization of a perfect cube must have exponents that are multiples of 3. There are 2 choices: $2^0\\cdot 7^0\\cdot 13^0=1$, and $2^3\\cdot 7^3 \\cdot 13^3=2002$. Since 728 is closer to 2002 than it is to 1, $\\sqrt[3]{728}$ is closer to $\\boxed{12}$."
+}

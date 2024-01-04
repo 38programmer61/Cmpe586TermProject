@@ -1,0 +1,7 @@
+{
+    "problem": "Find the sum: $1+2+3+4+\\dots +48+49$",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "For all $n$, $1 + 2 + \\dots + n = n(n + 1)/2$, so $1 + 2 + \\dots + 49 = 49 \\cdot 50/2 = \\boxed{1225}$.",
+    "chatgpt_solution": "We could pair up the terms at the beginning and end: $(1+49)+(2+48)+(3+47)+\\cdots +(24+26)+25$. Each pair sums to 50, so the sum is $50\\cdot25=\\boxed{1250}$."
+}

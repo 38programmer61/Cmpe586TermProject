@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JhnMcO9L1rFR37FtiEjoEduqE931",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Substituting 10 for $x$ and 15 for $y$ in the expression $(x - y)(x + y)$, we get $(10 - 15)(10 + 15) = (-5)(25) = \\boxed{-125}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699707272,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 55,
+        "prompt_tokens": 36,
+        "total_tokens": 91
+    }
+}

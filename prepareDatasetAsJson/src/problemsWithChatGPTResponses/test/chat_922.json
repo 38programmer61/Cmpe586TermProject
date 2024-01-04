@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jsqxkz25pjTKKrca3eUngU6R2vYM",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Using the distance formula, the length of a line segment with endpoints $(x_1, y_1)$ and $(x_2, y_2)$ is given by $\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$. Thus, the length of the line segment is $\\sqrt{(2-(-3))^2+(-5-7)^2}=\\sqrt{5^2+(-12)^2}=\\sqrt{25+144}=\\sqrt{169}=\\boxed{13}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699749779,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 113,
+        "prompt_tokens": 32,
+        "total_tokens": 145
+    }
+}

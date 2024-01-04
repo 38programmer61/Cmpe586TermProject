@@ -1,0 +1,7 @@
+{
+    "problem": "The sum of 49 consecutive integers is $7^5$. What is their median?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The sum of a set of integers is the product of the mean of the integers and the number of integers, and the median of a set of consecutive integers is the same as the mean. So the median must be $7^5/49=7^3$, or $\\boxed{343}$.",
+    "chatgpt_solution": "The sum $7^5$ lies between $7^4=2401$ and $7^6=117649$, so we guess that there are 49 integers between these two numbers. We see that $\\frac{117649-2401}{48}=2401$, so 2401 is the average of the 49 numbers. Since the numbers will be consecutive and we imagine the list written in increasing order, the list probably looks something like 2301, 2302, $\\ldots$, 2400, 2401, so the median is $\\boxed{2351}$. We verify that the arithmetic mean of the consecutive integers from 2301 to 2401 is 2401."
+}

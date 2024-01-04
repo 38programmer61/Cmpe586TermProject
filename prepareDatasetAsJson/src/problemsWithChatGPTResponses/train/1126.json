@@ -1,0 +1,7 @@
+{
+    "problem": "For $y=\\frac{x+2}{5x-7}$, at what $x$-value is there a vertical asymptote?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "There is a vertical asymptote where the denominator equals 0 and thus $y$ is undefined. For the denominator to equal 0, we have $5x-7=0\\Rightarrow x=\\boxed{\\frac{7}{5}}$.",
+    "chatgpt_solution": "A rational function will have a vertical asymptote at a certain $x$-value if the denominator is equal to zero at that $x$-value.\n\nSo, we need to find the $x$-value for which the denominator $5x-7$ is equal to zero.\n\nSetting $5x-7=0$, we can solve for $x$:\n\n\\begin{align*}\n5x-7&=0 \\\\\n5x&=7 \\\\\nx&=\\frac{7}{5}\n\\end{align*}\n\nTherefore, there is a vertical asymptote at $x=\\boxed{\\frac{7}{5}}$."
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "The sum of the $x$-coordinates of the vertices of a triangle in the Cartesian plane equals $10$.  Find the sum of the $x$-coordinates of the midpoints of the sides of the triangle.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Let the $x$-coordinates of the vertices be $a,b,c$.  Then the $x$-coordinates of the midpoints of the sides are $\\frac{a+b}2,\\frac{a+c}2,\\frac{b+c}2$.  The sum of these equals $\\frac{2a+2b+2c}2=a+b+c$.  Thus the desired answer is $\\boxed{10}$.",
+    "chatgpt_solution": "Let the vertices of the triangle be $(x_1,y_1),$ $(x_2,y_2),$ $(x_3,y_3).$  Then $x_1 + x_2 + x_3 = 10.$\n\n[asy]\nunitsize(1 cm);\n\npair A, B, C;\n\nA = (1,0);\nB = (5/2,3^(1/2)/2);\nC = (3,0);\n\ndraw(A--B--C--cycle);\ndraw((A + B)/2--(B + C)/2--(C + A)/2);\n\nlabel(\"$A$\", A, SW);\nlabel(\"$B$\", B, N);\nlabel(\"$C$\", C, SE);\nlabel(\"$D$\", (A + B)/2, NW);\nlabel(\"$E$\", (B + C)/2, NE);\nlabel(\"$F$\", (C + A)/2, S);\n[/asy]\n\nFor convenience, let $D,$ $E,$ and $F$ denote the midpoints of $\\overline{BC},$ $\\overline{CA},$ and $\\overline{AB},$ respectively.  Then the $x$-coordinates of $D,$ $E,$ and $F$ are $\\frac{x_2 + x_3}{2},$ $\\frac{x_3 + x_1}{2},$ and $\\frac{x_1 + x_2}{2},$ respectively.  Their sum is then\n\\[\\frac{x_2 + x_3}{2} + \\frac{x_3 + x_1}{2} + \\frac{x_1 + x_2}{2} = \\frac{2(x_1 + x_2 + x_3)}{2} = \\boxed{10}.\\]"
+}

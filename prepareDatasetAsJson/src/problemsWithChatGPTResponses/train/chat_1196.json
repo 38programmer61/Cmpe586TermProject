@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JhhhKz9V2Ueb2AJfF9rDu0MSxqbQ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "The expression is not defined when the denominator is equal to 0. To find when the denominator $x^2-20x+100$ is equal to 0, we can find when the quadratic equation $x^2-20x+100=0$ has solutions. This quadratic will have solutions when its discriminant, $b^2-4ac$, is non-negative. In this case, the discriminant is $(-20)^2 - 4(1)(100) = 400 - 400 = 0$. Since the discriminant is 0, the quadratic equation $x^2-20x+100=0$ has one solution. Thus, the expression $\\frac{2x^3+3}{x^2-20x+100}$ is not defined when $x^2-20x+100=0$, which is true when $x = \\boxed{10}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699706921,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 189,
+        "prompt_tokens": 39,
+        "total_tokens": 228
+    }
+}

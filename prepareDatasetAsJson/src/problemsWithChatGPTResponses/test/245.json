@@ -1,0 +1,7 @@
+{
+    "problem": "Simplify $\\left( \\frac{4}{x} \\right)^{-1} \\left( \\frac{3x^3}{x} \\right)^2 \\left( \\frac{1}{2x} \\right)^{-3}$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "$\\left( \\frac{4}{x} \\right)^{-1} \\left( \\frac{3x^3}{x} \\right)^2 \\left( \\frac{1}{2x} \\right)^{-3} = \\frac{x}{4} \\cdot (3x^2)^2 \\cdot (2x)^3 = \\frac{x}{4} \\cdot 9x^4 \\cdot 8x^3 = \\boxed{18x^8}$.",
+    "chatgpt_solution": "First, we simplify each of the terms in the product: \\begin{align*}\n\\left( \\frac{4}{x} \\right)^{-1} &= \\frac{1}{\\frac{4}{x}} = \\frac{x}{4} \\\\\n\\left( \\frac{3x^3}{x} \\right)^2 &= \\left( 3x^2 \\right)^2 = 9x^4 \\\\\n\\left( \\frac{1}{2x} \\right)^{-3} &= \\frac{1}{\\frac{1}{2x}^3} = (2x)^3 = 8x^3\n\\end{align*}The desired product is equal to $\\left( \\frac{x}{4} \\right) \\left( 9x^4 \\right) \\left( 8x^3 \\right) = \\frac{x \\cdot 9x^4 \\cdot 8x^3}{4} = \\frac{9 \\cdot 8x^{1 + 4 + 3}}{4} = \\frac{72x^{8}}{4} = \\boxed{18x^8}$."
+}

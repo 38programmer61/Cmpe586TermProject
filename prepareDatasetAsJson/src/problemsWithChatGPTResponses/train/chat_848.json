@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JrNQZC9doEsI47tf8oUj7eonYrSv",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Plotting the equation $x^2 + y^2 = 25$, we find that the solutions to this equation are the lattice points on the circle centered at the origin with radius $5$. We wish to find the pair of lattice points that lie on the line $x+y=c$ and whose sum $x+y$ is maximized. WLOG, let $x\\geq y$. We can consider the following cases:\n\nCase $1$: $y\\geq 0$. Since the line $x+y=c$ has positive slope, $x$ must be greater than zero. The possible values for $(x,y)$ in this case are $(5,0)$, $(4,3)$, $(3,4)$, and $(0,5)$, which correspond to $x+y=5$, $x+y=7$, $x+y=7$, and $x+y=5$, respectively.\n\nCase $2$: $y<0$. The possible values for $(x,y)$ in this case are $(5,0)$, $(4,-3)$, $(3,-4)$, and $(0,-5)$, which correspond to $x+y=5$, $x+y=1$, $x+y=-1$, and $x+y=-5$, respectively.\n\nThe greatest possible sum $x+y$ is $\\boxed{7}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699744104,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 279,
+        "prompt_tokens": 44,
+        "total_tokens": 323
+    }
+}

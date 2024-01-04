@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JnZNXkx8jPdQdvxt8P0G07eWF82s",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Andrew earned $(2t-8)(t-5)$ dollars and you earned $(t-6)(2t-5)$ dollars. Both these dollar amounts are equal to $2t^2-18t+40$. Thus, we have \\begin{align*}\n(t-6)(2t-5)&=(2t-8)(t-5)\\\\\nt(2t-5)-(6)(2t-5)&=2t(t-4)-(8)(t-4)\\\\\n2t^2-5t-12t+30&=2t^2-8t-4t+32\\\\\n2t^2-17t+30&=2t^2-12t+32\\\\\n-17t+30&=-12t+32\\\\\n-17t+12t&=32-30\\\\\n-5t&=2.\n\\end{align*} Dividing $-5t=2$ by $-5$ will give us the solution $t=\\boxed{-\\frac{2}{5}}.$",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699729469,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 227,
+        "prompt_tokens": 73,
+        "total_tokens": 300
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Rationalize the denominator of $\\frac{5}{\\sqrt{125}}$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Simplify the denominator first to obtain $\\frac{5}{\\sqrt{125}} = \\frac{5}{5\\sqrt{5}} = \\frac{1}{\\sqrt{5}} = \\boxed{\\frac{\\sqrt{5}}{5}}$.",
+    "chatgpt_solution": "First we simplify $\\sqrt{125}$ to get $\\sqrt{5^2 \\cdot 5} = 5\\sqrt{5}$. Therefore, the original expression becomes $\\frac{5}{5\\sqrt{5}} = \\frac{1}{\\sqrt{5}} = \\boxed{\\frac{\\sqrt{5}}{5}}$."
+}

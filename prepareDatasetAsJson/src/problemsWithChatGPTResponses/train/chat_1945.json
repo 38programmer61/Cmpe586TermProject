@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlCkwLB9VhBote8s2CQiCi7isf7w",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Since $80\\%$ of 35 is $0.80\\cdot35 = 28$, the greatest number of problems you can miss and still pass is $35-28 = \\boxed{7}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699720378,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 44,
+        "prompt_tokens": 48,
+        "total_tokens": 92
+    }
+}

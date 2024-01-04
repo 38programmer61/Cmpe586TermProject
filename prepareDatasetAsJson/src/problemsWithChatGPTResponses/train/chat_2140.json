@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JldkCLY36n19kHipaZ10XeKtucJv",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "To find the number, we can set up the equation: \n\n0.11x = 77\n\nTo solve for x, we divide both sides of the equation by 0.11:\n\nx = 77 / 0.11 = 700\n\nTherefore, eleven percent of 700 is 77.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699722052,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 63,
+        "prompt_tokens": 17,
+        "total_tokens": 80
+    }
+}

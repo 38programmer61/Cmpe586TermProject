@@ -1,0 +1,7 @@
+{
+    "problem": "Evaluate: $64^2-36^2$",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "$64^2 - 36^2$ can also be expressed as $(64+36)(64-36)$. This simplifies as $100 \\cdot 28$, which equals $\\boxed{2800}$.",
+    "chatgpt_solution": "Recall that $64^2$ means $64\\cdot 64$ and $36^2$ means $36\\cdot 36$. Then our expression becomes $64\\cdot 64 - 36\\cdot 36$. We can simplify this as follows: \\begin{align*}\n64\\cdot 64 - 36\\cdot 36 &= (64-36)(64+36)\\\\\n&= 28\\cdot 100\\\\\n&= \\boxed{2800}.\n\\end{align*}"
+}

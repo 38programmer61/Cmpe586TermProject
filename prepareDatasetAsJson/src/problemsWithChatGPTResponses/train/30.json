@@ -1,0 +1,7 @@
+{
+    "problem": "Solve  \\[\\frac{x+4}{x-2}=3\\]for $x$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Cross-multiplication gives  \\[x+4=3x-6.\\]Simplifying this expression tells us $2x=10$ or  \\[x=\\boxed{5}.\\]",
+    "chatgpt_solution": "Multiplying both sides by $x-2$ gives $x+4 = 3(x-2) = 3x-6$. Simplifying this equation gives $2x = 10$, so $x=\\boxed{5}$."
+}

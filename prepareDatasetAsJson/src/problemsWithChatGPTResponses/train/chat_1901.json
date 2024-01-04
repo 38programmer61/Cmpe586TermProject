@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jl6OiLa3ppBQncP1EL3G8bjXJn2a",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let $f$ be the flat fee for the first night and let $r$ be the additional amount charged per night. Then the total bill for George is $f+2r$ and the total bill for Noah is $f+5r$. Because George;s bill was $\\$155$ and Noah's bill was $\\$290$, we have \\begin{align*}\nf+2r &= 155\\quad\\text{and}\\\\\nf+5r &= 290.\n\\end{align*}Multiplying the first equation by 2 and subtracting the second equation gives  \\begin{align*}\n2f+4r-\\left(f+5r\\right) &= 310-290\\\\\nf- r &=20.\n\\end{align*}Replacing $f$ in terms of $r$ in the equation $f+2r=155$ gives $(r+20) +2r=155$,  which reduces to $3r=135$ and, $r=45$. Replacing $r$ by 45 in the equation $f-r=20$ gives $f=65$. Thus, the flat fee is $\\boxed{65}$ dollars.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699719984,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 247,
+        "prompt_tokens": 77,
+        "total_tokens": 324
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jho2H4t7QdJvNUAAOn9J2o09TLOt",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let's say Shenille attempted $x$ three-point shots and $30-x$ two-point shots.  She made $0.2x$ three-pointers and $0.3(30-x)$ two-pointers.  In total, she scored $3(0.2x) + 2(0.3(30-x))$ points.  Since she made all of her shots, this adds up to $3(x-y)+2(3-y)$ points, and we want this to equal the total number of points scored, $30$.  Therefore, we have the equation  \\begin{align*}\n3(x-y)+2(3-y) &=30\\\\\n9x-8y &= 24.\n\\end{align*}We were also told that $x+y=30,$ which we can solve for $x$ to get $x=30-y$.  Substituting, we see that $(9(30-y)-8y)=24$.  Simplifying the left side gives $270-17y=24$.  Solving for $y$ gives $y=\\frac{270-24}{17}$, so $y=15.$  Therefore, Shenille made $15$ two-point shots and $30-15=15$ three-point shots, for a total of $2(15)=\\boxed{30}$ points.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699707314,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 284,
+        "prompt_tokens": 69,
+        "total_tokens": 353
+    }
+}

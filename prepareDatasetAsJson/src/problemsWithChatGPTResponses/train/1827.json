@@ -1,0 +1,7 @@
+{
+    "problem": "Compute the ordered pair of positive integers $(x,y)$ such that\n\n\\begin{align*}\nx^y+1&=y^x,\\\\\n2x^y&=y^x+7.\n\\end{align*}",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We substitute $a=x^y$ and $b=y^x$ to form the equations\n\n\\begin{align*}\na+1&=b,\\\\\n2a &=b+7.\n\\end{align*}\n\nSubtracting the first equation from the second, we obtain $a-1=7$, so $a=8$.\n\nSubstituting this into the first equation, we find $b=9$.\n\nWe see from $x^y=8$ and $y^x=9$ that the solution is $(x,y)=\\boxed{(2,3)}$.",
+    "chatgpt_solution": "First, we consider when $x = 1$.  From the first equation, $y + 1 = y^1 = y$, which means there is no such $y$.  From the second equation, we get\n\\[2 = y + 7,\\]which means $y = -5$.  Hence, $(x,y) = \\boxed{(1,-5)}$ is a solution.\n\nNow, suppose that $x \\ge 2.$  Taking the second equation modulo 2, we get\n\\[y^x + 1 \\equiv 0 \\pmod{2},\\]so $y^x$ is odd.  Hence, $y$ is odd, so $y^x + 7$ is even.  Hence, $x$ is odd.\n\nFrom the second equation, $y^x + 7 = 2x^y.$  Taking this equation modulo $x,$ we get $y^x + 7 \\equiv 0 \\pmod{x},$ so $7 \\equiv 0 \\pmod{x}.$  Since $x$ is odd, this means $x = 7.$  The equation becomes\n\\[y^7 + 7 = 2y^y.\\]Taking mod 13, we get\n\\[y^7 - 2y^y - 7 \\equiv 0 \\pmod{13}.\\]We can compute $y^7$ and $y^y$ modulo 13, so\n\\[y^7 - 2y^y - 7 \\equiv 0 \\pmod{13}\\]becomes\n\\[7y^7 - 2y^y - 7 \\equiv 0 \\pmod{13}.\\]Checking $y = 0, 1, 2, \\dots, 12,$ we find that the given congruence holds only when $y = 9.$  Therefore, $(x,y) = \\boxed{(7,9)}.$"
+}

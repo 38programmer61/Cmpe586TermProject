@@ -1,0 +1,7 @@
+{
+    "problem": "An infinite geometric series has common ratio $1/8$ and sum 60.  What is the first term of the series?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Let the first term be $a$.  Because the sum of the series is 60, we have  $$60= \\frac{a}{1-(1/8)} = \\frac{a}{7/8} = \\frac{8a}{7}.$$Therefore, $a=\\frac{7}{8}\\cdot60=\\boxed{\\frac{105}{2}}$.",
+    "chatgpt_solution": "Let the first term be $a$ and the common ratio be $r=\\frac18$. Recall that the sum of an infinite geometric series is $\\frac{a}{1-r}$, so we have $\\frac{a}{1-r}=60$. Substituting $r=\\frac18$, we have $\\frac{a}{1-\\frac18}=60$. Simplifying the denominator gives $\\frac{a}{1-\\frac18}=\\frac{a}{\\frac78}=\\frac{8a}{7}=60$. Multiplying both sides by $\\frac78$ gives $8a=7\\cdot 60=420$, so $a=\\boxed{52.5}$."
+}

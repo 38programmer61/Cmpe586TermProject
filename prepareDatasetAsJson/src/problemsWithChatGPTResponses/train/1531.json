@@ -1,0 +1,7 @@
+{
+    "problem": "What is $\\frac{1}{4}\\%$ of 120? Express your answer as a decimal.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have $$\\frac14\\%\\times120=\\frac{\\frac14}{100}\\times120=\\frac{1}{400}\\times120=\\frac{12}{40}=\\frac{3}{10}=\\boxed{.3}.$$",
+    "chatgpt_solution": "We have $\\frac{1}{4}\\% = \\frac{1}{4}\\cdot \\frac{1}{100} = \\frac{1}{400}$, so $\\frac{1}{4}\\%$ of 120 is $\\frac{1}{400}\\cdot 120 = \\frac{120}{400} = \\frac{3}{10} = \\boxed{0.30}$."
+}

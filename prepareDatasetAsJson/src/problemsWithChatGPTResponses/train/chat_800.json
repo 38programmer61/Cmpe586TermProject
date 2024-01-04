@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JrC4dZJbveWwCtXAZ0nY9yiSArTU",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let the shorter side have length $a$, so the longer side has length $b$.  Since the perimeter is $42$, $2a+2b=42$, or $a+b=21$.  Since the area is $108$, $ab=108$.  We want to solve for $a$.\n\nThe graph of $a + b = 21$ is a straight line, and the graph of $ab = 108$ is a hyperbola, but we only need one point of intersection.  The point $(12,9)$ lies on both graphs.  Therefore, the length of the shorter side is $\\boxed{9}$ feet.\n\n[asy]\nimport graph;\n\nsize(5cm);\nreal ticklen=3;\nreal tickspace=2;\n\nreal tick(real x) {\n\ndraw((0,x)--(-ticklen,x));\nreturn x+tickspace;\n}\n\n\n\ntick(12);\ntick(9);\ndraw(shift((0,0))*(21,0)--(0,0)--(0,13));\ndraw(shift((0,0))*(0,12)--(0,0)--(24,0));\nfill((16,2)--(16,10)--(8,10)--(8,2)--cycle,gray(0.7));\n\nlabel(\"$a$\",(5,0),S);\nlabel(\"$b$\",(0,6),W);\n\ndraw(graph(x+21,(84-3*x)/4),Arrows(4));\ndraw(graph((432-3*x)/28,x),Arrows(4));\nlabel(\"$ab=108$\", (15,6.5));\nlabel(\"$a+b=21$\", (5,10));\n[/asy]",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699743400,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 345,
+        "prompt_tokens": 39,
+        "total_tokens": 384
+    }
+}

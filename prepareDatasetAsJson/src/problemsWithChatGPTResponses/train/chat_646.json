@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JqiB5NEZcZZ7mA35l6pGGQgaq6CB",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "At the first stop, half of the students, or 48 / 2 = <<48/2=24>>24 students get off the bus.\nThis leaves 48 - 24 = <<48-24=24>>24 students on the bus.\nAt the second stop, another half of the students get off, leaving 24 / 2 = <<24/2=12>>12 students on the bus.\nAt the third stop, half of the remaining students get off, leaving 12 / 2 = <<12/2=6>>6 students on the bus. Answer: \\boxed{6}.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699741547,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 125,
+        "prompt_tokens": 50,
+        "total_tokens": 175
+    }
+}

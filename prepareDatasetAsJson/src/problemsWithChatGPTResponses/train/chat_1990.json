@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlKJr72mmwuFEPQZMuLLsNNXeGgy",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Subtracting 4 from both sides gives $3y^2 + 5y - 2 = 0$. This quadratic factors as $(3y - 1)(y + 2) = 0$, which results in $y = \\frac13$ or $y = -2$. The smaller of these two values is $\\boxed{-2}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699720847,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 75,
+        "prompt_tokens": 35,
+        "total_tokens": 110
+    }
+}

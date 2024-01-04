@@ -1,0 +1,7 @@
+{
+    "problem": "Evaluate $\\lfloor17.2\\rfloor+\\lfloor-17.2\\rfloor$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The greatest integer less than $17.2$ is $17$, and the greatest integer less than $-17.2$ is $-18$, so our answer is $\\boxed{-1}$.",
+    "chatgpt_solution": "Since $17.2$ is between $17$ and $18$, $\\lfloor 17.2 \\rfloor = 17$. Since $-17.2$ is between $-18$ and $-17$, $\\lfloor -17.2 \\rfloor = -18$. Thus, $\\lfloor 17.2 \\rfloor + \\lfloor -17.2 \\rfloor = 17 + (-18) = \\boxed{-1}$."
+}

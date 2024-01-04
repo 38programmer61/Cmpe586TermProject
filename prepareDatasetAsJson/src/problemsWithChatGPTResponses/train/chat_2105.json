@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlY0R3EA5vAdZFNli4L4m098w1W3",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Using the distributive property, we have: \\begin{align*}\n(13x+15) \\cdot 2x &= 13x \\cdot 2x + 15 \\cdot 2x\\\\\n&= (13 \\cdot 2) x^2 + 30x\\\\\n&= \\boxed{26x^2 + 30x}.\n\\end{align*}",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699721696,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 83,
+        "prompt_tokens": 23,
+        "total_tokens": 106
+    }
+}

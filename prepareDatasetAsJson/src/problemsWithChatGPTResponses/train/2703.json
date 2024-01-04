@@ -1,0 +1,7 @@
+{
+    "problem": "Mary can mow a lawn in four hours and Tom can mow the lawn in 5 hours. If Tom works for 2 hours alone, what fractional part of the lawn remains to be mowed?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "If Tom can mow a lawn in $5$ hours, then in one hour, he can mow $1/5$ of the lawn. Since he mows for $2$ hours, he finished mowing $2 \\times \\frac{1}{5} = \\frac{2}{5}$ of the lawn. This leaves $1 - \\frac{2}{5} = \\boxed{\\frac{3}{5}}$ of the lawn left to be mowed.",
+    "chatgpt_solution": "We know that in one hour, Mary can mow $\\frac{1}{4}$ of the lawn, and Tom can mow $\\frac{1}{5}$ of the lawn. So in 2 hours of work, Tom can mow a total of $\\frac{1}{5} \\cdot 2 = \\frac{2}{5}$ of the lawn. Thus, the fraction of the lawn that remains to be mowed is $1 - \\frac{2}{5} = \\boxed{\\frac{3}{5}}$ of the lawn."
+}

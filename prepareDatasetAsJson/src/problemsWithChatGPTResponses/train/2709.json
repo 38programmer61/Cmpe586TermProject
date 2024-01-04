@@ -1,0 +1,7 @@
+{
+    "problem": "Evaluate $\\log_3 27\\sqrt3$. Express your answer as an improper fraction.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We have $ 27\\sqrt3 = (3^3)(3^\\frac12)=3^{(3+\\frac12)}=3^{\\frac72}$. Therefore, $\\log_3 27\\sqrt3=\\boxed{\\frac72}$.",
+    "chatgpt_solution": "We could first simplify the logarithm by using the change of base formula: $\\log_3 27\\sqrt3 = \\frac{\\log 27\\sqrt3}{\\log 3}$.  Expanding the numerator gives $\\frac{\\log (27) + \\log (\\sqrt3)}{\\log 3}$.  Now, we can expand further: $\\frac{\\log (3^3) + \\frac{1}{2}\\log (3)}{\\log 3}$.  Applying the power rule and constant multiplication rule for logarithms gives us $\\frac{3\\log 3 + \\frac{1}{2}\\log 3}{\\log 3}$. Combining the two logarithms gives us $\\frac{\\frac{7}{2}\\log 3}{\\log 3}$.  Finally, canceling $\\log 3$ from the numerator and the denominator gives $\\boxed{\\frac{7}{2}}$."
+}

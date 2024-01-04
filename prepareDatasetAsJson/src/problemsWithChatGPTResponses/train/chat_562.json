@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JqKwLtBpxQi2lmRcCrhqZ2wkbmyC",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We factor the quadratic to get $(a-3)(a-7) \\le 0$. We make a sign table.\n\\begin{tabular}{c|ccc|c} &$a-3$ &$a-7$ &&$(a-3)(a-7)$ \\\\ \\hline$a<3$ &$-$&$-$&$+$&$+$\\\\ [.1cm]$3<a<7$ &$+$&$-$&$-$&$+$\\\\ [.1cm]$a>7$ &$+$&$+$&$+$&$+$\\\\ [.1cm]\\end{tabular}The values of $a$ that work are $3 \\le a \\le 7$, so the greatest value of $a$ is $\\boxed{7}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699740106,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 162,
+        "prompt_tokens": 31,
+        "total_tokens": 193
+    }
+}

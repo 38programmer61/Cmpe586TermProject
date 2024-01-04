@@ -1,0 +1,7 @@
+{
+    "problem": "Let $b$ be a number such that $(2b+5)(b-1)=6b.$ What is the largest possible value of $b$? Express your answer as a common fraction.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We proceed as follows: \\begin{align*}\n(2b + 5)(b - 1) &= 6b\\\\\n2b^2 + 3b - 5 &= 6b\\\\\n2b^2 - 3b - 5 &= 0\\\\\n(2b - 5)(b + 1) &= 0.\n\\end{align*}This gives us $b = \\frac{5}{2}$ or $b = -1.$ Of these, $\\boxed{\\frac{5}{2}}$ is the larger possible value of $b.$",
+    "chatgpt_solution": "Expanding the left side, we have $2b^2+3b-5=6b$. Rearranging the terms and factoring, we get $2b^2-3b-5=0$. Now we can apply the quadratic formula: \\begin{align*}\nb &= \\frac{-(-3) \\pm \\sqrt{(-3)^2 - 4(2)(-5)}}{2(2)} \\\\\n&= \\frac{3 \\pm \\sqrt{9 + 40}}{4} \\\\\n&= \\frac{3 \\pm \\sqrt{49}}{4} = \\frac{3 \\pm 7}{4}.\n\\end{align*}The solution with the maximum value is $b = \\boxed{\\frac{5}{2}}$."
+}

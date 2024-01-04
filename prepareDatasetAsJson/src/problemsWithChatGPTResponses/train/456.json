@@ -1,0 +1,7 @@
+{
+    "problem": "The sum of the first $n$ terms in the infinite geometric sequence $\\left\\{\\frac{1}{4},\\frac{1}{8},\\frac{1}{16},\\dots \\right\\}$ is $\\frac{63}{128}$. Find $n$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "This is a geometric sequence with first term $\\frac{1}{4}$ and common ratio $\\frac{1}{2}$. Thus the sum of the first $n$ terms is:\n\n$\\frac{63}{128}=\\frac{1}{4}\\left(\\frac{1-\\left(\\frac{1}{2}\\right)^n}{1-\\frac{1}{2}}\\right)=\\frac{2^n-1}{2^{n+1}}$.\n\nWe see that $\\frac{63}{128}=\\frac{2^6-1}{2^7}$, so $n=\\boxed{6}$.",
+    "chatgpt_solution": "The first term of the sequence is $\\frac18$, and the common ratio is $\\frac12$. We wish to find the largest $n$ such that \\[\\frac18\\left(\\frac{1-\\left(\\frac12\\right)^n}{1-\\frac12}\\right)=\\frac{63}{128}.\\] Simplifying, we get \\[\\frac18\\left(\\frac{2^n-1}{2}\\right)=\\frac{63}{128}.\\] Cross-multiplying the fractions and simplifying gives us \\[8(2^n-1)=63(2).\\] Finally, dividing by $8$ and then adding $1$ to both sides, we have \\[2^n-1=16+1=17.\\] The largest integer power of $2$ less than $17$ is $2^4=16$. Thus, $n=\\boxed{5}$."
+}

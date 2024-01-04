@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jo0QhrwWqbUiU5mgD27ipkV3yhMC",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let the other endpoint be $(x,y)$. We are given that the midpoint of the segment is $(2,9)$, so the midpoint's coordinates are the average of the x-coordinates and the average of the y-coordinates of the endpoint. Therefore, we have the system of equations  \\[\\begin{alignedat}{6} &&x &=& \\frac{1}{2} (4)\\\\ &&y &=& \\frac{1}{2} (3 + 2(9))\\\\ \\\\[-2.5ex] \\implies\\hspace{8pt}&& x &=& 2 \\\\ &&y &=& 10 \\end{alignedat}\\]The sum of the coordinates of the other endpoint is $x+y = 2+10 = \\boxed{12}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699731146,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 166,
+        "prompt_tokens": 41,
+        "total_tokens": 207
+    }
+}

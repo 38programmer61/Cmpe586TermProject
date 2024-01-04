@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jm1EIiaSTyhLPKS9sb0poelEWq3t",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Substituting $2$ for $x$ and $3$ for $y$ in $3x^y + 4y^x$, we find $3(2^3) + 4(3^2) = 3(8) + 4(9) = 24 + 36 = \\boxed{60}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699723508,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 73,
+        "prompt_tokens": 32,
+        "total_tokens": 105
+    }
+}

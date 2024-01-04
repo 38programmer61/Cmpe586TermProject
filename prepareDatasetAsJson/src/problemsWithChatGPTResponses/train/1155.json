@@ -1,0 +1,7 @@
+{
+    "problem": "Factor $t^2-49$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have $t^2 -49 = t^2 - 7^2 = \\boxed{(t-7)(t+7)}$.",
+    "chatgpt_solution": "Factor $t^2-49$ using difference of squares. We find that $t^2-49$ is equal to $(t-7)(t+7)$."
+}

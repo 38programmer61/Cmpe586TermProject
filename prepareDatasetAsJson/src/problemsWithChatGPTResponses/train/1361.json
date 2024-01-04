@@ -1,0 +1,7 @@
+{
+    "problem": "What is the value of $x$ for which $(2008+x)^2=x^2$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Taking the square root of both sides, $2008+x=\\pm x.$ There are no solutions when the right hand side equals $x$ (the result is $2008=0$), so we consider $2008+x=-x.$ Solving, $x=\\boxed{-1004}.$",
+    "chatgpt_solution": "Expanding $(2008 + x)^2$ using the distributive property gives $2008^2 + 2(2008)(x) + x^2 = x^2$.  Subtracting $x^2$ from both sides of the equation results in $2008^2 + 2(2008)(x) = 0$.  Factoring the left side gives $2008(2008 + 2x) = 0$, so either $2008 = 0$ or $2008 + 2x = 0$. Since the first equation clearly has no solutions, we solve the second equation to find $x=\\boxed{-1004}$."
+}

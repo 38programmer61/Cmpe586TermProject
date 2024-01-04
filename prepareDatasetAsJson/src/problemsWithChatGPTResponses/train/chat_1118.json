@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JhX0LDWZP8GIKq5FohKfUMAKsBTI",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We can start by factoring $(n+3)(n-7) = n^2-4n-21 = (n-7)(n+3)$. Then we see that one of the factors must be non-positive and the other non-negative. This can only occur when $n$ is between $-3$ and $7$. Thus, we must count the integers in this interval, inclusive. Since $-3,6,7$ are integers in this range, there are $\\boxed{10}$ integers $n$. (Note: This problem can also be solved by a sign table, but that would be slower).",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699706258,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 130,
+        "prompt_tokens": 29,
+        "total_tokens": 159
+    }
+}

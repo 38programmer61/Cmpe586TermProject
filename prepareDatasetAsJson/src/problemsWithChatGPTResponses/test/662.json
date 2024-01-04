@@ -1,0 +1,7 @@
+{
+    "problem": "If $A$, $B$ and $C$ are positive integers such that $\\frac{A\\sqrt{B}}{C} = \\frac{8}{3\\sqrt{2}}$, what is the value of $A+B+C$ given that $A$ and $C$ have no common prime factors, and $B$ has no perfect-square factors other than 1?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Multiplying the numerator and denominator of the right hand side of the given equation by $\\sqrt{2}$, we have \\[\\frac{A\\sqrt{B}}{C}=\\frac{8}{3\\sqrt{2}}\\cdot\\frac{\\sqrt{2}}{\\sqrt{2}}=\\frac{8\\sqrt{2}}{6}=\\frac{4\\sqrt{2}}{3}\\]Thus, $A=4$, $B=2$, and $C=3$, so $A+B+C=4+2+3=\\boxed{9}$.",
+    "chatgpt_solution": "Note that $\\frac{8}{3\\sqrt{2}} = \\frac{8}{3\\cdot \\sqrt{2}} \\cdot \\frac{\\sqrt{2}}{\\sqrt{2}} = \\frac{8\\sqrt{2}}{6} = \\frac{4\\sqrt{2}}{3}$. Our given equation becomes $\\frac{A\\sqrt{B}}{C} = \\frac{4\\sqrt{2}}{3}$. By inspecting LHS or by allowing $A^2B = 32$ and $C^2 = 9$, we infer $A = \\sqrt{32} = 4\\sqrt{2}$ and $C= 3$. Therefore, we find that $4B = 2 \\implies B = \\frac12$. Hence, the answer is $4 + \\frac12 + 3 =  \\boxed{7.5}$."
+}

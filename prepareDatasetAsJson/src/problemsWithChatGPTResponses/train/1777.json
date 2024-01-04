@@ -1,0 +1,7 @@
+{
+    "problem": "From the following infinite list of numbers, how many are integers? $$\\sqrt{4096},\\sqrt[3]{4096},\\sqrt[4]{4096},\\sqrt[5]{4096},\\sqrt[6]{4096},\\ldots$$",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Since $4096=2^{12}$, one of these is an integer if the number on the root is a factor of 12. Therefore, the only numbers in the list that are integers are $\\sqrt{4096}=2^6=64$, $\\sqrt[3]{4096}=2^4=16$, $\\sqrt[4]{4096}=2^3=8$, $\\sqrt[6]{4096}=2^2=4$ and $\\sqrt[12]{4096}=2$. This makes $\\boxed{5}$ integers in all.",
+    "chatgpt_solution": "The first number in the list is $\\sqrt{4096}=64$, which is an integer. The next number in the list is $\\sqrt[3]{4096}=16$, which is also an integer. Notice that $4096$ is a power of $2$, so all of the numbers in the list will be integers. Thus, there are $\\boxed{\\infty}$ integers in the list."
+}

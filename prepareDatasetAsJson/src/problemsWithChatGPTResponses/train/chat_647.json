@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JqiaEF0vQWR721ovlQFrT4JI2KCA",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "To find the vertex we note that the equation is equal to $a(x-h)^2+k$ where $-3$ is the coefficient of $x^2$.\nThe name for this quantity $-3$ is the \"leading coefficient\".\nThis allows us to conclude that $h=-\\frac{30}{2(-3)}=\\frac{5}{2}$.\nTherefore, the parabola has $x$ coordinate equal to $\\frac{5}{2}$ for all of its extreme points and the vertex is $(\\frac{5}{2},-3(\\frac{5}{2})^2-30(\\frac{5}{2})-81)$. \nThis is $(\\frac{5}{2},-3(\\frac{25}{4})-15\\cdot 5-81)=(\\frac{5}{2},-\\frac{175}{2}-75-81)=(\\frac{5}{2},-\\frac{175+150+162}{2})=(\\frac{5}{2},-\\frac{487}{2})$.\nTherefore, the value of $n$ is $\\boxed{-\\frac{487}{2}}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699741572,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 240,
+        "prompt_tokens": 43,
+        "total_tokens": 283
+    }
+}

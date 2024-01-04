@@ -1,0 +1,7 @@
+{
+    "problem": "If $A:B:C = 2:1:4$, what is the value of $(3A + 2B) \\div (4C - A)$? Express your answer as a common fraction.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Suppose that $B = x$.  Then $A = 2x$ and $C = 4x$.  Thus $(3A + 2B)\\div (4C - A) = \\frac{8x}{14x} = \\frac{8}{14}=\\boxed{\\frac{4}{7}}$.",
+    "chatgpt_solution": "We have that $A = \\frac{2}{7}(A + B + C)$, $B = \\frac{1}{7}(A + B + C)$, and $C = \\frac{4}{7}(A + B + C)$. Thus, we can rewrite the desired expression as \\[\n\\frac{3\\cdot\\frac{2}{7}(A + B + C) + 2\\cdot\\frac{1}{7}(A + B + C)}{4\\cdot\\frac{4}{7}(A + B + C) - \\frac{2}{7}(A + B + C)}\n\\]Simplifying the numerator and denominator separately, and then dividing gives \\[\n\\frac{\\frac{8}{7}(A + B + C)}{\\frac{30}{7}(A + B + C)}=\\frac{\\cancelto{\\frac{4}{15}}{4}(\\cancelto{\\frac{2}{7}}{A + B + C})}{\\cancelto{\\frac{2}{5}}{16}(\\cancelto{\\frac{15}{7}}{A + B + C})}=\\boxed{\\frac{2}{5}}.\n\\]"
+}

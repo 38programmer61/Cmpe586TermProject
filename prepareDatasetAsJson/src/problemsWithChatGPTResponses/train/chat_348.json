@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JpKro3BmnT3pEeWJejQGYTNKl00M",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We use the quadratic formula to find that \\begin{align*}\nx &= \\frac{5 \\pm \\sqrt{5^2 - 4 \\cdot 2 \\cdot (-4)} }{2} \\\\\n&= \\frac{5 \\pm \\sqrt{41} }{2}.\n\\end{align*} Thus, $n = \\boxed{41}.$",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699736257,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 79,
+        "prompt_tokens": 83,
+        "total_tokens": 162
+    }
+}

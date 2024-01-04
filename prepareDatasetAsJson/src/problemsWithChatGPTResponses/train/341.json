@@ -1,0 +1,7 @@
+{
+    "problem": "Find $x$ such that $\\lfloor x \\rfloor + x = \\dfrac{13}{3}$. Express $x$ as a common fraction.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "First, we note that $x$ must be positive, since otherwise $\\lfloor x \\rfloor + x$ is nonpositive. Next, we know that the decimal part of $x$ must be $\\dfrac{1}{3}$. We write $x$ as $n+\\dfrac{1}{3}$, where $n$ is the greatest integer less than $x.$ Therefore, we can write $\\lfloor x \\rfloor + x$ as $n+n+\\dfrac{1}{3}=\\dfrac{13}{3}$. Solving, we get $n=2$. Therefore, the only value $x$ that satisfies the equation is $2+\\dfrac{1}{3}=\\boxed{\\dfrac{7}{3}}$.",
+    "chatgpt_solution": "Let $n = \\lfloor x \\rfloor$ and $a = \\{x\\}$, where $\\{x\\}$ denotes the fractional part of $x$. We have that\n\\[n + a = \\frac{13}{3}.\\]Then $a = \\tfrac{13}{3} - n$. Since $0 \\le a < 1$, we have that\n\\[0 \\le \\frac{13}{3} - n < 1,\\]or\n\\[n \\le \\frac{13}{3} < n + 1.\\]We can check that the only integer $n$ that satisfies this inequality is $\\boxed{4},$ so $x = \\frac{13}{3} - 4 = \\boxed{-\\frac{5}{3}}.$"
+}

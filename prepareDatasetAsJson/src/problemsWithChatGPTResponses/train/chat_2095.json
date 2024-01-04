@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JlX5okbgETFNZzqCezQDgOsQ34ln",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "The $n^{\\text{th}}$ triangular number is equal to $1+2+3+\\cdots+n$, which we can express using the formula for the sum of an arithmetic series as $\\frac{n(n+1)}{2}$. Therefore, the $20^{\\text{th}}$ triangular number is $\\frac{20(20+1)}{2}=\\frac{20(21)}{2}=\\boxed{210}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699721639,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 95,
+        "prompt_tokens": 222,
+        "total_tokens": 317
+    }
+}

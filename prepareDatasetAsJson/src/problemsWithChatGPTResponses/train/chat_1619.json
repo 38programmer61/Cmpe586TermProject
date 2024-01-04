@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JjzJvnL7WEbhc0esjQtC5FXYHCUb",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We have that $\\sqrt{8} = \\sqrt{2^3} = 2\\sqrt{2}$ and $\\sqrt{50} = \\sqrt{5^2 \\cdot 2} = 5\\sqrt{2}$. So $\\sqrt{8} \\times \\sqrt{50} = (2\\sqrt{2})(5\\sqrt{2}) = 2 \\cdot 5 \\cdot \\sqrt{2}\\cdot \\sqrt{2} = \\boxed{20}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699715701,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 105,
+        "prompt_tokens": 22,
+        "total_tokens": 127
+    }
+}

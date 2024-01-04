@@ -1,0 +1,7 @@
+{
+    "problem": "Find $x$ if $\\log_x32 = \\dfrac{5}{2}$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Writing the equation in exponential form gives us $x^{\\frac{5}{2}} = (x^\\frac{1}{2})^5 = 32 = 2^5$. Solving $x^\\frac{1}{2} = 2$ gives us $x = \\boxed{4}$.",
+    "chatgpt_solution": "Writing $\\frac{5}{2}$ as a fraction with denominator 2, we have $\\log_x32 = \\log_x(2^{5/2})$. This is equal to $\\log_x(\\sqrt{2^5})$, which in turn is equal to $\\log_x(\\sqrt{32})$. We see that $32^{\\frac{1}{2}} = 4\\sqrt{2}$, so we have $\\log_x(4\\sqrt{2}) = 1$. Therefore, we have $x^1 = 4\\sqrt{2}$, so $\\boxed{x=4\\sqrt{2}}$."
+}

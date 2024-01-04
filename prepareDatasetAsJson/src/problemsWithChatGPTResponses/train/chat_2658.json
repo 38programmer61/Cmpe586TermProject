@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JoIljlJKfgXmUG8mG2DUbUAHSqHI",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We can find the $x$-intercept $(a, 0)$ by setting $y = 0$ to get $x = 3.$\n\nWe can find the $y$-intercepts $(0,b)$ and $(0,c)$ by setting $x = 0.$  We find\n\\[0 = 2y^2 - 6y + 3 = y^2 - 3y + \\frac{3}{2}.\\]By the quadratic formula,\n\\[y = \\frac{3 \\pm \\sqrt{3}}{2}.\\]Thus, $a = 3,$ $b = \\frac{3 + \\sqrt{3}}{2},$ and $c = \\frac{3 - \\sqrt{3}}{2},$ so $a + b + c = 3 + (\\tfrac{3 + \\sqrt{3}}{2}) + (\\tfrac{3 - \\sqrt{3}}{2}) = \\boxed{6}.$",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699732283,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 211,
+        "prompt_tokens": 70,
+        "total_tokens": 281
+    }
+}

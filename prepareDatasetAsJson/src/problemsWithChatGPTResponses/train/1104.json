@@ -1,0 +1,7 @@
+{
+    "problem": "What is the value of $(2x + 5)^2$ when $x = 3$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have $(2x+5)^2 = (2\\cdot 3 + 5)^2 = 11^2 = \\boxed{121}$.",
+    "chatgpt_solution": "When $x = 3$, the expression $(2x + 5)^2$ becomes $(2 \\cdot 3 + 5)^2 = (6 + 5)^2 = 11^2 = \\boxed{121}$."
+}

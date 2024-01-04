@@ -1,0 +1,7 @@
+{
+    "problem": "If $x - y = 12$ and $x + y = 6$, what is the value of $y$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have $y=\\frac{1}{2}\\left((x+y)-(x-y)\\right)=\\frac{1}{2}(6-12)=\\boxed{-3}$.",
+    "chatgpt_solution": "Adding both equations, $(x-y)+(x+y)=12+6$, which simplifies to $2x=18$. Dividing both sides by $2$, we find $x=9$, so $y=x-12=9-12=\\boxed{-3}$."
+}

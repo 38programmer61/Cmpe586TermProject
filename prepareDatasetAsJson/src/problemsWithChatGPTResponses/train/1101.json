@@ -1,0 +1,7 @@
+{
+    "problem": "For how many integers $n$ is it true that $\\sqrt{n} \\le \\sqrt{4n - 6} < \\sqrt{2n + 5}$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Squaring both sides of the left-hand inequality yields $n < 4n-6 \\Longrightarrow 6 \\le 3n \\Longrightarrow 2 \\le n$.\n\nSquaring both sides of the right-hand inequality yields $4n-6 < 2n+5 \\Longrightarrow 2n < 11 \\Longrightarrow n < 5.5$. Thus, $n$ must be one of $\\{2,3,4,5\\}$, of which we can check all work. As such, the answer is $\\boxed{4}$.",
+    "chatgpt_solution": "Because $\\sqrt{n}$ and $\\sqrt{2n + 5}$ are both increasing when $n$ is nonnegative, we can square the inequalities to get rid of the square roots: $n \\le 4n - 6 < 2n + 5$. This simplifies to $n \\ge 11$.\n\nBecause $\\sqrt{4n - 6}$ is increasing and $n \\ge 0$, we know that when $n \\ge 3$, both conditions $\\sqrt{n} \\le \\sqrt{4n-6}$ and $\\sqrt{4n - 6} < \\sqrt{2n + 5}$ hold. It is easy to check that for $n = 0, 1, 2$, the second condition fails.\n\nTherefore, when $n \\ge 11$ is an integer, both conditions hold. Hence, there are $11 - 0 + 1 = \\boxed{12}$ such integers."
+}

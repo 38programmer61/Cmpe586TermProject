@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JkrOBKys7yxlKOtN74cYfkR9tFJh",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "We have $\\displaystyle \\frac{2+4-8+16+32-64}{4+8-16+32+64-128} = \\frac{(2+4+16+32)- (8+64)}{(4+8+32+64)-(16+128)} = \\frac{54-72}{88-144} = \\frac{-18}{-56} = \\frac{9}{28}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699719054,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 92,
+        "prompt_tokens": 39,
+        "total_tokens": 131
+    }
+}

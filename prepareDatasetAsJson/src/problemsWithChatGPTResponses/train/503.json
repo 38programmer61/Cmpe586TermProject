@@ -1,0 +1,7 @@
+{
+    "problem": "If we express $x^2 - 5x$ in the form $a(x - h)^2 + k$, then what is $k$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We complete the square.  We can square $x - \\frac{5}{2}$ to get $x^2 - 5x + \\frac{25}{4}$, so $x^2 - 5x = \\left( x - \\frac{5}{2} \\right)^2 - \\frac{25}{4}$.  We see that $k = \\boxed{-\\frac{25}{4}}$.",
+    "chatgpt_solution": "We complete the square. Factoring a $x$ out of the first two terms gives $x^2 - 5x = x(x - 5)$. So, $(x - h)^2 = x^2 - 5x$. We see that $h^2 = 0$, so $h = 0$. Therefore, $x^2 - 5x = a(x - 0)^2 = ax^2$. So, $a(x - h)^2 + k = ax^2 + k$. Setting $k = \\boxed{0}$ will give us $ax^2$ and the other terms in $x^2 - 5x$. Alternatively, note that $(x - 2.5)^2$ is a quadratic in the form $a(x - h)^2 + k$. Then, we could note that \\begin{align*}\n(x - 2.5)^2 &= x^2 - 5x + 6.25\\\\\n&= x^2 - 5x + \\left(\\frac{5}{2}\\right)^2\\\\\n&=  x^2 - 5x + \\left(\\frac{-5}{2}\\right)^2 - \\left(\\frac{-5}{2}\\right)^2 + \\left(\\frac{5}{2}\\right)^2\\\\\n&= (x - 2.5)^2 - \\left(\\frac{-5}{2}\\right)^2 + \\left(\\frac{5}{2}\\right)^2\n\\end{align*}The terms $-\\left(\\frac{-5}{2}\\right)^2 + \\left(\\frac{5}{2}\\right)^2$ simplify to $-\\frac{25}{4} + \\frac{25}{4} = 0$. We could also note that $(x - h)^2$ is always nonnegative and equal to $0$ only at $x = h$ (the vertex), so there is no horizontal shift and no vertical shift."
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Dave rode 30 miles at 10 miles per hour and 10 miles at 30 miles per hour. What was his average speed, in miles per hour, for the entire ride?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Dave rode a total of $40$ miles.  The $30$ mile segment took $\\frac{30}{10}=3$ hours, while the $10$ mile segment took $\\frac{10}{30}=\\frac{1}{3}$ hours, so the full ride took $3+\\frac{1}{3}=\\frac{10}{3}$ hours.\n\nSo the average speed was  $\\frac{40}{\\frac{10}{3}}=\\boxed{12}$ miles per hour.",
+    "chatgpt_solution": "For the first part of the ride, Dave spent 30 miles / 10 miles per hour = <<30/10=3>>3 hours.\nFor the second part of the ride, Dave spent 10 miles / 30 miles per hour = <<10/30=0.3333333333333333>>0.3333333333333333 hours.\nFor the entire ride, Dave spent 3 hours + 0.3333333333333333 hours = <<3+0.3333333333333333=3.333333333333333>>3.333333333333333 hours.\nIn total, Dave rode 30 + 10 = <<30+10=40>>40 miles.\nTherefore, his average speed during the entire ride is 40 miles / 3.333333333333333 hours = <<40/3.333333333333333=12>>12 miles per hour. Answer: \\boxed{12}."
+}

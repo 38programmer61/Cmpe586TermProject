@@ -1,0 +1,7 @@
+{
+    "problem": "Find all values of $r$ such that $\\lfloor r \\rfloor + r = 16.5$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "First, we note that $r$ must be positive, since otherwise $\\lfloor r \\rfloor + r$ is nonpositive. Next, we know that the decimal part of $r$ must be $0.5$. We write $r$ as $n+0.5$, where $n$ is the greatest integer less than $r.$ Therefore, we can write $\\lfloor r \\rfloor + r$ as $n+n+0.5=16.5$. Solving, we get $n=8$. Therefore, the only value $r$ that satisfies the equation is $8+0.5=\\boxed{8.5}$.",
+    "chatgpt_solution": "Let $\\lfloor r \\rfloor = n$ and $r = a$, where $n$ is an integer and $a$ is a real number such that $0 \\leq a < 1$. The given equation of $\\lfloor r \\rfloor + r = 16.5$ can be rewritten as $n + a = 16.5$. Since $0 \\leq a < 1$, we know that $16 \\leq n + a < 17$. Hence, $16 \\leq 16.5 = n + a < 17.$ It follows that $16 \\leq n + 0 \\leq n + a < n + 1 \\leq 17 < n + 1 + 0 \\leq n + 1 + a < n + 1 + 1$ since $0 \\leq a < 1$. Hence, $16 \\leq n \\leq 17$. There are two possible integer values for $n$: 16 or 17. When $n = 16$, we substitute $n$ back into $n + a = 16.5$ and find that $16 + a = 16.5$, so $a = 0.5$. When $n = 17$, we substitute $n$ back into $n + a = 16.5$ and find that $17 + a = 16.5$, which has no solutions for $a$. Therefore, the only solution is $n = \\boxed{16}$."
+}

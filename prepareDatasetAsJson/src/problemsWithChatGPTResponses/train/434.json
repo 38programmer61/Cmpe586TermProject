@@ -1,0 +1,7 @@
+{
+    "problem": "What is the sum of the roots of $x^2 - 4x + 3 = 0$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "The sum of the roots of $ax^2+bx+c=0$ is $\\frac{-b}{a}$. Plugging in the given values, we see the answer is $\\frac{-(-4)}{1}=\\boxed{4}$.",
+    "chatgpt_solution": "Let the roots of this quadratic be $r_1$ and $r_2$. Then by Vieta's formulas, the sum of the roots is $r_1+r_2=\\boxed{4}$."
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Seven identical bowling balls weigh the same as four identical canoes. If three of the canoes weigh a total of 84 pounds, how many pounds does one of the bowling balls weigh?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Let $b$ be the weight of one bowling ball and $c$ be the weight of one canoe. We have that $7b=4c$. Multiplying both sides by $\\frac{3}{4}$, we have $\\frac{3}{4} \\cdot 7b=\\frac{3}{4} \\cdot 4c \\Rightarrow \\frac{21}{4}b=3c=84$. Solving this last equation for $b$, we have that one bowling ball weighs $\\boxed{16}$ pounds.",
+    "chatgpt_solution": "Three canoes weigh 84 pounds, so one canoe weighs 84/3 = <<84/3=28>>28 pounds.\nFour canoes weigh 4*28 = <<4*28=112>>112 pounds.\nSo the weight of seven bowling balls is 112 pounds.\nTherefore, one bowling ball weighs 112/7 = <<112/7=16>>16 pounds. Answer: \\boxed{16}."
+}

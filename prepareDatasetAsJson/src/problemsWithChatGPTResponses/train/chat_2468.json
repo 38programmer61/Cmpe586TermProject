@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JnOUcxvTK7FeVFiCrtOmwHmXu7p1",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "For simplicity, we set up a system of equations to represent the given information. Let $c$ represent the number of pounds of corn purchased and $b$ represent the number of pounds of beans purchased. Therefore, $c + b = 24$ and $0.99c + 0.45b = 18.09$. We multiply the first equation by 99 cents to eliminate the decimals in the second equation to get $0.99c + 0.99b = 24 \\cdot 0.99$. Subtracting the new second equation from the old second equation gives $(0.99 - 0.99)c + (0.45 - 0.99)b = 18.09 - 23.76$, or $-0.54b = -5.67$. Dividing both sides by $-0.54$ yields $b = \\frac{-5.67}{-0.54} \\approx 10.5$. Since Shea bought 24 pounds of beans and corn combined, she must buy $24 - 10.5 = \\boxed{13.5}$ pounds of corn. The other pounds are purchased as beans.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699728794,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 242,
+        "prompt_tokens": 65,
+        "total_tokens": 307
+    }
+}

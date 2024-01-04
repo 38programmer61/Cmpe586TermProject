@@ -1,0 +1,7 @@
+{
+    "problem": "The sum of the first and third of three consecutive integers is 118. What is the value of the second integer?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "If $n$ is the second integer, then the first integer is $n-1$ and the third integer is $n+1$.  The sum of the first and third integers is $2n$, so $n=118/2=\\boxed{59}$.",
+    "chatgpt_solution": "Let the first integer be $n$.  Then the three consecutive integers are $n$, $n + 1$, and $n + 2$.  The sum of the first and third integer is $n + (n + 2) = 2n + 2$.  We are told that this is equal to 118, so we have the equation $2n + 2 = 118$.  Subtracting 2 from both sides gives $2n = 116$, so $n = 58$.  Therefore, the second integer is $\\boxed{59}$."
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "If $5$ lunks can be traded for $3$ kunks, and $2$ kunks will buy $4$ apples, how many lunks are needed to purchase one dozen apples?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "One dozen apples is 12 apples, which costs $2\\cdot3=6$ kunks (since 4 apples cost 2 kunks), which costs $5\\cdot2=\\boxed{10}$ lunks (since 3 kunks cost 5 lunks).",
+    "chatgpt_solution": "Since $2$ kunks will buy $4$ apples, then $1$ kunk will buy $2$ apples.  Similarly, swapping $5$ lunks for $3$ kunks is the same as swapping $1\\frac{2}{5}$ lunks for $2$ kunks, which we know will buy $4$ apples.  Hence we see that $4$ apples can be traded for $1\\frac{2}{5}$ lunks. \n\nSince $1 \\frac{2}{5}$ lunks will buy $4$ apples, we see that $1$ lunk will buy $\\frac{4}{1 \\frac{2}{5}} = \\frac{20}{7}$ apples.  We have \\begin{align*}\n1\\text{ lunk} &= \\frac{20}{7}\\text{ apples}, \\\\\n\\frac{7}{20}\\text{ lunk} &= 1\\text{ apple}.\n\\end{align*}Hence, we see that a dozen, or $12$ apples, will be $\\dfrac{7}{20}\\cdot12 = \\boxed{4\\frac{1}{5}}$ lunks."
+}

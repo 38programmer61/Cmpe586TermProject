@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Jrcql5ni4T1BidRNCXAtNMIaT191",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let the two integers be $x$ and $y$. The problem states $xy + x + y = 95$. Factoring we have $(x+1)(y+1)=96$. The prime factorization of $96$ is $2^5\\cdot3$. Since $x$ and $y$ are less than $20$, $x+1$ and $y+1$ must be among the following pairs of factors: $(1,96),(2,48),(3,32),(4,24),(6,16),(8,12),(16,6),(12,8),(24,4),(32,3),(48,2),(96,1)$. Testing all of these we find that $(x,y)=(5,4),(23,1)$. The problem states that $x$ and $y$ are less than $20$, so $(x,y)=(5,4)$. The sum of the two integers is $\\boxed{9}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699745060,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 201,
+        "prompt_tokens": 43,
+        "total_tokens": 244
+    }
+}

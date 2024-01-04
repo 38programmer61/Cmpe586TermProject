@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JpnAs2FwGZDoJgrMes3sHbyBCgIq",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Let the two positive integers be $x$ and $y$, where $x > y$. We have the system of equations \\[\\begin{aligned} x - y &= 6, \\\\ xy &= 112. \\end{aligned}\\] From the first equation, $x = y + 6$. Substituting into the second equation, we get \\[(y + 6)(y) = 112.\\] Expanding, we get $y^2 + 6y - 112 = 0$. We recognize this as a quadratic equation that factors as \\[(y - 4)(y + 28) = 0.\\] Thus, $y - 4 = 0$ or $y + 28 = 0$. If $y - 4 = 0$, then $y = 4$, so $x = 4 + 6 = 10$. If $y + 28 = 0$, then $y = -28$, which is not a positive integer. Therefore, the integers are 4 and 10, and their sum is $\\boxed{14}$.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699738012,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 230,
+        "prompt_tokens": 31,
+        "total_tokens": 261
+    }
+}

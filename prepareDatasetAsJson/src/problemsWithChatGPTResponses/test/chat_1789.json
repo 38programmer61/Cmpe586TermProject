@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8JsEMCpvOJ7x6H7iztagyxMosE5Rm",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "First, we can factor out a common factor of $3^3$ from the numerator and denominator. We get: \\[\\frac{3^4-3^3}{3^3-3^2}=\\frac{3^3(3-1)}{3^2(3-1)}=\\frac{27\\cdot 2}{9\\cdot 2} = \\boxed{3}.\\]",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1699747386,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 87,
+        "prompt_tokens": 28,
+        "total_tokens": 115
+    }
+}
